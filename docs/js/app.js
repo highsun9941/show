@@ -134,10 +134,11 @@ async function renderScene() {
   $('game-progress-bar').style.width = `${(state.index + 1) / state.deck.length * 100}%`;
   $('stage-image').hidden = true; $('stage-image').removeAttribute('src');
   $('stage-loading').hidden = false; $('stage-loading').textContent = '장면을 준비하고 있어요…';
-  // 정답을 공개할 때만 DOM에 대사·작품명을 넣어 화면 읽기 프로그램에도 먼저 노출되지 않게 합니다.
+  // 문제를 바꿀 때 대사·작품명을 비우고 힌트나 정답을 공개할 때 채웁니다.
   $('answer-text').textContent = ''; $('answer-title').textContent = ''; $('hint-text').textContent = '';
   $('answer-overlay').hidden = true; $('hint-overlay').hidden = true; $('timeout-overlay').hidden = true;
-  $('answer-button').firstChild.textContent = '정답 공개 '; $('hint-button').disabled = !q.hint;
+  $('answer-button').firstChild.textContent = '정답 공개 '; $('hint-button').disabled = !q.title;
+  $('hint-button').setAttribute('aria-expanded', 'false');
   $('prev-button').disabled = state.index === 0;
   $('next-button').textContent = state.index === state.deck.length - 1 ? '게임 마치기 →' : '다음 문제 →';
   $('timer-button').disabled = true;
@@ -163,13 +164,16 @@ function toggleAnswer() {
   $('answer-title').textContent = state.answer ? `${q.title}${q.year ? ` (${q.year})` : ''} · ${q.category}${q.demo ? ' · 창작 샘플' : ''}` : '';
   $('answer-overlay').classList.toggle('long-answer', q.answer.length > 100);
   $('answer-overlay').hidden = !state.answer; $('hint-overlay').hidden = true; state.hint = false;
+  $('hint-text').textContent = ''; $('hint-button').setAttribute('aria-expanded', 'false');
+  $('hint-button').disabled = state.answer || !q.title;
   $('timeout-overlay').hidden = true;
   $('answer-button').firstChild.textContent = state.answer ? '정답 숨기기 ' : '정답 공개 ';
   if (state.answer) pauseTimer();
 }
 function toggleHint() {
-  const q = state.deck[state.index]; if (!q.hint || state.answer) return;
-  state.hint = !state.hint; $('hint-text').textContent = state.hint ? q.hint : ''; $('hint-overlay').hidden = !state.hint;
+  const q = state.deck[state.index]; if (!q.title || state.answer) return;
+  state.hint = !state.hint; $('hint-text').textContent = state.hint ? q.title : ''; $('hint-overlay').hidden = !state.hint;
+  $('hint-button').setAttribute('aria-expanded', String(state.hint));
 }
 function nextScene() {
   if (state.index < state.deck.length - 1) { state.index++; renderScene(); }
@@ -229,7 +233,7 @@ function openEditor(q = null) {
   $('edit-title').textContent = q ? '장면 수정하기' : '새로운 장면 추가';
   $('save-mode-label').textContent = state.store.mode === 'local' ? '이 브라우저에 저장됩니다' : '공동 저장소에 반영됩니다';
   if (q) {
-    for (const name of ['title', 'category', 'year', 'answer', 'hint', 'source']) $('question-form').elements[name].value = q[name];
+    for (const name of ['title', 'category', 'year', 'answer', 'source']) $('question-form').elements[name].value = q[name];
     $('question-form').elements.enabled.checked = q.enabled;
     if (q.image.startsWith('https://')) $('image-url').value = q.image;
   }

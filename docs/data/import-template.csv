@@ -1,2 +1,2 @@
-id,title,category,year,answer,hint,image,source,enabled
-my-question-001,작품 이름,영화,2026,"맞혀야 할 대사",등장인물 힌트,./uploads/scene-001.jpg,이미지 출처,true
+id,title,category,year,answer,image,source,enabled
+my-question-001,작품 이름,영화,2026,맞혀야 할 대사,./uploads/scene-001.jpg,이미지 출처,true

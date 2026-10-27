@@ -6,16 +6,16 @@ const originalFetch = globalThis.fetch;
 const sessions = new Map();
 globalThis.sessionStorage = { getItem: k => sessions.get(k) || null, setItem: (k, v) => sessions.set(k, v), removeItem: k => sessions.delete(k) };
 afterEach(() => { globalThis.fetch = originalFetch; sessions.clear(); });
-const config = { repository: 'highsun9941/show', branch: 'main', dataPath: 'docs/data/questions.json', imageDirectory: 'docs/uploads' };
+const config = { repository: 'owner-a/quote-show', branch: 'main', dataPath: 'docs/data/questions.json', imageDirectory: 'docs/uploads' };
 const fixture = (id = 'one', overrides = {}) => ({ id, title: '작품 💬', category: '영화', difficulty: '보통', year: '', answer: '우리의 다음 장면.\n안녕!', hint: '', source: '', image: './assets/scene-space.svg', version: 1, enabled: true, createdAt: '2026-10-27T00:00:00.000Z', updatedAt: '2026-10-27T00:00:00.000Z', ...overrides });
 const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json', ...headers } });
 const encoded = value => encodeBase64(new TextEncoder().encode(JSON.stringify(value)));
-function fakeRepository(initial, { race, large = false } = {}) {
+function fakeRepository(initial, { race, large = false, target = config } = {}) {
   let questions = structuredClone(initial), sha = 'head-1', raced = false;
   const calls = [];
   globalThis.fetch = async (url, options = {}) => {
     calls.push({ url, options });
-    if (url === `https://api.github.com/repos/${config.repository}`) return json({ permissions: { push: true } });
+    if (url === `https://api.github.com/repos/${target.repository}`) return json({ permissions: { push: true }, default_branch: target.branch });
     if (url.includes('/git/blobs/')) return json({ encoding: 'base64', content: encoded(questions) });
     if (options.method === 'PUT') {
       const body = JSON.parse(options.body);
@@ -93,11 +93,53 @@ test('공개 API 제한 시 배포본으로 플레이하되 상태를 표시한�
   globalThis.fetch = async url => url.startsWith('https://api.github.com/') ? json({}, 403, { 'x-ratelimit-remaining': '0' }) : json([fixture()]);
   const store = new GitHubStore(config); assert.equal((await store.list()).length, 1); assert.equal(store.stale, true);
 });
-test('이미지는 한 번 올린 뒤 공개 raw 주소를 쓰며 토큰을 주소에 넣지 않는다', async () => {
+test('이미지는 상대 경로로 기록하고 표시할 때 현재 저장소의 raw 주소로 푼다', async () => {
   const calls = [];
   globalThis.fetch = async (url, options) => { calls.push({ url, body: JSON.parse(options.body) }); return json({ content: { sha: 'image-sha' } }); };
-  const image = await authenticated().upload(new Blob(['fixture-image'], { type: 'image/webp' }));
-  assert.match(image, /^https:\/\/raw\.githubusercontent\.com\/highsun9941\/show\/main\/docs\/uploads\/.+\.webp$/);
+  const store = authenticated();
+  const image = await store.upload(new Blob(['fixture-image'], { type: 'image/webp' }));
+  assert.match(image, /^\.\/uploads\/.+\.webp$/);
+  assert.equal(await store.imageUrl(image), `https://raw.githubusercontent.com/${config.repository}/${config.branch}/docs/${image.slice(2)}`);
   assert.ok(!image.includes('fixture-token')); assert.equal(calls.length, 1);
   assert.equal(atob(calls[0].body.content), 'fixture-image');
+});
+
+test('다른 계정·저장소·master 브랜치에서 조회·추가·수정·삭제가 새 대상에만 요청된다', async () => {
+  const target = { ...config, repository: 'new-host/new-party-game', branch: 'master' };
+  const repo = fakeRepository([fixture()], { target });
+  const store = new GitHubStore({ ...target, branch: '' });
+  await store.init();
+  assert.equal(store.config.branch, 'master');
+  await store.login('fixture-token');
+  const created = await store.save(fixture('new', { image: './uploads/my-image.webp' }));
+  assert.equal((await store.list()).length, 2);
+  const edited = await store.save({ ...created, answer: '새 정답' }, true);
+  assert.equal(edited.version, 2);
+  await store.remove(edited);
+  assert.equal(repo.questions.length, 1);
+  assert.ok(repo.calls.every(c => c.url.startsWith(`https://api.github.com/repos/${target.repository}`)));
+  for (const call of repo.calls.filter(c => c.options.method === 'PUT')) assert.equal(JSON.parse(call.options.body).branch, 'master');
+  assert.equal(await store.imageUrl('./uploads/copied.webp'), 'https://raw.githubusercontent.com/new-host/new-party-game/master/docs/uploads/copied.webp');
+});
+
+test('이미지 경로를 바꾸지 않고 복제해도 새 저장소·배포 브랜치의 이미지를 표시한다', async () => {
+  const source = authenticated();
+  const clone = new GitHubStore({ ...config, repository: 'another-owner/renamed-game', branch: 'release/event' });
+  const copied = './uploads/copied-image.webp';
+  assert.equal(await source.imageUrl(copied), 'https://raw.githubusercontent.com/owner-a/quote-show/main/docs/uploads/copied-image.webp');
+  assert.equal(await clone.imageUrl(copied), 'https://raw.githubusercontent.com/another-owner/renamed-game/release%2Fevent/docs/uploads/copied-image.webp');
+  assert.equal(await clone.imageUrl('https://images.example.org/external.jpg'), 'https://images.example.org/external.jpg');
+});
+
+test('복제본은 원본의 저장용 키를 가져오지 않는다', () => {
+  const source = authenticated(); sessions.set(source.key, source.token);
+  const clone = new GitHubStore({ ...config, repository: 'new-host/copied-game' });
+  assert.equal(clone.token, ''); assert.notEqual(clone.key, source.key);
+});
+
+test('저장소를 판단할 수 없는 주소에서는 토큰을 외부로 전송하지 않는다', async () => {
+  const requests = []; globalThis.fetch = async url => { requests.push(url); return json({}); };
+  const store = new GitHubStore({ ...config, repository: '', branch: '' });
+  await assert.rejects(store.login('fixture-token'), /저장소를 확인할 수 없습니다/);
+  assert.equal(requests.length, 0); assert.equal(store.token, '');
 });

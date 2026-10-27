@@ -2,7 +2,7 @@ name: Check and deploy GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: ['**']
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -29,6 +30,8 @@ jobs:
         run: npm run check
       - name: Run tests
         run: npm test
+      - name: Set this deployment's repository and branch
+        run: node scripts/prepare-pages.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

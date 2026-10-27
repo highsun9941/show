@@ -4,22 +4,22 @@ export class StoreError extends Error {
   constructor(message, status = 0) { super(message); this.status = status; }
 }
 
-let dbPromise;
-function openDB() {
-  if (!dbPromise) dbPromise = new Promise((resolve, reject) => {
-    const req = indexedDB.open('ezen-one-scene', 1);
+const databases = new Map();
+function openDB(name = 'ezen-one-scene') {
+  if (!databases.has(name)) databases.set(name, new Promise((resolve, reject) => {
+    const req = indexedDB.open(name, 1);
     req.onupgradeneeded = () => {
       req.result.createObjectStore('questions', { keyPath: 'id' });
       req.result.createObjectStore('images', { keyPath: 'id' });
       req.result.createObjectStore('settings');
     };
     req.onsuccess = () => resolve(req.result);
-    req.onerror = () => { dbPromise = undefined; reject(new StoreError('기기 저장소를 열 수 없습니다. 브라우저의 저장 공간 설정을 확인해 주세요.')); };
-  });
-  return dbPromise;
+    req.onerror = () => { databases.delete(name); reject(new StoreError('기기 저장소를 열 수 없습니다. 브라우저의 저장 공간 설정을 확인해 주세요.')); };
+  }));
+  return databases.get(name);
 }
-async function read(store, key) {
-  const db = await openDB();
+async function read(store, key, name) {
+  const db = await openDB(name);
   return new Promise((resolve, reject) => {
     const req = key === undefined ? db.transaction(store).objectStore(store).getAll() : db.transaction(store).objectStore(store).get(key);
     req.onsuccess = () => resolve(req.result); req.onerror = () => reject(req.error);
@@ -36,34 +36,36 @@ const objectUrls = new Map();
 
 export class LocalStore {
   mode = 'local';
+  constructor(siteScope = '') { this.databaseName = siteScope ? `ezen-one-scene:${siteScope}` : 'ezen-one-scene'; }
   async init() {
-    if (!await read('settings', 'seeded')) {
+    if (!await read('settings', 'seeded', this.databaseName)) {
       const response = await fetch('./data/questions.json');
       if (!response.ok) throw new StoreError('샘플 문제를 불러오지 못했습니다.');
       const sample = (await response.json()).map(q => validateQuestion(q, { local: true }));
-      const db = await openDB(), tx = db.transaction(['questions', 'settings'], 'readwrite');
+      const db = await openDB(this.databaseName), tx = db.transaction(['questions', 'settings'], 'readwrite');
       const done = completed(tx);
       sample.forEach(q => tx.objectStore('questions').put(q));
       tx.objectStore('settings').put(true, 'seeded'); await done;
     }
   }
-  async list() { return (await read('questions')).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
+  async list() { return (await read('questions', undefined, this.databaseName)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
   async imageUrl(value) {
     if (!value.startsWith('local:')) return value;
-    if (objectUrls.has(value)) return objectUrls.get(value);
-    const record = await read('images', value.slice(6));
+    const cacheKey = `${this.databaseName}:${value}`;
+    if (objectUrls.has(cacheKey)) return objectUrls.get(cacheKey);
+    const record = await read('images', value.slice(6), this.databaseName);
     if (!record) return '';
-    const url = URL.createObjectURL(record.blob); objectUrls.set(value, url); return url;
+    const url = URL.createObjectURL(record.blob); objectUrls.set(cacheKey, url); return url;
   }
   async upload(blob) {
     if (blob.size > MAX_IMAGE_BYTES) throw new StoreError('이미지는 300KB 이하여야 합니다.');
-    const id = uuid(), db = await openDB(), tx = db.transaction('images', 'readwrite');
+    const id = uuid(), db = await openDB(this.databaseName), tx = db.transaction('images', 'readwrite');
     const done = completed(tx); tx.objectStore('images').add({ id, blob }); await done;
     return `local:${id}`;
   }
   async save(input, existing = false) {
     const q = validateQuestion(input, { local: true });
-    const db = await openDB(), tx = db.transaction('questions', 'readwrite'), store = tx.objectStore('questions');
+    const db = await openDB(this.databaseName), tx = db.transaction('questions', 'readwrite'), store = tx.objectStore('questions');
     let conflict = false, full = false;
     const done = completed(tx);
     const req = store.get(q.id);
@@ -85,7 +87,7 @@ export class LocalStore {
     return q;
   }
   async remove(q) {
-    const db = await openDB(), tx = db.transaction('questions', 'readwrite'), store = tx.objectStore('questions');
+    const db = await openDB(this.databaseName), tx = db.transaction('questions', 'readwrite'), store = tx.objectStore('questions');
     let conflict = false; const done = completed(tx);
     const req = store.get(q.id);
     req.onsuccess = () => {
@@ -103,18 +105,18 @@ export class LocalStore {
     for (const [i, input] of fresh.entries()) {
       let image = input.image;
       if (image.startsWith('data:')) image = await this.upload(await (await fetch(image)).blob());
-      if (image.startsWith('local:') && !await read('images', image.slice(6))) throw new StoreError('이 기기에 없는 이미지입니다. JSON 내보내기로 만든 파일을 이용해 주세요.');
+      if (image.startsWith('local:') && !await read('images', image.slice(6), this.databaseName)) throw new StoreError('이 기기에 없는 이미지입니다. JSON 내보내기로 만든 파일을 이용해 주세요.');
       normalized.push(validateQuestion({ ...input, image, version: 1 }, { local: true }));
       progress?.(i + 1, fresh.length);
     }
-    const db = await openDB(), tx = db.transaction('questions', 'readwrite'), done = completed(tx);
+    const db = await openDB(this.databaseName), tx = db.transaction('questions', 'readwrite'), done = completed(tx);
     normalized.forEach(q => tx.objectStore('questions').add(q)); await done;
     return { added: normalized.length, skipped: questions.length - normalized.length };
   }
   async export(questions) {
     return Promise.all(questions.map(async q => {
       if (!q.image.startsWith('local:')) return { ...q };
-      const record = await read('images', q.image.slice(6));
+      const record = await read('images', q.image.slice(6), this.databaseName);
       if (!record) throw new StoreError(`${q.title}: 이미지를 찾을 수 없어 내보내기를 중단했습니다.`);
       const image = await new Promise((resolve, reject) => {
         const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.onerror = reject; reader.readAsDataURL(record.blob);
@@ -138,14 +140,15 @@ export class GitHubStore {
   mode = 'shared';
   stale = false;
   constructor(config) {
-    this.config = config;
-    if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(config.repository)) throw new StoreError('저장소 설정을 확인해 주세요.');
+    this.config = { ...config };
+    if (config.repository && !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(config.repository)) throw new StoreError('저장소 설정을 확인해 주세요.');
     this.base = `https://api.github.com/repos/${config.repository}`;
-    this.key = `show-github:${config.repository}:${config.branch}`;
+    this.key = `show-github:${config.repository}:${config.branch || 'default'}`;
     try { this.token = sessionStorage.getItem(this.key) || ''; } catch { this.token = ''; }
   }
   path(value) { return value.split('/').map(encodeURIComponent).join('/'); }
   async request(path, { method = 'GET', body } = {}) {
+    if (!this.config.repository) throw new StoreError('GitHub 저장소를 확인할 수 없습니다. config.js의 repository를 지정하거나 기기 체험 모드를 이용해 주세요.');
     const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 20000);
     try {
       const response = await fetch(`${this.base}${path}`, {
@@ -170,8 +173,16 @@ export class GitHubStore {
       throw new StoreError('GitHub에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요.');
     } finally { clearTimeout(timer); }
   }
-  async init() {}
+  async init() {
+    if (!this.config.repository || this.config.branch) return;
+    try {
+      const repo = await this.request('');
+      if (!repo.default_branch) throw new StoreError('저장소의 기본 브랜치를 확인할 수 없습니다.');
+      this.config.branch = repo.default_branch;
+    } catch (e) { if (this.token || e.status === 401) throw e; }
+  }
   async readCurrent() {
+    if (!this.config.branch) throw new StoreError('저장 브랜치를 확인할 수 없습니다. 다시 연결하거나 저장용 키로 로그인해 주세요.');
     const path = `/contents/${this.path(this.config.dataPath)}`;
     const meta = await this.request(`${path}?ref=${encodeURIComponent(this.config.branch)}`);
     // 1MB보다 큰 Contents 응답은 본문이 없으므로 동일 SHA의 Git blob을 읽습니다.
@@ -200,7 +211,11 @@ export class GitHubStore {
       return (Array.isArray(data) ? data : data.questions).map(q => validateQuestion(q));
     }
   }
-  async imageUrl(value) { return value; }
+  async imageUrl(value) {
+    if (!value.startsWith('./uploads/') || !this.config.repository || !this.config.branch) return value;
+    const path = `${this.config.imageDirectory}/${value.slice('./uploads/'.length)}`;
+    return `https://raw.githubusercontent.com/${this.config.repository}/${encodeURIComponent(this.config.branch)}/${this.path(path)}`;
+  }
   async login(token) {
     token = token.trim();
     if (!token || /\s/.test(token)) throw new StoreError('저장용 GitHub 키를 입력해 주세요.');
@@ -208,6 +223,7 @@ export class GitHubStore {
     try {
       const repo = await this.request('');
       if (repo.permissions?.push === false) throw new StoreError('이 키에는 저장소 쓰기 권한이 없습니다.');
+      if (!this.config.branch) this.config.branch = repo.default_branch;
       await this.readCurrent();
       try { sessionStorage.setItem(this.key, token); } catch { /* 이 탭의 메모리에서만 유지 */ }
     } catch (e) { this.clearSession(); throw e; }
@@ -240,8 +256,9 @@ export class GitHubStore {
     const path = `${this.config.imageDirectory}/${uuid()}.${ext}`;
     const body = { message: '장면 이미지 추가', content: encodeBase64(new Uint8Array(await blob.arrayBuffer())), branch: this.config.branch };
     await this.request(`/contents/${this.path(path)}`, { method: 'PUT', body });
-    // 새 파일마다 고유한 주소를 사용하므로 Pages 재배포 전에 바로 이미지를 볼 수 있습니다.
-    return `https://raw.githubusercontent.com/${this.config.repository}/${encodeURIComponent(this.config.branch)}/${this.path(path)}`;
+    // 상대 경로로 저장해 계정·저장소 이름을 바꿔 복제해도 업로드 이미지가 함께 이동합니다.
+    // 화면에서는 imageUrl()이 현재 저장소의 raw 주소로 풀어 재배포 전에 표시합니다.
+    return `./uploads/${path.slice(this.config.imageDirectory.length + 1)}`;
   }
   async save(input, existing = false) {
     const q = validateQuestion(input);
@@ -266,7 +283,7 @@ export class GitHubStore {
     const normalized = questions.map(q => {
       if (seen.has(q.id)) throw new StoreError('같은 ID가 가져오기 목록 안에 중복되었습니다.');
       seen.add(q.id);
-      if (q.image.startsWith('data:') || q.image.startsWith('local:')) throw new StoreError('GitHub 일괄 가져오기에는 HTTPS 이미지 주소가 필요합니다. 이미지가 내장된 백업은 이 기기 체험 모드에서 가져올 수 있어요.');
+      if (q.image.startsWith('data:') || q.image.startsWith('local:')) throw new StoreError('GitHub 일괄 가져오기에는 HTTPS 주소 또는 ./uploads/파일명 경로가 필요합니다. 이미지가 내장된 백업은 이 기기 체험 모드에서 가져올 수 있어요.');
       return validateQuestion({ ...q, version: 1 });
     });
     progress?.(0, normalized.length);

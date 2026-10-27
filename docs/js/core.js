@@ -20,10 +20,10 @@ export function validateQuestion(input, { local = false } = {}) {
   if (!DIFFICULTIES.includes(difficulty)) throw new Error('난이도는 쉬움, 보통, 어려움 중 하나여야 합니다.');
   const image = field('image', 450000, true);
   const remote = /^https:\/\/[^\s]+$/i.test(image);
-  const asset = /^\.\/assets\/[a-zA-Z0-9/_\-.]+$/.test(image) && !image.includes('..');
+  const asset = /^\.\/(assets|uploads)\/[a-zA-Z0-9/_\-.]+$/.test(image) && !image.includes('..');
   const stored = local && /^local:[a-zA-Z0-9_-]{1,80}$/.test(image);
   const embedded = local && /^data:image\/(webp|png|jpeg);base64,[a-zA-Z0-9+/=]+$/.test(image);
-  if (!(remote || asset || stored || embedded)) throw new Error('이미지는 HTTPS 주소 또는 업로드한 이미지여야 합니다.');
+  if (!(remote || asset || stored || embedded)) throw new Error('이미지는 HTTPS 주소 또는 ./uploads/파일명 경로여야 합니다.');
   if (remote) {
     const u = new URL(image);
     if (u.username || u.password) throw new Error('인증 정보가 포함된 이미지 주소는 사용할 수 없습니다.');

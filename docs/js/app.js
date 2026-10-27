@@ -1,9 +1,12 @@
 import { filterQuestions, makeDeck, validateQuestion, parseImport, MAX_IMAGE_BYTES } from './core.js';
 import { LocalStore, GitHubStore } from './storage.js';
+import { loadConfig, repositoryLinks } from './config.js';
 
 const $ = id => document.getElementById(id);
 const state = { view: 'home', store: null, questions: [], admin: false, ready: false, category: '전체', page: 1, deck: [], index: 0, answer: false, hint: false, running: false, seconds: 0, deadline: 0, duration: 0, busy: false, edit: null, render: 0 };
 const PAGE_SIZE = 24;
+const siteScope = new URL('.', window.location.href).href;
+const modeKey = `show-storage-mode:${siteScope}`;
 let toastTimer, clockInterval, confirmResolve;
 const el = (tag, className = '', text = '') => { const node = document.createElement(tag); node.className = className; node.textContent = text; return node; };
 function toast(message, error = false, duration = 4500) {
@@ -24,16 +27,18 @@ function view(name) {
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
 function getMode() {
-  try { return localStorage.getItem('show-storage-mode') === 'local' ? 'local' : 'shared'; } catch { return 'shared'; }
+  try { return localStorage.getItem(modeKey) === 'local' ? 'local' : 'shared'; } catch { return 'shared'; }
 }
 async function connect() {
   state.ready = false; state.admin = false; state.questions = []; state.page = 1;
-  const shared = getMode() === 'shared'; state.store = shared ? new GitHubStore(window.SHOW_CONFIG) : new LocalStore();
+  const shared = getMode() === 'shared';
   $('connection-label').textContent = shared ? 'GitHub에 저장' : '이 기기 저장';
   $('connection-button').classList.toggle('shared', shared);
   $('storage-banner').classList.toggle('shared', shared);
   renderAll(); $('error-view').hidden = true;
   try {
+    state.config = await loadConfig(window.SHOW_CONFIG, window.location.href);
+    state.store = shared ? new GitHubStore(state.config) : new LocalStore(siteScope);
     await state.store.init(); state.questions = await state.store.list(); state.ready = true;
     if (shared) state.admin = await state.store.checkSession();
     renderAll();
@@ -55,8 +60,15 @@ function updateAvailable() {
   $('setup-note').textContent = !state.ready ? '문제를 불러오고 있습니다.' : count === 0 ? '조건에 맞는 문제가 없어요. 장르·난이도를 바꾸거나 문제를 추가해 주세요.' : `${wanted === 'all' ? count : Math.min(Number(wanted), count)}문제로 진행 · 한 게임 안에서 중복 없이 출제`;
 }
 function renderAll() {
+  const config = state.store?.mode === 'shared' ? state.store.config : state.config;
+  const links = config ? repositoryLinks(config) : {};
+  document.querySelectorAll('[data-repository-readme]').forEach(link => {
+    link.hidden = !links.readme; if (links.readme) link.href = links.readme;
+  });
+  document.querySelectorAll('[data-repository-name]').forEach(node => { node.textContent = config?.repository || '현재 저장소'; });
   $('storage-description').textContent = state.store?.mode === 'shared'
-    ? state.store.stale ? 'GitHub 원본을 읽지 못해 마지막 Pages 배포본을 보여드립니다. 최신 문제는 새로고침해 주세요. 편집에는 저장용 키가 필요합니다.' : '문제와 이미지가 GitHub 저장소에 함께 보관됩니다. 문제를 편집할 기기에서는 저장용 GitHub 키로 로그인해 주세요.'
+    ? !config.repository ? '현재 주소에서 GitHub 저장소를 확인할 수 없어 배포된 문제만 보여드립니다. 공동 편집은 config.js의 repository를 지정하거나 GitHub Pages에서 열어주세요.'
+      : state.store.stale ? `${config.repository} 원본을 읽지 못해 마지막 Pages 배포본을 보여드립니다. 최신 문제는 새로고침해 주세요. 편집에는 저장용 키가 필요합니다.` : `${config.repository}에 문제와 이미지를 보관합니다. 문제를 편집할 기기에서는 이 저장소의 GitHub 키로 로그인해 주세요.`
     : '이 브라우저에만 저장됩니다. 다른 기기에는 공유되지 않으며, 브라우저 데이터를 지우면 삭제됩니다. GitHub 공동 저장으로 바꾸려면 우측 상단을 눌러주세요.';
   $('nav-count').textContent = state.questions.length.toLocaleString();
   $('home-total').textContent = state.questions.length.toLocaleString();
@@ -196,6 +208,7 @@ function confirm(title, description, yes = '확인') {
 }
 function openLogin() {
   if (!state.ready) { toast('저장소 연결을 먼저 확인해 주세요.', true); return; }
+  if (state.store.mode === 'shared' && !state.store.config.repository) { toast('공동 저장소를 먼저 지정해 주세요. config.js 설정 또는 이 기기 체험 모드를 이용할 수 있어요.', true, 6500); return; }
   if (state.admin) return;
   const local = state.store.mode === 'local';
   $('login-form').reset(); $('login-error').textContent = '';
@@ -297,7 +310,7 @@ $('connection-form').onsubmit = async e => {
   e.preventDefault();
   try {
     state.store.clearSession?.();
-    localStorage.setItem('show-storage-mode', $('storage-mode').value); $('connection-dialog').close(); await connect();
+    localStorage.setItem(modeKey, $('storage-mode').value); $('connection-dialog').close(); await connect();
   } catch (e) { $('connection-error').textContent = e.message; }
 };
 $('login-form').onsubmit = async e => {

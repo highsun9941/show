@@ -2,16 +2,34 @@
 
 영화·드라마·애니메이션의 **이미지 한 장을 보고 대사를 맞히는** 행사 진행용 웹 프레젠테이션입니다. 아이패드와 노트북에서 주소만 열면 플레이할 수 있습니다.
 
-**사이트 주소:** https://highsun9941.github.io/show/ (아래 Pages 설정 후 이용)
+**사이트 주소:** `https://<복제한 계정>.github.io/<복제한 저장소>/` (아래 Pages 설정 후 이용)
 
 ## 가장 먼저 할 일: GitHub Pages 켜기
 
-1. [저장소 Settings → Pages](https://github.com/highsun9941/show/settings/pages)로 이동합니다.
+1. **복제한 저장소의 Settings → Pages**로 이동합니다.
 2. **Build and deployment → Source → GitHub Actions**를 선택합니다.
-3. [Actions](https://github.com/highsun9941/show/actions)의 **Check and deploy GitHub Pages**를 열어 **Run workflow → main → Run workflow**를 누릅니다. 처음 업로드 때 이미 성공한 실행이 있다면 생략합니다.
-4. 초록색으로 완료되면 위 사이트 주소를 엽니다. 이후 main에 저장하면 자동 배포됩니다.
+3. 같은 저장소의 **Actions → Check and deploy GitHub Pages**를 열어 **Run workflow → 기본 브랜치 → Run workflow**를 누릅니다. 기본 브랜치는 보통 `main`이며 `master` 등 다른 이름도 지원합니다. 이미 성공한 실행이 있다면 생략합니다.
+4. 초록색으로 완료되면 위 사이트 주소를 엽니다. 이후 기본 브랜치에 저장하면 자동 배포됩니다.
 
-별도 서버, Cloudflare, 데이터베이스, npm 패키지 설치가 필요하지 않습니다. `docs/`가 웹사이트 전체입니다. Actions를 쓰지 않을 경우 Source를 **Deploy from a branch → main → /docs → Save**로 설정해도 됩니다. 두 방식 중 하나만 선택하세요.
+별도 서버, Cloudflare, 데이터베이스, npm 패키지 설치가 필요하지 않습니다. `docs/`가 웹사이트 전체입니다. Actions를 쓰지 않을 경우 Source를 **Deploy from a branch → 기본 브랜치 → /docs → Save**로 설정해도 됩니다. 두 방식 중 하나만 선택하세요.
+
+## 다른 계정·다른 이름의 저장소로 복제하기
+
+**이 버전은 원본 계정이나 `show`, `main`이라는 이름에 의존하지 않습니다.** 공개 저장소를 Fork하거나, clone한 코드를 새 공개 저장소에 push한 뒤 위 Pages 설정을 진행하면 됩니다. 컴퓨터로 clone만 하는 것은 로컬 복사이므로, 다른 사람에게 주소를 공유하려면 새 GitHub 저장소에 push하고 Pages를 켜야 합니다.
+
+1. **새 저장소를 공개(Public)**로 준비합니다. GitHub 무료 계정에서 공개 Pages와 로그인 없는 이미지 접근을 사용하는 구성입니다.
+2. Fork했다면 새 저장소의 **Actions**에서 워크플로 활성화 안내가 나올 수 있습니다. 안내를 확인해 활성화합니다. **Pages 설정과 토큰은 Fork/clone으로 복사되지 않습니다.**
+3. 새 저장소에서 위 **Pages 켜기**를 진행합니다. Actions 배포는 현재 계정·저장소·배포 브랜치를 `deployment.json`에 자동으로 넣습니다. `config.js`를 수정할 필요가 없습니다.
+4. **새 저장소 소유자**가 **새 저장소만 선택한 저장용 키**를 발급합니다. 로그인 아이디 `이젠`, 비밀번호 `ezen`은 동일합니다.
+5. 새 Pages 주소에서 **문제 보관함**을 열고, 저장 안내에 **새 계정/새 저장소**가 표시되는지 확인합니다. 문제를 하나 추가한 뒤 새 저장소의 `docs/data/questions.json`과 `docs/uploads/`에 저장됐는지 확인합니다.
+
+표준 `github.io` 주소에서 브랜치 직접 배포를 사용해도 주소로 현재 저장소를 감지하고 GitHub API로 기본 브랜치를 찾습니다. GitHub Actions 방식은 `main` 이외의 기본 브랜치도 지원합니다. 저장소 이름이 `<계정>.github.io`인 계정 홈페이지도 지원합니다.
+
+**사용자 지정 도메인:** GitHub Actions 배포라면 자동 배포 정보로 동작합니다. Actions 없이 브랜치 직접 배포하는 사용자 지정 도메인이나 로컬 개발에서 공동 편집을 쓰려면 `docs/config.js`의 `repository`에 `'내계정/내저장소'`를 지정하세요. 기본 브랜치 이외에 저장하려면 `branch`도 지정합니다. 원본 저장소 주소를 그대로 넣지 마세요. 로컬에서 설정하지 않아도 배포된 샘플 플레이와 기기 체험 모드는 사용할 수 있습니다.
+
+**이미지까지 독립적으로 복제하려면:** `docs/uploads/` 파일도 함께 복사하세요. 이 버전에서 웹사이트로 올린 이미지는 `./uploads/…`로 저장되므로 복제본의 이미지를 읽습니다. 외부 HTTPS 주소로 등록한 이미지는 외부 자료를 계속 참조하며 자동 복사되지 않습니다. 이전 버전의 원본 저장소 raw 주소도 같은 방식이므로, 해당 이미지 파일을 새 저장소에 복사하고 `image`를 `./uploads/파일명`으로 바꿔주세요.
+
+브라우저의 기기 체험 데이터와 저장 방식은 사이트 주소별로 분리됩니다. GitHub 저장용 키도 저장소·브랜치별로 분리되며 새 저장소로 자동 전달되지 않습니다.
 
 ## 문제를 함께 편집하는 방법
 
@@ -29,8 +47,8 @@
 
 1. [GitHub → Fine-grained personal access tokens → Generate new token](https://github.com/settings/personal-access-tokens/new)을 엽니다.
 2. 이름은 `show-game`, 만료는 행사 종료 후 가까운 날짜로 정합니다.
-3. **Resource owner:** `highsun9941`
-4. **Repository access → Only select repositories → show**만 선택합니다.
+3. **Resource owner:** 복제한 저장소를 소유한 계정이나 조직을 선택합니다.
+4. **Repository access → Only select repositories**에서 **복제한 저장소만** 선택합니다. 원본 저장소용 키는 복제본에 쓰기 권한을 주지 않습니다.
 5. **Repository permissions → Contents → Read and write**를 설정합니다. Metadata의 Read는 기본으로 포함됩니다.
 6. 발급된 `github_pat_…` 키를 보관하고 문제를 편집할 사람에게만 직접 공유합니다. 키를 이 채팅이나 공개 저장소에 올릴 필요는 없습니다.
 7. 행사가 끝나면 같은 GitHub 설정에서 키를 삭제합니다.
@@ -67,9 +85,9 @@
 ### 한꺼번에 등록 (CSV / JSON)
 
 1. [CSV 양식](docs/data/import-template.csv)을 내려받아 스프레드시트에서 작성합니다. 예시 행은 삭제하고 실제 내용으로 채우세요. **UTF-8 CSV**로 저장합니다.
-2. 이미지 파일을 GitHub의 `docs/uploads/`에 미리 올리거나, 직접 열 수 있는 HTTPS 이미지 주소를 준비합니다. 저장소에 올린 이미지는 아래 형태로 적습니다.
+2. 이미지 파일을 GitHub의 `docs/uploads/`에 미리 올리거나, 직접 열 수 있는 HTTPS 이미지 주소를 준비합니다. 저장소에 올린 이미지는 다음처럼 **저장소 내부 경로**로 적습니다. 이 방식이면 나중에 다른 저장소로 복제해도 이미지가 함께 동작합니다.
 
-   `https://raw.githubusercontent.com/highsun9941/show/main/docs/uploads/scene-001.jpg`
+   `./uploads/scene-001.jpg`
 
 3. 사이트의 **가져오기**에서 CSV 또는 JSON을 선택합니다. 1,000개 메타데이터도 한 번의 커밋으로 저장합니다. 전체 입력을 먼저 검사하므로 잘못된 행이 있으면 행 번호를 알려줍니다.
 4. **고유한 id가 같은 문제는 건너뜁니다.** 가져오기는 기존 문제를 덮어쓰지 않습니다. 같은 파일을 재시도할 때 중복되지 않도록 id를 꼭 채워주세요. id를 비우면 매번 새로 생성됩니다.
@@ -80,7 +98,7 @@
 | `title` | 작품명 (150자 이내) | O |
 | `category` | `영화`, `드라마`, `애니메이션` | O |
 | `answer` | 정답 대사 (2,000자 이내, 여러 줄 가능) | O |
-| `image` | 바로 열 수 있는 HTTPS 이미지 주소 | O |
+| `image` | `./uploads/파일명.jpg` 또는 바로 열 수 있는 HTTPS 이미지 주소 | O |
 | `difficulty` | `쉬움`, `보통`, `어려움` (기본 `보통`) | 선택 |
 | `year` | 네 자리 연도 | 선택 |
 | `hint` | 힌트 (300자 이내) | 선택 |
@@ -93,9 +111,9 @@ JSON은 문제 배열 `[{...}, {...}]` 또는 `{"questions": [{...}]}` 형식입
 
 ## 내보내기와 기기 체험 모드
 
-- **JSON 내보내기:** 현재 전체 문제 목록을 내려받습니다. GitHub 모드의 이미지는 주소로 기록됩니다. 실제 이미지까지 보관하려면 저장소도 다운로드하세요. 문제를 삭제해도 업로드 이미지 파일은 다른 문제나 이전 게임에서 사용할 수 있어 남겨둡니다.
+- **JSON 내보내기:** 현재 전체 문제 목록을 내려받습니다. GitHub 모드의 이미지는 저장소 내부 경로 또는 외부 주소로 기록됩니다. 실제 이미지까지 보관하려면 저장소도 다운로드하세요. 문제를 삭제해도 업로드 이미지 파일은 다른 문제나 이전 게임에서 사용할 수 있어 남겨둡니다.
 - 우측 상단 **GitHub에 저장 → 이 기기에만 저장**을 고르면 로그인 없이 모든 관리 기능을 체험할 수 있습니다. 이 모드는 다른 기기와 공유되지 않습니다. 브라우저 데이터 삭제 시 사라지므로 필요한 문제는 먼저 내보내세요.
-- 기기 모드에서 내보낸 JSON에는 업로드 이미지도 포함됩니다. 이미지가 내장된 JSON은 기기 모드로 가져올 수 있으며, GitHub 일괄 가져오기에는 HTTPS 이미지 주소를 사용합니다.
+- 기기 모드에서 내보낸 JSON에는 업로드 이미지도 포함됩니다. 이미지가 내장된 JSON은 기기 모드로 가져올 수 있으며, GitHub 일괄 가져오기에는 `./uploads/파일명` 또는 HTTPS 이미지 주소를 사용합니다.
 - GitHub 공개 API의 요청 한도나 연결 문제가 있으면 플레이 화면은 마지막 Pages 배포본을 사용하며 보관함에 안내합니다. 저장용 키로 로그인하면 인증된 요청으로 읽고 저장합니다.
 
 ## 개발 및 검증
@@ -114,7 +132,9 @@ npm test
 - `docs/js/app.js`: 게임·관리·타이머·키보드 조작
 - `docs/js/storage.js`: GitHub 직접 저장 / IndexedDB 기기 저장
 - `docs/js/core.js`: 문제 검사·CSV 파싱·필터·랜덤 출제
-- `docs/config.js`: 공개 저장소 경로 설정 (토큰 저장 금지)
+- `docs/config.js`: 자동 감지 / 필요할 때만 명시하는 공개 설정 (토큰 저장 금지)
+- `docs/js/config.js`: Pages 주소·배포 정보로 저장소와 안내 링크 결정
+- `docs/deployment.json`: Actions가 배포본에만 현재 저장소·브랜치를 기록
 - `.github/workflows/pages.yml`: 검증 후 Pages 배포
 
 공식 참고: [GitHub Contents API](https://docs.github.com/en/rest/repos/contents), [GitHub Pages 설정](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).

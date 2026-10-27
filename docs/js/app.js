@@ -51,13 +51,13 @@ async function refresh(silent = false) {
   const questions = await state.store.list(); state.questions = questions; state.ready = true; renderAll();
   if (!silent) toast('최신 문제를 불러왔어요.');
 }
-function roundOptions() { return { category: state.category, difficulty: $('round-difficulty').value, count: $('round-count').value, random: $('round-order').value === 'random' }; }
+function roundOptions() { return { category: state.category, count: $('round-count').value, random: $('round-order').value === 'random' }; }
 function updateAvailable() {
   const count = filterQuestions(state.questions, { ...roundOptions(), activeOnly: true }).length;
   const wanted = $('round-count').value;
   $('available-count').textContent = `${count.toLocaleString()}개`;
   $('start-game').disabled = !state.ready || count === 0;
-  $('setup-note').textContent = !state.ready ? '문제를 불러오고 있습니다.' : count === 0 ? '조건에 맞는 문제가 없어요. 장르·난이도를 바꾸거나 문제를 추가해 주세요.' : `${wanted === 'all' ? count : Math.min(Number(wanted), count)}문제로 진행 · 한 게임 안에서 중복 없이 출제`;
+  $('setup-note').textContent = !state.ready ? '문제를 불러오고 있습니다.' : count === 0 ? '조건에 맞는 문제가 없어요. 장르를 바꾸거나 문제를 추가해 주세요.' : `${wanted === 'all' ? count : Math.min(Number(wanted), count)}문제로 진행 · 한 게임 안에서 중복 없이 출제`;
 }
 function renderAll() {
   const config = state.store?.mode === 'shared' ? state.store.config : state.config;
@@ -94,7 +94,7 @@ function renderCards(container, questions, admin) {
     button.append(img, el('span', 'card-tag', q.demo ? 'ILLUSTRATION · DEMO' : q.enabled ? 'SCENE' : '출제 제외'), playIcon);
     button.addEventListener('click', () => startGame([q]));
     const content = el('div', 'card-content'), meta = el('div', 'card-meta');
-    meta.append(el('span', '', q.category), el('span', '', '·'), el('span', '', q.year || '연도 미등록'), el('span', `difficulty${q.difficulty === '어려움' ? ' hard' : ''}`, q.difficulty));
+    meta.append(el('span', '', q.category), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
     content.append(meta, el('h3', '', q.title), el('p', q.enabled ? '' : 'disabled-tag', q.demo ? '게임 방식 체험용 창작 샘플' : q.enabled ? '장면을 누르고 기억을 재생해 보세요' : '랜덤 게임에서는 출제되지 않아요'));
     if (admin) {
       const actions = el('div', 'card-admin');
@@ -106,7 +106,7 @@ function renderCards(container, questions, admin) {
   }
 }
 function renderLibrary() {
-  const filtered = filterQuestions(state.questions, { search: $('search').value, category: $('filter-category').value, difficulty: $('filter-difficulty').value });
+  const filtered = filterQuestions(state.questions, { search: $('search').value, category: $('filter-category').value });
   const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE)); state.page = Math.min(state.page, pages);
   $('filtered-count').textContent = `${filtered.length.toLocaleString()}개의 장면${state.admin ? ' · 관리 중' : ''}`;
   renderCards($('library-cards'), filtered.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE), state.admin);
@@ -229,7 +229,7 @@ function openEditor(q = null) {
   $('edit-title').textContent = q ? '장면 수정하기' : '새로운 장면 추가';
   $('save-mode-label').textContent = state.store.mode === 'local' ? '이 브라우저에 저장됩니다' : '공동 저장소에 반영됩니다';
   if (q) {
-    for (const name of ['title', 'category', 'difficulty', 'year', 'answer', 'hint', 'source']) $('question-form').elements[name].value = q[name];
+    for (const name of ['title', 'category', 'year', 'answer', 'hint', 'source']) $('question-form').elements[name].value = q[name];
     $('question-form').elements.enabled.checked = q.enabled;
     if (q.image.startsWith('https://')) $('image-url').value = q.image;
   }
@@ -282,12 +282,12 @@ document.querySelectorAll('#category-picker button').forEach(button => button.ad
   state.category = button.dataset.category;
   document.querySelectorAll('#category-picker button').forEach(b => { b.classList.toggle('selected', b === button); b.setAttribute('aria-pressed', String(b === button)); }); updateAvailable();
 }));
-for (const id of ['round-count', 'round-difficulty']) $(id).addEventListener('change', updateAvailable);
+$('round-count').addEventListener('change', updateAvailable);
 $('start-game').onclick = () => startGame();
 $('browse-library').onclick = () => view('library');
 $('sample-manage').onclick = () => { view('library'); openLogin(); };
 $('manage-button').onclick = openLogin;
-for (const id of ['search', 'filter-category', 'filter-difficulty']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderLibrary(); });
+for (const id of ['search', 'filter-category']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderLibrary(); });
 $('refresh-button').onclick = async () => { try { await refresh(); } catch (e) { toast(e.message, true); } };
 $('answer-button').onclick = toggleAnswer;
 $('hint-button').onclick = toggleHint;

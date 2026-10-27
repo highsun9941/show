@@ -1,5 +1,4 @@
 export const CATEGORIES = ['영화', '드라마', '애니메이션'];
-export const DIFFICULTIES = ['쉬움', '보통', '어려움'];
 export const MAX_IMAGE_BYTES = 300 * 1024;
 export const MAX_QUESTIONS = 5000;
 export const uuid = () => crypto.randomUUID();
@@ -15,9 +14,7 @@ export function validateQuestion(input, { local = false } = {}) {
   const id = String(input.id || uuid());
   if (!/^[a-zA-Z0-9_-]{1,80}$/.test(id)) throw new Error('문제 ID는 영문·숫자·밑줄·하이픈 80자 이내여야 합니다.');
   const category = field('category', 20);
-  const difficulty = field('difficulty', 20) || '보통';
   if (!CATEGORIES.includes(category)) throw new Error('분류는 영화, 드라마, 애니메이션 중 하나여야 합니다.');
-  if (!DIFFICULTIES.includes(difficulty)) throw new Error('난이도는 쉬움, 보통, 어려움 중 하나여야 합니다.');
   const image = field('image', 450000, true);
   const remote = /^https:\/\/[^\s]+$/i.test(image);
   const asset = /^\.\/(assets|uploads)\/[a-zA-Z0-9/_\-.]+$/.test(image) && !image.includes('..');
@@ -34,7 +31,7 @@ export function validateQuestion(input, { local = false } = {}) {
   if (!Number.isSafeInteger(version) || version < 1) throw new Error('문제 버전이 올바르지 않습니다. 새로고침 후 다시 시도해 주세요.');
   const now = new Date().toISOString();
   return {
-    id, title: field('title', 150, true), category, difficulty, year,
+    id, title: field('title', 150, true), category, year,
     answer: field('answer', 2000, true), hint: field('hint', 300), image,
     source: field('source', 1000), enabled: input.enabled !== false && input.enabled !== 'false',
     demo: input.demo === true, version,
@@ -42,15 +39,14 @@ export function validateQuestion(input, { local = false } = {}) {
   };
 }
 
-export function filterQuestions(questions, { search = '', category = '전체', difficulty = '전체', activeOnly = false } = {}) {
+export function filterQuestions(questions, { search = '', category = '전체', activeOnly = false } = {}) {
   const term = search.trim().toLocaleLowerCase();
   return questions.filter(q => (!activeOnly || q.enabled) && (category === '전체' || q.category === category)
-    && (difficulty === '전체' || q.difficulty === difficulty)
     && (!term || `${q.title} ${q.answer} ${q.hint} ${q.year}`.toLocaleLowerCase().includes(term)));
 }
 
-export function makeDeck(questions, { category = '전체', difficulty = '전체', count = 10, random = true } = {}) {
-  const deck = filterQuestions(questions, { category, difficulty, activeOnly: true }).map(q => ({ ...q }));
+export function makeDeck(questions, { category = '전체', count = 10, random = true } = {}) {
+  const deck = filterQuestions(questions, { category, activeOnly: true }).map(q => ({ ...q }));
   if (!random) deck.sort((a, b) => String(a.createdAt || '').localeCompare(String(b.createdAt || '')));
   if (random) {
     for (let i = deck.length - 1; i > 0; i--) {
@@ -114,7 +110,7 @@ export function parseImport(text, filename) {
 }
 
 export function csvExport(questions) {
-  const headers = ['id', 'title', 'category', 'difficulty', 'year', 'answer', 'hint', 'image', 'source', 'enabled'];
+  const headers = ['id', 'title', 'category', 'year', 'answer', 'hint', 'image', 'source', 'enabled'];
   const quote = v => `"${String(v ?? '').replaceAll('"', '""')}"`;
   return '\uFEFF' + [headers, ...questions.map(q => headers.map(k => q[k]))].map(row => row.map(quote).join(',')).join('\r\n');
 }

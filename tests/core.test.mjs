@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { validateQuestion, parseCsv, parseImport, csvExport, makeDeck, filterQuestions } from '../docs/js/core.js';
 
-const fixture = (overrides = {}) => ({ id: 'scene-1', title: '테스트 작품', category: '영화', difficulty: '보통', answer: '기억할게, 이 장면을.\n언제까지나.', image: 'https://example.com/scene.webp', enabled: true, ...overrides });
+const fixture = (overrides = {}) => ({ id: 'scene-1', title: '테스트 작품', category: '영화', answer: '기억할게, 이 장면을.\n언제까지나.', image: 'https://example.com/scene.webp', enabled: true, ...overrides });
 
 test('한국어·여러 줄 대사·따옴표·BOM CSV를 손실 없이 가져온다', () => {
   const values = [fixture({ hint: '쉼표, 그리고 "따옴표"', source: '출처\n메모' }), fixture({ id: 'scene-2', category: '애니메이션', enabled: false })];
@@ -26,12 +26,22 @@ test('1,000개 문제를 파싱하고 중복 없는 게임 덱을 만든다', ()
   assert.ok(deck.every(q => q.enabled));
   assert.equal(questions[0].id, 'scene-0'); // 원본 배열을 섞지 않습니다.
 });
-test('장르·난이도·출제 제외 조건을 지키고 부족한 문제 수를 줄인다', () => {
-  const data = [fixture(), fixture({ id: '2', category: '드라마' }), fixture({ id: '3', difficulty: '어려움' }), fixture({ id: '4', enabled: false })];
-  assert.equal(makeDeck(data, { category: '영화', difficulty: '보통', count: 10 }).length, 1);
+test('장르·출제 제외 조건을 지키고 부족한 문제 수를 줄인다', () => {
+  const data = [fixture(), fixture({ id: '2', category: '드라마' }), fixture({ id: '3' }), fixture({ id: '4', enabled: false })];
+  assert.equal(makeDeck(data, { category: '영화', count: 10 }).length, 2);
   assert.equal(makeDeck(data, { count: 'all' }).length, 3);
   assert.equal(filterQuestions(data, { search: '기억할게' }).length, 4);
   assert.notEqual(makeDeck(data)[0], data[0]);
+});
+test('이전 난이도 값이 있는 JSON·CSV도 읽고 새 데이터에서는 난이도를 제외한다', () => {
+  const legacy = fixture({ difficulty: '이전 버전의 값' });
+  assert.equal(Object.hasOwn(validateQuestion(legacy), 'difficulty'), false);
+  assert.equal(Object.hasOwn(parseImport(JSON.stringify([legacy]), 'legacy.json')[0], 'difficulty'), false);
+  const csv = 'id,title,category,difficulty,answer,image\nold,작품,영화,어려움,정답,https://example.com/scene.webp';
+  const imported = parseImport(csv, 'legacy.csv');
+  assert.equal(imported.length, 1);
+  assert.equal(Object.hasOwn(imported[0], 'difficulty'), false);
+  assert.equal(csvExport(imported).includes('difficulty'), false);
 });
 test('실행 가능한 이미지 주소·잘못된 분류·연도·버전을 거부한다', () => {
   for (const image of ['javascript:alert(1)', 'http://example.com/a.jpg', 'data:image/svg+xml;base64,PHN2Zz4=', 'https://user:password@example.com/a.jpg', './assets/../../a.jpg']) assert.throws(() => validateQuestion(fixture({ image })), /이미지|정보/);

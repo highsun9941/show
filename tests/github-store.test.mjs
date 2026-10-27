@@ -7,7 +7,7 @@ const sessions = new Map();
 globalThis.sessionStorage = { getItem: k => sessions.get(k) || null, setItem: (k, v) => sessions.set(k, v), removeItem: k => sessions.delete(k) };
 afterEach(() => { globalThis.fetch = originalFetch; sessions.clear(); });
 const config = { repository: 'owner-a/quote-show', branch: 'main', dataPath: 'docs/data/questions.json', imageDirectory: 'docs/uploads' };
-const fixture = (id = 'one', overrides = {}) => ({ id, title: '작품 💬', category: '영화', difficulty: '보통', year: '', answer: '우리의 다음 장면.\n안녕!', hint: '', source: '', image: './assets/scene-space.svg', version: 1, enabled: true, createdAt: '2026-10-27T00:00:00.000Z', updatedAt: '2026-10-27T00:00:00.000Z', ...overrides });
+const fixture = (id = 'one', overrides = {}) => ({ id, title: '작품 💬', category: '영화', year: '', answer: '우리의 다음 장면.\n안녕!', hint: '', source: '', image: './assets/scene-space.svg', version: 1, enabled: true, createdAt: '2026-10-27T00:00:00.000Z', updatedAt: '2026-10-27T00:00:00.000Z', ...overrides });
 const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json', ...headers } });
 const encoded = value => encodeBase64(new TextEncoder().encode(JSON.stringify(value)));
 function fakeRepository(initial, { race, large = false, target = config } = {}) {

@@ -48,7 +48,7 @@ export class LocalStore {
       tx.objectStore('settings').put(true, 'seeded'); await done;
     }
   }
-  async list() { return (await read('questions', undefined, this.databaseName)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
+  async list() { return (await read('questions', undefined, this.databaseName)).map(q => ({ ...validateQuestion(q, { local: true }), updatedAt: q.updatedAt || q.createdAt || '' })).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
   async imageUrl(value) {
     if (!value.startsWith('local:')) return value;
     const cacheKey = `${this.databaseName}:${value}`;

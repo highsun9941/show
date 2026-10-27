@@ -1,20 +1,5 @@
 [
   {
-    "id": "demo-space",
-    "title": "별 사이의 약속 (창작 샘플)",
-    "category": "국내 영화",
-    "year": "2026",
-    "answer": "어디에 있든, 같은 별을 보고 있을 거야.",
-    "hint": "멀리 떨어진 두 사람이 나누는 약속입니다.",
-    "image": "./assets/scene-space.svg",
-    "source": "이 프로젝트를 위해 만든 창작 일러스트와 창작 대사입니다. 실제 영화 장면이 아닙니다.",
-    "enabled": true,
-    "demo": true,
-    "version": 2,
-    "createdAt": "2026-10-27T00:00:00.000Z",
-    "updatedAt": "2026-10-27T12:23:08.802Z"
-  },
-  {
     "id": "demo-rain",
     "title": "비가 그치면 (창작 샘플)",
     "category": "국내 드라마",

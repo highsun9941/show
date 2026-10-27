@@ -2,7 +2,7 @@
   {
     "id": "demo-space",
     "title": "별 사이의 약속 (창작 샘플)",
-    "category": "영화",
+    "category": "국내 영화",
     "year": "2026",
     "answer": "어디에 있든, 같은 별을 보고 있을 거야.",
     "hint": "멀리 떨어진 두 사람이 나누는 약속입니다.",
@@ -10,14 +10,14 @@
     "source": "이 프로젝트를 위해 만든 창작 일러스트와 창작 대사입니다. 실제 영화 장면이 아닙니다.",
     "enabled": true,
     "demo": true,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T00:00:00.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z"
+    "updatedAt": "2026-10-27T12:23:08.802Z"
   },
   {
     "id": "demo-rain",
     "title": "비가 그치면 (창작 샘플)",
-    "category": "드라마",
+    "category": "국내 드라마",
     "year": "2026",
     "answer": "비가 그칠 때까지, 조금만 더 같이 있자.",
     "hint": "우산은 하나, 돌아갈 길은 둘.",
@@ -25,14 +25,14 @@
     "source": "이 프로젝트를 위해 만든 창작 일러스트와 창작 대사입니다. 실제 드라마 장면이 아닙니다.",
     "enabled": true,
     "demo": true,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T00:00:00.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z"
+    "updatedAt": "2026-10-27T12:23:08.802Z"
   },
   {
     "id": "demo-summer",
     "title": "여름의 다음 장 (창작 샘플)",
-    "category": "애니메이션",
+    "category": "국내 애니메이션",
     "year": "2026",
     "answer": "끝이라고 생각한 곳에서, 우리의 여름이 시작됐어.",
     "hint": "여행의 끝은 새로운 시작이기도 하죠.",
@@ -40,14 +40,14 @@
     "source": "이 프로젝트를 위해 만든 창작 일러스트와 창작 대사입니다. 실제 애니메이션 장면이 아닙니다.",
     "enabled": true,
     "demo": true,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T00:00:00.000Z",
-    "updatedAt": "2026-10-27T00:00:00.000Z"
+    "updatedAt": "2026-10-27T12:23:08.802Z"
   },
   {
     "id": "7a890e35-b871-4c6f-962b-c6bdd7212557",
     "title": "극한직업",
-    "category": "영화",
+    "category": "국내 영화",
     "year": "",
     "answer": "지금까지 이런 맛은 없었다 이것은 갈비인가 통닭인가",
     "hint": "",
@@ -55,8 +55,8 @@
     "source": "",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T12:14:32.331Z",
-    "updatedAt": "2026-10-27T12:14:34.081Z"
+    "updatedAt": "2026-10-27T12:23:08.802Z"
   }
 ]

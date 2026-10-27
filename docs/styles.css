@@ -85,8 +85,9 @@ kbd{font-family:inherit;font-size:10px;border:1px solid currentColor;border-radi
 .panel-title h2{font-size:19px;letter-spacing:-.6px}
 .small-tag{font-size:8px;letter-spacing:1px;color:var(--muted);border:1px solid var(--line);padding:5px 7px;border-radius:4px}
 .field-label{font-size:11px;display:block;color:var(--label);margin-bottom:10px}
-.segmented{display:flex;gap:5px}
-.segmented button{flex:1;padding:10px 4px;font-size:11px;background:var(--panel-2);border-radius:8px;color:var(--muted);border:1px solid transparent}
+.segmented{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.segmented button[data-category="전체"]{grid-column:1/-1}
+.segmented button{padding:10px 4px;font-size:11px;background:var(--panel-2);border-radius:8px;color:var(--muted);border:1px solid transparent}
 .segmented button.selected{color:var(--accent);background:var(--selection-bg);border-color:var(--line-strong)}
 .setup-row{display:flex;gap:12px;margin-top:18px}
 .setup-row>label{flex:1;min-width:0}
@@ -453,3 +454,5 @@ dialog h2{font-size:22px}
   .hero-heading .eyebrow{max-width:calc(100% - 150px)}
   .game-top-actions{gap:6px}
 }
+
+.question-fields .setup-row>label:first-child{flex:1.5}

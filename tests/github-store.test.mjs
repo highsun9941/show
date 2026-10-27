@@ -7,7 +7,7 @@ const sessions = new Map();
 globalThis.sessionStorage = { getItem: k => sessions.get(k) || null, setItem: (k, v) => sessions.set(k, v), removeItem: k => sessions.delete(k) };
 afterEach(() => { globalThis.fetch = originalFetch; sessions.clear(); });
 const config = { repository: 'owner-a/quote-show', branch: 'main', dataPath: 'docs/data/questions.json', imageDirectory: 'docs/uploads' };
-const fixture = (id = 'one', overrides = {}) => ({ id, title: '작품 💬', category: '영화', year: '', answer: '우리의 다음 장면.\n안녕!', hint: '', source: '', image: './assets/scene-space.svg', version: 1, enabled: true, createdAt: '2026-10-27T00:00:00.000Z', updatedAt: '2026-10-27T00:00:00.000Z', ...overrides });
+const fixture = (id = 'one', overrides = {}) => ({ id, title: '작품 💬', category: '국내 영화', year: '', answer: '우리의 다음 장면.\n안녕!', hint: '', source: '', image: './assets/scene-space.svg', version: 1, enabled: true, createdAt: '2026-10-27T00:00:00.000Z', updatedAt: '2026-10-27T00:00:00.000Z', ...overrides });
 const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json', ...headers } });
 const encoded = value => encodeBase64(new TextEncoder().encode(JSON.stringify(value)));
 function fakeRepository(initial, { race, large = false, target = config } = {}) {
@@ -59,6 +59,18 @@ test('삭제도 버전을 확인하고 다른 사람의 수정 내용을 보존�
   await assert.rejects(authenticated().remove(fixture()), error => error.status === 409);
   assert.equal(repo.questions.length, 2);
   await authenticated().remove(fixture('one', { version: 2 })); assert.equal(repo.questions.length, 1); assert.equal(repo.questions[0].id, 'two');
+});
+
+test('이전 분류 문제도 조회하며 새 분류를 선택해 수정할 때 정답과 이미지를 보존한다', async () => {
+  const repo = fakeRepository([fixture('one', { category: '영화' }), fixture('two', { category: '드라마' })]);
+  const store = authenticated();
+  const previous = (await store.list()).find(q => q.id === 'one');
+  assert.equal(previous.category, '영화');
+  await assert.rejects(store.save(previous, true), /분류/);
+  const saved = await store.save({ ...previous, category: '해외 영화' }, true);
+  assert.equal(saved.category, '해외 영화'); assert.equal(saved.version, 2);
+  assert.equal(saved.answer, previous.answer); assert.equal(saved.image, previous.image);
+  assert.equal(repo.questions.find(q => q.id === 'two').category, '드라마');
 });
 test('1,000개 가져오기를 한 커밋으로 처리하고 기존 ID는 건너뛴다', async () => {
   const repo = fakeRepository([fixture('q-0', { answer: '기존 정답' })]);

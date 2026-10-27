@@ -1,4 +1,4 @@
-import { filterQuestions, makeDeck, validateQuestion, parseImport, MAX_IMAGE_BYTES } from './core.js';
+import { CATEGORIES, filterQuestions, makeDeck, validateQuestion, parseImport, MAX_IMAGE_BYTES } from './core.js';
 import { LocalStore, GitHubStore } from './storage.js';
 import { loadConfig, repositoryLinks } from './config.js';
 
@@ -57,7 +57,7 @@ function updateAvailable() {
   const wanted = $('round-count').value;
   $('available-count').textContent = `${count.toLocaleString()}개`;
   $('start-game').disabled = !state.ready || count === 0;
-  $('setup-note').textContent = !state.ready ? '문제를 불러오고 있습니다.' : count === 0 ? '조건에 맞는 문제가 없어요. 장르를 바꾸거나 문제를 추가해 주세요.' : `${wanted === 'all' ? count : Math.min(Number(wanted), count)}문제로 진행 · 한 게임 안에서 중복 없이 출제`;
+  $('setup-note').textContent = !state.ready ? '문제를 불러오고 있습니다.' : count === 0 ? '조건에 맞는 문제가 없어요. 카테고리를 바꾸거나 문제를 추가해 주세요.' : `${wanted === 'all' ? count : Math.min(Number(wanted), count)}문제로 진행 · 한 게임 안에서 중복 없이 출제`;
 }
 function renderAll() {
   const config = state.store?.mode === 'shared' ? state.store.config : state.config;
@@ -70,6 +70,8 @@ function renderAll() {
     ? !config.repository ? '현재 주소에서 GitHub 저장소를 확인할 수 없어 배포된 문제만 보여드립니다. 공동 편집은 config.js의 repository를 지정하거나 GitHub Pages에서 열어주세요.'
       : state.store.stale ? `${config.repository} 원본을 읽지 못해 마지막 Pages 배포본을 보여드립니다. 최신 문제는 새로고침해 주세요. 편집에는 저장용 키가 필요합니다.` : `${config.repository}에 문제와 이미지를 보관합니다. 문제를 편집할 기기에서는 이 저장소의 GitHub 키로 로그인해 주세요.`
     : '이 브라우저에만 저장됩니다. 다른 기기에는 공유되지 않으며, 브라우저 데이터를 지우면 삭제됩니다. GitHub 공동 저장으로 바꾸려면 우측 상단을 눌러주세요.';
+  const unclassified = state.questions.filter(q => !CATEGORIES.includes(q.category)).length;
+  if (unclassified) $('storage-description').textContent += ` 이전 분류 ${unclassified}개 문제는 '전체'에서 확인할 수 있습니다. 문제 수정에서 국내·해외 분류를 선택해 주세요.`;
   $('nav-count').textContent = state.questions.length.toLocaleString();
   $('home-total').textContent = state.questions.length.toLocaleString();
   $('sample-notice').hidden = !state.questions.some(q => q.demo);
@@ -94,7 +96,7 @@ function renderCards(container, questions, admin) {
     button.append(img, el('span', 'card-tag', q.demo ? 'ILLUSTRATION · DEMO' : q.enabled ? 'SCENE' : '출제 제외'), playIcon);
     button.addEventListener('click', () => startGame([q]));
     const content = el('div', 'card-content'), meta = el('div', 'card-meta');
-    meta.append(el('span', '', q.category), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
+    meta.append(el('span', '', CATEGORIES.includes(q.category) ? q.category : `${q.category} · 국내/해외 미지정`), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
     content.append(meta, el('h3', '', q.title), el('p', q.enabled ? '' : 'disabled-tag', q.demo ? '게임 방식 체험용 창작 샘플' : q.enabled ? '장면을 누르고 기억을 재생해 보세요' : '랜덤 게임에서는 출제되지 않아요'));
     if (admin) {
       const actions = el('div', 'card-admin');
@@ -279,6 +281,14 @@ function downloadJson(value) {
   const url = URL.createObjectURL(blob), a = document.createElement('a'); a.href = url; a.download = `scene-and-say-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
+// 출제·보관함·등록 화면이 같은 여섯 분류를 사용합니다.
+for (const category of CATEGORIES) {
+  const button = el('button', '', category); button.dataset.category = category; button.setAttribute('aria-pressed', 'false');
+  $('category-picker').append(button);
+  for (const select of [$('filter-category'), $('question-form').elements.category]) {
+    const option = el('option', '', category); option.value = category; select.append(option);
+  }
+}
 document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => view(button.dataset.view)));
 document.querySelector('.brand').addEventListener('click', e => { e.preventDefault(); view('home'); });
 document.querySelectorAll('.dialog-close').forEach(button => button.addEventListener('click', () => button.closest('dialog').close()));

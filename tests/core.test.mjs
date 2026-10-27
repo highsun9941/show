@@ -1,11 +1,34 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validateQuestion, parseCsv, parseImport, csvExport, makeDeck, filterQuestions } from '../docs/js/core.js';
+import { CATEGORIES, validateQuestion, parseCsv, parseImport, csvExport, makeDeck, filterQuestions } from '../docs/js/core.js';
 
-const fixture = (overrides = {}) => ({ id: 'scene-1', title: '테스트 작품', category: '영화', answer: '기억할게, 이 장면을.\n언제까지나.', image: 'https://example.com/scene.webp', enabled: true, ...overrides });
+const fixture = (overrides = {}) => ({ id: 'scene-1', title: '테스트 작품', category: '국내 영화', answer: '기억할게, 이 장면을.\n언제까지나.', image: 'https://example.com/scene.webp', enabled: true, ...overrides });
+
+test('국내·해외 여섯 분류는 각각 검증되고 서로 섞이지 않게 출제된다', () => {
+  assert.deepEqual(CATEGORIES, ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션']);
+  const questions = CATEGORIES.map((category, i) => validateQuestion(fixture({ id: `type-${i}`, category })));
+  for (const category of CATEGORIES) {
+    assert.deepEqual(makeDeck(questions, { category, count: 'all' }).map(q => q.category), [category]);
+    assert.equal(filterQuestions(questions, { category }).length, 1);
+  }
+  const imported = parseImport(csvExport(questions), 'all-types.csv');
+  assert.deepEqual(imported.map(q => q.category), CATEGORIES);
+});
+
+test('구분 없는 이전 분류를 보존하고 국내·해외를 임의로 정하지 않는다', () => {
+  const previous = ['영화', '드라마', '애니메이션'].map((category, i) => fixture({ id: `legacy-${i}`, category }));
+  const imported = parseImport(JSON.stringify(previous), 'legacy.json');
+  assert.deepEqual(imported.map(q => q.category), ['영화', '드라마', '애니메이션']);
+  assert.equal(makeDeck(imported, { count: 'all' }).length, 3);
+  assert.equal(makeDeck(imported, { category: '국내 영화' }).length, 0);
+  for (const q of previous) {
+    assert.equal(validateQuestion(q, { allowLegacyCategory: true }).category, q.category);
+    assert.throws(() => validateQuestion(q), /분류/);
+  }
+});
 
 test('한국어·여러 줄 대사·따옴표·BOM CSV를 손실 없이 가져온다', () => {
-  const values = [fixture({ hint: '쉼표, 그리고 "따옴표"', source: '출처\n메모' }), fixture({ id: 'scene-2', category: '애니메이션', enabled: false })];
+  const values = [fixture({ hint: '쉼표, 그리고 "따옴표"', source: '출처\n메모' }), fixture({ id: 'scene-2', category: '해외 애니메이션', enabled: false })];
   const imported = parseImport(csvExport(values), 'questions.csv');
   for (let i = 0; i < values.length; i++) for (const key of Object.keys(values[i])) assert.equal(imported[i][key], values[i][key], key);
 });
@@ -27,8 +50,8 @@ test('1,000개 문제를 파싱하고 중복 없는 게임 덱을 만든다', ()
   assert.equal(questions[0].id, 'scene-0'); // 원본 배열을 섞지 않습니다.
 });
 test('장르·출제 제외 조건을 지키고 부족한 문제 수를 줄인다', () => {
-  const data = [fixture(), fixture({ id: '2', category: '드라마' }), fixture({ id: '3' }), fixture({ id: '4', enabled: false })];
-  assert.equal(makeDeck(data, { category: '영화', count: 10 }).length, 2);
+  const data = [fixture(), fixture({ id: '2', category: '해외 드라마' }), fixture({ id: '3' }), fixture({ id: '4', enabled: false })];
+  assert.equal(makeDeck(data, { category: '국내 영화', count: 10 }).length, 2);
   assert.equal(makeDeck(data, { count: 'all' }).length, 3);
   assert.equal(filterQuestions(data, { search: '기억할게' }).length, 4);
   assert.notEqual(makeDeck(data)[0], data[0]);

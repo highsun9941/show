@@ -41,14 +41,14 @@ export class LocalStore {
     if (!await read('settings', 'seeded', this.databaseName)) {
       const response = await fetch('./data/questions.json');
       if (!response.ok) throw new StoreError('샘플 문제를 불러오지 못했습니다.');
-      const sample = (await response.json()).map(q => validateQuestion(q, { local: true }));
+      const sample = (await response.json()).map(q => validateQuestion(q, { local: true, allowLegacyCategory: true }));
       const db = await openDB(this.databaseName), tx = db.transaction(['questions', 'settings'], 'readwrite');
       const done = completed(tx);
       sample.forEach(q => tx.objectStore('questions').put(q));
       tx.objectStore('settings').put(true, 'seeded'); await done;
     }
   }
-  async list() { return (await read('questions', undefined, this.databaseName)).map(q => ({ ...validateQuestion(q, { local: true }), updatedAt: q.updatedAt || q.createdAt || '' })).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
+  async list() { return (await read('questions', undefined, this.databaseName)).map(q => ({ ...validateQuestion(q, { local: true, allowLegacyCategory: true }), updatedAt: q.updatedAt || q.createdAt || '' })).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
   async imageUrl(value) {
     if (!value.startsWith('local:')) return value;
     const cacheKey = `${this.databaseName}:${value}`;
@@ -106,7 +106,7 @@ export class LocalStore {
       let image = input.image;
       if (image.startsWith('data:')) image = await this.upload(await (await fetch(image)).blob());
       if (image.startsWith('local:') && !await read('images', image.slice(6), this.databaseName)) throw new StoreError('이 기기에 없는 이미지입니다. JSON 내보내기로 만든 파일을 이용해 주세요.');
-      normalized.push(validateQuestion({ ...input, image, version: 1 }, { local: true }));
+      normalized.push(validateQuestion({ ...input, image, version: 1 }, { local: true, allowLegacyCategory: true }));
       progress?.(i + 1, fresh.length);
     }
     const db = await openDB(this.databaseName), tx = db.transaction('questions', 'readwrite'), done = completed(tx);
@@ -197,7 +197,7 @@ export class GitHubStore {
     try { const data = JSON.parse(content); questions = Array.isArray(data) ? data : data.questions; } catch { throw new StoreError('저장된 문제 JSON이 올바르지 않습니다. 저장소 파일을 확인해 주세요.'); }
     if (!Array.isArray(questions)) throw new StoreError('저장된 문제 목록 형식이 올바르지 않습니다.');
     // 읽기에서 updatedAt을 바꾸지 않습니다. 버전은 저장 시에만 증가합니다.
-    return { questions: questions.map(q => ({ ...validateQuestion(q), updatedAt: q.updatedAt || q.createdAt || '' })), sha: meta.sha };
+    return { questions: questions.map(q => ({ ...validateQuestion(q, { allowLegacyCategory: true }), updatedAt: q.updatedAt || q.createdAt || '' })), sha: meta.sha };
   }
   async list() {
     try { const { questions } = await this.readCurrent(); this.stale = false; return questions.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)); }
@@ -208,7 +208,7 @@ export class GitHubStore {
       if (!response.ok) throw e;
       this.stale = true;
       const data = await response.json();
-      return (Array.isArray(data) ? data : data.questions).map(q => validateQuestion(q));
+      return (Array.isArray(data) ? data : data.questions).map(q => validateQuestion(q, { allowLegacyCategory: true }));
     }
   }
   async imageUrl(value) {
@@ -284,7 +284,7 @@ export class GitHubStore {
       if (seen.has(q.id)) throw new StoreError('같은 ID가 가져오기 목록 안에 중복되었습니다.');
       seen.add(q.id);
       if (q.image.startsWith('data:') || q.image.startsWith('local:')) throw new StoreError('GitHub 일괄 가져오기에는 HTTPS 주소 또는 ./uploads/파일명 경로가 필요합니다. 이미지가 내장된 백업은 이 기기 체험 모드에서 가져올 수 있어요.');
-      return validateQuestion({ ...q, version: 1 });
+      return validateQuestion({ ...q, version: 1 }, { allowLegacyCategory: true });
     });
     progress?.(0, normalized.length);
     const result = await this.writeQuestions(current => {

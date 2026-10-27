@@ -1,9 +1,10 @@
-export const CATEGORIES = ['영화', '드라마', '애니메이션'];
+export const CATEGORIES = ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션'];
+const LEGACY_CATEGORIES = ['영화', '드라마', '애니메이션'];
 export const MAX_IMAGE_BYTES = 300 * 1024;
 export const MAX_QUESTIONS = 5000;
 export const uuid = () => crypto.randomUUID();
 
-export function validateQuestion(input, { local = false } = {}) {
+export function validateQuestion(input, { local = false, allowLegacyCategory = false } = {}) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw new Error('문제 형식을 확인해 주세요.');
   const field = (name, limit, required = false) => {
     const v = String(input[name] ?? '').trim();
@@ -14,7 +15,7 @@ export function validateQuestion(input, { local = false } = {}) {
   const id = String(input.id || uuid());
   if (!/^[a-zA-Z0-9_-]{1,80}$/.test(id)) throw new Error('문제 ID는 영문·숫자·밑줄·하이픈 80자 이내여야 합니다.');
   const category = field('category', 20);
-  if (!CATEGORIES.includes(category)) throw new Error('분류는 영화, 드라마, 애니메이션 중 하나여야 합니다.');
+  if (!CATEGORIES.includes(category) && !(allowLegacyCategory && LEGACY_CATEGORIES.includes(category))) throw new Error(`분류는 ${CATEGORIES.join(', ')} 중 하나를 선택해 주세요.`);
   const image = field('image', 450000, true);
   const remote = /^https:\/\/[^\s]+$/i.test(image);
   const asset = /^\.\/(assets|uploads)\/[a-zA-Z0-9/_\-.]+$/.test(image) && !image.includes('..');
@@ -102,7 +103,7 @@ export function parseImport(text, filename) {
   const seen = new Set();
   return values.map((v, i) => {
     try {
-      const q = validateQuestion(v, { local: true });
+      const q = validateQuestion(v, { local: true, allowLegacyCategory: true });
       if (seen.has(q.id)) throw new Error('같은 ID가 파일 안에 중복되었습니다.');
       seen.add(q.id); return q;
     } catch (e) { throw new Error(`${i + 1}번째 문제: ${e.message}`); }

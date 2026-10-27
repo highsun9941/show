@@ -1,20 +1,5 @@
 [
   {
-    "id": "demo-summer",
-    "title": "여름의 다음 장 (창작 샘플)",
-    "category": "국내 애니메이션",
-    "year": "2026",
-    "answer": "끝이라고 생각한 곳에서, 우리의 여름이 시작됐어.",
-    "hint": "여행의 끝은 새로운 시작이기도 하죠.",
-    "image": "./assets/scene-summer.svg",
-    "source": "이 프로젝트를 위해 만든 창작 일러스트와 창작 대사입니다. 실제 애니메이션 장면이 아닙니다.",
-    "enabled": true,
-    "demo": true,
-    "version": 2,
-    "createdAt": "2026-10-27T00:00:00.000Z",
-    "updatedAt": "2026-10-27T12:23:08.802Z"
-  },
-  {
     "id": "7a890e35-b871-4c6f-962b-c6bdd7212557",
     "title": "극한직업",
     "category": "국내 영화",

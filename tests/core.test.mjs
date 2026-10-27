@@ -1,8 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { CATEGORIES, validateQuestion, parseCsv, parseImport, csvExport, makeDeck, filterQuestions } from '../docs/js/core.js';
+import { CATEGORIES, validateQuestion, parseCsv, parseImport, csvExport, makeDeck, filterQuestions, uuid } from '../docs/js/core.js';
 
 const fixture = (overrides = {}) => ({ id: 'scene-1', title: '테스트 작품', category: '국내 영화', answer: '기억할게, 이 장면을.\n언제까지나.', image: 'https://example.com/scene.webp', enabled: true, ...overrides });
+
+test('randomUUID가 없는 브라우저도 중복 없는 ID로 문제를 등록할 수 있다', () => {
+  const olderCrypto = { getRandomValues: bytes => crypto.getRandomValues(bytes) };
+  const ids = Array.from({ length: 1000 }, () => uuid(olderCrypto));
+  assert.equal(new Set(ids).size, 1000);
+  for (const id of [uuid(), ...ids]) {
+    assert.match(id, /^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/);
+    assert.equal(validateQuestion(fixture({ id })).id, id);
+  }
+});
 
 test('국내·해외 여섯 분류는 각각 검증되고 서로 섞이지 않게 출제된다', () => {
   assert.deepEqual(CATEGORIES, ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션']);

@@ -165,6 +165,7 @@ function toggleAnswer() {
   $('answer-title').textContent = state.answer ? `${q.title}${q.year ? ` (${q.year})` : ''} · ${q.category}${q.demo ? ' · 창작 샘플' : ''}` : '';
   $('answer-overlay').classList.toggle('long-answer', q.answer.length > 100);
   $('answer-overlay').hidden = !state.answer; $('hint-overlay').hidden = true; state.hint = false;
+  if (state.answer) $('answer-overlay').scrollTop = 0;
   $('hint-text').textContent = ''; $('hint-button').setAttribute('aria-expanded', 'false');
   $('hint-button').disabled = state.answer || !q.title;
   $('timeout-overlay').hidden = true;

@@ -2,7 +2,14 @@ export const CATEGORIES = ['국내 영화', '해외 영화', '국내 드라마',
 const LEGACY_CATEGORIES = ['영화', '드라마', '애니메이션'];
 export const MAX_IMAGE_BYTES = 300 * 1024;
 export const MAX_QUESTIONS = 5000;
-export const uuid = () => crypto.randomUUID();
+export function uuid(cryptoApi = crypto) {
+  if (typeof cryptoApi.randomUUID === 'function') return cryptoApi.randomUUID();
+  // randomUUID가 없는 브라우저에서도 문제와 이미지 ID를 만들 수 있습니다.
+  const bytes = cryptoApi.getRandomValues(new Uint8Array(16));
+  bytes[6] = (bytes[6] & 15) | 64; bytes[8] = (bytes[8] & 63) | 128;
+  const hex = Array.from(bytes, byte => byte.toString(16).padStart(2, '0')).join('');
+  return [hex.slice(0, 8), hex.slice(8, 12), hex.slice(12, 16), hex.slice(16, 20), hex.slice(20)].join('-');
+}
 
 export function validateQuestion(input, { local = false, allowLegacyCategory = false } = {}) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw new Error('문제 형식을 확인해 주세요.');

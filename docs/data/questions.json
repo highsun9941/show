@@ -4,15 +4,15 @@
     "title": "극한직업",
     "category": "국내 영화",
     "year": "",
-    "answer": "지금까지 이런 맛은 없었다. 이것은 갈비인가 통닭인가",
+    "answer": "지금까지 이런 맛은 없었다.\n이것은 갈비인가 통닭인가.",
     "hint": "",
     "image": "./uploads/moviequotes-93b2df2f146ee07f74050402.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/d00dd09c-4c20-4b80-8a04-6cfb8487964b | 정답 공개 이미지: https://images.machugi.io/46a0519b-8466-43d7-b8f2-8f9a7c805c58 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/5ab94ae1-4b44-485f-8e0c-04469b09f853.jpeg | 정답 공개 이미지: https://images.machugi.io/30a1a38d-adf9-4c2d-ae8e-58ef568083ea.jpeg | 추가 출처 원문: 지금까지 이런 맛은 없었다. 이것은 갈비인가? 통닭인가? (극한직업0",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/d00dd09c-4c20-4b80-8a04-6cfb8487964b | 정답 공개 이미지: https://images.machugi.io/46a0519b-8466-43d7-b8f2-8f9a7c805c58 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/5ab94ae1-4b44-485f-8e0c-04469b09f853.jpeg | 정답 공개 이미지: https://images.machugi.io/30a1a38d-adf9-4c2d-ae8e-58ef568083ea.jpeg | 추가 출처 원문: 지금까지 이런 맛은 없었다. 이것은 갈비인가? 통닭인가? (극한직업0 | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#50",
     "enabled": true,
     "demo": false,
-    "version": 4,
+    "version": 5,
     "createdAt": "2026-10-27T12:14:32.331Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-cc120f41-f519-4709-9110-4e53f8a5755b",
@@ -79,15 +79,15 @@
     "title": "베테랑",
     "category": "국내 영화",
     "year": "",
-    "answer": "어이가 없네?",
+    "answer": "어이가 없네.",
     "hint": "",
     "image": "./uploads/machugi-e731572c-f3d4-48e0-b028-129cd92bbb4c.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/e731572c-f3d4-48e0-b028-129cd92bbb4c | 정답 공개 이미지: https://images.machugi.io/85839869-c68a-4548-8818-da5bb37cca9f",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/e731572c-f3d4-48e0-b028-129cd92bbb4c | 정답 공개 이미지: https://images.machugi.io/85839869-c68a-4548-8818-da5bb37cca9f | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#26",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T14:38:39.990Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-0dca134c-4a2e-4c71-ab64-fe5f2946459c",
@@ -289,15 +289,15 @@
     "title": "박하사탕",
     "category": "국내 영화",
     "year": "",
-    "answer": "나 다시 돌아갈래~",
+    "answer": "나 다시 돌아갈래.",
     "hint": "",
     "image": "./uploads/moviequotes-e82802b4b3aeef779bc996ad.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ad638e08-24a2-4a1a-9958-9d42c5ae5f44 | 정답 공개 이미지: https://images.machugi.io/ab6806f3-d7be-4540-aa17-645c7907b21e | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/807e6000-0f34-4e62-940d-8e89724ae198.jpeg | 정답 공개 이미지: https://images.machugi.io/b29ba56a-8958-4bb9-b7eb-f0bb187ad4bb.jpeg | 추가 출처 원문: 나 다시 돌아갈래!! (박하사탕)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ad638e08-24a2-4a1a-9958-9d42c5ae5f44 | 정답 공개 이미지: https://images.machugi.io/ab6806f3-d7be-4540-aa17-645c7907b21e | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/807e6000-0f34-4e62-940d-8e89724ae198.jpeg | 정답 공개 이미지: https://images.machugi.io/b29ba56a-8958-4bb9-b7eb-f0bb187ad4bb.jpeg | 추가 출처 원문: 나 다시 돌아갈래!! (박하사탕) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#40",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-d725497e-65bd-49fb-8a88-4248942a904e",
@@ -379,15 +379,15 @@
     "title": "해바라기",
     "category": "국내 영화",
     "year": "",
-    "answer": "꼭 그렇게⋯ 다 가져가야만⋯ 속이 후련했냐!",
+    "answer": "꼭 그렇게.. 다 가져가야만.. 속이 후련했냐!",
     "hint": "",
     "image": "./uploads/moviequotes-9a8c4fcaea0be82544928e1d.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/93973352-1a96-4149-85e0-2896b1bca3ea | 정답 공개 이미지: https://images.machugi.io/975a48ea-673f-49d4-803e-09070d73a74b | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7dc05bb2-c6e7-4e31-9092-4fb7fa649c77.jpeg | 정답 공개 이미지: https://images.machugi.io/ec3a0809-72a3-4f3a-8570-7c8fdfd95a46.jpeg | 추가 출처 원문: 꼭 그렇게 다 가져가야만 속이 후련했냐!!! (해바라기)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/93973352-1a96-4149-85e0-2896b1bca3ea | 정답 공개 이미지: https://images.machugi.io/975a48ea-673f-49d4-803e-09070d73a74b | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7dc05bb2-c6e7-4e31-9092-4fb7fa649c77.jpeg | 정답 공개 이미지: https://images.machugi.io/ec3a0809-72a3-4f3a-8570-7c8fdfd95a46.jpeg | 추가 출처 원문: 꼭 그렇게 다 가져가야만 속이 후련했냐!!! (해바라기) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#44",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-038cc9bb-b959-43fc-8412-5dc37707b09a",
@@ -424,15 +424,15 @@
     "title": "아저씨",
     "category": "국내 영화",
     "year": "",
-    "answer": "이거 방탄유리야 이 개새끼야!",
+    "answer": "이거 방탄유리야, 이 ㄱㅅㄲ야!",
     "hint": "",
     "image": "./uploads/moviequotes-5722366cf8f935815c4b9441.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/0c973d7f-01bf-4c2d-8424-306580d20dee | 정답 공개 이미지: https://images.machugi.io/a72ac46c-dd79-417e-89df-0d930263aaa9 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f277d41b-c5f6-4e20-ba80-8a4d1234858e.jpeg | 정답 공개 이미지: https://images.machugi.io/6e6d95ef-0cac-4652-bca5-933d10942f86.jpeg | 추가 출처 원문: 이거 방탄유리야. (아저씨)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/0c973d7f-01bf-4c2d-8424-306580d20dee | 정답 공개 이미지: https://images.machugi.io/a72ac46c-dd79-417e-89df-0d930263aaa9 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f277d41b-c5f6-4e20-ba80-8a4d1234858e.jpeg | 정답 공개 이미지: https://images.machugi.io/6e6d95ef-0cac-4652-bca5-933d10942f86.jpeg | 추가 출처 원문: 이거 방탄유리야. (아저씨) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#9",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-8b28330b-7312-4733-b538-9e79956f2fdf",
@@ -589,15 +589,15 @@
     "title": "친절한 금자씨",
     "category": "국내 영화",
     "year": "",
-    "answer": "너나 잘 하세요",
+    "answer": "너나 잘하세요.",
     "hint": "",
     "image": "./uploads/moviequotes-b6a088e3d08b080b6d16e19e.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ab6adc21-a599-4baa-bf28-942b7565121f | 정답 공개 이미지: https://images.machugi.io/12590bfd-1a10-4c56-9367-c649ab5aca0d | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/cf6f65db-ba08-42e3-b6d8-abacc05366cc.jpeg | 정답 공개 이미지: https://images.machugi.io/4b1420a3-86dd-417a-9fea-1e08690450b7.jpeg | 추가 출처 원문: 너나 잘하세요. (친절한 금자씨)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ab6adc21-a599-4baa-bf28-942b7565121f | 정답 공개 이미지: https://images.machugi.io/12590bfd-1a10-4c56-9367-c649ab5aca0d | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/cf6f65db-ba08-42e3-b6d8-abacc05366cc.jpeg | 정답 공개 이미지: https://images.machugi.io/4b1420a3-86dd-417a-9fea-1e08690450b7.jpeg | 추가 출처 원문: 너나 잘하세요. (친절한 금자씨) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#37",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-57885f7a-d717-473b-9f17-8151187a7ec5",
@@ -769,15 +769,15 @@
     "title": "신세계",
     "category": "국내 영화",
     "year": "",
-    "answer": "거 죽기 딱 좋은 날씨네",
+    "answer": "거 죽기 딱 좋은 날씨네.",
     "hint": "",
     "image": "./uploads/machugi-7ccbdce7-603c-4a76-a3d9-9787fe2a007c.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/7ccbdce7-603c-4a76-a3d9-9787fe2a007c | 정답 공개 이미지: https://images.machugi.io/1a920dd6-5680-45b8-ba97-a31cdc4de163",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/7ccbdce7-603c-4a76-a3d9-9787fe2a007c | 정답 공개 이미지: https://images.machugi.io/1a920dd6-5680-45b8-ba97-a31cdc4de163 | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#15",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T14:38:39.990Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-2d888cbd-2ba9-4698-b9ab-9459483f3313",
@@ -904,45 +904,45 @@
     "title": "부당거래",
     "category": "국내 영화",
     "year": "",
-    "answer": "호의가 계속 되면, 그게 권리인 줄 알아요",
+    "answer": "호의가 계속되면 그게 권리 인줄 알아.",
     "hint": "",
     "image": "./uploads/moviequotes-2bd625de3a38edc8ba140d4e.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/fee5df0c-361a-4956-951f-eb5fe0a3d994 | 정답 공개 이미지: https://images.machugi.io/54eefdfb-4857-406c-a85a-2be3680080c9 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/ceca4212-92b3-4170-8a14-e4c6309300d2.jpeg | 정답 공개 이미지: https://images.machugi.io/5160fb7d-c8f6-408e-ac5c-21294e6daf1b.jpeg | 추가 출처 원문: 호의가 계속되면 그게 권리인 줄 알아요. (부당거래)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/fee5df0c-361a-4956-951f-eb5fe0a3d994 | 정답 공개 이미지: https://images.machugi.io/54eefdfb-4857-406c-a85a-2be3680080c9 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/ceca4212-92b3-4170-8a14-e4c6309300d2.jpeg | 정답 공개 이미지: https://images.machugi.io/5160fb7d-c8f6-408e-ac5c-21294e6daf1b.jpeg | 추가 출처 원문: 호의가 계속되면 그게 권리인 줄 알아요. (부당거래) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#12",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-1bedeccf-819a-41bb-b61e-23405acca313",
     "title": "친구",
     "category": "국내 영화",
     "year": "",
-    "answer": "아부지 뭐하시노",
+    "answer": "아부지 뭐하시노?",
     "hint": "",
     "image": "./uploads/moviequotes-a502917c1373004c8b32d6e0.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/b6e49e43-258a-4fc1-8b0b-57f6742775ae | 정답 공개 이미지: https://images.machugi.io/1bedeccf-819a-41bb-b61e-23405acca313 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/5ac6c211-7313-42cc-a2ad-cf9efac221b8.jpeg | 정답 공개 이미지: https://images.machugi.io/0da2671f-9eb5-4851-b7d4-478b55cd8875.jpeg | 추가 출처 원문: 느그 아부지 뭐하시노? (친구)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/b6e49e43-258a-4fc1-8b0b-57f6742775ae | 정답 공개 이미지: https://images.machugi.io/1bedeccf-819a-41bb-b61e-23405acca313 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/5ac6c211-7313-42cc-a2ad-cf9efac221b8.jpeg | 정답 공개 이미지: https://images.machugi.io/0da2671f-9eb5-4851-b7d4-478b55cd8875.jpeg | 추가 출처 원문: 느그 아부지 뭐하시노? (친구) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#38",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-936bd53e-9223-4766-a703-7d7320e63e79",
     "title": "곡성",
     "category": "국내 영화",
     "year": "",
-    "answer": "뭣이 중헌디",
+    "answer": "뭣이 중헌디?",
     "hint": "",
     "image": "./uploads/moviequotes-6e01afcf58b45e15b579e985.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/bec6c96c-d49e-40dd-b41e-481287fa9d23 | 정답 공개 이미지: https://images.machugi.io/936bd53e-9223-4766-a703-7d7320e63e79 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/0dd54953-ce33-4346-969f-302fb68d0b5b.jpeg | 정답 공개 이미지: https://images.machugi.io/6b45928c-1e62-4053-a552-f227426523e2.jpeg | 추가 출처 원문: 뭣이 중헌디? (곡성)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/bec6c96c-d49e-40dd-b41e-481287fa9d23 | 정답 공개 이미지: https://images.machugi.io/936bd53e-9223-4766-a703-7d7320e63e79 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/0dd54953-ce33-4346-969f-302fb68d0b5b.jpeg | 정답 공개 이미지: https://images.machugi.io/6b45928c-1e62-4053-a552-f227426523e2.jpeg | 추가 출처 원문: 뭣이 중헌디? (곡성) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#21",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-e7b1dfbf-31a9-48cd-a0f8-5d6ad217c723",
@@ -979,15 +979,15 @@
     "title": "내부자들",
     "category": "국내 영화",
     "year": "",
-    "answer": "어차피 대중들은 개돼지입니다.",
+    "answer": "어차피 대중들은 개, 돼지입니다.",
     "hint": "",
     "image": "./uploads/moviequotes-d2c2c6e4702c3211356f5f0d.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/97b89369-9a25-4289-8f1c-03435154dfbc | 정답 공개 이미지: https://images.machugi.io/13689275-2c02-49aa-93ab-b077e1613ca5 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/25cc7350-5fa4-427a-8092-6115a99efb38.jpeg | 정답 공개 이미지: https://images.machugi.io/b29b0374-52a0-4c76-bd33-f4c318f507bf.jpeg | 추가 출처 원문: 어차피 대중들은 개돼지입니다. (내부자들)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/97b89369-9a25-4289-8f1c-03435154dfbc | 정답 공개 이미지: https://images.machugi.io/13689275-2c02-49aa-93ab-b077e1613ca5 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/25cc7350-5fa4-427a-8092-6115a99efb38.jpeg | 정답 공개 이미지: https://images.machugi.io/b29b0374-52a0-4c76-bd33-f4c318f507bf.jpeg | 추가 출처 원문: 어차피 대중들은 개돼지입니다. (내부자들) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#27",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-b322733f-d0c4-4c79-b029-d3dff59286bc",
@@ -1042,27 +1042,27 @@
     "answer": "어찌, 내가 왕이 될 상인가?",
     "hint": "",
     "image": "./uploads/moviequotes-da73532d6bb611b99f51922c.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/6919f961-9e16-4742-b740-9e911e57f051 | 정답 공개 이미지: https://images.machugi.io/c9b13554-722b-45e5-b8c0-898568664ab5 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/696818d8-da5b-46e5-88a5-8f3229c6992d.jpeg | 정답 공개 이미지: https://images.machugi.io/b304cdae-bf17-4e3b-a3fa-5bf968344189.jpeg | 추가 출처 원문: 관상가 양반, 내가 왕이 될 상인가? (관상)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/6919f961-9e16-4742-b740-9e911e57f051 | 정답 공개 이미지: https://images.machugi.io/c9b13554-722b-45e5-b8c0-898568664ab5 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/696818d8-da5b-46e5-88a5-8f3229c6992d.jpeg | 정답 공개 이미지: https://images.machugi.io/b304cdae-bf17-4e3b-a3fa-5bf968344189.jpeg | 추가 출처 원문: 관상가 양반, 내가 왕이 될 상인가? (관상) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#25",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-dc4aca14-858b-4af7-bf84-54f14f8dbc67",
     "title": "살인의 추억",
     "category": "국내 영화",
     "year": "",
-    "answer": "밥은 먹고 다니냐?",
+    "answer": "밥은 먹고 다니냐.",
     "hint": "",
     "image": "./uploads/moviequotes-a95dabecbfba7b6e810cd13d.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/b31c66cc-71fa-4a9a-bb4e-97373735a5f5 | 정답 공개 이미지: https://images.machugi.io/dc4aca14-858b-4af7-bf84-54f14f8dbc67 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7c4073a6-5fb9-4b0b-9cef-039ae6c72f41.jpeg | 정답 공개 이미지: https://images.machugi.io/25cb39df-c834-4cf2-a4c8-4d39f610cf8d.jpeg | 추가 출처 원문: 밥은 먹고 다니냐? (살인의 추억)",
+    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/b31c66cc-71fa-4a9a-bb4e-97373735a5f5 | 정답 공개 이미지: https://images.machugi.io/dc4aca14-858b-4af7-bf84-54f14f8dbc67 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7c4073a6-5fb9-4b0b-9cef-039ae6c72f41.jpeg | 정답 공개 이미지: https://images.machugi.io/25cb39df-c834-4cf2-a4c8-4d39f610cf8d.jpeg | 추가 출처 원문: 밥은 먹고 다니냐? (살인의 추억) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#36",
     "enabled": true,
     "demo": false,
-    "version": 2,
+    "version": 3,
     "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-57e5148b-6794-4bc5-a3c8-6c9b34169104",
@@ -1549,15 +1549,15 @@
     "title": "서울의 봄",
     "category": "국내 영화",
     "year": "",
-    "answer": "실패하면 반역, 성공하면 혁명 아닙니까?",
+    "answer": "실패하면 반역, 성공하면 혁명 아닙니까!",
     "hint": "",
     "image": "./uploads/moviequotes-7ba2925279b2666c642fd672.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/197a066e-25b4-435c-9a40-0f91e7b0b39b.jpeg | 정답 공개 이미지: https://images.machugi.io/eb7277f6-0ad3-4553-b91d-53bc7d90b771.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/197a066e-25b4-435c-9a40-0f91e7b0b39b.jpeg | 정답 공개 이미지: https://images.machugi.io/eb7277f6-0ad3-4553-b91d-53bc7d90b771.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#5",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-o43-c3238240ffd2d519cc457391",
@@ -1579,15 +1579,15 @@
     "title": "엑시트",
     "category": "국내 영화",
     "year": "",
-    "answer": "따따따- 따-따-따- 따따따",
+    "answer": "따따따 따 따 따 따따따",
     "hint": "",
     "image": "./uploads/moviequotes-a510eefa45dcdadd5761044e.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/81650b7b-bd84-42ce-b5d4-b6598944c389.jpeg | 정답 공개 이미지: https://images.machugi.io/0834a120-2598-43f9-ac25-33a91302a337.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/81650b7b-bd84-42ce-b5d4-b6598944c389.jpeg | 정답 공개 이미지: https://images.machugi.io/0834a120-2598-43f9-ac25-33a91302a337.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#43",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-o43-5f6f7661f23e5119503234bf",
@@ -1717,42 +1717,42 @@
     "answer": "진실의 방으로.",
     "hint": "",
     "image": "./uploads/moviequotes-48c86de66f6060f6f38d912c.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/3dc87da7-2e46-4f53-9e34-f9c96ac1f23f.jpeg | 정답 공개 이미지: https://images.machugi.io/bbc5f64b-7524-49c7-9cfe-1e2afb388eab.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/3dc87da7-2e46-4f53-9e34-f9c96ac1f23f.jpeg | 정답 공개 이미지: https://images.machugi.io/bbc5f64b-7524-49c7-9cfe-1e2afb388eab.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#14",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-o43-ef10a6823ef250f7b39fa266",
     "title": "반지의 제왕",
     "category": "해외 영화",
     "year": "",
-    "answer": "마이 프레셔스...",
+    "answer": "내... 보물!\nMY... PRECIOUS!",
     "hint": "",
     "image": "./uploads/moviequotes-ef10a6823ef250f7b39fa266.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/84bec6e7-b51a-45e5-b0e9-43c8645d7cd8.jpeg | 정답 공개 이미지: https://images.machugi.io/97545945-766d-4623-8675-a66d3d2f5583.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/84bec6e7-b51a-45e5-b0e9-43c8645d7cd8.jpeg | 정답 공개 이미지: https://images.machugi.io/97545945-766d-4623-8675-a66d3d2f5583.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#33",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-o43-906e89b70e3819b96ddc3be5",
     "title": "아이언맨",
     "category": "해외 영화",
     "year": "",
-    "answer": "아임 아이언맨.",
+    "answer": "나는 아이언맨이다.\nI am Iron Man.",
     "hint": "",
     "image": "./uploads/moviequotes-906e89b70e3819b96ddc3be5.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f7b0dbd9-8330-44d5-9779-236b2db81df6.jpeg | 정답 공개 이미지: https://images.machugi.io/d318a86c-29a0-4a24-8ea2-cad8a3186765.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f7b0dbd9-8330-44d5-9779-236b2db81df6.jpeg | 정답 공개 이미지: https://images.machugi.io/d318a86c-29a0-4a24-8ea2-cad8a3186765.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#31",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-o43-0bb4dec7621339df379ea7f5",
@@ -1834,14 +1834,599 @@
     "title": "스타워즈",
     "category": "해외 영화",
     "year": "",
-    "answer": "아임 유어 파더.",
+    "answer": "내가 네 아버지다.\nI, am your father.",
     "hint": "",
     "image": "./uploads/moviequotes-34a7043d44f646b2abf69b4f.jpg",
-    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/9939a695-84fa-4d60-b01b-54bdab5bba7e.jpeg | 정답 공개 이미지: https://images.machugi.io/11ce61d6-5624-4a6b-8582-0552b62c88ba.jpeg",
+    "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/9939a695-84fa-4d60-b01b-54bdab5bba7e.jpeg | 정답 공개 이미지: https://images.machugi.io/11ce61d6-5624-4a6b-8582-0552b62c88ba.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#29",
+    "enabled": true,
+    "demo": false,
+    "version": 2,
+    "createdAt": "2026-10-27T15:38:05.819Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-f05fccce-9aa4-450d-ac20-a667dd8a8168",
+    "title": "스파이더맨",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-95c200ac-188f-4c2f-8ce4-e1eb37428c05.webp",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#1",
     "enabled": true,
     "demo": false,
     "version": 1,
-    "createdAt": "2026-10-27T15:38:05.819Z",
-    "updatedAt": "2026-10-27T15:38:05.819Z"
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.22,
+        "y": 0.81,
+        "width": 0.58,
+        "height": 0.14
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-33655dd4-86d5-4729-84dd-ac8c04ba8f0d",
+    "title": "브레이브 하트",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "자유를!!!\nFreeeeeedooooooom!!!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-6459761e-a763-4893-83d5-66e12fdc6ec8.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#2",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.42,
+        "y": 0.83,
+        "width": 0.17,
+        "height": 0.12
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-7408303c-2a16-4e3f-80c0-edc71f52dd26",
+    "title": "조커",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "난 지금까지 내 인생이 비극인 줄 알았는데...\n알고 보니 ㅈ같은 코미디 더라고.\nI used to think that my life was a tragedy...\nbut now I realize, it's a f*cking comedy.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-36ddf79e-522f-408c-a63a-2a08c8412f3b.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#3",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-ec820d7e-3884-4101-831b-2bdfa1a1916c",
+    "title": "블랙 팬서",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "나이로비에서 온 친구들이에요.\n부자에요.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-42b68388-432f-4cc9-9875-684783783801.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#4",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-5b9a4655-d368-4572-a4da-5618f2666488",
+    "title": "쏘우",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "게임을 시작하지.\nLet the game begin",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-1d87fad3-94a1-44e1-b1e1-f603c0a17c57.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#6",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.18,
+        "y": 0.81,
+        "width": 0.68,
+        "height": 0.16
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-cb256c1e-e7a2-4cf9-800d-2a4c26d78097",
+    "title": "테이큰",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "꼭 찾아내서... 죽여버릴 것이다!\nI will find you... and I will kill you!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-bb47162d-3583-453c-bf99-c0a39a0e0e8c.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#7",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.3,
+        "y": 0.84,
+        "width": 0.41,
+        "height": 0.12
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-98394acb-a5cd-406d-9328-5bc0512a5a23",
+    "title": "어벤져스 인피니티 워",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "어머니...\nMotherfu...",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-a6c6431c-1f6f-4eda-9700-7bfb9650c2f0.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#8",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-e7e89007-75f9-40eb-b3b0-879804948f47",
+    "title": "기생충",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "리스뻭!!!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-3e02d68d-ba53-4a47-8abf-f32e6a612eb6.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#10",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.37,
+        "y": 0.81,
+        "width": 0.25,
+        "height": 0.15
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-b48c6880-bb34-40a3-8205-124158ed81c9",
+    "title": "타짜",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "사쿠라네!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-8d070c08-b476-431d-9165-a07b80d8f50f.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#11",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-c1da999a-a6df-4b46-8c7f-025d387b8c48",
+    "title": "해리포터",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "입 닥쳐, 말포이.\nShut up, Malfoy.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-a6a0a9d1-a94d-462d-9e90-ee07f6cc9f93.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#13",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-3d5d3687-1fa6-4a8e-aea6-d9043652022e",
+    "title": "이웃사람",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "차 빼 이ㅅㄲ야! 바뻐!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-9ef85187-a6a9-4b41-93d3-0d4d9569d9fe.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#16",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-69d897ba-0032-4489-b145-c0cb3fb785df",
+    "title": "인터스텔라",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "멈춰...!\nStay...!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-4cd5691e-8ef4-43f0-b3c2-42f204350426.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#17",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-d337cfc0-30be-4ff1-a0f9-1d6b4f2a7e44",
+    "title": "007",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "보드카 마티니, 젓지 말고 흔들어서.\nVodka martini, shaken, not stirred.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-ff6431ef-b731-48cf-9f68-f0c4ddc46d1b.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#18",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-3cd5f7c2-7f7c-41e6-8c09-c1bb085fc188",
+    "title": "더 배트맨",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "나는 복수다.\nI'm the vengeance.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-48c94f4e-43d1-4c90-9a64-9e95da98c209.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#19",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.36,
+        "y": 0.8,
+        "width": 0.28,
+        "height": 0.13
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-ced23c3c-ccce-488e-ba49-2a2020ec094b",
+    "title": "너의 이름은",
+    "category": "해외 애니메이션",
+    "year": "",
+    "answer": "키미노나마에와",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-7abc4db6-d7ca-4b38-9477-bcbf1fe2d3d6.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#20",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-f3e43ed6-1539-4e00-a3f5-b222b564e2c1",
+    "title": "트루먼 쇼",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "좋은 아침, 좋은 오후, 좋은 저녁, 좋은 밤 보내요.\nGood morning, good afternoon, good evening, and good night.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-c1670a41-1770-46f5-8ccb-bbceb59f8c8d.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#22",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-f934051a-fa49-4e61-b401-40c47df5571c",
+    "title": "오펜하이머",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "나는 이제 죽음이요, 세상의 파괴자가 되었도다.\nNow I am become Death, the destroyer of worlds.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-6aa53f83-0244-4356-a879-d3edcc1fe744.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#23",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-9bbba43a-6966-411a-a156-d2e2b647a849",
+    "title": "캡틴 아메리카",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "하루 종일 할 수도 있어.\nI Can Do This All Day.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-c0aece6d-5c35-46ef-9ae5-ae778d57441a.webp",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#24",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.2,
+        "y": 0.03,
+        "width": 0.61,
+        "height": 0.22
+      },
+      {
+        "x": 0.32,
+        "y": 0.76,
+        "width": 0.36,
+        "height": 0.21
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-0ad683d7-86eb-4ecf-8967-f9f50f0c4da3",
+    "title": "아드레날린 24",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "난 살아 있다구, 이 ㄴㄱㅁ ㅆㅂ랄것 들아!\nI'm alive! I'm alive!, Verona, you motherf*cker!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-a6c605bc-ca85-4067-bed9-2b6c969bc425.webp",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#28",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.24,
+        "y": 0.41,
+        "width": 0.5,
+        "height": 0.06
+      },
+      {
+        "x": 0.08,
+        "y": 0.915,
+        "width": 0.84,
+        "height": 0.065
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-61afffaf-fda3-4a86-b126-4f0327a4420b",
+    "title": "어벤져스",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "-부라더 다메요! 콰쾅ㅇ쾅콰오",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-9015cc16-b4fa-450b-8b17-2b377739eab4.webp",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#30",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.12,
+        "y": 0.28,
+        "width": 0.76,
+        "height": 0.05
+      },
+      {
+        "x": 0.15,
+        "y": 0.625,
+        "width": 0.72,
+        "height": 0.055
+      },
+      {
+        "x": 0.16,
+        "y": 0.885,
+        "width": 0.75,
+        "height": 0.105
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-ea304d06-67ed-461f-b0cf-448be652be2b",
+    "title": "명량",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "신에게는 아직 12척의 배가 남았습니다.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-89b11232-c51b-469a-91b3-ed3d404d5008.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#32",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-afdcee0f-abf0-4f61-ab5c-0883da469f57",
+    "title": "터미네이터 2 심판의 날",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "곧 돌아오겠다.\nI’ll be back.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-dbffb8db-5f02-473a-a7ed-20bd1726fa29.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#34",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-4a73d48b-4893-48d6-b35e-89c9c66dd467",
+    "title": "가디언즈 오브 갤럭시",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "나는 그루트다.\nI AM GROOT.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-4db1d0fa-31e0-4a52-8a19-7e521eeddbd0.webp",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#35",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-0870066f-96aa-4284-8c93-005fd712de2e",
+    "title": "그린 랜턴",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "아니다 이 악마야.\nNo evil...",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-adfc367b-df85-401f-8c78-7834f972428e.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#39",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.3,
+        "y": 0.78,
+        "width": 0.41,
+        "height": 0.16
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-449b8cef-6daf-4758-b77d-1e12d31b4401",
+    "title": "킹스맨 시크릿 에이전트",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "매너가 사람을 만든다.\nManners, Maketh, Man.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-64fe07cf-3085-40aa-b80d-db193e2dc397.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#41",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-78e17aa8-b648-44e8-8d68-308cce54d37f",
+    "title": "겨울왕국",
+    "category": "해외 애니메이션",
+    "year": "",
+    "answer": "다 잊어.\nLet it Go.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-8fab9d81-b412-4b4c-935b-0bf5646bbb89.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#42",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.29,
+        "y": 0.88,
+        "width": 0.43,
+        "height": 0.09
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-2ac33520-c7c0-4365-b1ca-0dbd1b0c01d0",
+    "title": "태극기 휘날리며",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "돌아와서... 구두 완성한다고 했잖아요...",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-6e12354a-ef06-4b10-97dd-3525675933be.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#45",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-1c0debf0-bc22-47ed-885a-0c03d6987e46",
+    "title": "택시운전사",
+    "category": "국내 영화",
+    "year": "",
+    "answer": "광주? 돈 워리, 돈 워리! 아이 베스트 드라이버",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-e50f115b-0d08-486a-b53f-5f47129a7079.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#46",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-b70c3619-e421-43d8-aefc-d0e403521057",
+    "title": "8 마일",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "꿈은 높은데 현실은 시궁창이야.\nLike when you gotta stop living up here and start living down here?",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-3cee8c19-92cd-4060-9651-7fb2038d085c.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#47",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z",
+    "imageMasks": [
+      {
+        "x": 0.32,
+        "y": 0.77,
+        "width": 0.37,
+        "height": 0.19
+      }
+    ]
+  },
+  {
+    "id": "machugi-83kb-e5e6e412-378b-4972-9b2b-f09ae5f46f16",
+    "title": "주술회전 0",
+    "category": "해외 애니메이션",
+    "year": "",
+    "answer": "무례하긴... '순애'야.",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-fc79d9d1-e072-4958-92ef-bd84a0588b15.jpeg",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#48",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
+  },
+  {
+    "id": "machugi-83kb-d902d640-dafe-47ff-8ee4-dc7a8ed9fb31",
+    "title": "샤이닝",
+    "category": "해외 영화",
+    "year": "",
+    "answer": "자니가 왔다!\nHere's Johnny!",
+    "hint": "",
+    "image": "./uploads/ocr-83kb-a7e1bb08-5ec3-46a9-9e07-39d14677e47b.png",
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#49",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   }
 ]

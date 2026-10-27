@@ -1,0 +1,1049 @@
+{
+  "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr",
+  "sourceTitle": "[일주일] 영화 대사 보고 영화 맞추기",
+  "importedAt": "2026-10-27T23:09:09.056Z",
+  "sourceCount": 50,
+  "added": 31,
+  "merged": 19,
+  "method": "대사 이미지 OCR 후 50개 전부 원본과 육안 대조. 원문의 검열·줄바꿈·한영 표기를 보존. 중복은 기존 ID·자막 없는 장면을 유지.",
+  "questions": [
+    {
+      "number": 1,
+      "sourceTitle": "스파이더맨",
+      "ocrRaw": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility.",
+      "transcription": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/f05fccce-9aa4-450d-ac20-a667dd8a8168.png",
+        "asset": "./uploads/ocr-83kb-f05fccce-9aa4-450d-ac20-a667dd8a8168.png",
+        "sha256": "7e0841edefe97a3d06e085e5f25aafae7c3b3449cc95c17644bf46e5a0255dc6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/95c200ac-188f-4c2f-8ce4-e1eb37428c05.webp",
+        "asset": "./uploads/ocr-83kb-95c200ac-188f-4c2f-8ce4-e1eb37428c05.webp",
+        "sha256": "8fd54986cee6658621b1d8cba1c18dc865fe1bff9e19d434298d0fdabee5e110"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-f05fccce-9aa4-450d-ac20-a667dd8a8168",
+      "targetTitle": "스파이더맨"
+    },
+    {
+      "number": 2,
+      "sourceTitle": "브레이브 하트",
+      "ocrRaw": "자 으르11]\n“TT wat eee\nFreeeeeedooooooom!!!",
+      "transcription": "자유를!!!\nFreeeeeedooooooom!!!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/33655dd4-86d5-4729-84dd-ac8c04ba8f0d.png",
+        "asset": "./uploads/ocr-83kb-33655dd4-86d5-4729-84dd-ac8c04ba8f0d.png",
+        "sha256": "0c120706ec84e8af852caa373345e87fd11b4652196dc48dad79c3dca7cc2ada"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6459761e-a763-4893-83d5-66e12fdc6ec8.png",
+        "asset": "./uploads/ocr-83kb-6459761e-a763-4893-83d5-66e12fdc6ec8.png",
+        "sha256": "ab33082180e77cb7a6a22feb7e32d2cb7e07d34fde9c3bae2ec996b0f5a41a09"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-33655dd4-86d5-4729-84dd-ac8c04ba8f0d",
+      "targetTitle": "브레이브 하트"
+    },
+    {
+      "number": 3,
+      "sourceTitle": "조커",
+      "ocrRaw": "ct 지금까지 내 인생이 비극인 줄 알았는데.…\n알고 보니 ×같은 코미디 더라고.\n\n| used to think that my life was a tragedy...\nbut now I realize, it's a f*cking comedy.",
+      "transcription": "난 지금까지 내 인생이 비극인 줄 알았는데...\n알고 보니 ㅈ같은 코미디 더라고.\nI used to think that my life was a tragedy...\nbut now I realize, it's a f*cking comedy.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/7408303c-2a16-4e3f-80c0-edc71f52dd26.png",
+        "asset": "./uploads/ocr-83kb-7408303c-2a16-4e3f-80c0-edc71f52dd26.png",
+        "sha256": "92db323a47ebf991a2ec4677f1d9f856df91d2d75ca63337325545826edf4063"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/36ddf79e-522f-408c-a63a-2a08c8412f3b.jpeg",
+        "asset": "./uploads/ocr-83kb-36ddf79e-522f-408c-a63a-2a08c8412f3b.jpeg",
+        "sha256": "18c55f161c0c4a867bf7f56fb9665f548e6f581cb092707f8ae5c0bd24e6d086"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-7408303c-2a16-4e3f-80c0-edc71f52dd26",
+      "targetTitle": "조커"
+    },
+    {
+      "number": 4,
+      "sourceTitle": "블랙 팬서",
+      "ocrRaw": "나이로비에서 온 친구들이에요.\n부자에요.",
+      "transcription": "나이로비에서 온 친구들이에요.\n부자에요.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/ec820d7e-3884-4101-831b-2bdfa1a1916c.png",
+        "asset": "./uploads/ocr-83kb-ec820d7e-3884-4101-831b-2bdfa1a1916c.png",
+        "sha256": "1b1c555af3d9d56456b811776efe6a765db3bb6522e063abf831f4bfafab87a1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/42b68388-432f-4cc9-9875-684783783801.png",
+        "asset": "./uploads/ocr-83kb-42b68388-432f-4cc9-9875-684783783801.png",
+        "sha256": "01458d2a320001a9c78facd31b8ffb7eec395baef5e2fe03903b5b6ba228cb49"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-ec820d7e-3884-4101-831b-2bdfa1a1916c",
+      "targetTitle": "블랙 팬서"
+    },
+    {
+      "number": 5,
+      "sourceTitle": "서울의 봄",
+      "ocrRaw": "실패하면 반역, 성공하면 혁명 아입니까!",
+      "transcription": "실패하면 반역, 성공하면 혁명 아닙니까!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/f185f844-69f1-408a-977d-4612de56304e.png",
+        "asset": "./uploads/ocr-83kb-f185f844-69f1-408a-977d-4612de56304e.png",
+        "sha256": "f6c081d33cbc4c9b225eaf360df68fe14c4cf4073c421b23abe16b2ae840d1e7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7ea29ce8-cba7-4082-8886-a18ec8598d88.jpeg",
+        "asset": "./uploads/ocr-83kb-7ea29ce8-cba7-4082-8886-a18ec8598d88.jpeg",
+        "sha256": "725a07a014f04c88d45ec14618f6dea3c1a7eb197714ec4bcdef4326134d1b83"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-7ba2925279b2666c642fd672",
+      "previousAnswer": "실패하면 반역, 성공하면 혁명 아닙니까?",
+      "retainedImage": "./uploads/moviequotes-7ba2925279b2666c642fd672.jpg",
+      "targetTitle": "서울의 봄"
+    },
+    {
+      "number": 6,
+      "sourceTitle": "쏘우",
+      "ocrRaw": "게임을 시작하지.\nLet the game begin",
+      "transcription": "게임을 시작하지.\nLet the game begin",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/5b9a4655-d368-4572-a4da-5618f2666488.png",
+        "asset": "./uploads/ocr-83kb-5b9a4655-d368-4572-a4da-5618f2666488.png",
+        "sha256": "557afbc13d8fad26e9391a72df44bb59aa1ded6874dd5b95f7c62e1efd7fce7a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1d87fad3-94a1-44e1-b1e1-f603c0a17c57.jpeg",
+        "asset": "./uploads/ocr-83kb-1d87fad3-94a1-44e1-b1e1-f603c0a17c57.jpeg",
+        "sha256": "aa7086ef38c050140e0491b5028e44b91a4ad73d3049f5792978d8bba470db81"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-5b9a4655-d368-4572-a4da-5618f2666488",
+      "targetTitle": "쏘우"
+    },
+    {
+      "number": 7,
+      "sourceTitle": "테이큰",
+      "ocrRaw": "꼭 찾아내서.… 죽여버릴 것이다!\n| will find you... and | will kill you!",
+      "transcription": "꼭 찾아내서... 죽여버릴 것이다!\nI will find you... and I will kill you!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/cb256c1e-e7a2-4cf9-800d-2a4c26d78097.png",
+        "asset": "./uploads/ocr-83kb-cb256c1e-e7a2-4cf9-800d-2a4c26d78097.png",
+        "sha256": "7dc09203d52256fa6b3d65ff304e095b1a7949f3e7cbf4d648a5bb59ea8d67d6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/bb47162d-3583-453c-bf99-c0a39a0e0e8c.png",
+        "asset": "./uploads/ocr-83kb-bb47162d-3583-453c-bf99-c0a39a0e0e8c.png",
+        "sha256": "868b8160a1b66915b9d96442bbfcd17a3598ba19c6baea3f23dc9862840adbf8"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-cb256c1e-e7a2-4cf9-800d-2a4c26d78097",
+      "targetTitle": "테이큰"
+    },
+    {
+      "number": 8,
+      "sourceTitle": "어벤져스 인피니티 워 (밈,드립)",
+      "ocrRaw": "어머니.\nMotherfu...",
+      "transcription": "어머니...\nMotherfu...",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/98394acb-a5cd-406d-9328-5bc0512a5a23.png",
+        "asset": "./uploads/ocr-83kb-98394acb-a5cd-406d-9328-5bc0512a5a23.png",
+        "sha256": "feba231687353dc4d60d4042bd48797d0d88409053fded611396d175aef45caf"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a6c6431c-1f6f-4eda-9700-7bfb9650c2f0.jpeg",
+        "asset": "./uploads/ocr-83kb-a6c6431c-1f6f-4eda-9700-7bfb9650c2f0.jpeg",
+        "sha256": "b1fbc5ef7fd24c27ab6812664c031784208f22878789a632b85c7808e15ea457"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-98394acb-a5cd-406d-9328-5bc0512a5a23",
+      "targetTitle": "어벤져스 인피니티 워"
+    },
+    {
+      "number": 9,
+      "sourceTitle": "아저씨",
+      "ocrRaw": "이거 방탄유리야, 이 a» 1 OF!",
+      "transcription": "이거 방탄유리야, 이 ㄱㅅㄲ야!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/67f511af-ecc5-4bbc-888b-08a20372456b.png",
+        "asset": "./uploads/ocr-83kb-67f511af-ecc5-4bbc-888b-08a20372456b.png",
+        "sha256": "644993f872dc3bcf85a7272d2eb2e6c54aee734578d61a6d90ac757a32e82ef9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/da518df4-aecb-4612-9b41-bafc3d059970.jpeg",
+        "asset": "./uploads/ocr-83kb-da518df4-aecb-4612-9b41-bafc3d059970.jpeg",
+        "sha256": "d11085e0bef63e928eb968e56e23ae1486fa1f47a52195cbc655387153bcc0a6"
+      },
+      "action": "merged",
+      "questionId": "machugi-a72ac46c-dd79-417e-89df-0d930263aaa9",
+      "previousAnswer": "이거 방탄유리야 이 개새끼야!",
+      "retainedImage": "./uploads/moviequotes-5722366cf8f935815c4b9441.jpg",
+      "targetTitle": "아저씨"
+    },
+    {
+      "number": 10,
+      "sourceTitle": "기생충",
+      "ocrRaw": "o| A",
+      "transcription": "리스뻭!!!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/e7e89007-75f9-40eb-b3b0-879804948f47.png",
+        "asset": "./uploads/ocr-83kb-e7e89007-75f9-40eb-b3b0-879804948f47.png",
+        "sha256": "2b456d0066259c326a7870fb1fc666f8ad4d032f99d4483a622927b81a67135f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3e02d68d-ba53-4a47-8abf-f32e6a612eb6.png",
+        "asset": "./uploads/ocr-83kb-3e02d68d-ba53-4a47-8abf-f32e6a612eb6.png",
+        "sha256": "d6681bf436ecb979a8001a87d6b5f5ca305b88932c12a556a6bafefe56365e27"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-e7e89007-75f9-40eb-b3b0-879804948f47",
+      "targetTitle": "기생충"
+    },
+    {
+      "number": 11,
+      "sourceTitle": "타짜",
+      "ocrRaw": "사쿠라네!",
+      "transcription": "사쿠라네!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/b48c6880-bb34-40a3-8205-124158ed81c9.png",
+        "asset": "./uploads/ocr-83kb-b48c6880-bb34-40a3-8205-124158ed81c9.png",
+        "sha256": "f1509f95393d09b59e2b248baf170f7d788409f693f21c0e5c77a2f5b6c99555"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8d070c08-b476-431d-9165-a07b80d8f50f.jpeg",
+        "asset": "./uploads/ocr-83kb-8d070c08-b476-431d-9165-a07b80d8f50f.jpeg",
+        "sha256": "33cbcfd7c07a34fbd38395f8aa3b671f16bb49ac7e73f44da83080f4137ae18e"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-b48c6880-bb34-40a3-8205-124158ed81c9",
+      "targetTitle": "타짜"
+    },
+    {
+      "number": 12,
+      "sourceTitle": "부당거래",
+      "ocrRaw": "호의가 계속되면 그게 권리 인줄 알아.",
+      "transcription": "호의가 계속되면 그게 권리 인줄 알아.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/582c7604-03e3-43fd-91f1-3a48b392ae79.png",
+        "asset": "./uploads/ocr-83kb-582c7604-03e3-43fd-91f1-3a48b392ae79.png",
+        "sha256": "bfd34f33ae59666fc9ba845c6c7fc886e5d1cc0e8ad347a1195b8a59187f18a3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c30d673e-7758-427f-9660-d73c58b55472.jpeg",
+        "asset": "./uploads/ocr-83kb-c30d673e-7758-427f-9660-d73c58b55472.jpeg",
+        "sha256": "d60881cc354be9076125b8b6ada685cab10bc6a8c8e58de402d5aeae63b2d8ca"
+      },
+      "action": "merged",
+      "questionId": "machugi-54eefdfb-4857-406c-a85a-2be3680080c9",
+      "previousAnswer": "호의가 계속 되면, 그게 권리인 줄 알아요",
+      "retainedImage": "./uploads/moviequotes-2bd625de3a38edc8ba140d4e.jpg",
+      "targetTitle": "부당거래"
+    },
+    {
+      "number": 13,
+      "sourceTitle": "해리포터",
+      "ocrRaw": "입 닥쳐, 말포이.\nShut up, Malfoy.",
+      "transcription": "입 닥쳐, 말포이.\nShut up, Malfoy.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/c1da999a-a6df-4b46-8c7f-025d387b8c48.png",
+        "asset": "./uploads/ocr-83kb-c1da999a-a6df-4b46-8c7f-025d387b8c48.png",
+        "sha256": "cf5964174da6042d3553ca2b49a374f9ef5e0568d36b8668645a9a1ed2b31765"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a6a0a9d1-a94d-462d-9e90-ee07f6cc9f93.png",
+        "asset": "./uploads/ocr-83kb-a6a0a9d1-a94d-462d-9e90-ee07f6cc9f93.png",
+        "sha256": "ab78b59c3a0b4ddeff5fbfda58a7491d70a8ea805aef76627e7c5c5dbdb9a3a5"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-c1da999a-a6df-4b46-8c7f-025d387b8c48",
+      "targetTitle": "해리포터"
+    },
+    {
+      "number": 14,
+      "sourceTitle": "범죄도시",
+      "ocrRaw": "진실의 방으로.",
+      "transcription": "진실의 방으로.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/9992fb35-b02c-44c0-a33d-3c1951274489.png",
+        "asset": "./uploads/ocr-83kb-9992fb35-b02c-44c0-a33d-3c1951274489.png",
+        "sha256": "0f772efa3ee078fa3ea0f4d3e7419936741c9fbeddc42f3a20dd49084cee46f6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/bbdf2ae8-d457-41f3-81cb-774447c858c3.jpeg",
+        "asset": "./uploads/ocr-83kb-bbdf2ae8-d457-41f3-81cb-774447c858c3.jpeg",
+        "sha256": "af78dede34967846fd21db1588df8cf40a8077df9b558974cff62b93fb7c9a7e"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-48c86de66f6060f6f38d912c",
+      "previousAnswer": "진실의 방으로.",
+      "retainedImage": "./uploads/moviequotes-48c86de66f6060f6f38d912c.jpg",
+      "targetTitle": "범죄도시"
+    },
+    {
+      "number": 15,
+      "sourceTitle": "신세계",
+      "ocrRaw": "거 죽기 딱 좋은 날씨네.",
+      "transcription": "거 죽기 딱 좋은 날씨네.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/e9fb8f97-8a75-4f49-a5a7-38c05b862d8a.png",
+        "asset": "./uploads/ocr-83kb-e9fb8f97-8a75-4f49-a5a7-38c05b862d8a.png",
+        "sha256": "cc2fde9fc94c34952f2cc8b54d068abc1de3162fe2fcc66a5dfb7bf62d3086b4"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/e33d3743-c425-45e7-b5cd-8c17ff5ddaba.jpeg",
+        "asset": "./uploads/ocr-83kb-e33d3743-c425-45e7-b5cd-8c17ff5ddaba.jpeg",
+        "sha256": "29601e516ab7f1b83f9f8b399a951bf59fbc15b565f6e05b9f9f024de2f93f18"
+      },
+      "action": "merged",
+      "questionId": "machugi-1a920dd6-5680-45b8-ba97-a31cdc4de163",
+      "previousAnswer": "거 죽기 딱 좋은 날씨네",
+      "retainedImage": "./uploads/machugi-7ccbdce7-603c-4a76-a3d9-9787fe2a007c.jpg",
+      "targetTitle": "신세계"
+    },
+    {
+      "number": 16,
+      "sourceTitle": "이웃사람",
+      "ocrRaw": "차 빼 이ㅅ7야! 바뻐!",
+      "transcription": "차 빼 이ㅅㄲ야! 바뻐!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/3d5d3687-1fa6-4a8e-aea6-d9043652022e.png",
+        "asset": "./uploads/ocr-83kb-3d5d3687-1fa6-4a8e-aea6-d9043652022e.png",
+        "sha256": "a89cc22cad51d2d7a62233cfa3556c9ae43ba124d16a6a63cccc9b3729f6bd39"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9ef85187-a6a9-4b41-93d3-0d4d9569d9fe.jpeg",
+        "asset": "./uploads/ocr-83kb-9ef85187-a6a9-4b41-93d3-0d4d9569d9fe.jpeg",
+        "sha256": "91fdd9d3e30537a297d87892b948ebf752c25fb1cc03608b178b431c5685a5b7"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-3d5d3687-1fa6-4a8e-aea6-d9043652022e",
+      "targetTitle": "이웃사람"
+    },
+    {
+      "number": 17,
+      "sourceTitle": "인터스텔라",
+      "ocrRaw": "멈춰.\nStay...!",
+      "transcription": "멈춰...!\nStay...!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/69d897ba-0032-4489-b145-c0cb3fb785df.png",
+        "asset": "./uploads/ocr-83kb-69d897ba-0032-4489-b145-c0cb3fb785df.png",
+        "sha256": "9b024b849a5a0324223bcb486ea8a2d8ed3de3a2ef9fb797868442279d810bfb"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4cd5691e-8ef4-43f0-b3c2-42f204350426.jpeg",
+        "asset": "./uploads/ocr-83kb-4cd5691e-8ef4-43f0-b3c2-42f204350426.jpeg",
+        "sha256": "9c88b617d902d46fb54833b87fc878ad47014a2468ef34dca17be741845e17cb"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-69d897ba-0032-4489-b145-c0cb3fb785df",
+      "targetTitle": "인터스텔라"
+    },
+    {
+      "number": 18,
+      "sourceTitle": "007",
+      "ocrRaw": "보드카 마티니, AA] 말고 흔들어서.\nVodka martini, shaken, not stirred.",
+      "transcription": "보드카 마티니, 젓지 말고 흔들어서.\nVodka martini, shaken, not stirred.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/d337cfc0-30be-4ff1-a0f9-1d6b4f2a7e44.png",
+        "asset": "./uploads/ocr-83kb-d337cfc0-30be-4ff1-a0f9-1d6b4f2a7e44.png",
+        "sha256": "43bdea6470eca942caba34428d85a72e84d78eb308746c928e75bc668470d6c7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ff6431ef-b731-48cf-9f68-f0c4ddc46d1b.jpeg",
+        "asset": "./uploads/ocr-83kb-ff6431ef-b731-48cf-9f68-f0c4ddc46d1b.jpeg",
+        "sha256": "81eafd4fc8279d6a0d425acf17b7f0a735f2e81782be2e298269701c767e7c31"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-d337cfc0-30be-4ff1-a0f9-1d6b4f2a7e44",
+      "targetTitle": "007"
+    },
+    {
+      "number": 19,
+      "sourceTitle": "더 배트맨",
+      "ocrRaw": "LW.       A.\nI'm the vengeance.",
+      "transcription": "나는 복수다.\nI'm the vengeance.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/3cd5f7c2-7f7c-41e6-8c09-c1bb085fc188.png",
+        "asset": "./uploads/ocr-83kb-3cd5f7c2-7f7c-41e6-8c09-c1bb085fc188.png",
+        "sha256": "99d3bf8a62aa5c3de6281e8d07b4504dca710203b8f0a38e4d855983948a9255"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/48c94f4e-43d1-4c90-9a64-9e95da98c209.jpeg",
+        "asset": "./uploads/ocr-83kb-48c94f4e-43d1-4c90-9a64-9e95da98c209.jpeg",
+        "sha256": "580aac211b1c64db497da6179d917eb1b2949b58b84fb4ccd39a3b45b2364130"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-3cd5f7c2-7f7c-41e6-8c09-c1bb085fc188",
+      "targetTitle": "더 배트맨"
+    },
+    {
+      "number": 20,
+      "sourceTitle": "너의 이름은",
+      "ocrRaw": "키미노나마에와",
+      "transcription": "키미노나마에와",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/ced23c3c-ccce-488e-ba49-2a2020ec094b.png",
+        "asset": "./uploads/ocr-83kb-ced23c3c-ccce-488e-ba49-2a2020ec094b.png",
+        "sha256": "ffcc16fe3fbaed0c941398e76d049f3b1860ed123a02338968bf9787e03051f4"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7abc4db6-d7ca-4b38-9477-bcbf1fe2d3d6.png",
+        "asset": "./uploads/ocr-83kb-7abc4db6-d7ca-4b38-9477-bcbf1fe2d3d6.png",
+        "sha256": "37cb610efef3f73318bb228fe4f5260a1d2592659ba6c7a74a045b46aa953085"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-ced23c3c-ccce-488e-ba49-2a2020ec094b",
+      "targetTitle": "너의 이름은"
+    },
+    {
+      "number": 21,
+      "sourceTitle": "곡성",
+      "ocrRaw": "Ol 중헌디?",
+      "transcription": "뭣이 중헌디?",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/641d824e-3f2f-4f21-a9e6-996832474c5a.png",
+        "asset": "./uploads/ocr-83kb-641d824e-3f2f-4f21-a9e6-996832474c5a.png",
+        "sha256": "cb98d551bbd39f32fe4b13300836c6fa7905b6314874a96f7c69da80550fee9d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/be8def48-4c56-4118-9f3f-a8ba5e773d5f.jpeg",
+        "asset": "./uploads/ocr-83kb-be8def48-4c56-4118-9f3f-a8ba5e773d5f.jpeg",
+        "sha256": "4510856d6a4c9862b505ecd724139f29987a0abd1e638337bdb9db3a3a726c93"
+      },
+      "action": "merged",
+      "questionId": "machugi-936bd53e-9223-4766-a703-7d7320e63e79",
+      "previousAnswer": "뭣이 중헌디",
+      "retainedImage": "./uploads/moviequotes-6e01afcf58b45e15b579e985.jpg",
+      "targetTitle": "곡성"
+    },
+    {
+      "number": 22,
+      "sourceTitle": "트루먼 쇼",
+      "ocrRaw": "좋은 아침, 좋은 오후, 좋은 저녁, 좋은 밤 보내요.\nGood morning, good afternoon, good evening, and good night.",
+      "transcription": "좋은 아침, 좋은 오후, 좋은 저녁, 좋은 밤 보내요.\nGood morning, good afternoon, good evening, and good night.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/f3e43ed6-1539-4e00-a3f5-b222b564e2c1.png",
+        "asset": "./uploads/ocr-83kb-f3e43ed6-1539-4e00-a3f5-b222b564e2c1.png",
+        "sha256": "51750b7db52a46267b101bbfef9ca8325aeb80bf8834dcb38122c2653ef9d12c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c1670a41-1770-46f5-8ccb-bbceb59f8c8d.jpeg",
+        "asset": "./uploads/ocr-83kb-c1670a41-1770-46f5-8ccb-bbceb59f8c8d.jpeg",
+        "sha256": "9dd107eeb4bf6ba8694518f1f0b95e2f47195c1f40fe6f5eee340d73ace557eb"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-f3e43ed6-1539-4e00-a3f5-b222b564e2c1",
+      "targetTitle": "트루먼 쇼"
+    },
+    {
+      "number": 23,
+      "sourceTitle": "오펜하이머",
+      "ocrRaw": "나는 이제 죽음이요, 세상의 파괴자가 되었도다.\nNow I am become Death, the destroyer of worlds.",
+      "transcription": "나는 이제 죽음이요, 세상의 파괴자가 되었도다.\nNow I am become Death, the destroyer of worlds.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/f934051a-fa49-4e61-b401-40c47df5571c.png",
+        "asset": "./uploads/ocr-83kb-f934051a-fa49-4e61-b401-40c47df5571c.png",
+        "sha256": "5841b588abc2a01a8e91922e4248dded8eb8ce9dbceac32191a91b27d8bb8022"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6aa53f83-0244-4356-a879-d3edcc1fe744.jpeg",
+        "asset": "./uploads/ocr-83kb-6aa53f83-0244-4356-a879-d3edcc1fe744.jpeg",
+        "sha256": "f1c2927373ac0341a57bbae7b6473b16752aac57ddf9aa09c1c89675c94ad128"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-f934051a-fa49-4e61-b401-40c47df5571c",
+      "targetTitle": "오펜하이머"
+    },
+    {
+      "number": 24,
+      "sourceTitle": "캡틴 아메리카",
+      "ocrRaw": "하루 종일 할 수도 있어.\n| Can Do This All Day.",
+      "transcription": "하루 종일 할 수도 있어.\nI Can Do This All Day.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/9bbba43a-6966-411a-a156-d2e2b647a849.png",
+        "asset": "./uploads/ocr-83kb-9bbba43a-6966-411a-a156-d2e2b647a849.png",
+        "sha256": "cfeffd51c845e30183973b16e98c7e11a180cfa4a40b4b6a976d9b57093779a4"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c0aece6d-5c35-46ef-9ae5-ae778d57441a.webp",
+        "asset": "./uploads/ocr-83kb-c0aece6d-5c35-46ef-9ae5-ae778d57441a.webp",
+        "sha256": "ba9477926287ff1a59e0be99ad4806e22ae2a2b90858461520f15af54c531896"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-9bbba43a-6966-411a-a156-d2e2b647a849",
+      "targetTitle": "캡틴 아메리카"
+    },
+    {
+      "number": 25,
+      "sourceTitle": "관상",
+      "ocrRaw": "어찌, 내가 왕이 될 상인가?",
+      "transcription": "어찌, 내가 왕이 될 상인가?",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/41c43f12-e5c7-4c0e-a1bc-368db393701a.png",
+        "asset": "./uploads/ocr-83kb-41c43f12-e5c7-4c0e-a1bc-368db393701a.png",
+        "sha256": "806ca816d4af487a4e4450ac3140b76f0a8d582cec3b0d3deb4b783c554f0d8c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/42361d0c-7d60-4f36-930f-8b79ed270d9d.jpeg",
+        "asset": "./uploads/ocr-83kb-42361d0c-7d60-4f36-930f-8b79ed270d9d.jpeg",
+        "sha256": "c83b6ec0426e7cb33ef0cde2918195b7c513910ccc3f5fad8c8e4e48c034d6dc"
+      },
+      "action": "merged",
+      "questionId": "machugi-c9b13554-722b-45e5-b8c0-898568664ab5",
+      "previousAnswer": "어찌, 내가 왕이 될 상인가?",
+      "retainedImage": "./uploads/moviequotes-da73532d6bb611b99f51922c.jpg",
+      "targetTitle": "관상"
+    },
+    {
+      "number": 26,
+      "sourceTitle": "베테랑",
+      "ocrRaw": "어이가 없네.",
+      "transcription": "어이가 없네.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/31d8f263-bfa8-4fba-a040-56067f13b494.png",
+        "asset": "./uploads/ocr-83kb-31d8f263-bfa8-4fba-a040-56067f13b494.png",
+        "sha256": "f84a8b6a620a4fec8e344dc6df9c80af768d92134f29c546755d3fa2e5104874"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ea8e1263-6d1e-4ae9-a886-4170ba827789.jpeg",
+        "asset": "./uploads/ocr-83kb-ea8e1263-6d1e-4ae9-a886-4170ba827789.jpeg",
+        "sha256": "7b19b9fc4dd014984876e8078366f3321215fa824c1ba61967ba2a47216c309a"
+      },
+      "action": "merged",
+      "questionId": "machugi-85839869-c68a-4548-8818-da5bb37cca9f",
+      "previousAnswer": "어이가 없네?",
+      "retainedImage": "./uploads/machugi-e731572c-f3d4-48e0-b028-129cd92bbb4c.jpg",
+      "targetTitle": "베테랑"
+    },
+    {
+      "number": 27,
+      "sourceTitle": "내부자들",
+      "ocrRaw": "어차피 대중들은 개, 돼지입니다.",
+      "transcription": "어차피 대중들은 개, 돼지입니다.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/62cbaadf-d383-43b5-932b-7ed3f09c154b.png",
+        "asset": "./uploads/ocr-83kb-62cbaadf-d383-43b5-932b-7ed3f09c154b.png",
+        "sha256": "976778e87d3e0a1eb0e12014d9f244200d3a994734e3e17ab32ed1d6cf3bf0e5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9befb4d9-34ea-450c-9c5c-cdb4eced2e15.png",
+        "asset": "./uploads/ocr-83kb-9befb4d9-34ea-450c-9c5c-cdb4eced2e15.png",
+        "sha256": "727e7856c2da1df9dd5a9fb154a30b274ef13ee4e37fc44eec0cd91153e13185"
+      },
+      "action": "merged",
+      "questionId": "machugi-13689275-2c02-49aa-93ab-b077e1613ca5",
+      "previousAnswer": "어차피 대중들은 개돼지입니다.",
+      "retainedImage": "./uploads/moviequotes-d2c2c6e4702c3211356f5f0d.jpg",
+      "targetTitle": "내부자들"
+    },
+    {
+      "number": 28,
+      "sourceTitle": "아드레날린 24 (밈,드립)",
+      "ocrRaw": "난 살아 있다구, 이 Lao me BA 들아!\nI'm alive! I'm alive!, Verona, you motherf*cker!",
+      "transcription": "난 살아 있다구, 이 ㄴㄱㅁ ㅆㅂ랄것 들아!\nI'm alive! I'm alive!, Verona, you motherf*cker!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/0ad683d7-86eb-4ecf-8967-f9f50f0c4da3.png",
+        "asset": "./uploads/ocr-83kb-0ad683d7-86eb-4ecf-8967-f9f50f0c4da3.png",
+        "sha256": "6bc25ab58908b01ca911b732384cef2aec116761c95d124b78ec58cacaeae9e2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a6c605bc-ca85-4067-bed9-2b6c969bc425.webp",
+        "asset": "./uploads/ocr-83kb-a6c605bc-ca85-4067-bed9-2b6c969bc425.webp",
+        "sha256": "8c10b156df7f1f90f7e649f742223f9441dc8d328bafa5a4f724cb5f31e5f3cb"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-0ad683d7-86eb-4ecf-8967-f9f50f0c4da3",
+      "targetTitle": "아드레날린 24"
+    },
+    {
+      "number": 29,
+      "sourceTitle": "스타워즈 제국의 역습",
+      "ocrRaw": "내가 네 아버지다.\n1, am your father.",
+      "transcription": "내가 네 아버지다.\nI, am your father.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/5ac85f41-0575-4531-8c20-540217b98345.png",
+        "asset": "./uploads/ocr-83kb-5ac85f41-0575-4531-8c20-540217b98345.png",
+        "sha256": "c642d73d64a133cf58090b18461ff908e7fc874055187278b673eedd72c4ae3f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a6c8c994-9005-4c86-97f6-5e5416d5a147.webp",
+        "asset": "./uploads/ocr-83kb-a6c8c994-9005-4c86-97f6-5e5416d5a147.webp",
+        "sha256": "d7fb8b57f8eb382115a34ced51883d88b4bd3966eba23743a701744a43f65aa6"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-34a7043d44f646b2abf69b4f",
+      "previousAnswer": "아임 유어 파더.",
+      "retainedImage": "./uploads/moviequotes-34a7043d44f646b2abf69b4f.jpg",
+      "targetTitle": "스타워즈"
+    },
+    {
+      "number": 30,
+      "sourceTitle": "어벤져스 (밈,드립)",
+      "ocrRaw": "-부라더 다메요! Bpsto Bato",
+      "transcription": "-부라더 다메요! 콰쾅ㅇ쾅콰오",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/61afffaf-fda3-4a86-b126-4f0327a4420b.png",
+        "asset": "./uploads/ocr-83kb-61afffaf-fda3-4a86-b126-4f0327a4420b.png",
+        "sha256": "68e3160ac7416f21b1ef7e005d3be5398b638b12cc845d69b5eaf560d6bf078e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9015cc16-b4fa-450b-8b17-2b377739eab4.webp",
+        "asset": "./uploads/ocr-83kb-9015cc16-b4fa-450b-8b17-2b377739eab4.webp",
+        "sha256": "f73116f2fab3eaae6cc2dde4c44f2b4f2dec1a59d2e6dde16dc0ab99442ed175"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-61afffaf-fda3-4a86-b126-4f0327a4420b",
+      "targetTitle": "어벤져스"
+    },
+    {
+      "number": 31,
+      "sourceTitle": "아이언맨 / 어벤져스 엔드게임",
+      "ocrRaw": "나는 아이언맨이다.\n| am Iron Man.",
+      "transcription": "나는 아이언맨이다.\nI am Iron Man.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/8ab08f38-f54c-4668-b07a-ed2fc0257f56.png",
+        "asset": "./uploads/ocr-83kb-8ab08f38-f54c-4668-b07a-ed2fc0257f56.png",
+        "sha256": "2b19923c35703c694483e667e5eb533e4f794577afd4a66a9876c5d47f123a24"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7e60cad8-4205-487b-94eb-064892432275.jpeg",
+        "asset": "./uploads/ocr-83kb-7e60cad8-4205-487b-94eb-064892432275.jpeg",
+        "sha256": "810ea1d4bf17365b6b3a58029c132467414d645711fbbbcc767405b61014dc86"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-906e89b70e3819b96ddc3be5",
+      "previousAnswer": "아임 아이언맨.",
+      "retainedImage": "./uploads/moviequotes-906e89b70e3819b96ddc3be5.jpg",
+      "targetTitle": "아이언맨"
+    },
+    {
+      "number": 32,
+      "sourceTitle": "명량",
+      "ocrRaw": "신에게는 아직 12척의 배가 남았습니다.",
+      "transcription": "신에게는 아직 12척의 배가 남았습니다.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/ea304d06-67ed-461f-b0cf-448be652be2b.png",
+        "asset": "./uploads/ocr-83kb-ea304d06-67ed-461f-b0cf-448be652be2b.png",
+        "sha256": "2fe1fa202cc5f2f7f40cb9c33b4fc3cc13ebdc4043f2dd652cc19a84a70b3c8c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/89b11232-c51b-469a-91b3-ed3d404d5008.png",
+        "asset": "./uploads/ocr-83kb-89b11232-c51b-469a-91b3-ed3d404d5008.png",
+        "sha256": "0fb1be490a5ac23966fb7215becff54c249dade23cb90cd1579d1b36c6496696"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-ea304d06-67ed-461f-b0cf-448be652be2b",
+      "targetTitle": "명량"
+    },
+    {
+      "number": 33,
+      "sourceTitle": "반지의 제왕 두 개의 탑",
+      "ocrRaw": "내... 보물!\nMY... PRECIOUS!",
+      "transcription": "내... 보물!\nMY... PRECIOUS!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/774cfa7a-94ee-4f3a-bc05-5314d5afc24a.png",
+        "asset": "./uploads/ocr-83kb-774cfa7a-94ee-4f3a-bc05-5314d5afc24a.png",
+        "sha256": "4f7d8b269466b9248e7cfee82c4f062fbf4f0942571ab67ad393d57d6f2b68e7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2b49b881-85d9-45af-8ec3-484fb038e4a2.jpeg",
+        "asset": "./uploads/ocr-83kb-2b49b881-85d9-45af-8ec3-484fb038e4a2.jpeg",
+        "sha256": "9ecc9c62c4967c8cb8b41886f13b1466e2706e050097e1073f95e2f98a5a0259"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-ef10a6823ef250f7b39fa266",
+      "previousAnswer": "마이 프레셔스...",
+      "retainedImage": "./uploads/moviequotes-ef10a6823ef250f7b39fa266.jpg",
+      "targetTitle": "반지의 제왕"
+    },
+    {
+      "number": 34,
+      "sourceTitle": "터미네이터 2 심판의 날",
+      "ocrRaw": "= 돌아오겠다.\nI'll be back.",
+      "transcription": "곧 돌아오겠다.\nI’ll be back.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/afdcee0f-abf0-4f61-ab5c-0883da469f57.png",
+        "asset": "./uploads/ocr-83kb-afdcee0f-abf0-4f61-ab5c-0883da469f57.png",
+        "sha256": "d6108d60da3d70e499d2784f20b32cd7bf7a897946d8be0922e9fd389b322e69"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/dbffb8db-5f02-473a-a7ed-20bd1726fa29.jpeg",
+        "asset": "./uploads/ocr-83kb-dbffb8db-5f02-473a-a7ed-20bd1726fa29.jpeg",
+        "sha256": "a094c5d317999bd4f3e6df97d9bad11ce724ca4edb0660743685ffb9ca412b1d"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-afdcee0f-abf0-4f61-ab5c-0883da469f57",
+      "targetTitle": "터미네이터 2 심판의 날"
+    },
+    {
+      "number": 35,
+      "sourceTitle": "가디언즈 오브 갤럭시",
+      "ocrRaw": "나는 그루트다.\n| AM GROOT.",
+      "transcription": "나는 그루트다.\nI AM GROOT.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/4a73d48b-4893-48d6-b35e-89c9c66dd467.png",
+        "asset": "./uploads/ocr-83kb-4a73d48b-4893-48d6-b35e-89c9c66dd467.png",
+        "sha256": "9c819128b4dfe3455468201914c3a75260976cb636947a681b56b8e125f42bf5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4db1d0fa-31e0-4a52-8a19-7e521eeddbd0.webp",
+        "asset": "./uploads/ocr-83kb-4db1d0fa-31e0-4a52-8a19-7e521eeddbd0.webp",
+        "sha256": "1b5474144a8584af8069cc7e5433c42fe1a0324eead9e7c49246f3a74c3fd22e"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-4a73d48b-4893-48d6-b35e-89c9c66dd467",
+      "targetTitle": "가디언즈 오브 갤럭시"
+    },
+    {
+      "number": 36,
+      "sourceTitle": "살인의 추억",
+      "ocrRaw": "밥은 먹고 다니냐.",
+      "transcription": "밥은 먹고 다니냐.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/1d50f16c-778d-4695-be44-f1a434b12bf0.png",
+        "asset": "./uploads/ocr-83kb-1d50f16c-778d-4695-be44-f1a434b12bf0.png",
+        "sha256": "57148dbda44a9bd38208a7f6af2cd3c74897769da2e302fcf165f49c0775f973"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c801db13-0c94-4f78-98c1-222102cd58c8.jpeg",
+        "asset": "./uploads/ocr-83kb-c801db13-0c94-4f78-98c1-222102cd58c8.jpeg",
+        "sha256": "ac77482d6b7322ef75b6d38da470b3d135f4fe517c505fa137a4de0de8e1fdab"
+      },
+      "action": "merged",
+      "questionId": "machugi-dc4aca14-858b-4af7-bf84-54f14f8dbc67",
+      "previousAnswer": "밥은 먹고 다니냐?",
+      "retainedImage": "./uploads/moviequotes-a95dabecbfba7b6e810cd13d.jpg",
+      "targetTitle": "살인의 추억"
+    },
+    {
+      "number": 37,
+      "sourceTitle": "친절한 금자씨",
+      "ocrRaw": "너나 잘하세요.",
+      "transcription": "너나 잘하세요.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/5e54162d-384d-4e71-93b0-d2f27101f6aa.png",
+        "asset": "./uploads/ocr-83kb-5e54162d-384d-4e71-93b0-d2f27101f6aa.png",
+        "sha256": "4c3541a0245080752ce7cd6035b813847aaea772dc0203dc4295d96410fc14aa"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4f7b23a3-8032-4895-bc19-d6fd2d64a348.jpeg",
+        "asset": "./uploads/ocr-83kb-4f7b23a3-8032-4895-bc19-d6fd2d64a348.jpeg",
+        "sha256": "c46cfb205d5d49ab532a933201d9db31f1418d5d2c018dea40e58afa4b0ae3e6"
+      },
+      "action": "merged",
+      "questionId": "machugi-12590bfd-1a10-4c56-9367-c649ab5aca0d",
+      "previousAnswer": "너나 잘 하세요",
+      "retainedImage": "./uploads/moviequotes-b6a088e3d08b080b6d16e19e.jpg",
+      "targetTitle": "친절한 금자씨"
+    },
+    {
+      "number": 38,
+      "sourceTitle": "친구",
+      "ocrRaw": "아부지 뭐하시노?",
+      "transcription": "아부지 뭐하시노?",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/35313844-a3f2-49ee-a7f5-62b1ae9902cf.png",
+        "asset": "./uploads/ocr-83kb-35313844-a3f2-49ee-a7f5-62b1ae9902cf.png",
+        "sha256": "5f5ff44c485b7d9f45c0fcaed183543cbf670b42307bdef322d19cb1e19d6c06"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6f8934b1-ee11-42ae-85d3-4ad7c4b54de1.jpeg",
+        "asset": "./uploads/ocr-83kb-6f8934b1-ee11-42ae-85d3-4ad7c4b54de1.jpeg",
+        "sha256": "ab052812301c14a51b5e392c175f0e6e97e42ea7fdcadd51b961efdba7815120"
+      },
+      "action": "merged",
+      "questionId": "machugi-1bedeccf-819a-41bb-b61e-23405acca313",
+      "previousAnswer": "아부지 뭐하시노",
+      "retainedImage": "./uploads/moviequotes-a502917c1373004c8b32d6e0.jpg",
+      "targetTitle": "친구"
+    },
+    {
+      "number": 39,
+      "sourceTitle": "그린 랜턴 (밈,드립)",
+      "ocrRaw": "아니다 이 악마야.\nNo evil...",
+      "transcription": "아니다 이 악마야.\nNo evil...",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/0870066f-96aa-4284-8c93-005fd712de2e.png",
+        "asset": "./uploads/ocr-83kb-0870066f-96aa-4284-8c93-005fd712de2e.png",
+        "sha256": "5801606b1ac4b2d970e5eb774efd472d2bcd8897a3f0ef3db0ee4529c1e20dac"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/adfc367b-df85-401f-8c78-7834f972428e.jpeg",
+        "asset": "./uploads/ocr-83kb-adfc367b-df85-401f-8c78-7834f972428e.jpeg",
+        "sha256": "f55771a9cf53565e87d99a9ce1c96e85ae2bd38055577a84640f3aa4071e66a0"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-0870066f-96aa-4284-8c93-005fd712de2e",
+      "targetTitle": "그린 랜턴"
+    },
+    {
+      "number": 40,
+      "sourceTitle": "박하사탕",
+      "ocrRaw": "나 다시 돌아갈래.",
+      "transcription": "나 다시 돌아갈래.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/ce6df111-66e6-4b5b-a765-c25d42431e83.png",
+        "asset": "./uploads/ocr-83kb-ce6df111-66e6-4b5b-a765-c25d42431e83.png",
+        "sha256": "78870f96d62d15ae535e07874d7fc900b41b3067420bfeae754863052f15c928"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/e4690502-c23b-49b1-a985-26c533bc58d0.jpeg",
+        "asset": "./uploads/ocr-83kb-e4690502-c23b-49b1-a985-26c533bc58d0.jpeg",
+        "sha256": "194902dd2aa186676306cb8d06f975ef179ad0383dee5991b126cefd214230c1"
+      },
+      "action": "merged",
+      "questionId": "machugi-ab6806f3-d7be-4540-aa17-645c7907b21e",
+      "previousAnswer": "나 다시 돌아갈래~",
+      "retainedImage": "./uploads/moviequotes-e82802b4b3aeef779bc996ad.jpg",
+      "targetTitle": "박하사탕"
+    },
+    {
+      "number": 41,
+      "sourceTitle": "킹스맨 시크릿 에이전트",
+      "ocrRaw": "매너가 사람을 만든다.\nManners, Maketh, Man.",
+      "transcription": "매너가 사람을 만든다.\nManners, Maketh, Man.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/449b8cef-6daf-4758-b77d-1e12d31b4401.png",
+        "asset": "./uploads/ocr-83kb-449b8cef-6daf-4758-b77d-1e12d31b4401.png",
+        "sha256": "53f5965764404165d538aad183c5ade3f81e2514eb8b0817cfee4df8bea57731"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/64fe07cf-3085-40aa-b80d-db193e2dc397.jpeg",
+        "asset": "./uploads/ocr-83kb-64fe07cf-3085-40aa-b80d-db193e2dc397.jpeg",
+        "sha256": "1dbdf4fdb38d7868d2f1153fe7d2fe6c063cc2b1efe07736d9a3c8ba2a15a054"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-449b8cef-6daf-4758-b77d-1e12d31b4401",
+      "targetTitle": "킹스맨 시크릿 에이전트"
+    },
+    {
+      "number": 42,
+      "sourceTitle": "겨울왕국",
+      "ocrRaw": "다 잊어.\nLet it Go.",
+      "transcription": "다 잊어.\nLet it Go.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/78e17aa8-b648-44e8-8d68-308cce54d37f.png",
+        "asset": "./uploads/ocr-83kb-78e17aa8-b648-44e8-8d68-308cce54d37f.png",
+        "sha256": "037a2ca8d0ab6c3560cd04acb9804f6af1efb594ea4d5e810b5787abeac3b164"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8fab9d81-b412-4b4c-935b-0bf5646bbb89.jpeg",
+        "asset": "./uploads/ocr-83kb-8fab9d81-b412-4b4c-935b-0bf5646bbb89.jpeg",
+        "sha256": "58caca6756a80c4342866c67c89de05e2f3adeaa7ff625f92447830f68c8ff5d"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-78e17aa8-b648-44e8-8d68-308cce54d37f",
+      "targetTitle": "겨울왕국"
+    },
+    {
+      "number": 43,
+      "sourceTitle": "엑시트",
+      "ocrRaw": "따따따 따 따 따 따따따",
+      "transcription": "따따따 따 따 따 따따따",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/26af357b-e47f-4614-a02e-95482f56b837.png",
+        "asset": "./uploads/ocr-83kb-26af357b-e47f-4614-a02e-95482f56b837.png",
+        "sha256": "8dbf309af6a0eed42c34e792702812c88a177a561694e5f1581181e0fa1ed87f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b80237e1-2516-45bc-bedb-ced6423d1ca3.jpeg",
+        "asset": "./uploads/ocr-83kb-b80237e1-2516-45bc-bedb-ced6423d1ca3.jpeg",
+        "sha256": "53f85d921cfee36046fcf625b5c14ec949257fac579045e5349ecba264397b12"
+      },
+      "action": "merged",
+      "questionId": "machugi-o43-a510eefa45dcdadd5761044e",
+      "previousAnswer": "따따따- 따-따-따- 따따따",
+      "retainedImage": "./uploads/moviequotes-a510eefa45dcdadd5761044e.jpg",
+      "targetTitle": "엑시트"
+    },
+    {
+      "number": 44,
+      "sourceTitle": "해바라기",
+      "ocrRaw": "꼭 그렇게.. 다 가져가야만.. 속이 후련했냐!",
+      "transcription": "꼭 그렇게.. 다 가져가야만.. 속이 후련했냐!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/612eb655-a719-445c-98c0-80ff270c4fff.png",
+        "asset": "./uploads/ocr-83kb-612eb655-a719-445c-98c0-80ff270c4fff.png",
+        "sha256": "21db0bdb546af3b167aa9a667f4caf7894dcd924c0ecdd8afb7c7c0a67aaed60"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ded302a4-c565-4c02-9dd1-82b29e9991ed.jpeg",
+        "asset": "./uploads/ocr-83kb-ded302a4-c565-4c02-9dd1-82b29e9991ed.jpeg",
+        "sha256": "e40cab4dadcc28d65490401be0d69d04cf5c464e975f3395ec1f19e46c01001e"
+      },
+      "action": "merged",
+      "questionId": "machugi-975a48ea-673f-49d4-803e-09070d73a74b",
+      "previousAnswer": "꼭 그렇게⋯ 다 가져가야만⋯ 속이 후련했냐!",
+      "retainedImage": "./uploads/moviequotes-9a8c4fcaea0be82544928e1d.jpg",
+      "targetTitle": "해바라기"
+    },
+    {
+      "number": 45,
+      "sourceTitle": "태극기 휘날리며",
+      "ocrRaw": "돌아와서.… 구두 완성한다고 HAO...",
+      "transcription": "돌아와서... 구두 완성한다고 했잖아요...",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/2ac33520-c7c0-4365-b1ca-0dbd1b0c01d0.png",
+        "asset": "./uploads/ocr-83kb-2ac33520-c7c0-4365-b1ca-0dbd1b0c01d0.png",
+        "sha256": "c6229a9e7a77c6d2e0a415265342b8efc2f725c54c8317066d71d131172b8a93"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6e12354a-ef06-4b10-97dd-3525675933be.jpeg",
+        "asset": "./uploads/ocr-83kb-6e12354a-ef06-4b10-97dd-3525675933be.jpeg",
+        "sha256": "cd7b292378d012176f3dee2805c30617b1650972ad7e71b16490228ef4b8c8f7"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-2ac33520-c7c0-4365-b1ca-0dbd1b0c01d0",
+      "targetTitle": "태극기 휘날리며"
+    },
+    {
+      "number": 46,
+      "sourceTitle": "택시운전사",
+      "ocrRaw": "광주? 돈 워리, 돈 워리! 아이 베스트 드라이버",
+      "transcription": "광주? 돈 워리, 돈 워리! 아이 베스트 드라이버",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/1c0debf0-bc22-47ed-885a-0c03d6987e46.png",
+        "asset": "./uploads/ocr-83kb-1c0debf0-bc22-47ed-885a-0c03d6987e46.png",
+        "sha256": "c150d24791fddf595dc156148ee8e7ca8f0b4b863f9cd309ad45ef2bad625a88"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/e50f115b-0d08-486a-b53f-5f47129a7079.jpeg",
+        "asset": "./uploads/ocr-83kb-e50f115b-0d08-486a-b53f-5f47129a7079.jpeg",
+        "sha256": "7a53a436f866dbe2cb7747f234f1eb5602c8f6723c2c12fdf7e2c1259f67c6b9"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-1c0debf0-bc22-47ed-885a-0c03d6987e46",
+      "targetTitle": "택시운전사"
+    },
+    {
+      "number": 47,
+      "sourceTitle": "8 마일",
+      "ocrRaw": "Like when you gotta stop living up here and start living down here?",
+      "transcription": "꿈은 높은데 현실은 시궁창이야.\nLike when you gotta stop living up here and start living down here?",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/b70c3619-e421-43d8-aefc-d0e403521057.png",
+        "asset": "./uploads/ocr-83kb-b70c3619-e421-43d8-aefc-d0e403521057.png",
+        "sha256": "c37acb7cb7e84a8ef0a5772256b0ad8da3aa9a837fafaf73b1ad5fe8bee0c249"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3cee8c19-92cd-4060-9651-7fb2038d085c.jpeg",
+        "asset": "./uploads/ocr-83kb-3cee8c19-92cd-4060-9651-7fb2038d085c.jpeg",
+        "sha256": "5260268d1d8b1eb4f7b2476358940df99bd1e52d53c4de85af7c0f217773f40c"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-b70c3619-e421-43d8-aefc-d0e403521057",
+      "targetTitle": "8 마일"
+    },
+    {
+      "number": 48,
+      "sourceTitle": "주술회전 0",
+      "ocrRaw": "무례하긴.… '순애'야.",
+      "transcription": "무례하긴... '순애'야.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/e5e6e412-378b-4972-9b2b-f09ae5f46f16.png",
+        "asset": "./uploads/ocr-83kb-e5e6e412-378b-4972-9b2b-f09ae5f46f16.png",
+        "sha256": "277f236f72a98ee2e894d5bb57bd1b0d7c085a759c562c715e44d3b417b4ef0e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/fc79d9d1-e072-4958-92ef-bd84a0588b15.jpeg",
+        "asset": "./uploads/ocr-83kb-fc79d9d1-e072-4958-92ef-bd84a0588b15.jpeg",
+        "sha256": "a41e4f45e498fe8dd00e6b795c26dbbdc142be4b8edbcd92f7da3014a0435b7a"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-e5e6e412-378b-4972-9b2b-f09ae5f46f16",
+      "targetTitle": "주술회전 0"
+    },
+    {
+      "number": 49,
+      "sourceTitle": "샤이닝",
+      "ocrRaw": "자니가 왔다!\nHere's Johnny!",
+      "transcription": "자니가 왔다!\nHere's Johnny!",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/d902d640-dafe-47ff-8ee4-dc7a8ed9fb31.png",
+        "asset": "./uploads/ocr-83kb-d902d640-dafe-47ff-8ee4-dc7a8ed9fb31.png",
+        "sha256": "f7dab2815c157d6a977c33a6b0bba83aad7481e11fe0fa84699aba43e5f04121"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a7e1bb08-5ec3-46a9-9e07-39d14677e47b.png",
+        "asset": "./uploads/ocr-83kb-a7e1bb08-5ec3-46a9-9e07-39d14677e47b.png",
+        "sha256": "dd23f2f4bfe5a5208a964ac872d162b6e7a0545378decfeaad9bbf6a71a78251"
+      },
+      "action": "added",
+      "questionId": "machugi-83kb-d902d640-dafe-47ff-8ee4-dc7a8ed9fb31",
+      "targetTitle": "샤이닝"
+    },
+    {
+      "number": 50,
+      "sourceTitle": "극한직업",
+      "ocrRaw": "지금까지 이런 맛은 없었다.\n이것은 갈비인가 통닭인가.",
+      "transcription": "지금까지 이런 맛은 없었다.\n이것은 갈비인가 통닭인가.",
+      "reviewed": true,
+      "questionImage": {
+        "url": "https://images.machugi.io/55fe06e7-0d07-48ef-b4bd-dc6e1d5ad8d5.png",
+        "asset": "./uploads/ocr-83kb-55fe06e7-0d07-48ef-b4bd-dc6e1d5ad8d5.png",
+        "sha256": "a681453ff65e8d5a104ec71b0dfe476e72a85a0d632e30dc2d912645a37ded35"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/eb140971-6e48-4448-b9a8-27cf5020cb20.jpeg",
+        "asset": "./uploads/ocr-83kb-eb140971-6e48-4448-b9a8-27cf5020cb20.jpeg",
+        "sha256": "f39f5543b8cacae8b690564a99c5ab00885dd288eccedb893f18a3dd593b61f4"
+      },
+      "action": "merged",
+      "questionId": "7a890e35-b871-4c6f-962b-c6bdd7212557",
+      "previousAnswer": "지금까지 이런 맛은 없었다. 이것은 갈비인가 통닭인가",
+      "retainedImage": "./uploads/moviequotes-93b2df2f146ee07f74050402.jpg",
+      "targetTitle": "극한직업"
+    }
+  ]
+}

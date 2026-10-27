@@ -1,3 +1,5 @@
+import { validateImageMasks } from './image-masks.js';
+
 export const CATEGORIES = ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션'];
 const LEGACY_CATEGORIES = ['영화', '드라마', '애니메이션'];
 export const MAX_IMAGE_BYTES = 300 * 1024;
@@ -37,10 +39,12 @@ export function validateQuestion(input, { local = false, allowLegacyCategory = f
   if (year && !/^\d{4}$/.test(year)) throw new Error('연도는 네 자리 숫자로 입력해 주세요.');
   const version = Number(input.version ?? 1);
   if (!Number.isSafeInteger(version) || version < 1) throw new Error('문제 버전이 올바르지 않습니다. 새로고침 후 다시 시도해 주세요.');
+  const imageMasks = validateImageMasks(input.imageMasks);
   const now = new Date().toISOString();
   return {
     id, title: field('title', 150, true), category, year,
     answer: field('answer', 2000, true), hint: field('hint', 300), image,
+    ...(imageMasks.length ? { imageMasks } : {}),
     source: field('source', 1000), enabled: input.enabled !== false && input.enabled !== 'false',
     demo: input.demo === true, version,
     createdAt: String(input.createdAt || now), updatedAt: now,
@@ -118,7 +122,7 @@ export function parseImport(text, filename) {
 }
 
 export function csvExport(questions) {
-  const headers = ['id', 'title', 'category', 'year', 'answer', 'hint', 'image', 'source', 'enabled'];
+  const headers = ['id', 'title', 'category', 'year', 'answer', 'hint', 'image', 'source', 'enabled', 'imageMasks'];
   const quote = v => `"${String(v ?? '').replaceAll('"', '""')}"`;
-  return '\uFEFF' + [headers, ...questions.map(q => headers.map(k => q[k]))].map(row => row.map(quote).join(',')).join('\r\n');
+  return '\uFEFF' + [headers, ...questions.map(q => headers.map(k => k === 'imageMasks' ? JSON.stringify(q[k] || []) : q[k]))].map(row => row.map(quote).join(',')).join('\r\n');
 }

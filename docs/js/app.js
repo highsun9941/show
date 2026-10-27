@@ -1,6 +1,7 @@
 import { CATEGORIES, filterQuestions, makeDeck, validateQuestion, parseImport, MAX_IMAGE_BYTES } from './core.js';
 import { LocalStore, GitHubStore } from './storage.js';
 import { loadConfig, repositoryLinks } from './config.js';
+import { createImageMasks } from './image-masks.js';
 
 const $ = id => document.getElementById(id);
 const state = { view: 'home', store: null, questions: [], admin: false, ready: false, category: '전체', page: 1, deck: [], index: 0, answer: false, hint: false, running: false, seconds: 0, deadline: 0, duration: 0, busy: false, edit: null, render: 0 };
@@ -9,6 +10,8 @@ const siteScope = new URL('.', window.location.href).href;
 const modeKey = `show-storage-mode:${siteScope}`;
 let toastTimer, clockInterval, confirmResolve;
 const el = (tag, className = '', text = '') => { const node = document.createElement(tag); node.className = className; node.textContent = text; return node; };
+const stageMasks = createImageMasks($('stage-image'));
+const cardMasks = new WeakMap();
 function toast(message, error = false, duration = 4500) {
   clearTimeout(toastTimer); $('toast').textContent = message; $('toast').classList.toggle('error', error); $('toast').hidden = false;
   toastTimer = setTimeout(() => { $('toast').hidden = true; }, duration);
@@ -81,6 +84,7 @@ function renderAll() {
   if (state.view === 'library') renderLibrary();
 }
 function renderCards(container, questions, admin) {
+  for (const img of container.querySelectorAll('img')) cardMasks.get(img)?.dispose();
   container.replaceChildren();
   if (!questions.length) {
     const empty = el('div', 'empty-state'); empty.append(el('strong', '', state.questions.length ? '아직 이 장면은 없네요.' : '첫 번째 장면을 기다리고 있어요.'), el('p', '', '다른 조건으로 검색하거나 새로운 문제를 등록해 주세요.')); container.append(empty); return;
@@ -93,6 +97,7 @@ function renderCards(container, questions, admin) {
     img.addEventListener('error', () => { img.hidden = true; button.setAttribute('aria-label', `${q.title} — 이미지 오류, 한 문제 플레이`); });
     const playIcon = el('span', 'card-play-icon'); playIcon.append(el('span', '', '▶'));
     button.append(img, el('span', 'card-tag', q.demo ? 'ILLUSTRATION · DEMO' : q.enabled ? 'SCENE' : '출제 제외'), playIcon);
+    if (q.imageMasks?.length) { const masks = createImageMasks(img); masks.set(q.imageMasks); cardMasks.set(img, masks); }
     button.addEventListener('click', () => startGame([q]));
     const content = el('div', 'card-content'), meta = el('div', 'card-meta');
     meta.append(el('span', '', CATEGORIES.includes(q.category) ? q.category : `${q.category} · 국내/해외 미지정`), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
@@ -134,6 +139,7 @@ async function renderScene() {
   $('stage-number').textContent = `SCENE ${String(state.index + 1).padStart(2, '0')}`;
   $('game-progress-bar').style.width = `${(state.index + 1) / state.deck.length * 100}%`;
   $('stage-image').hidden = true; $('stage-image').removeAttribute('src');
+  stageMasks.set();
   $('stage-loading').hidden = false; $('stage-loading').textContent = '장면을 준비하고 있어요…';
   // 문제를 바꿀 때 대사·작품명을 비우고 힌트나 정답을 공개할 때 채웁니다.
   $('answer-text').textContent = ''; $('answer-title').textContent = ''; $('hint-text').textContent = '';
@@ -151,7 +157,7 @@ async function renderScene() {
     const url = await state.store.imageUrl(q.image);
     if (render !== state.render) return;
     if (!url) { failed(); return; }
-    $('stage-image').onload = () => { if (render !== state.render) return; $('stage-image').hidden = false; $('stage-loading').hidden = true; $('timer-button').disabled = !state.duration; };
+    $('stage-image').onload = () => { if (render !== state.render) return; $('stage-image').hidden = false; stageMasks.set(q.imageMasks); $('stage-loading').hidden = true; $('timer-button').disabled = !state.duration; };
     $('stage-image').onerror = failed; $('stage-image').src = url;
     // 현재 장면 외에 다음 한 장만 미리 읽습니다.
     const next = state.deck[state.index + 1];
@@ -365,6 +371,7 @@ $('question-form').onsubmit = async e => {
   try {
     const form = Object.fromEntries(new FormData(e.currentTarget));
     const data = { ...edit.question, ...form, enabled: e.currentTarget.elements.enabled.checked, image: edit.blob ? 'https://upload.invalid/pending' : edit.image, demo: false };
+    if (edit.blob || edit.image !== edit.question?.image) delete data.imageMasks;
     const validated = validateQuestion(data, { local: state.store.mode === 'local' });
     if (edit.blob) validated.image = await state.store.upload(edit.blob);
     await state.store.save(validated, Boolean(edit.question)); $('edit-dialog').close(); await refresh(true); toast('문제를 저장했어요.');

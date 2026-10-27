@@ -59,15 +59,26 @@ test('설정의 잘못된 저장소와 저장소 밖 파일 경로를 거부한�
   assert.throws(() => resolveConfig({ repository: 'https://github.com/a/b' }, {}, 'https://example.org/'), /repository/);
   for (const dataPath of ['/docs/file.json', '../file.json', 'docs/../file.json']) assert.throws(() => resolveConfig({ dataPath }, {}, 'https://example.org/'), /경로/);
 });
-test('실제 배포 스크립트를 새 저장소 환경에서 실행하면 배포 정보만 달라진다', async () => {
+test('실제 배포는 새 저장소 정보와 같은 버전의 HTML·스타일·의존 모듈을 제공한다', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'scene-clone-'));
   try {
     await cp(new URL('../scripts', import.meta.url), join(dir, 'scripts'), { recursive: true });
     await cp(new URL('../docs', import.meta.url), join(dir, 'docs'), { recursive: true });
     await cp(new URL('../package.json', import.meta.url), join(dir, 'package.json'));
-    const result = spawnSync(process.execPath, ['scripts/prepare-pages.mjs'], { cwd: dir, env: { ...process.env, GITHUB_REPOSITORY: 'clone-user/clone-title', GITHUB_REF_NAME: 'master' }, encoding: 'utf8' });
+    const revision = 'a'.repeat(40);
+    const env = { ...process.env, GITHUB_REPOSITORY: 'clone-user/clone-title', GITHUB_REF_NAME: 'master', GITHUB_SHA: revision };
+    const result = spawnSync(process.execPath, ['scripts/prepare-pages.mjs'], { cwd: dir, env, encoding: 'utf8' });
     assert.equal(result.status, 0, result.stderr);
     assert.deepEqual(JSON.parse(await readFile(join(dir, 'docs/deployment.json'), 'utf8')), { repository: 'clone-user/clone-title', branch: 'master' });
     assert.equal(await readFile(join(dir, 'docs/config.js'), 'utf8'), await readFile(new URL('../docs/config.js', import.meta.url), 'utf8'));
+    const html = await readFile(join(dir, 'docs/index.html'), 'utf8');
+    for (const path of ['js/app.js', 'js/theme.js', 'config.js', 'styles.css']) assert.ok(html.includes(`./${path}?v=${revision}`), path);
+    for (const [file, dependency] of [['app.js', 'core.js'], ['app.js', 'storage.js'], ['storage.js', 'core.js'], ['core.js', 'image-masks.js']]) {
+      assert.ok((await readFile(join(dir, 'docs/js', file), 'utf8')).includes(`./${dependency}?v=${revision}`), `${file}: ${dependency}`);
+    }
+    const second = spawnSync(process.execPath, ['scripts/prepare-pages.mjs'], { cwd: dir, env, encoding: 'utf8' });
+    assert.equal(second.status, 0, second.stderr);
+    assert.equal(await readFile(join(dir, 'docs/index.html'), 'utf8'), html);
+    assert.equal(await readFile(join(dir, 'docs/data/questions.json'), 'utf8'), await readFile(new URL('../docs/data/questions.json', import.meta.url), 'utf8'));
   } finally { await rm(dir, { recursive: true, force: true }); }
 });

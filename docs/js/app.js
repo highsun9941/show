@@ -73,12 +73,11 @@ function renderAll() {
   const unclassified = state.questions.filter(q => !CATEGORIES.includes(q.category)).length;
   if (unclassified) $('storage-description').textContent += ` 이전 분류 ${unclassified}개 문제는 '전체'에서 확인할 수 있습니다. 문제 수정에서 국내·해외 분류를 선택해 주세요.`;
   $('nav-count').textContent = state.questions.length.toLocaleString();
-  $('home-total').textContent = state.questions.length.toLocaleString();
   $('sample-notice').hidden = !state.questions.some(q => q.demo);
   $('admin-toolbar').hidden = !state.admin;
   $('manage-button').hidden = state.admin;
   $('admin-badge').textContent = state.store?.mode === 'shared' ? '공동 관리 모드' : '이 기기 체험 모드';
-  updateAvailable(); renderCards($('home-cards'), state.questions.filter(q => q.enabled).slice(0, 3), false);
+  updateAvailable();
   if (state.view === 'library') renderLibrary();
 }
 function renderCards(container, questions, admin) {
@@ -298,7 +297,6 @@ document.querySelectorAll('#category-picker button').forEach(button => button.ad
 }));
 $('round-count').addEventListener('change', updateAvailable);
 $('start-game').onclick = () => startGame();
-$('browse-library').onclick = () => view('library');
 $('sample-manage').onclick = () => { view('library'); openLogin(); };
 $('manage-button').onclick = openLogin;
 for (const id of ['search', 'filter-category']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderLibrary(); });

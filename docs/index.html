@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#15141a">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description" content="한 장면을 보고, 그 대사를 맞혀보세요. 영화·드라마·애니메이션 대사 맞히기 게임.">
   <title>한 컷, 한 마디 — 대사 맞히기</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <script src="./js/theme.js"></script>
   <link rel="stylesheet" href="./styles.css">
   <script src="./config.js"></script>
   <script type="module" src="./js/app.js"></script>
@@ -19,7 +20,7 @@
       <button class="nav-button active" data-view="home" aria-current="page">플레이룸</button>
       <button class="nav-button" data-view="library">문제 보관함 <span id="nav-count">0</span></button>
     </nav>
-    <button class="connection" id="connection-button" title="저장 방식 설정"><span class="status-dot"></span><span id="connection-label">연결 중</span><span aria-hidden="true">↗</span></button>
+    <div class="header-actions"><button type="button" class="theme-toggle" data-theme-toggle aria-label="다크 모드로 전환" aria-pressed="false"><svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg><svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span data-theme-label>다크 모드</span></button><button class="connection" id="connection-button" title="저장 방식 설정"><span class="status-dot"></span><span id="connection-label">연결 중</span><span aria-hidden="true">↗</span></button></div>
   </header>
 
   <main id="main">
@@ -59,7 +60,7 @@
     </section>
 
     <section id="game-view" class="view game-view" hidden aria-label="대사 맞히기 게임">
-      <div class="game-top"><button class="text-button" id="exit-game">← 게임 나가기</button><div class="game-progress"><span id="game-current">01</span><span>/</span><span id="game-total">10</span><div class="progress-track"><i id="game-progress-bar"></i></div></div><div class="game-top-actions"><span class="game-label">SCENE & SAY</span><button class="icon-button" id="fullscreen-button" title="전체 화면 (F)" aria-label="전체 화면">⛶</button></div></div>
+      <div class="game-top"><button class="text-button" id="exit-game">← 게임 나가기</button><div class="game-progress"><span id="game-current">01</span><span>/</span><span id="game-total">10</span><div class="progress-track"><i id="game-progress-bar"></i></div></div><div class="game-top-actions"><span class="game-label">SCENE & SAY</span><button type="button" class="theme-toggle game-theme-toggle" data-theme-toggle aria-label="다크 모드로 전환" aria-pressed="false"><svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg><svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span data-theme-label>다크 모드</span></button><button class="icon-button" id="fullscreen-button" title="전체 화면 (F)" aria-label="전체 화면">⛶</button></div></div>
       <div class="stage" id="stage"><img id="stage-image" alt="이 장면에 어울리는 대사를 맞혀보세요"><div class="stage-loading" id="stage-loading">장면을 준비하고 있어요…</div><div class="stage-number" id="stage-number" aria-hidden="true">SCENE 01</div><div id="hint-overlay" class="hint-overlay" hidden><span>HINT</span><p id="hint-text"></p></div><div id="answer-overlay" class="answer-overlay" hidden><span class="answer-kicker">THE LINE IS</span><p id="answer-text"></p><span id="answer-title"></span></div><div id="timeout-overlay" class="timeout-overlay" hidden>시간 종료 <span>이제 정답을 확인해 보세요</span></div></div>
       <div class="game-controls"><div class="timer-group"><button class="timer-button" id="timer-button" aria-label="타이머 시작 또는 일시정지"><span aria-hidden="true">◷</span><span id="timer-display">시간 제한 없음</span><span id="timer-state"></span></button><button class="text-button" id="timer-reset" aria-label="타이머 초기화">↺</button></div><div class="reveal-controls"><button class="button subtle" id="hint-button">힌트 <kbd>H</kbd></button><button class="button primary reveal-button" id="answer-button">정답 공개 <kbd>Space</kbd></button></div><div class="navigation-controls"><button class="icon-button" id="prev-button" aria-label="이전 문제">←</button><button class="button subtle" id="next-button">다음 문제 →</button></div></div>
       <div class="game-footer"><span>한 장면을 보고, 그 대사를 맞혀보세요.</span><button class="text-button" id="shortcuts-button">키보드 안내 <span aria-hidden="true">⌨</span></button></div>

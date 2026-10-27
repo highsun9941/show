@@ -1,0 +1,2 @@
+id,title,category,difficulty,year,answer,hint,image,source,enabled
+my-question-001,작품 이름,영화,보통,2026,"맞혀야 할 대사",등장인물 힌트,https://example.com/scene-001.jpg,이미지 출처,true

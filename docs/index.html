@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#15141a">
+  <meta name="description" content="한 장면을 보고, 그 대사를 맞혀보세요. 영화·드라마·애니메이션 대사 맞히기 게임.">
+  <title>한 컷, 한 마디 — 대사 맞히기</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./config.js"></script>
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#" aria-label="한 컷 한 마디 홈"><span class="brand-icon" aria-hidden="true">“</span><span>한 컷<span class="brand-comma">,</span> 한 마디<small>SCENE & SAY</small></span></a>
+    <nav aria-label="주 메뉴">
+      <button class="nav-button active" data-view="home" aria-current="page">플레이룸</button>
+      <button class="nav-button" data-view="library">문제 보관함 <span id="nav-count">0</span></button>
+    </nav>
+    <button class="connection" id="connection-button" title="저장 방식 설정"><span class="status-dot"></span><span id="connection-label">연결 중</span><span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="main">
+    <section id="home-view" class="view page-width">
+      <div class="hero-heading"><div><span class="eyebrow"><span class="tiny-star">✦</span> 오늘의 주인공은 당신</span><h1>이 장면, <span>그 대사.</span></h1><p>익숙한 한 컷에 숨겨진 한 마디.<br class="mobile-only"> 얼마나 기억하고 있나요?</p></div><div class="hero-stamp" aria-hidden="true"><span>한 장면</span><b>∞</b><span>무한한 재미</span></div></div>
+      <div class="play-layout">
+        <section class="scene-preview" aria-label="게임 미리보기">
+          <img src="./assets/scene-space.svg" alt="우주를 배경으로 두 인물이 손을 뻗는 샘플 일러스트" fetchpriority="high">
+          <div class="preview-shade"></div>
+          <div class="preview-top"><span class="glass-tag"><i></i> READY TO PLAY</span><span class="glass-tag">SAMPLE SCENE</span></div>
+          <div class="preview-copy"><span class="scene-label">한 컷을 보고, 기억을 재생하세요</span><h2>“여기서 무슨 말을<br>했더라?”</h2><div class="preview-bottom"><span>영화 <i>·</i> 드라마 <i>·</i> 애니메이션</span><span class="frame-corners" aria-hidden="true">↗</span></div></div>
+        </section>
+        <section class="setup-panel" aria-labelledby="setup-title">
+          <div class="panel-title"><h2 id="setup-title">오늘의 게임</h2><span class="small-tag">LET’S PLAY</span></div>
+          <div class="setup-field"><span class="field-label">어떤 장르로 할까요?</span><div class="segmented" id="category-picker" role="group" aria-label="게임 장르"><button data-category="전체" class="selected" aria-pressed="true">전체</button><button data-category="영화" aria-pressed="false">영화</button><button data-category="드라마" aria-pressed="false">드라마</button><button data-category="애니메이션" aria-pressed="false">애니</button></div></div>
+          <div class="setup-row"><label>문제 수<select id="round-count"><option value="10">10문제</option><option value="20">20문제</option><option value="30">30문제</option><option value="all">전체 문제</option></select></label><label>난이도<select id="round-difficulty"><option>전체</option><option>쉬움</option><option>보통</option><option>어려움</option></select></label></div>
+          <div class="setup-row"><label>제한 시간<select id="round-timer"><option value="0">시간 제한 없이</option><option value="15">15초</option><option value="30">30초</option><option value="60">60초</option></select></label><label>출제 순서<select id="round-order"><option value="random">랜덤으로 섞기</option><option value="ordered">등록 순서대로</option></select></label></div>
+          <div class="round-info"><span><span class="status-dot"></span>플레이 가능한 문제</span><b id="available-count">0개</b></div>
+          <button class="button primary start-button" id="start-game" disabled><span>게임 시작하기</span><span aria-hidden="true">↗</span></button>
+          <p class="setup-note" id="setup-note">문제를 불러오고 있습니다.</p>
+        </section>
+      </div>
+      <div class="how-strip"><div><span class="step-no">01</span><p><strong>장면을 보고</strong><span>한 장의 이미지에 집중하세요</span></p></div><span class="step-arrow" aria-hidden="true">→</span><div><span class="step-no">02</span><p><strong>대사를 외치고</strong><span>기억 속 그 한 마디를 꺼내세요</span></p></div><span class="step-arrow" aria-hidden="true">→</span><div><span class="step-no">03</span><p><strong>정답을 확인해요</strong><span>맞혔다면, 다음 장면으로!</span></p></div></div>
+      <div class="section-heading"><h2>보관함 둘러보기 <span id="home-total">0</span></h2><button class="text-button" id="browse-library">전체 보기 <span aria-hidden="true">↗</span></button></div>
+      <div id="home-cards" class="question-grid home-grid" aria-live="polite"></div>
+      <div class="sample-notice" id="sample-notice"><span aria-hidden="true">✳</span><p>지금은 <b>창작 일러스트 샘플 3문제</b>로 체험할 수 있어요. 실제 영화·드라마·애니메이션 장면을 등록하면 나만의 게임이 완성됩니다.</p><button class="text-button" id="sample-manage">문제 등록하기 ↗</button></div>
+    </section>
+
+    <section id="library-view" class="view page-width" hidden>
+      <div class="library-heading"><div><span class="eyebrow">YOUR SCENE COLLECTION</span><h1>문제 보관함<span class="accent-dot">.</span></h1><p>다음 게임에 쓸 장면들을 모아두세요.</p></div><button class="button primary" id="manage-button">문제 관리 <span aria-hidden="true">↗</span></button></div>
+      <div class="storage-banner" id="storage-banner"><span class="status-dot"></span><p id="storage-description"></p></div>
+      <div id="admin-toolbar" class="admin-toolbar" hidden><div><span class="admin-badge" id="admin-badge">관리 모드</span><button class="text-button" id="logout-button">관리 종료</button></div><div class="toolbar-actions"><a class="button subtle small" href="./data/import-template.csv" download>CSV 양식 ↓</a><button class="button subtle small" id="import-button">가져오기 ↑</button><button class="button subtle small" id="export-button">JSON 내보내기 ↓</button><button class="button primary small" id="add-button">＋ 문제 추가</button></div></div>
+      <div class="library-filters"><label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="작품명, 대사, 힌트로 검색" aria-label="문제 검색"></label><select id="filter-category" aria-label="분류별 필터"><option>전체</option><option>영화</option><option>드라마</option><option>애니메이션</option></select><select id="filter-difficulty" aria-label="난이도별 필터"><option>전체</option><option>쉬움</option><option>보통</option><option>어려움</option></select><button class="icon-button" id="refresh-button" title="문제 새로고침" aria-label="문제 새로고침">↻</button></div>
+      <div class="collection-summary"><span id="filtered-count">0개의 장면</span><span>이미지를 눌러 한 문제 플레이</span></div>
+      <div id="library-cards" class="question-grid" aria-live="polite"></div>
+      <div class="pagination" id="pagination"></div>
+    </section>
+
+    <section id="game-view" class="view game-view" hidden aria-label="대사 맞히기 게임">
+      <div class="game-top"><button class="text-button" id="exit-game">← 게임 나가기</button><div class="game-progress"><span id="game-current">01</span><span>/</span><span id="game-total">10</span><div class="progress-track"><i id="game-progress-bar"></i></div></div><div class="game-top-actions"><span class="game-label">SCENE & SAY</span><button class="icon-button" id="fullscreen-button" title="전체 화면 (F)" aria-label="전체 화면">⛶</button></div></div>
+      <div class="stage" id="stage"><img id="stage-image" alt="이 장면에 어울리는 대사를 맞혀보세요"><div class="stage-loading" id="stage-loading">장면을 준비하고 있어요…</div><div class="stage-number" id="stage-number" aria-hidden="true">SCENE 01</div><div id="hint-overlay" class="hint-overlay" hidden><span>HINT</span><p id="hint-text"></p></div><div id="answer-overlay" class="answer-overlay" hidden><span class="answer-kicker">THE LINE IS</span><p id="answer-text"></p><span id="answer-title"></span></div><div id="timeout-overlay" class="timeout-overlay" hidden>시간 종료 <span>이제 정답을 확인해 보세요</span></div></div>
+      <div class="game-controls"><div class="timer-group"><button class="timer-button" id="timer-button" aria-label="타이머 시작 또는 일시정지"><span aria-hidden="true">◷</span><span id="timer-display">시간 제한 없음</span><span id="timer-state"></span></button><button class="text-button" id="timer-reset" aria-label="타이머 초기화">↺</button></div><div class="reveal-controls"><button class="button subtle" id="hint-button">힌트 <kbd>H</kbd></button><button class="button primary reveal-button" id="answer-button">정답 공개 <kbd>Space</kbd></button></div><div class="navigation-controls"><button class="icon-button" id="prev-button" aria-label="이전 문제">←</button><button class="button subtle" id="next-button">다음 문제 →</button></div></div>
+      <div class="game-footer"><span>한 장면을 보고, 그 대사를 맞혀보세요.</span><button class="text-button" id="shortcuts-button">키보드 안내 <span aria-hidden="true">⌨</span></button></div>
+    </section>
+
+    <section id="finish-view" class="view finish-view" hidden><span class="eyebrow">THAT’S A WRAP</span><div class="finish-graphic" aria-hidden="true">“<span>✦</span>”</div><h1>오늘도 명장면 완성.</h1><p><b id="finished-count">0</b>개의 장면을 함께했어요.<br>다음 게임에서도 당신의 기억력을 보여주세요.</p><div><button class="button primary" id="replay-button">다시 섞어서 플레이 ↗</button><button class="button subtle" id="finish-home">플레이룸으로</button></div></section>
+    <div id="error-view" class="error-view" hidden role="alert"><b>문제를 불러오지 못했어요.</b><p id="load-error"></p><button class="button primary" id="retry-button">다시 연결</button><button class="button subtle" id="error-connection">연결 설정</button></div>
+  </main>
+  <footer class="site-footer" id="site-footer"><span>한 컷, 한 마디<span class="footer-star">✳</span></span><span>GOOD SCENES. GREAT MEMORIES.</span><button class="text-button" id="help-button">사용 안내 ↗</button></footer>
+
+  <dialog id="login-dialog" aria-labelledby="login-title"><form id="login-form"><div class="dialog-heading"><span class="eyebrow">BACKSTAGE ACCESS</span><button type="button" class="icon-button dialog-close" aria-label="닫기">×</button></div><h2 id="login-title">장면을 준비하는 시간.</h2><p class="dialog-description" id="login-description">관리자 아이디와 비밀번호를 입력해 주세요.</p><div id="login-fields"><label>아이디<input id="login-id" name="username" autocomplete="username" required maxlength="128" placeholder="아이디 입력"></label><label>비밀번호<input id="login-password" name="password" type="password" autocomplete="current-password" required maxlength="128" placeholder="비밀번호 입력"></label><label>저장용 GitHub 키<input id="github-token" type="password" autocomplete="off" required maxlength="300" placeholder="github_pat_…" spellcheck="false" autocapitalize="off"></label><p class="field-help">저장소 소유자에게 받은 키를 입력하세요. 플레이만 할 때는 필요하지 않습니다. 아이디·비밀번호는 간단한 입장 확인용입니다.</p></div><p class="form-error" id="login-error" role="alert"></p><button type="submit" class="button primary wide" id="login-submit">관리 시작하기 ↗</button></form></dialog>
+
+  <dialog id="edit-dialog" class="edit-dialog" aria-labelledby="edit-title"><form id="question-form"><div class="dialog-heading"><span class="eyebrow">ADD A SCENE</span><button type="button" class="icon-button dialog-close" aria-label="닫기">×</button></div><h2 id="edit-title">새로운 장면 추가</h2><div class="edit-layout"><div class="image-field"><label class="image-upload" id="upload-area"><input type="file" id="image-file" accept="image/jpeg,image/png,image/webp" hidden><img id="edit-image" alt="등록할 이미지 미리보기" hidden><span id="upload-placeholder"><b>＋</b>장면 이미지 선택<small>JPG · PNG · WebP<br>자동으로 용량을 줄여요</small></span></label><label>또는 이미지 주소<input id="image-url" type="url" placeholder="https://…" maxlength="2000"></label><p class="field-help">게임에서는 이미지 전체가 보입니다.<br>정답 자막이 없는 장면을 골라주세요.</p></div><div class="question-fields"><label>작품명 <span class="required">*</span><input name="title" required maxlength="150" placeholder="예: 작품 이름"></label><div class="setup-row"><label>분류<select name="category"><option>영화</option><option>드라마</option><option>애니메이션</option></select></label><label>난이도<select name="difficulty"><option>쉬움</option><option selected>보통</option><option>어려움</option></select></label><label>연도<input name="year" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" placeholder="2026"></label></div><label>정답 대사 <span class="required">*</span><textarea name="answer" required maxlength="2000" rows="3" placeholder="참가자들이 맞혀야 할 대사를 입력하세요."></textarea></label><label>힌트<input name="hint" maxlength="300" placeholder="예: 첫 글자, 등장인물, 상황"></label><label>이미지 출처·메모<input name="source" maxlength="1000" placeholder="자료 출처나 진행자가 참고할 내용"></label><label class="checkbox-label"><input name="enabled" type="checkbox" checked>게임에 출제하기</label></div></div><p id="edit-error" class="form-error" role="alert"></p><div class="dialog-actions"><span id="save-mode-label"></span><button type="button" class="button subtle dialog-close">취소</button><button type="submit" class="button primary" id="save-button">문제 저장하기 ↗</button></div></form></dialog>
+
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><div class="dialog-heading"><span class="eyebrow">ONE MORE THING</span><button class="icon-button dialog-close" aria-label="닫기">×</button></div><h2 id="confirm-title"></h2><p class="dialog-description" id="confirm-description"></p><div class="dialog-actions"><button class="button subtle" id="confirm-cancel">취소</button><button class="button primary" id="confirm-yes">확인</button></div></dialog>
+
+  <dialog id="connection-dialog" aria-labelledby="connection-title"><form id="connection-form"><div class="dialog-heading"><span class="eyebrow">YOUR COLLECTION</span><button type="button" class="icon-button dialog-close" aria-label="닫기">×</button></div><h2 id="connection-title">어디에 저장할까요?</h2><p class="dialog-description">함께 쓸 문제는 GitHub에, 혼자 체험할 문제는 이 기기에 저장해요. 별도 서버나 계정 가입은 필요하지 않습니다.</p><label>저장 방식<select id="storage-mode"><option value="shared">GitHub 공동 저장 · 모든 기기에서 공유</option><option value="local">이 기기에만 저장 · 기능 체험</option></select></label><p class="field-help">GitHub 공동 편집에는 show 저장소의 Contents 쓰기 권한이 있는 키가 필요합니다. 키는 관리 로그인에서 입력하세요. 저장 방식을 바꿔도 기존 문제는 각각 남아 있습니다.</p><p class="form-error" id="connection-error" role="alert"></p><div class="dialog-actions"><a class="text-button" href="https://github.com/highsun9941/show/blob/main/README.md" target="_blank" rel="noopener noreferrer">저장용 키 준비 방법 ↗</a><button type="submit" class="button primary">적용하기</button></div></form></dialog>
+
+  <dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-heading"><span class="eyebrow">A LITTLE GUIDE</span><button class="icon-button dialog-close" aria-label="닫기">×</button></div><h2 id="help-title">게임은 이렇게.</h2><ol class="help-list"><li>장르와 문제 수를 고르고 <b>게임 시작하기</b>를 누르세요. 선택한 수보다 문제가 적으면 있는 만큼 출제합니다.</li><li>이미지를 보고 참가자들이 대사를 맞힙니다. <b>정답 공개</b>를 눌러 대사와 작품명을 확인하세요.</li><li>문제 보관함의 <b>문제 관리</b>에서 장면을 추가·수정·삭제할 수 있습니다. CSV/JSON으로 여러 문제를 한 번에 가져올 수도 있어요.</li></ol><div class="shortcut-list"><span><kbd>Space</kbd> 정답 공개·숨김</span><span><kbd>←</kbd> <kbd>→</kbd> 이전·다음 문제</span><span><kbd>H</kbd> 힌트</span><span><kbd>F</kbd> 전체 화면</span><span><kbd>T</kbd> 타이머 시작·멈춤</span><span><kbd>Esc</kbd> 전체 화면 해제</span></div><p class="field-help">iPad Safari에서는 전체 화면 버튼 지원이 기기·버전에 따라 다릅니다. 지원되지 않아도 게임 화면과 터치 조작은 그대로 사용할 수 있어요. 타이머는 장면 표시 후 직접 시작합니다.</p><a class="text-button" href="https://github.com/highsun9941/show/blob/main/README.md" target="_blank" rel="noopener noreferrer">설정·문제 양식 자세히 보기 ↗</a></dialog>
+
+  <input type="file" id="import-file" accept=".json,.csv,application/json,text/csv" hidden>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">이 게임은 JavaScript가 필요합니다. 브라우저 설정에서 JavaScript를 켜주세요.</p></noscript>
+</body>
+</html>

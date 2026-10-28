@@ -1,0 +1,645 @@
+{
+  "source": "https://machugi.io/quiz/K0JJUQt76mRkhQeqkhVd",
+  "sourceTitle": "음성지원 퀴즈 -예능-",
+  "sourceQuestionIds": [
+    "4YUIROt7Jjmo3qJJcjH7",
+    "7OANyEHeFVR4Jq9c6BBK",
+    "8POsCiFLNTwNqfnT7z88",
+    "AuhIqMR7hFt1xgDc0O67",
+    "B9xxeuro53kj0yFXAN86",
+    "CF7SttJOJhLa3Li6TDAb",
+    "LEj16YK7TndqTqGGYtAJ",
+    "N5D5ckXaXSx0AXHwapJl",
+    "NLxHBYHCJQmsHypQhZgF",
+    "OhB9WGZuCx8eOVD2OGUh",
+    "PCptCOl4DKSbM2OJ2VFI",
+    "PqXNfa17yq2gTKp2bWfw",
+    "QglzrdmbxCq01LF6I2hk",
+    "RZA4H8kEvUg0PtCklh3n",
+    "Y6Erp0HsI0mZwNliVj5a",
+    "ZOkSoWlNj4gUM1IWR6Gg",
+    "abk16JtipHz2EwOUkpqy",
+    "cfg4YcoQP1fJ3eKy8WHa",
+    "daL0dSDujuB5GkS7i59e",
+    "hC5MXYj2grbBNeaw195f",
+    "hapd4j25msPFZn1tZ5uA",
+    "hzmD3p0pxHKAhoFMsjoE",
+    "kaAFlpEUaGDbGdDxY1br",
+    "oTnRNen1p3qPCakQSGjK",
+    "q6Y8InA3PTL5UwHVV2H4",
+    "rXF5JoKA66qI2DSZXZSZ",
+    "rnrtGcEhlOIWPQvyn2oY",
+    "uRuwhqIhE1uGhuE1HmxJ",
+    "vZaCYXhnl6uMjM0JVuQB",
+    "vrIAiGE3eiZsPpbEnUDP"
+  ],
+  "importedAt": "2026-10-28T00:45:03.732Z",
+  "sourceCount": 30,
+  "added": 30,
+  "merged": 0,
+  "originalImageReferences": 60,
+  "uniqueOriginalImages": 30,
+  "method": "전체 30문항을 확인하고 원본의 프로그램·캐릭터 표기를 제목으로 분리. 예능 29개와 교양 1개로 분류. 원본의 자막 가림을 그대로 보존. 문제·정답 공개 이미지가 동일 바이트이므로 문항별 하나의 원본을 저장.",
+  "questions": [
+    {
+      "number": 1,
+      "questionId": "machugi-k0j-872bfcd1-8563-4113-8b24-fb683270b477",
+      "sourceAnswer": "형이 왜 거기서 나와...? (무한도전)",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "형이 왜 거기서 나와...?",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/872bfcd1-8563-4113-8b24-fb683270b477.jpeg",
+        "asset": "./uploads/variety-k0j-872bfcd1-8563-4113-8b24-fb683270b477.jpeg",
+        "sha256": "960db5e904934f43dd5b424c26205ae21791576115916eaca728c9127a3e9a5f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/921b79db-1b8d-4cf2-9725-b1582ad4bc54.jpeg",
+        "asset": "./uploads/variety-k0j-872bfcd1-8563-4113-8b24-fb683270b477.jpeg",
+        "sha256": "960db5e904934f43dd5b424c26205ae21791576115916eaca728c9127a3e9a5f"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 2,
+      "questionId": "machugi-k0j-67b37b67-2593-4c94-9f0b-1d9b6358829d",
+      "sourceAnswer": "궁금하면 500원 (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "궁금하면 500원",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/67b37b67-2593-4c94-9f0b-1d9b6358829d.jpeg",
+        "asset": "./uploads/variety-k0j-67b37b67-2593-4c94-9f0b-1d9b6358829d.jpeg",
+        "sha256": "4a0e0d17143a202ad9945755125f28788963c693c8e60ef6a2dc7114905ad16d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5d866898-fad8-4e17-a3fc-3aa1ef6b4908.jpeg",
+        "asset": "./uploads/variety-k0j-67b37b67-2593-4c94-9f0b-1d9b6358829d.jpeg",
+        "sha256": "4a0e0d17143a202ad9945755125f28788963c693c8e60ef6a2dc7114905ad16d"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 3,
+      "questionId": "machugi-k0j-f074e55c-7f6a-4c85-9def-441a15c74806",
+      "sourceAnswer": "야무지게 먹어야징~! (무한도전)",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "야무지게 먹어야징~!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/f074e55c-7f6a-4c85-9def-441a15c74806.jpeg",
+        "asset": "./uploads/variety-k0j-f074e55c-7f6a-4c85-9def-441a15c74806.jpeg",
+        "sha256": "8a169af791372d9ee3b65f41a3228a1016d4e47793658befadcfa12079c22d46"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5875873c-2138-4d3b-901d-5f4d1a73da95.jpeg",
+        "asset": "./uploads/variety-k0j-f074e55c-7f6a-4c85-9def-441a15c74806.jpeg",
+        "sha256": "8a169af791372d9ee3b65f41a3228a1016d4e47793658befadcfa12079c22d46"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 4,
+      "questionId": "machugi-k0j-b803dfe3-ba5e-45a9-89b1-e6041a4d33cd",
+      "sourceAnswer": "완전 무대를 뒤집어 놓으셨다. (나는 가수다)",
+      "title": "나는 가수다",
+      "category": "국내 예능",
+      "answer": "완전 무대를 뒤집어 놓으셨다.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/b803dfe3-ba5e-45a9-89b1-e6041a4d33cd.jpeg",
+        "asset": "./uploads/variety-k0j-b803dfe3-ba5e-45a9-89b1-e6041a4d33cd.jpeg",
+        "sha256": "a1d6f2afe1dba2776172222d1861410d4549119473e6ccbe772ea0483996836d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6cf44023-be49-4821-9acf-60d24e895539.jpeg",
+        "asset": "./uploads/variety-k0j-b803dfe3-ba5e-45a9-89b1-e6041a4d33cd.jpeg",
+        "sha256": "a1d6f2afe1dba2776172222d1861410d4549119473e6ccbe772ea0483996836d"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 5,
+      "questionId": "machugi-k0j-20c918d2-7e9b-41c5-babd-d92ffb9de1e8",
+      "sourceAnswer": "기쁜데 슬프다 (런닝맨)",
+      "title": "런닝맨",
+      "category": "국내 예능",
+      "answer": "기쁜데 슬프다",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/20c918d2-7e9b-41c5-babd-d92ffb9de1e8.jpeg",
+        "asset": "./uploads/variety-k0j-20c918d2-7e9b-41c5-babd-d92ffb9de1e8.jpeg",
+        "sha256": "23d6c85fb91dbc9f9c1b27f02e21934a26e37e27d2f8b3179628f46f238afa4a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/92c52566-3fe6-4a9e-9b2c-7905f83fa678.jpeg",
+        "asset": "./uploads/variety-k0j-20c918d2-7e9b-41c5-babd-d92ffb9de1e8.jpeg",
+        "sha256": "23d6c85fb91dbc9f9c1b27f02e21934a26e37e27d2f8b3179628f46f238afa4a"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 6,
+      "questionId": "machugi-k0j-e4cf4fe2-ced1-48de-a640-2f225eb73600",
+      "sourceAnswer": "췍! (슈퍼스타 K)",
+      "title": "슈퍼스타 K",
+      "category": "국내 예능",
+      "answer": "췍!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/e4cf4fe2-ced1-48de-a640-2f225eb73600.jpeg",
+        "asset": "./uploads/variety-k0j-e4cf4fe2-ced1-48de-a640-2f225eb73600.jpeg",
+        "sha256": "2ca6c35a4ade0ddf08e459ddccf24ca4bf7dd6ae54f11bd84d9e5ddc1166d43e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1c2dcc3f-1123-4ff7-a076-5e4b828de29f.jpeg",
+        "asset": "./uploads/variety-k0j-e4cf4fe2-ced1-48de-a640-2f225eb73600.jpeg",
+        "sha256": "2ca6c35a4ade0ddf08e459ddccf24ca4bf7dd6ae54f11bd84d9e5ddc1166d43e"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 7,
+      "questionId": "machugi-k0j-de3ffea6-d8e1-4053-b147-67359946390e",
+      "sourceAnswer": "혼나. (놀라운 토요일)",
+      "title": "놀라운 토요일",
+      "category": "국내 예능",
+      "answer": "혼나.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/de3ffea6-d8e1-4053-b147-67359946390e.jpeg",
+        "asset": "./uploads/variety-k0j-de3ffea6-d8e1-4053-b147-67359946390e.jpeg",
+        "sha256": "d9a8605e6c8167f113448fddcc815dfccb35564f8012c4238011da43fdc76889"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ff18eaaa-2321-41bf-876b-0256aef91b6c.jpeg",
+        "asset": "./uploads/variety-k0j-de3ffea6-d8e1-4053-b147-67359946390e.jpeg",
+        "sha256": "d9a8605e6c8167f113448fddcc815dfccb35564f8012c4238011da43fdc76889"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 8,
+      "questionId": "machugi-k0j-4b2d0ac5-17c7-4d2c-b11e-586645d3b39a",
+      "sourceAnswer": "두뇌 풀가동! (정신통일)",
+      "title": "정신통일",
+      "category": "국내 예능",
+      "answer": "두뇌 풀가동!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/4b2d0ac5-17c7-4d2c-b11e-586645d3b39a.jpeg",
+        "asset": "./uploads/variety-k0j-4b2d0ac5-17c7-4d2c-b11e-586645d3b39a.jpeg",
+        "sha256": "8c7bdef77c4b468a2de9915ece961b2bdf7ddd90d218acfcdd2d7e847d16c592"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/39112fab-86db-4c6d-8c5e-89fc8c4b2740.jpeg",
+        "asset": "./uploads/variety-k0j-4b2d0ac5-17c7-4d2c-b11e-586645d3b39a.jpeg",
+        "sha256": "8c7bdef77c4b468a2de9915ece961b2bdf7ddd90d218acfcdd2d7e847d16c592"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 9,
+      "questionId": "machugi-k0j-27b5b394-dcbb-4dce-a513-7bdfd22d2379",
+      "sourceAnswer": "이걸 끼고 일해야 능률이 올라갑니다. (SNL 코리아)",
+      "title": "SNL 코리아",
+      "category": "국내 예능",
+      "answer": "이걸 끼고 일해야 능률이 올라갑니다.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/27b5b394-dcbb-4dce-a513-7bdfd22d2379.jpeg",
+        "asset": "./uploads/variety-k0j-27b5b394-dcbb-4dce-a513-7bdfd22d2379.jpeg",
+        "sha256": "cfe415f40316943c15605f806ce683aa329e8c5c92ea44ac3f5b30b5de963744"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3e5ab075-030f-46dc-8dbf-8114417b4b45.jpeg",
+        "asset": "./uploads/variety-k0j-27b5b394-dcbb-4dce-a513-7bdfd22d2379.jpeg",
+        "sha256": "cfe415f40316943c15605f806ce683aa329e8c5c92ea44ac3f5b30b5de963744"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 10,
+      "questionId": "machugi-k0j-a52ae25b-6f96-4c40-a8ed-cfe231e6b442",
+      "sourceAnswer": "밥 묵자. (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "밥 묵자.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/a52ae25b-6f96-4c40-a8ed-cfe231e6b442.jpeg",
+        "asset": "./uploads/variety-k0j-a52ae25b-6f96-4c40-a8ed-cfe231e6b442.jpeg",
+        "sha256": "1a77db1d445202903445beb769879e90e7604e94a6d1feb118f3d7b4dccec93f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/0998e568-3772-4f56-9873-5573ebf8a30a.jpeg",
+        "asset": "./uploads/variety-k0j-a52ae25b-6f96-4c40-a8ed-cfe231e6b442.jpeg",
+        "sha256": "1a77db1d445202903445beb769879e90e7604e94a6d1feb118f3d7b4dccec93f"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 11,
+      "questionId": "machugi-k0j-c5d04b76-a1a5-4f7c-abff-bc2c23ba4411",
+      "sourceAnswer": "1등만 기억하는 더러운 세상 (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "1등만 기억하는 더러운 세상",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/c5d04b76-a1a5-4f7c-abff-bc2c23ba4411.jpeg",
+        "asset": "./uploads/variety-k0j-c5d04b76-a1a5-4f7c-abff-bc2c23ba4411.jpeg",
+        "sha256": "11c6409197ae055ea8dd4f710dc495871475d19d3aa9ed18bfc7959cd797f773"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7b2b8fa9-3c1b-455e-bcd5-c4c3675c1171.jpeg",
+        "asset": "./uploads/variety-k0j-c5d04b76-a1a5-4f7c-abff-bc2c23ba4411.jpeg",
+        "sha256": "11c6409197ae055ea8dd4f710dc495871475d19d3aa9ed18bfc7959cd797f773"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 12,
+      "questionId": "machugi-k0j-ff8f3a3a-3837-43c4-87a2-b18dcc540a7a",
+      "sourceAnswer": "당연하지 (X맨)",
+      "title": "X맨",
+      "category": "국내 예능",
+      "answer": "당연하지",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/ff8f3a3a-3837-43c4-87a2-b18dcc540a7a.jpeg",
+        "asset": "./uploads/variety-k0j-ff8f3a3a-3837-43c4-87a2-b18dcc540a7a.jpeg",
+        "sha256": "db1db2add46d6e108e637846bdd2477035569a44f70750e08f599c766c4a2fdb"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f25173e5-5788-41cf-95bd-418d60524626.jpeg",
+        "asset": "./uploads/variety-k0j-ff8f3a3a-3837-43c4-87a2-b18dcc540a7a.jpeg",
+        "sha256": "db1db2add46d6e108e637846bdd2477035569a44f70750e08f599c766c4a2fdb"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 13,
+      "questionId": "machugi-k0j-6ace7c3f-b95e-465f-b77c-9b055e8d5f78",
+      "sourceAnswer": "쳐밀도~ (슈퍼스타 K)",
+      "title": "슈퍼스타 K",
+      "category": "국내 예능",
+      "answer": "쳐밀도~",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/6ace7c3f-b95e-465f-b77c-9b055e8d5f78.jpeg",
+        "asset": "./uploads/variety-k0j-6ace7c3f-b95e-465f-b77c-9b055e8d5f78.jpeg",
+        "sha256": "323660ad2c7539f99786ee3f94d5ddd06144123490dc430fba7a145da5f0c416"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/635a8a3a-61a2-46aa-9dc5-693555bfe5f2.jpeg",
+        "asset": "./uploads/variety-k0j-6ace7c3f-b95e-465f-b77c-9b055e8d5f78.jpeg",
+        "sha256": "323660ad2c7539f99786ee3f94d5ddd06144123490dc430fba7a145da5f0c416"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 14,
+      "questionId": "machugi-k0j-5719a86e-167c-4a15-93fb-3f800e3ba4ad",
+      "sourceAnswer": "이븐하게 익지 않았어요. (흑백 요리사)",
+      "title": "흑백 요리사",
+      "category": "국내 예능",
+      "answer": "이븐하게 익지 않았어요.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/5719a86e-167c-4a15-93fb-3f800e3ba4ad.jpeg",
+        "asset": "./uploads/variety-k0j-5719a86e-167c-4a15-93fb-3f800e3ba4ad.jpeg",
+        "sha256": "6173beaecafb56dfe0f6ec8747dd6669d982d28e15b78003387e9a2ab3e498ce"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/41d3429e-9425-48d7-b3f3-0e7846b67edc.jpeg",
+        "asset": "./uploads/variety-k0j-5719a86e-167c-4a15-93fb-3f800e3ba4ad.jpeg",
+        "sha256": "6173beaecafb56dfe0f6ec8747dd6669d982d28e15b78003387e9a2ab3e498ce"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 15,
+      "questionId": "machugi-k0j-85fbfa06-d203-4772-adf8-870e7b90be87",
+      "sourceAnswer": "물아일체 (아빠! 어디가?)",
+      "title": "아빠! 어디가?",
+      "category": "국내 예능",
+      "answer": "물아일체",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/85fbfa06-d203-4772-adf8-870e7b90be87.jpeg",
+        "asset": "./uploads/variety-k0j-85fbfa06-d203-4772-adf8-870e7b90be87.jpeg",
+        "sha256": "79105e1b39535ceb53051ff031f8aaf6e0c741a516bd5315a0802ccd1a75a77c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6391ef4f-ff48-4417-9681-3b6cec20a051.jpeg",
+        "asset": "./uploads/variety-k0j-85fbfa06-d203-4772-adf8-870e7b90be87.jpeg",
+        "sha256": "79105e1b39535ceb53051ff031f8aaf6e0c741a516bd5315a0802ccd1a75a77c"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 16,
+      "questionId": "machugi-k0j-0e08d6f0-a4ce-42b3-aaa3-42aa0484a28b",
+      "sourceAnswer": "고뤠? (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "고뤠?",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/0e08d6f0-a4ce-42b3-aaa3-42aa0484a28b.jpeg",
+        "asset": "./uploads/variety-k0j-0e08d6f0-a4ce-42b3-aaa3-42aa0484a28b.jpeg",
+        "sha256": "196ecb68652ff7616a513b4f4f522e740677e0af03366818333c28197591a990"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6a51bddb-300d-4f7b-b5ef-6070a13609d7.jpeg",
+        "asset": "./uploads/variety-k0j-0e08d6f0-a4ce-42b3-aaa3-42aa0484a28b.jpeg",
+        "sha256": "196ecb68652ff7616a513b4f4f522e740677e0af03366818333c28197591a990"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 17,
+      "questionId": "machugi-k0j-215fbe9b-4cfc-432c-92df-3a21819168f2",
+      "sourceAnswer": "선생님 똥칼라파워~! (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "선생님 똥칼라파워~!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/215fbe9b-4cfc-432c-92df-3a21819168f2.jpeg",
+        "asset": "./uploads/variety-k0j-215fbe9b-4cfc-432c-92df-3a21819168f2.jpeg",
+        "sha256": "bcfd6dc6214e98b4dd54990756773a7317cfdf398037253d9ffc980ba0dcba0e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b9afe59e-40c0-4758-a867-1b616389fb1f.jpeg",
+        "asset": "./uploads/variety-k0j-215fbe9b-4cfc-432c-92df-3a21819168f2.jpeg",
+        "sha256": "bcfd6dc6214e98b4dd54990756773a7317cfdf398037253d9ffc980ba0dcba0e"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 18,
+      "questionId": "machugi-k0j-d356dfd8-af25-427f-8387-def60a37edf3",
+      "sourceAnswer": "나만 아니면 돼~~!! (1박2일)",
+      "title": "1박2일",
+      "category": "국내 예능",
+      "answer": "나만 아니면 돼~~!!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/d356dfd8-af25-427f-8387-def60a37edf3.jpeg",
+        "asset": "./uploads/variety-k0j-d356dfd8-af25-427f-8387-def60a37edf3.jpeg",
+        "sha256": "a8f5422cc39bda21000291c03fd6b3d93c2ac5b1647d84194893f58835d1036b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f2be51ec-3798-41a9-937d-0e0486cf76de.jpeg",
+        "asset": "./uploads/variety-k0j-d356dfd8-af25-427f-8387-def60a37edf3.jpeg",
+        "sha256": "a8f5422cc39bda21000291c03fd6b3d93c2ac5b1647d84194893f58835d1036b"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 19,
+      "questionId": "machugi-k0j-c7876150-06a0-4937-9fd9-987d17a0b3b9",
+      "sourceAnswer": "아니 없어요 그냥. (슈퍼스타 K)",
+      "title": "슈퍼스타 K",
+      "category": "국내 예능",
+      "answer": "아니 없어요 그냥.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/c7876150-06a0-4937-9fd9-987d17a0b3b9.jpeg",
+        "asset": "./uploads/variety-k0j-c7876150-06a0-4937-9fd9-987d17a0b3b9.jpeg",
+        "sha256": "c4704427a4d6eb2412405bf1f06553ad5e9f2a7ad0f49db49b00f49223fd2c2b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b7e9fabb-a371-408c-b348-ef19113ce7b8.jpeg",
+        "asset": "./uploads/variety-k0j-c7876150-06a0-4937-9fd9-987d17a0b3b9.jpeg",
+        "sha256": "c4704427a4d6eb2412405bf1f06553ad5e9f2a7ad0f49db49b00f49223fd2c2b"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 20,
+      "questionId": "machugi-k0j-cc5a72ef-8f59-4624-879d-88a16cc1213e",
+      "sourceAnswer": "스타가 되고 싶으면 연락해 (개그콘서트)",
+      "title": "개그콘서트",
+      "category": "국내 예능",
+      "answer": "스타가 되고 싶으면 연락해",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/cc5a72ef-8f59-4624-879d-88a16cc1213e.jpeg",
+        "asset": "./uploads/variety-k0j-cc5a72ef-8f59-4624-879d-88a16cc1213e.jpeg",
+        "sha256": "eb6602ab6a281f023ab5f086d2157a40e8e4551ea0f657d7dbdd5429522464c3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5cd9f0fe-dddf-4f8c-905d-81b614638230.jpeg",
+        "asset": "./uploads/variety-k0j-cc5a72ef-8f59-4624-879d-88a16cc1213e.jpeg",
+        "sha256": "eb6602ab6a281f023ab5f086d2157a40e8e4551ea0f657d7dbdd5429522464c3"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 21,
+      "questionId": "machugi-k0j-ec7e546e-311c-4878-a531-ff0d456de4aa",
+      "sourceAnswer": "엄마한테 잘해 임마! (신서유기)",
+      "title": "신서유기",
+      "category": "국내 예능",
+      "answer": "엄마한테 잘해 임마!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/ec7e546e-311c-4878-a531-ff0d456de4aa.jpeg",
+        "asset": "./uploads/variety-k0j-ec7e546e-311c-4878-a531-ff0d456de4aa.jpeg",
+        "sha256": "6a46dba6a424d0831726007be4895fb61a754b0d73f9f941ecf4c23d22d8d254"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8a2a26fe-88db-4d8c-8337-b0c8df8e36a4.jpeg",
+        "asset": "./uploads/variety-k0j-ec7e546e-311c-4878-a531-ff0d456de4aa.jpeg",
+        "sha256": "6a46dba6a424d0831726007be4895fb61a754b0d73f9f941ecf4c23d22d8d254"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 22,
+      "questionId": "machugi-k0j-3a0a7d3b-b159-4cc2-b957-a64112fc3034",
+      "sourceAnswer": "어? 이쁘다. (최준)",
+      "title": "최준",
+      "category": "국내 예능",
+      "answer": "어? 이쁘다.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/3a0a7d3b-b159-4cc2-b957-a64112fc3034.jpeg",
+        "asset": "./uploads/variety-k0j-3a0a7d3b-b159-4cc2-b957-a64112fc3034.jpeg",
+        "sha256": "eb4db4cab9ba6830a35a197feec766497a789a7d99d385a01b8a46539c55e2cc"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c7b8a286-4393-45bf-8f11-d3658f48c231.jpeg",
+        "asset": "./uploads/variety-k0j-3a0a7d3b-b159-4cc2-b957-a64112fc3034.jpeg",
+        "sha256": "eb4db4cab9ba6830a35a197feec766497a789a7d99d385a01b8a46539c55e2cc"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 23,
+      "questionId": "machugi-k0j-604a54b4-f623-48f0-a234-0aa7f5c214db",
+      "sourceAnswer": "아파? (1박2일)",
+      "title": "1박2일",
+      "category": "국내 예능",
+      "answer": "아파?",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/604a54b4-f623-48f0-a234-0aa7f5c214db.jpeg",
+        "asset": "./uploads/variety-k0j-604a54b4-f623-48f0-a234-0aa7f5c214db.jpeg",
+        "sha256": "ca1e300b1de959afb66b5f9c81c5a45e75deef8cd6774e8f4594bca1bd57a91d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9832dd4d-9d4a-428f-872a-50f00ebeb895.jpeg",
+        "asset": "./uploads/variety-k0j-604a54b4-f623-48f0-a234-0aa7f5c214db.jpeg",
+        "sha256": "ca1e300b1de959afb66b5f9c81c5a45e75deef8cd6774e8f4594bca1bd57a91d"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 24,
+      "questionId": "machugi-k0j-8760eae2-022c-4e46-831b-36e47b41c71e",
+      "sourceAnswer": "전멸 (라디오스타)",
+      "title": "라디오스타",
+      "category": "국내 예능",
+      "answer": "전멸",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/8760eae2-022c-4e46-831b-36e47b41c71e.jpeg",
+        "asset": "./uploads/variety-k0j-8760eae2-022c-4e46-831b-36e47b41c71e.jpeg",
+        "sha256": "3a8fef1617536a80c3bffc50b6decb26841dbbed7fff4d1912378dbef62ff7e0"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d0c309ed-4ee8-4236-9698-9791266ef3bb.jpeg",
+        "asset": "./uploads/variety-k0j-8760eae2-022c-4e46-831b-36e47b41c71e.jpeg",
+        "sha256": "3a8fef1617536a80c3bffc50b6decb26841dbbed7fff4d1912378dbef62ff7e0"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 25,
+      "questionId": "machugi-k0j-71d34327-f8d3-4bfa-816e-71e9aa9eb03c",
+      "sourceAnswer": "상상도 못한 정체 (복면가왕)",
+      "title": "복면가왕",
+      "category": "국내 예능",
+      "answer": "상상도 못한 정체",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/71d34327-f8d3-4bfa-816e-71e9aa9eb03c.jpeg",
+        "asset": "./uploads/variety-k0j-71d34327-f8d3-4bfa-816e-71e9aa9eb03c.jpeg",
+        "sha256": "48504d611f5a73806e062b8bfa78cefce9bc7d6d5e9e4a112b8b06896b3636a8"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/863d6c4d-ff9d-4a00-a1e3-180316c7ef62.jpeg",
+        "asset": "./uploads/variety-k0j-71d34327-f8d3-4bfa-816e-71e9aa9eb03c.jpeg",
+        "sha256": "48504d611f5a73806e062b8bfa78cefce9bc7d6d5e9e4a112b8b06896b3636a8"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 26,
+      "questionId": "machugi-k0j-a129b5f4-1906-4aa7-bb53-c66da4f28186",
+      "sourceAnswer": "그게 무슨 의미가 있니 지금! (아는 형님)",
+      "title": "아는 형님",
+      "category": "국내 예능",
+      "answer": "그게 무슨 의미가 있니 지금!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/a129b5f4-1906-4aa7-bb53-c66da4f28186.jpeg",
+        "asset": "./uploads/variety-k0j-a129b5f4-1906-4aa7-bb53-c66da4f28186.jpeg",
+        "sha256": "86311734ac4b1d9d8ce93940801798b32164afe197da7147fab699d4d2444bd5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/fbfda4f2-fa1e-4100-ac02-6ace21ab1bc8.jpeg",
+        "asset": "./uploads/variety-k0j-a129b5f4-1906-4aa7-bb53-c66da4f28186.jpeg",
+        "sha256": "86311734ac4b1d9d8ce93940801798b32164afe197da7147fab699d4d2444bd5"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 27,
+      "questionId": "machugi-k0j-0f92e31d-713e-4989-bf6d-8011024180e0",
+      "sourceAnswer": "그런데 말입니다. (그것이 알고 싶다)",
+      "title": "그것이 알고 싶다",
+      "category": "국내 교양",
+      "answer": "그런데 말입니다.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/0f92e31d-713e-4989-bf6d-8011024180e0.jpeg",
+        "asset": "./uploads/variety-k0j-0f92e31d-713e-4989-bf6d-8011024180e0.jpeg",
+        "sha256": "42115b0d97fa4bb537a3bd41591af5539a9fb7066448c006459ada85f6196f5c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7a1d0329-9ad0-4a3c-98e2-d035070e7104.jpeg",
+        "asset": "./uploads/variety-k0j-0f92e31d-713e-4989-bf6d-8011024180e0.jpeg",
+        "sha256": "42115b0d97fa4bb537a3bd41591af5539a9fb7066448c006459ada85f6196f5c"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 28,
+      "questionId": "machugi-k0j-68f44c21-478d-4f6f-a513-f0d5ef9dd9f1",
+      "sourceAnswer": "모르는데 어떻게 가요! (세바퀴)",
+      "title": "세바퀴",
+      "category": "국내 예능",
+      "answer": "모르는데 어떻게 가요!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/68f44c21-478d-4f6f-a513-f0d5ef9dd9f1.jpeg",
+        "asset": "./uploads/variety-k0j-68f44c21-478d-4f6f-a513-f0d5ef9dd9f1.jpeg",
+        "sha256": "cede79c9b8fdecfea32afd644c1fd4c4d613cedac46dace1be8b12279bde5496"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/842a4348-e1d2-454f-9dd8-e44663ca5d7f.jpeg",
+        "asset": "./uploads/variety-k0j-68f44c21-478d-4f6f-a513-f0d5ef9dd9f1.jpeg",
+        "sha256": "cede79c9b8fdecfea32afd644c1fd4c4d613cedac46dace1be8b12279bde5496"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 29,
+      "questionId": "machugi-k0j-65140901-64a7-4bd7-9560-99fb10efc1d8",
+      "sourceAnswer": "엎드려! (진짜사나이)",
+      "title": "진짜사나이",
+      "category": "국내 예능",
+      "answer": "엎드려!",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/65140901-64a7-4bd7-9560-99fb10efc1d8.jpeg",
+        "asset": "./uploads/variety-k0j-65140901-64a7-4bd7-9560-99fb10efc1d8.jpeg",
+        "sha256": "e50251ff7423720fedf2526e8eaedd06bcbd91fc82aca9837d0ac0f8597f570d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/dcb2f207-2a8b-4e4d-a675-d3b558cae58d.jpeg",
+        "asset": "./uploads/variety-k0j-65140901-64a7-4bd7-9560-99fb10efc1d8.jpeg",
+        "sha256": "e50251ff7423720fedf2526e8eaedd06bcbd91fc82aca9837d0ac0f8597f570d"
+      },
+      "reviewed": true
+    },
+    {
+      "number": 30,
+      "questionId": "machugi-k0j-24ce6eda-14ee-4703-ac0f-a96f4e017521",
+      "sourceAnswer": "60초 후에 공개됩니다. (슈퍼스타 K)",
+      "title": "슈퍼스타 K",
+      "category": "국내 예능",
+      "answer": "60초 후에 공개됩니다.",
+      "action": "added",
+      "questionImage": {
+        "url": "https://images.machugi.io/24ce6eda-14ee-4703-ac0f-a96f4e017521.jpeg",
+        "asset": "./uploads/variety-k0j-24ce6eda-14ee-4703-ac0f-a96f4e017521.jpeg",
+        "sha256": "b934193064cf9d2753ca5e0594f82d2c8b1853c206f5c6fa4b162f7372a3367e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2de65597-2918-444c-a5ef-601068f5751d.jpeg",
+        "asset": "./uploads/variety-k0j-24ce6eda-14ee-4703-ac0f-a96f4e017521.jpeg",
+        "sha256": "b934193064cf9d2753ca5e0594f82d2c8b1853c206f5c6fa4b162f7372a3367e"
+      },
+      "reviewed": true
+    }
+  ]
+}

@@ -3,12 +3,17 @@ import { LocalStore, GitHubStore } from './storage.js';
 import { loadConfig, repositoryLinks } from './config.js';
 import { createImageMasks } from './image-masks.js';
 import { imageExportJobs, buildImageExport, imageArchiveName } from './image-export.js';
+import { PlaySession, PlayHistoryStore, HISTORY_LIMIT } from './play-history.js';
 
 const $ = id => document.getElementById(id);
 const state = { view: 'home', store: null, questions: [], admin: false, ready: false, category: '전체', page: 1, deck: [], index: 0, answer: false, hint: false, running: false, seconds: 0, deadline: 0, duration: 0, busy: false, edit: null, render: 0 };
 const PAGE_SIZE = 24;
 const siteScope = new URL('.', window.location.href).href;
 const modeKey = `show-storage-mode:${siteScope}`;
+const historyStore = new PlayHistoryStore(siteScope);
+const historyImages = new LocalStore(siteScope);
+let playSession = null, lastRound = null, savedRound = null, endingGame = false;
+let selectedHistoryId = null, historyRequest = 0;
 let toastTimer, clockInterval, confirmResolve;
 let imageExportController = null, failedImageExports = [];
 const el = (tag, className = '', text = '') => { const node = document.createElement(tag); node.className = className; node.textContent = text; return node; };
@@ -28,6 +33,7 @@ function view(name) {
     if (active) button.setAttribute('aria-current', 'page'); else button.removeAttribute('aria-current');
   });
   if (name === 'library') renderLibrary();
+  if (name === 'history') renderHistory();
   if (name !== 'game') { pauseTimer(); leaveFullscreen(); }
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
@@ -130,13 +136,17 @@ function renderLibrary() {
 }
 
 function startGame(deck = makeDeck(state.questions, roundOptions())) {
+  if (endingGame) return;
   if (!deck.length) { toast('출제할 문제가 없습니다.', true); return; }
   state.deck = deck; state.index = 0; state.duration = Number($('round-timer').value);
+  playSession = new PlaySession({ category: deck.length === 1 ? deck[0].category : state.category,
+    total: deck.length, timer: state.duration, order: $('round-order').value });
+  lastRound = null; savedRound = null;
   view('game'); renderScene();
 }
 async function renderScene() {
   pauseTimer(); state.answer = false; state.hint = false; state.seconds = state.duration; updateTimer();
-  const q = state.deck[state.index], render = ++state.render;
+  const q = state.deck[state.index], render = ++state.render, session = playSession, position = state.index + 1;
   $('game-current').textContent = String(state.index + 1).padStart(2, '0');
   $('game-total').textContent = String(state.deck.length).padStart(2, '0');
   $('stage-number').textContent = `SCENE ${String(state.index + 1).padStart(2, '0')}`;
@@ -160,7 +170,13 @@ async function renderScene() {
     const url = await state.store.imageUrl(q.image);
     if (render !== state.render) return;
     if (!url) { failed(); return; }
-    $('stage-image').onload = () => { if (render !== state.render) return; $('stage-image').hidden = false; stageMasks.set(q.imageMasks); $('stage-loading').hidden = true; $('timer-button').disabled = !state.duration; };
+    $('stage-image').onload = () => {
+      if (render !== state.render || state.view !== 'game') return;
+      $('stage-image').hidden = false; stageMasks.set(q.imageMasks); $('stage-loading').hidden = true; $('timer-button').disabled = !state.duration;
+      // Keep local image IDs durable; blob URLs only live until the page closes.
+      const image = q.image.startsWith('local:') ? q.image : new URL(url, siteScope).href;
+      session.record(q, position, image);
+    };
     $('stage-image').onerror = failed; $('stage-image').src = url;
     // 현재 장면 외에 다음 한 장만 미리 읽습니다.
     const next = state.deck[state.index + 1];
@@ -187,8 +203,93 @@ function toggleHint() {
   $('hint-button').setAttribute('aria-expanded', String(state.hint));
 }
 function nextScene() {
+  if (state.view !== 'game' || endingGame) return;
   if (state.index < state.deck.length - 1) { state.index++; renderScene(); }
-  else { $('finished-count').textContent = state.deck.length; view('finish'); }
+  else endGame('completed');
+}
+
+async function saveLastRound() {
+  $('retry-history-save').hidden = true;
+  $('finish-history').disabled = true;
+  $('replay-button').disabled = true;
+  $('history-save-status').textContent = '이번 회차 기록을 저장하고 있어요…';
+  try {
+    savedRound = await historyStore.save(lastRound);
+    $('history-save-status').textContent = `${savedRound.number}회차 기록을 저장했어요. 최근 ${HISTORY_LIMIT}회차까지 이 브라우저에 남습니다.`;
+    $('finish-history').disabled = false;
+  } catch (error) {
+    $('history-save-status').textContent = `${error.message} 저장하기 전 새로고침하면 이번 기록이 사라집니다.`;
+    $('retry-history-save').hidden = false;
+  } finally { $('replay-button').disabled = false; }
+}
+async function endGame(status) {
+  if (endingGame || state.view !== 'game') return;
+  endingGame = true; pauseTimer(); ++state.render;
+  lastRound = playSession.finish(status);
+  $('finished-count').textContent = lastRound?.scenes.length || 0;
+  $('finish-history').disabled = true;
+  $('retry-history-save').hidden = true;
+  view('finish');
+  try {
+    if (lastRound) await saveLastRound();
+    else $('history-save-status').textContent = '화면에 표시된 문제가 없어 저장할 기록이 없어요.';
+  } finally { endingGame = false; }
+}
+
+const historyDate = value => new Intl.DateTimeFormat('ko-KR', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(value));
+function renderHistoryDetail(round) {
+  $('history-detail').hidden = !round;
+  $('history-scenes').replaceChildren();
+  if (!round) return;
+  $('history-detail-title').textContent = `${round.number}회차에 나온 문제`;
+  $('history-detail-meta').textContent = `${historyDate(round.startedAt)} · ${round.status === 'completed' ? '완주' : '중도 종료'} · ${round.scenes.length} / ${round.settings.total}문제`;
+  $('history-detail-settings').textContent = `${round.settings.category} · ${round.settings.timer ? `${round.settings.timer}초 타이머` : '시간 제한 없이'}`;
+  for (const scene of round.scenes) {
+    const item = el('li', 'history-scene');
+    const image = el('img'); image.alt = `${scene.title}의 출제 장면`; image.loading = 'lazy'; image.decoding = 'async';
+    const media = el('div', 'history-scene-image');
+    const missing = el('span', 'history-image-missing', '이미지를 불러올 수 없어요'); missing.hidden = true;
+    image.addEventListener('error', () => { image.hidden = true; missing.hidden = false; });
+    const imageUrl = scene.image.startsWith('local:') ? historyImages.imageUrl(scene.image) : Promise.resolve(scene.image);
+    imageUrl.then(url => { if (url) image.src = url; else { image.hidden = true; missing.hidden = false; } }).catch(() => { image.hidden = true; missing.hidden = false; });
+    media.append(image, missing);
+    const text = el('div', 'history-scene-copy'), meta = el('p', 'history-scene-meta', `${scene.position}번 문제 · ${scene.category}${scene.year ? ` · ${scene.year}` : ''}`);
+    text.append(meta, el('h3', '', scene.title), el('p', 'history-scene-answer', scene.answer));
+    item.append(media, text); $('history-scenes').append(item);
+  }
+}
+function selectHistory(round) {
+  selectedHistoryId = round.id;
+  for (const button of $('history-rounds').querySelectorAll('button')) button.setAttribute('aria-pressed', String(button.dataset.round === round.id));
+  renderHistoryDetail(round);
+}
+async function renderHistory() {
+  const request = ++historyRequest;
+  $('history-status').textContent = '플레이 기록을 불러오고 있어요…';
+  $('history-refresh').disabled = true;
+  try {
+    const rounds = await historyStore.list();
+    if (request !== historyRequest || state.view !== 'history') return;
+    $('history-rounds').replaceChildren();
+    $('history-empty').hidden = Boolean(rounds.length);
+    $('history-layout').hidden = !rounds.length;
+    $('history-count').textContent = `${rounds.length} / ${HISTORY_LIMIT}회차 보관 중`;
+    $('history-status').textContent = '';
+    for (const round of rounds) {
+      const item = el('li'), button = el('button', 'history-round'); button.type = 'button'; button.dataset.round = round.id;
+      button.setAttribute('aria-label', `${round.number}회차 기록 보기`);
+      button.append(el('strong', '', `${round.number}회차`), el('span', '', historyDate(round.startedAt)), el('small', '', `${round.status === 'completed' ? '완주' : '중도 종료'} · ${round.scenes.length} / ${round.settings.total}문제`));
+      button.addEventListener('click', () => selectHistory(round));
+      item.append(button); $('history-rounds').append(item);
+    }
+    const selected = rounds.find(round => round.id === selectedHistoryId) || rounds[0];
+    if (selected) selectHistory(selected);
+    else { selectedHistoryId = null; renderHistoryDetail(null); }
+  } catch (error) {
+    if (request !== historyRequest || state.view !== 'history') return;
+    $('history-status').textContent = error.message;
+    $('history-layout').hidden = true; $('history-empty').hidden = true;
+  } finally { if (request === historyRequest) $('history-refresh').disabled = false; }
 }
 function updateTimer() {
   $('timer-display').textContent = state.duration ? `${Math.floor(state.seconds / 60)}:${String(state.seconds % 60).padStart(2, '0')}` : '시간 제한 없음';
@@ -363,9 +464,18 @@ $('next-button').onclick = nextScene;
 $('timer-button').onclick = toggleTimer;
 $('timer-reset').onclick = () => { pauseTimer(); state.seconds = state.duration; updateTimer(); $('timeout-overlay').hidden = true; };
 $('fullscreen-button').onclick = fullscreen;
-$('exit-game').onclick = async () => { if (await confirm('게임을 나갈까요?', '진행 중인 게임이 종료됩니다. 등록한 문제는 그대로 보관돼요.', '게임 나가기')) view('home'); };
+$('exit-game').onclick = async () => {
+  if (await confirm('게임을 종료할까요?', '지금까지 화면에 나온 문제들을 이번 회차 기록으로 저장합니다.', '종료하고 기록 저장')) await endGame('stopped');
+};
 $('replay-button').onclick = () => startGame();
 $('finish-home').onclick = () => view('home');
+$('finish-history').onclick = () => { selectedHistoryId = savedRound?.id || null; view('history'); };
+$('retry-history-save').onclick = async () => {
+  if (endingGame || !lastRound) return;
+  endingGame = true;
+  try { await saveLastRound(); } finally { endingGame = false; }
+};
+$('history-refresh').onclick = renderHistory;
 $('help-button').onclick = $('shortcuts-button').onclick = () => showDialog('help-dialog');
 $('confirm-cancel').onclick = () => { confirmResolve?.(false); confirmResolve = null; $('confirm-dialog').close(); };
 $('confirm-yes').onclick = () => { confirmResolve?.(true); confirmResolve = null; $('confirm-dialog').close(); };

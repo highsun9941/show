@@ -1,0 +1,701 @@
+{
+  "source": "https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1",
+  "sourceTitle": "음성지원 퀴즈 -드라마-",
+  "sourceQuestionIds": [
+    "g2CzPDCbVEGVPwEhXeCg",
+    "rJqvqxZBvhwOdSzvrwpL",
+    "1TSSPl0oTb49Y83uU4PX",
+    "85UzikmFyAcLZCesOl3V",
+    "vilA8wPAv0zZGLu6M1Eh",
+    "SFUqVgVBkE8upsL6HSYG",
+    "sCPxc4x6PFbjRclMGIUo",
+    "F6BDwJPHwZb8ylmxGNAu",
+    "BmkLLuutHTSnp2wipGSb",
+    "eoxmETs7dA9DYTqrqEdN",
+    "VweG3Wz5GnjGllVcGQrO",
+    "QJYgE5gveqL4Y5XiLifQ",
+    "ptpu3SkgfIRcKK5YWhLW",
+    "TEqhZ7prbNV7hNsRkBLk",
+    "yj2OPkCXwO10Lcr76MQs",
+    "Nak3pNNDWDu4NYWTXi4Q",
+    "maRy9I0SsTnkHMkNyX92",
+    "JwBUPmg5CLOmNmhh9JFc",
+    "HzB3n5HLvzYcYKS3r521",
+    "544JPOm4H6nqMbIYQv4G",
+    "WD4KPqKFKYpHVdCUYbDb",
+    "7xZtm8qCMFjqw1RDTMVm",
+    "R1WX4g8H0qcc3fugT8OG",
+    "7d39O99VWjoz8ztx8Q82",
+    "8jJI9YCimhC8BFG0Hagv",
+    "3xwOCA9Yif7HxgPqBvv2",
+    "s20KfVFZ3DAs7qc2Fzdq",
+    "GwaHgt0Tc6VqLnHv0tUd",
+    "7Dq6N77UBRwwV2Fz6trB",
+    "4JneUTdf0lP8YttMl00Q",
+    "x72nWw6zAtbDHkJbE0TD"
+  ],
+  "importedAt": "2026-10-28T00:02:02.493Z",
+  "sourceCount": 31,
+  "added": 20,
+  "merged": 11,
+  "originalImageReferences": 62,
+  "uniqueOriginalImages": 31,
+  "method": "최초 30문항에 다음 회차에서 누락 문항을 더해 31개 전수 확인. 문제·정답 공개 이미지가 문항별로 동일한 바이트여서 각각 하나의 원본으로 보관. 국내 드라마 분류 및 작품명 정리. 중복 11개는 기존 ID 유지, 새 장면과 출처 연결.",
+  "questions": [
+    {
+      "number": 1,
+      "sourceAnswer": "호박고구마!!!! (거침없이 하이킥)",
+      "title": "거침없이 하이킥",
+      "answer": "호박고구마!!!!",
+      "questionImage": {
+        "url": "https://images.machugi.io/5b6c6df4-af08-40fc-9614-b466c22e27f3.jpeg",
+        "asset": "./uploads/drama-owd-5b6c6df4-af08-40fc-9614-b466c22e27f3.jpeg",
+        "sha256": "56afcdab6936f84ab25df37ffee3efcf4d7771e7652e7827946b1b29f9d1fccd"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f4f6126f-3120-449c-a1c3-98d9411fa3a2.jpeg",
+        "asset": "./uploads/drama-owd-5b6c6df4-af08-40fc-9614-b466c22e27f3.jpeg",
+        "sha256": "56afcdab6936f84ab25df37ffee3efcf4d7771e7652e7827946b1b29f9d1fccd"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-5b6c6df4-af08-40fc-9614-b466c22e27f3",
+      "displayAnswer": "호박고구마!!!!"
+    },
+    {
+      "number": 2,
+      "sourceAnswer": "당신... 부숴버릴 거야. (청춘의 덫)",
+      "title": "청춘의 덫",
+      "answer": "당신... 부숴버릴 거야.",
+      "questionImage": {
+        "url": "https://images.machugi.io/d6b08ac9-92c6-4279-8d5c-56a0c2cb2bf9.jpeg",
+        "asset": "./uploads/drama-owd-d6b08ac9-92c6-4279-8d5c-56a0c2cb2bf9.jpeg",
+        "sha256": "ff9e263a23186207f7e81360dc4389b61a37917345a2460ec94215af493bfce1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/330bbd4a-a2de-4060-ac9a-de3472be6d37.jpeg",
+        "asset": "./uploads/drama-owd-d6b08ac9-92c6-4279-8d5c-56a0c2cb2bf9.jpeg",
+        "sha256": "ff9e263a23186207f7e81360dc4389b61a37917345a2460ec94215af493bfce1"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-d6b08ac9-92c6-4279-8d5c-56a0c2cb2bf9",
+      "displayAnswer": "당신... 부숴버릴 거야."
+    },
+    {
+      "number": 3,
+      "sourceAnswer": "사랑? 웃기지 마. 이제 돈으로 사겠어. 돈으로 사면 될 거 아냐. 얼마면 될까? (가을동화)",
+      "title": "가을동화",
+      "answer": "사랑? 웃기지 마. 이제 돈으로 사겠어. 돈으로 사면 될 거 아냐. 얼마면 될까?",
+      "questionImage": {
+        "url": "https://images.machugi.io/1fcf2b27-c61a-4e56-acf0-76a50cb43a9e.jpeg",
+        "asset": "./uploads/drama-owd-1fcf2b27-c61a-4e56-acf0-76a50cb43a9e.jpeg",
+        "sha256": "480c62ffa67cbab13df72eabb8f624f7f9a35e9475f863450ab11a49ce4b48c7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c9ab8f50-5b17-49d1-affa-ab9ffd8987ca.jpeg",
+        "asset": "./uploads/drama-owd-1fcf2b27-c61a-4e56-acf0-76a50cb43a9e.jpeg",
+        "sha256": "480c62ffa67cbab13df72eabb8f624f7f9a35e9475f863450ab11a49ce4b48c7"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-1fcf2b27-c61a-4e56-acf0-76a50cb43a9e",
+      "displayAnswer": "사랑? 웃기지 마. 이제 돈으로 사겠어. 돈으로 사면 될 거 아냐. 얼마면 될까?"
+    },
+    {
+      "number": 4,
+      "sourceAnswer": "이거 원래 니꼬자나 (미스터 션샤인)",
+      "title": "미스터 션샤인",
+      "answer": "이거 원래 니꼬자나",
+      "questionImage": {
+        "url": "https://images.machugi.io/cd4d6d08-9c1c-4555-9e5a-977f3954196d.jpeg",
+        "asset": "./uploads/drama-owd-cd4d6d08-9c1c-4555-9e5a-977f3954196d.jpeg",
+        "sha256": "42b257370943702f407f795c24645382a09a9068ddd269b051e0f80050081f46"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a017c8a6-a9d4-4dde-bca5-fb6de45657ca.jpeg",
+        "asset": "./uploads/drama-owd-cd4d6d08-9c1c-4555-9e5a-977f3954196d.jpeg",
+        "sha256": "42b257370943702f407f795c24645382a09a9068ddd269b051e0f80050081f46"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-cd4d6d08-9c1c-4555-9e5a-977f3954196d",
+      "displayAnswer": "이거 원래 니꼬자나"
+    },
+    {
+      "number": 5,
+      "sourceAnswer": "예나 선정이 딸이에요. (사랑했나봐)",
+      "title": "사랑했나봐",
+      "answer": "예나 선정이 딸이에요.",
+      "questionImage": {
+        "url": "https://images.machugi.io/07b6fa2e-f085-40d8-9d91-ad4a77898c45.jpeg",
+        "asset": "./uploads/drama-owd-07b6fa2e-f085-40d8-9d91-ad4a77898c45.jpeg",
+        "sha256": "d918a999b5688196098e9d0aed8115dbbf2fe13d862e517c18b7f7591ebfa737"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/e21b0af3-0656-4792-8d7e-5b70c63cba25.jpeg",
+        "asset": "./uploads/drama-owd-07b6fa2e-f085-40d8-9d91-ad4a77898c45.jpeg",
+        "sha256": "d918a999b5688196098e9d0aed8115dbbf2fe13d862e517c18b7f7591ebfa737"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-c3aa7a09-2457-49ca-9d37-99a8cfd8c57f",
+      "previousAnswer": "예나⋯ 선정이 딸이에요",
+      "previousImage": "./uploads/machugi-f6a7d623-1d65-4d8d-8359-a974424be88b.jpg",
+      "displayAnswer": "예나 선정이 딸이에요."
+    },
+    {
+      "number": 6,
+      "sourceAnswer": "정교빈 신애리 죽이고 지옥 가겠습니다. (아내의 유혹)",
+      "title": "아내의 유혹",
+      "answer": "정교빈 신애리 죽이고 지옥 가겠습니다.",
+      "questionImage": {
+        "url": "https://images.machugi.io/f139d5d3-d105-420c-8a76-7fd94dfb5bc9.jpeg",
+        "asset": "./uploads/drama-owd-f139d5d3-d105-420c-8a76-7fd94dfb5bc9.jpeg",
+        "sha256": "ea75b5f44588ee2ad8e8eb96a837e0858d0ff7264e1b218064878a6d6e67befd"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a22553e1-83f4-4036-9d6f-d3d86ffcacc8.jpeg",
+        "asset": "./uploads/drama-owd-f139d5d3-d105-420c-8a76-7fd94dfb5bc9.jpeg",
+        "sha256": "ea75b5f44588ee2ad8e8eb96a837e0858d0ff7264e1b218064878a6d6e67befd"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-f139d5d3-d105-420c-8a76-7fd94dfb5bc9",
+      "displayAnswer": "정교빈 신애리 죽이고 지옥 가겠습니다."
+    },
+    {
+      "number": 7,
+      "sourceAnswer": "멋지다, 연진아! (더 글로리)",
+      "title": "더 글로리",
+      "answer": "멋지다, 연진아!",
+      "questionImage": {
+        "url": "https://images.machugi.io/4543fb9d-f7dc-4876-8b38-267501d14dcd.jpeg",
+        "asset": "./uploads/drama-owd-4543fb9d-f7dc-4876-8b38-267501d14dcd.jpeg",
+        "sha256": "c8571bb7c6a6b946ad3415249efa7bc610932e3f1d9f62637252562b72278a56"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/10bbaddf-7a8c-4e3b-b27f-61fdb9b40491.jpeg",
+        "asset": "./uploads/drama-owd-4543fb9d-f7dc-4876-8b38-267501d14dcd.jpeg",
+        "sha256": "c8571bb7c6a6b946ad3415249efa7bc610932e3f1d9f62637252562b72278a56"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-852357b4-224c-4af4-9545-951592addbcc",
+      "previousAnswer": "화이팅 박연진! 브라보! 멋지다 연진아~",
+      "previousImage": "./uploads/machugi-2b81ccdb-4a5f-40ae-8e21-ad88d0358637.jpg",
+      "answerNote": "기존의 더 긴 같은 장면 대사를 유지하고 이번 원문을 별도 보존",
+      "displayAnswer": "화이팅 박연진! 브라보! 멋지다 연진아~"
+    },
+    {
+      "number": 8,
+      "sourceAnswer": "사랑에 빠진 게 죄는 아니잖아!!!! (부부의 세계)",
+      "title": "부부의 세계",
+      "answer": "사랑에 빠진 게 죄는 아니잖아!!!!",
+      "questionImage": {
+        "url": "https://images.machugi.io/67bb0ebe-0a47-41bf-b585-7e7dfda25a06.jpeg",
+        "asset": "./uploads/drama-owd-67bb0ebe-0a47-41bf-b585-7e7dfda25a06.jpeg",
+        "sha256": "a5189bf51cfaca1f28965347ac7a1574355703f7ca5d180e3c74303fc0c3d65d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c35c7d63-ba01-4eed-9591-fe22b5918a36.jpeg",
+        "asset": "./uploads/drama-owd-67bb0ebe-0a47-41bf-b585-7e7dfda25a06.jpeg",
+        "sha256": "a5189bf51cfaca1f28965347ac7a1574355703f7ca5d180e3c74303fc0c3d65d"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-84f282f7-6d86-4810-ad79-c83ff7f134fe",
+      "previousAnswer": "사랑에 빠진 게 죄는 아니잖아!",
+      "previousImage": "./uploads/machugi-6e1bd261-0463-4a60-9562-06a864f89823.png",
+      "displayAnswer": "사랑에 빠진 게 죄는 아니잖아!!!!"
+    },
+    {
+      "number": 9,
+      "sourceAnswer": "누구인가? 누가 기침소리를 내었는가? (태조 왕건)",
+      "title": "태조 왕건",
+      "answer": "누구인가? 누가 기침소리를 내었는가?",
+      "questionImage": {
+        "url": "https://images.machugi.io/8ed8dfa5-93ec-4215-a173-6f1c4592ba9c.jpeg",
+        "asset": "./uploads/drama-owd-8ed8dfa5-93ec-4215-a173-6f1c4592ba9c.jpeg",
+        "sha256": "7c3e8c817d9da0ab22ba8c10881af0d3ac3f033f4b54f54bd8aa1c27072bcce2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5c085a95-665b-4ee3-a4b8-042b77814c56.jpeg",
+        "asset": "./uploads/drama-owd-8ed8dfa5-93ec-4215-a173-6f1c4592ba9c.jpeg",
+        "sha256": "7c3e8c817d9da0ab22ba8c10881af0d3ac3f033f4b54f54bd8aa1c27072bcce2"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-a0790590-d498-44eb-bb57-077f877a10ea",
+      "previousAnswer": "누구인가? 누가 기침소리를 내었는가?",
+      "previousImage": "./uploads/machugi-a80c6a91-135f-487f-a324-8bfd2bba0591.jpg",
+      "displayAnswer": "누구인가? 누가 기침소리를 내었는가?"
+    },
+    {
+      "number": 10,
+      "sourceAnswer": "나는, 예쁜 척하는 게 아니라 그냥 예쁘게 태어난 곤데. (쌈 마이웨이)",
+      "title": "쌈, 마이웨이",
+      "answer": "나는, 예쁜 척하는 게 아니라 그냥 예쁘게 태어난 곤데.",
+      "questionImage": {
+        "url": "https://images.machugi.io/9598e5eb-2ece-4a0c-804b-f6c312de6db8.jpeg",
+        "asset": "./uploads/drama-owd-9598e5eb-2ece-4a0c-804b-f6c312de6db8.jpeg",
+        "sha256": "ab32c5f85aefca8516acb616c264478e389247c6c4137b563c1a418f956bf91f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/527efd26-beb5-4faf-a705-9e31dd281d2a.jpeg",
+        "asset": "./uploads/drama-owd-9598e5eb-2ece-4a0c-804b-f6c312de6db8.jpeg",
+        "sha256": "ab32c5f85aefca8516acb616c264478e389247c6c4137b563c1a418f956bf91f"
+      },
+      "reviewed": true,
+      "titleVerification": [
+        "https://mylovekbs.kbs.co.kr/index.html?contents_id=70000000287001&sname=mylovekbs&source=mylovekbs&stype=magazine"
+      ],
+      "titleNote": "정식 작품명 표기로 정리",
+      "action": "added",
+      "questionId": "machugi-owd-9598e5eb-2ece-4a0c-804b-f6c312de6db8",
+      "displayAnswer": "나는, 예쁜 척하는 게 아니라 그냥 예쁘게 태어난 곤데."
+    },
+    {
+      "number": 11,
+      "sourceAnswer": "서울구경!!!!!! (지붕뜷고 하이킥)",
+      "title": "지붕뚫고 하이킥",
+      "answer": "서울구경!!!!!!",
+      "questionImage": {
+        "url": "https://images.machugi.io/cf6529dc-b730-4216-ac5a-ed561b0ac5a9.jpeg",
+        "asset": "./uploads/drama-owd-cf6529dc-b730-4216-ac5a-ed561b0ac5a9.jpeg",
+        "sha256": "1e706c4ce2c36e9cb47bfd3224ae6cc4f9def0dd27350dbb9463a4ad61227e33"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d6f580e6-bc23-4c89-b513-ff006299c599.jpeg",
+        "asset": "./uploads/drama-owd-cf6529dc-b730-4216-ac5a-ed561b0ac5a9.jpeg",
+        "sha256": "1e706c4ce2c36e9cb47bfd3224ae6cc4f9def0dd27350dbb9463a4ad61227e33"
+      },
+      "reviewed": true,
+      "titleNote": "정식 작품명 표기로 정리",
+      "action": "added",
+      "questionId": "machugi-owd-cf6529dc-b730-4216-ac5a-ed561b0ac5a9",
+      "displayAnswer": "서울구경!!!!!!"
+    },
+    {
+      "number": 12,
+      "sourceAnswer": "사랑은 돌아오는 거야! (천국의 계단)",
+      "title": "천국의 계단",
+      "answer": "사랑은 돌아오는 거야!",
+      "questionImage": {
+        "url": "https://images.machugi.io/5f02de04-3516-4e19-8382-47ee7ddd2c3a.jpeg",
+        "asset": "./uploads/drama-owd-5f02de04-3516-4e19-8382-47ee7ddd2c3a.jpeg",
+        "sha256": "8f8f3cce3f99d6876a0e7895d8ac7b8e8e3ce87e966d0572e2f7bcdd64ddcec2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3280e0b9-4800-4a68-8abb-a9d8a6637508.jpeg",
+        "asset": "./uploads/drama-owd-5f02de04-3516-4e19-8382-47ee7ddd2c3a.jpeg",
+        "sha256": "8f8f3cce3f99d6876a0e7895d8ac7b8e8e3ce87e966d0572e2f7bcdd64ddcec2"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-f3895aae-95fe-4f64-ad16-3d2555c6395d",
+      "previousAnswer": "사랑은, 돌아오는 거야!",
+      "previousImage": "./uploads/machugi-d01be31e-b244-44d4-a1c6-a93b896116f6.jpg",
+      "displayAnswer": "사랑은 돌아오는 거야!"
+    },
+    {
+      "number": 13,
+      "sourceAnswer": "저 남자가 내 사람이다. 저 남자가 내 애인이다. 왜 말을 못 하냐고!!!! (파리의 연인)",
+      "title": "파리의 연인",
+      "answer": "저 남자가 내 사람이다. 저 남자가 내 애인이다. 왜 말을 못 하냐고!!!!",
+      "questionImage": {
+        "url": "https://images.machugi.io/dd094d3c-e3dd-43b5-ad13-944eb180191a.jpeg",
+        "asset": "./uploads/drama-owd-dd094d3c-e3dd-43b5-ad13-944eb180191a.jpeg",
+        "sha256": "8aa559e5f79eb611d94a0301da25f971db3e056e98b63739d11f881d06d2bc16"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/0a98d7ab-4697-4058-b24a-a99294a9d1d2.jpeg",
+        "asset": "./uploads/drama-owd-dd094d3c-e3dd-43b5-ad13-944eb180191a.jpeg",
+        "sha256": "8aa559e5f79eb611d94a0301da25f971db3e056e98b63739d11f881d06d2bc16"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-55442e4d-4418-4223-b296-442b14a3460c",
+      "previousAnswer": "왜 말을 못 해, 저 남자가 내 사람이다. 저 남자가 내 애인이다 왜 말을 못 하냐고!",
+      "previousImage": "./uploads/machugi-61ee02bc-0147-4f9d-a665-e76fd9a61289.jpg",
+      "answerNote": "기존의 더 긴 같은 장면 대사를 유지하고 이번 원문을 별도 보존",
+      "displayAnswer": "왜 말을 못 해, 저 남자가 내 사람이다. 저 남자가 내 애인이다 왜 말을 못 하냐고!"
+    },
+    {
+      "number": 14,
+      "sourceAnswer": "확인. (응답하라 1997)",
+      "title": "응답하라 1997",
+      "answer": "확인.",
+      "questionImage": {
+        "url": "https://images.machugi.io/e8ae023f-72c7-4378-9ec5-b41389ffc2ce.jpeg",
+        "asset": "./uploads/drama-owd-e8ae023f-72c7-4378-9ec5-b41389ffc2ce.jpeg",
+        "sha256": "2cfdbd5737d222cd2e282c29f50f2410f79bdfb0dc4a3756fa61e555b2bb22ce"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1db005c4-8338-4fdf-8294-7345f791720c.jpeg",
+        "asset": "./uploads/drama-owd-e8ae023f-72c7-4378-9ec5-b41389ffc2ce.jpeg",
+        "sha256": "2cfdbd5737d222cd2e282c29f50f2410f79bdfb0dc4a3756fa61e555b2bb22ce"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-e8ae023f-72c7-4378-9ec5-b41389ffc2ce",
+      "displayAnswer": "확인."
+    },
+    {
+      "number": 15,
+      "sourceAnswer": "몇 개고? 밥알 말이다. (재벌집 막내아들)",
+      "title": "재벌집 막내아들",
+      "answer": "몇 개고? 밥알 말이다.",
+      "questionImage": {
+        "url": "https://images.machugi.io/b2f6a037-5556-42c2-a1f9-f0f6554db357.jpeg",
+        "asset": "./uploads/drama-owd-b2f6a037-5556-42c2-a1f9-f0f6554db357.jpeg",
+        "sha256": "acfc5491e140e22ef654d044a4d55442e7d1719302cb4f7c2f63f83a5f510b86"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9e954fe1-1b5b-454f-b127-db7b186b3ae4.jpeg",
+        "asset": "./uploads/drama-owd-b2f6a037-5556-42c2-a1f9-f0f6554db357.jpeg",
+        "sha256": "acfc5491e140e22ef654d044a4d55442e7d1719302cb4f7c2f63f83a5f510b86"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-b2f6a037-5556-42c2-a1f9-f0f6554db357",
+      "displayAnswer": "몇 개고? 밥알 말이다."
+    },
+    {
+      "number": 16,
+      "sourceAnswer": "아프냐? 나도 아프다. (다모)",
+      "title": "다모",
+      "answer": "아프냐? 나도 아프다.",
+      "questionImage": {
+        "url": "https://images.machugi.io/b5aca162-a37d-4826-b679-c6a56d7e00d5.jpeg",
+        "asset": "./uploads/drama-owd-b5aca162-a37d-4826-b679-c6a56d7e00d5.jpeg",
+        "sha256": "12e2145da190627fba8560e58da4e33b769efcd4477f795557d443d7cd7e195d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/617056e4-55fc-4b51-8596-659035e0787f.jpeg",
+        "asset": "./uploads/drama-owd-b5aca162-a37d-4826-b679-c6a56d7e00d5.jpeg",
+        "sha256": "12e2145da190627fba8560e58da4e33b769efcd4477f795557d443d7cd7e195d"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-fdaaf6ec-b6a2-4dd3-9dce-7daf25eabd37",
+      "previousAnswer": "아프냐, 나도 아프다",
+      "previousImage": "./uploads/machugi-a0c0ed3a-d91f-452e-8c47-bf70acddb045.jpg",
+      "displayAnswer": "아프냐? 나도 아프다."
+    },
+    {
+      "number": 17,
+      "sourceAnswer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?",
+      "title": "시크릿 가든",
+      "answer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?",
+      "questionImage": {
+        "url": "https://images.machugi.io/5bd44ac9-3079-4bba-ba42-9273e7eae68c.jpeg",
+        "asset": "./uploads/drama-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c.jpeg",
+        "sha256": "99c9463c9fa67d72565d01f9afaa23fac50f113c819c560ddbd063f8b5bec867"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/89b05f18-8e54-4977-8a53-020a7c387957.jpeg",
+        "asset": "./uploads/drama-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c.jpeg",
+        "sha256": "99c9463c9fa67d72565d01f9afaa23fac50f113c819c560ddbd063f8b5bec867"
+      },
+      "reviewed": true,
+      "titleVerification": [
+        "https://programs.sbs.co.kr/drama/secretgarden/about/53663",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10000752336"
+      ],
+      "titleNote": "작품명 누락 보완",
+      "action": "added",
+      "questionId": "machugi-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c",
+      "displayAnswer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?"
+    },
+    {
+      "number": 18,
+      "sourceAnswer": "4주 후에 뵙겠습니다. (부부클리닉 사랑과 전쟁)",
+      "title": "부부클리닉 사랑과 전쟁",
+      "answer": "4주 후에 뵙겠습니다.",
+      "questionImage": {
+        "url": "https://images.machugi.io/8c9f8ffc-639c-4f4f-b731-53b30641d1c6.jpeg",
+        "asset": "./uploads/drama-owd-8c9f8ffc-639c-4f4f-b731-53b30641d1c6.jpeg",
+        "sha256": "de4c8ca586f7b901cf89674c54d64117a7c29c227d9ffad847f3179c8a19d2e1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/efcf6218-1348-4363-8f06-dcb01c8cc028.jpeg",
+        "asset": "./uploads/drama-owd-8c9f8ffc-639c-4f4f-b731-53b30641d1c6.jpeg",
+        "sha256": "de4c8ca586f7b901cf89674c54d64117a7c29c227d9ffad847f3179c8a19d2e1"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-8c9f8ffc-639c-4f4f-b731-53b30641d1c6",
+      "displayAnswer": "4주 후에 뵙겠습니다."
+    },
+    {
+      "number": 19,
+      "sourceAnswer": "동 투더 그 투더 라미. (이상한 변호사 우영우)",
+      "title": "이상한 변호사 우영우",
+      "answer": "동 투더 그 투더 라미.",
+      "questionImage": {
+        "url": "https://images.machugi.io/093b19ec-ff2e-4bf0-90a0-b1eddc1f99dd.jpeg",
+        "asset": "./uploads/drama-owd-093b19ec-ff2e-4bf0-90a0-b1eddc1f99dd.jpeg",
+        "sha256": "d9842844ac94ac8592f88dfa06fc320aada299185133a1609258e48a23dcd66d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a7dada33-3ac1-4852-accc-bf2bea8d3090.jpeg",
+        "asset": "./uploads/drama-owd-093b19ec-ff2e-4bf0-90a0-b1eddc1f99dd.jpeg",
+        "sha256": "d9842844ac94ac8592f88dfa06fc320aada299185133a1609258e48a23dcd66d"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-093b19ec-ff2e-4bf0-90a0-b1eddc1f99dd",
+      "displayAnswer": "동 투더 그 투더 라미."
+    },
+    {
+      "number": 20,
+      "sourceAnswer": "오빠! 나 띠드버거 머꼬시퍼요. (지붕뜷고 하이킥)",
+      "title": "지붕뚫고 하이킥",
+      "answer": "오빠! 나 띠드버거 머꼬시퍼요.",
+      "questionImage": {
+        "url": "https://images.machugi.io/bc026725-731c-45a4-b7a0-b9ffce58ed09.jpeg",
+        "asset": "./uploads/drama-owd-bc026725-731c-45a4-b7a0-b9ffce58ed09.jpeg",
+        "sha256": "c0608d4c3836b64808b4b5c68ff7533f92aaa4c5e58190e3979e408ba5772382"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a17b0792-2105-4b7c-a13a-f8b4321ff3a9.jpeg",
+        "asset": "./uploads/drama-owd-bc026725-731c-45a4-b7a0-b9ffce58ed09.jpeg",
+        "sha256": "c0608d4c3836b64808b4b5c68ff7533f92aaa4c5e58190e3979e408ba5772382"
+      },
+      "reviewed": true,
+      "titleNote": "정식 작품명 표기로 정리",
+      "action": "added",
+      "questionId": "machugi-owd-bc026725-731c-45a4-b7a0-b9ffce58ed09",
+      "displayAnswer": "오빠! 나 띠드버거 머꼬시퍼요."
+    },
+    {
+      "number": 21,
+      "sourceAnswer": "이태리서 장인이 한땀한땀... (시크릿 가든)",
+      "title": "시크릿 가든",
+      "answer": "이태리서 장인이 한땀한땀...",
+      "questionImage": {
+        "url": "https://images.machugi.io/96017456-ef3b-4947-85cc-7b0031afa45a.jpeg",
+        "asset": "./uploads/drama-owd-96017456-ef3b-4947-85cc-7b0031afa45a.jpeg",
+        "sha256": "b310128e6aa2b71ed93ae965eacdacc9337ec45b6b57c7f397ab35b856fcce3a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/390b2a68-6e40-4ce2-a368-8b2aba7a0c6d.jpeg",
+        "asset": "./uploads/drama-owd-96017456-ef3b-4947-85cc-7b0031afa45a.jpeg",
+        "sha256": "b310128e6aa2b71ed93ae965eacdacc9337ec45b6b57c7f397ab35b856fcce3a"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-96017456-ef3b-4947-85cc-7b0031afa45a",
+      "displayAnswer": "이태리서 장인이 한땀한땀..."
+    },
+    {
+      "number": 22,
+      "sourceAnswer": "사과할까요? 고백할까요? (태양의 후예)",
+      "title": "태양의 후예",
+      "answer": "사과할까요? 고백할까요?",
+      "questionImage": {
+        "url": "https://images.machugi.io/a4883301-ae74-46d5-a833-c72ab970a73d.jpeg",
+        "asset": "./uploads/drama-owd-a4883301-ae74-46d5-a833-c72ab970a73d.jpeg",
+        "sha256": "6da0f5c668b13235101e1f83e1daa6da05b220b2d7bcd770375771be5bf74303"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/7c04074d-2de4-4544-b9cb-1925d77321d1.jpeg",
+        "asset": "./uploads/drama-owd-a4883301-ae74-46d5-a833-c72ab970a73d.jpeg",
+        "sha256": "6da0f5c668b13235101e1f83e1daa6da05b220b2d7bcd770375771be5bf74303"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-a4883301-ae74-46d5-a833-c72ab970a73d",
+      "displayAnswer": "사과할까요? 고백할까요?"
+    },
+    {
+      "number": 23,
+      "sourceAnswer": "나 지금 떨고 있니? (모래시계)",
+      "title": "모래시계",
+      "answer": "나 지금 떨고 있니?",
+      "questionImage": {
+        "url": "https://images.machugi.io/e7597d66-0a8f-4032-a12e-4f12e3ecbb22.jpeg",
+        "asset": "./uploads/drama-owd-e7597d66-0a8f-4032-a12e-4f12e3ecbb22.jpeg",
+        "sha256": "b399240265e3e66a28859798de4d3dc35827eb8b9abc2c6b08873f29459fe558"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1b1bf44c-d274-45a5-a260-7e3e43fd98c5.jpeg",
+        "asset": "./uploads/drama-owd-e7597d66-0a8f-4032-a12e-4f12e3ecbb22.jpeg",
+        "sha256": "b399240265e3e66a28859798de4d3dc35827eb8b9abc2c6b08873f29459fe558"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-82fccec8-9025-47a6-9baf-89ec070c1fb5",
+      "previousAnswer": "나.. 지금 떨고 있냐?",
+      "previousImage": "./uploads/machugi-a65b4211-297d-47ff-92f6-d870e33aa128.jpg",
+      "displayAnswer": "나 지금 떨고 있니?"
+    },
+    {
+      "number": 24,
+      "sourceAnswer": "보이냐? 내 마음? (꽃보다 남자)",
+      "title": "꽃보다 남자",
+      "answer": "보이냐? 내 마음?",
+      "questionImage": {
+        "url": "https://images.machugi.io/ea8fb774-37e8-4ddb-a15a-a6b44ef252d7.jpeg",
+        "asset": "./uploads/drama-owd-ea8fb774-37e8-4ddb-a15a-a6b44ef252d7.jpeg",
+        "sha256": "551e7712b90f8974252ea1cc7c23afa7e470e3e4fae43f2dd2a475a221595f24"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f2975767-f841-44a5-bac3-aabb44392666.jpeg",
+        "asset": "./uploads/drama-owd-ea8fb774-37e8-4ddb-a15a-a6b44ef252d7.jpeg",
+        "sha256": "551e7712b90f8974252ea1cc7c23afa7e470e3e4fae43f2dd2a475a221595f24"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-ea8fb774-37e8-4ddb-a15a-a6b44ef252d7",
+      "displayAnswer": "보이냐? 내 마음?"
+    },
+    {
+      "number": 25,
+      "sourceAnswer": "혹시.... 나 너 좋아하냐? (상속자들)",
+      "title": "상속자들",
+      "answer": "혹시.... 나 너 좋아하냐?",
+      "questionImage": {
+        "url": "https://images.machugi.io/72470db0-4186-43ee-bbe1-75b9f7577995.jpeg",
+        "asset": "./uploads/drama-owd-72470db0-4186-43ee-bbe1-75b9f7577995.jpeg",
+        "sha256": "417117f13a37d2bed0c025ccb3fa9ee53ea6255034e9665765df437d30e2b81c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2f15d66d-2dd5-4794-a0ec-e229282cddf4.jpeg",
+        "asset": "./uploads/drama-owd-72470db0-4186-43ee-bbe1-75b9f7577995.jpeg",
+        "sha256": "417117f13a37d2bed0c025ccb3fa9ee53ea6255034e9665765df437d30e2b81c"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-de669dda-d2ec-47ff-a982-856e5e1b8b02",
+      "previousAnswer": "나, 너 좋아하냐?",
+      "previousImage": "./uploads/machugi-4b284791-fbe6-4131-8d52-81108d89f2c1.jpg",
+      "displayAnswer": "혹시.... 나 너 좋아하냐?"
+    },
+    {
+      "number": 26,
+      "sourceAnswer": "똥.덩.어.리. (베토벤 바이러스)",
+      "title": "베토벤 바이러스",
+      "answer": "똥.덩.어.리.",
+      "questionImage": {
+        "url": "https://images.machugi.io/7406cdcf-e952-4fc7-b094-5fe634215d87.jpeg",
+        "asset": "./uploads/drama-owd-7406cdcf-e952-4fc7-b094-5fe634215d87.jpeg",
+        "sha256": "69c4832255381495d05a02ef8f37fab9763184b3fa6fa2d3529b0d099dc028ea"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ab72ac5c-1295-453a-8e3e-21792203c74e.jpeg",
+        "asset": "./uploads/drama-owd-7406cdcf-e952-4fc7-b094-5fe634215d87.jpeg",
+        "sha256": "69c4832255381495d05a02ef8f37fab9763184b3fa6fa2d3529b0d099dc028ea"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-7406cdcf-e952-4fc7-b094-5fe634215d87",
+      "displayAnswer": "똥.덩.어.리."
+    },
+    {
+      "number": 27,
+      "sourceAnswer": "사딸라. (야인시대)",
+      "title": "야인시대",
+      "answer": "사딸라.",
+      "questionImage": {
+        "url": "https://images.machugi.io/6d0ddce9-5d4f-44db-b612-0159c5691cd3.jpeg",
+        "asset": "./uploads/drama-owd-6d0ddce9-5d4f-44db-b612-0159c5691cd3.jpeg",
+        "sha256": "5461f21246de32df5efacacc785efe05e5670f3129fb954054816f7a472b4e92"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/23b5576b-3a55-4226-977e-c2ada4663730.jpeg",
+        "asset": "./uploads/drama-owd-6d0ddce9-5d4f-44db-b612-0159c5691cd3.jpeg",
+        "sha256": "5461f21246de32df5efacacc785efe05e5670f3129fb954054816f7a472b4e92"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-1d50d99e-0b83-4c6e-b7b2-f2ae99136e6d",
+      "previousAnswer": "사딸라!",
+      "previousImage": "./uploads/machugi-9449058f-3ff8-4693-805b-278f76c31d1e.png",
+      "displayAnswer": "사딸라."
+    },
+    {
+      "number": 28,
+      "sourceAnswer": "하얀 천이랑 바람만 있으면 어디든 갈 수 있어. (꽃보다 남자)",
+      "title": "꽃보다 남자",
+      "answer": "하얀 천이랑 바람만 있으면 어디든 갈 수 있어.",
+      "questionImage": {
+        "url": "https://images.machugi.io/63d39cee-6fe6-4fa4-bce9-c143f0dddc00.jpeg",
+        "asset": "./uploads/drama-owd-63d39cee-6fe6-4fa4-bce9-c143f0dddc00.jpeg",
+        "sha256": "344956c35430a82c12922b48165758d7ecbbd2fa08b0091240d59cce56edcf86"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/80226012-bcfb-4a9a-94d5-5cfeb798d8c6.jpeg",
+        "asset": "./uploads/drama-owd-63d39cee-6fe6-4fa4-bce9-c143f0dddc00.jpeg",
+        "sha256": "344956c35430a82c12922b48165758d7ecbbd2fa08b0091240d59cce56edcf86"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-63d39cee-6fe6-4fa4-bce9-c143f0dddc00",
+      "displayAnswer": "하얀 천이랑 바람만 있으면 어디든 갈 수 있어."
+    },
+    {
+      "number": 29,
+      "sourceAnswer": "저 시집갈께요. 아저씨한테. 사랑해요. (도깨비)",
+      "title": "도깨비",
+      "answer": "저 시집갈께요. 아저씨한테. 사랑해요.",
+      "questionImage": {
+        "url": "https://images.machugi.io/8aa56480-3a87-4454-8def-aa9a1a073d41.jpeg",
+        "asset": "./uploads/drama-owd-8aa56480-3a87-4454-8def-aa9a1a073d41.jpeg",
+        "sha256": "0798506a4b2322302b4b46bc4ebff58b41ad089b0dbfc0a4413bd1207b7c6cdc"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/dedb9eb5-baa3-42e8-a6ce-bb1bad7c472a.jpeg",
+        "asset": "./uploads/drama-owd-8aa56480-3a87-4454-8def-aa9a1a073d41.jpeg",
+        "sha256": "0798506a4b2322302b4b46bc4ebff58b41ad089b0dbfc0a4413bd1207b7c6cdc"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-8aa56480-3a87-4454-8def-aa9a1a073d41",
+      "displayAnswer": "저 시집갈께요. 아저씨한테. 사랑해요."
+    },
+    {
+      "number": 30,
+      "sourceAnswer": "그만해!!!! 이러다가는 다 죽어!!!! (오징어 게임)",
+      "title": "오징어 게임",
+      "answer": "그만해!!!! 이러다가는 다 죽어!!!!",
+      "questionImage": {
+        "url": "https://images.machugi.io/a6f02eb0-ff31-4156-a04e-de49811770f2.jpeg",
+        "asset": "./uploads/drama-owd-a6f02eb0-ff31-4156-a04e-de49811770f2.jpeg",
+        "sha256": "14115b5ec6d9c7ddf8beaac58c8c2162df44fe73c4b3bc1b486f5364b892375b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/44692f2e-a92d-47f1-b259-8e8557ac7785.jpeg",
+        "asset": "./uploads/drama-owd-a6f02eb0-ff31-4156-a04e-de49811770f2.jpeg",
+        "sha256": "14115b5ec6d9c7ddf8beaac58c8c2162df44fe73c4b3bc1b486f5364b892375b"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-owd-a6f02eb0-ff31-4156-a04e-de49811770f2",
+      "displayAnswer": "그만해!!!! 이러다가는 다 죽어!!!!"
+    },
+    {
+      "number": 31,
+      "sourceAnswer": "이 안에 너 있다. (파리의 연인)",
+      "title": "파리의 연인",
+      "answer": "이 안에 너 있다.",
+      "questionImage": {
+        "url": "https://images.machugi.io/fe94b90e-8eda-4d9c-9978-6f8e37ff7a03.jpeg",
+        "asset": "./uploads/drama-owd-fe94b90e-8eda-4d9c-9978-6f8e37ff7a03.jpeg",
+        "sha256": "55f79194900a4c2d23f0e1adf03f1757ff769829e67baac2e6e42f28f063deb3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4a1fe04b-75b2-434c-befa-6033eb4778e7.jpeg",
+        "asset": "./uploads/drama-owd-fe94b90e-8eda-4d9c-9978-6f8e37ff7a03.jpeg",
+        "sha256": "55f79194900a4c2d23f0e1adf03f1757ff769829e67baac2e6e42f28f063deb3"
+      },
+      "reviewed": true,
+      "action": "merged",
+      "questionId": "machugi-196c70b3-9c81-4805-b3d3-73a0b4157b2b",
+      "previousAnswer": "이 안에 너 있다",
+      "previousImage": "./uploads/machugi-2ebb6234-1751-41d9-917f-3d38afc73264.jpg",
+      "displayAnswer": "이 안에 너 있다."
+    }
+  ]
+}

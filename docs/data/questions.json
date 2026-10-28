@@ -4966,5 +4966,20 @@
     "version": 1,
     "createdAt": "2026-10-28T06:19:09.504Z",
     "updatedAt": "2026-10-28T06:19:09.504Z"
+  },
+  {
+    "id": "jiraksil-yk237m-quiz_20230312_640d26ceefa3b",
+    "title": "환상의 커플",
+    "category": "국내 드라마",
+    "year": "",
+    "answer": "꼬라지 하고는",
+    "hint": "",
+    "image": "./uploads/jiraksil-yk237m-quiz_20230312_640d26ceefa3b.jpg",
+    "source": "https://www.jiraksil.com/playgo/yk237m/c33exam | 원본 문제·빈칸 정답·대사 복원·작품명 검증: ./data/migrations/jiraksil-yk237m.json#19",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-28T06:44:52.837Z",
+    "updatedAt": "2026-10-28T06:44:52.837Z"
   }
 ]

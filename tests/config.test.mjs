@@ -73,7 +73,7 @@ test('실제 배포는 새 저장소 정보와 같은 버전의 HTML·스타일�
     assert.equal(await readFile(join(dir, 'docs/config.js'), 'utf8'), await readFile(new URL('../docs/config.js', import.meta.url), 'utf8'));
     const html = await readFile(join(dir, 'docs/index.html'), 'utf8');
     for (const path of ['js/app.js', 'js/theme.js', 'config.js', 'styles.css']) assert.ok(html.includes(`./${path}?v=${revision}`), path);
-    for (const [file, dependency] of [['app.js', 'core.js'], ['app.js', 'storage.js'], ['storage.js', 'core.js'], ['core.js', 'image-masks.js']]) {
+    for (const [file, dependency] of [['app.js', 'core.js'], ['app.js', 'storage.js'], ['app.js', 'image-export.js'], ['image-export.js', 'zip.js'], ['storage.js', 'core.js'], ['core.js', 'image-masks.js']]) {
       assert.ok((await readFile(join(dir, 'docs/js', file), 'utf8')).includes(`./${dependency}?v=${revision}`), `${file}: ${dependency}`);
     }
     const second = spawnSync(process.execPath, ['scripts/prepare-pages.mjs'], { cwd: dir, env, encoding: 'utf8' });

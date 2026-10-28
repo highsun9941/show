@@ -2,6 +2,7 @@ import { CATEGORIES, filterQuestions, makeDeck, validateQuestion, parseImport, M
 import { LocalStore, GitHubStore } from './storage.js';
 import { loadConfig, repositoryLinks } from './config.js';
 import { createImageMasks } from './image-masks.js';
+import { imageExportJobs, buildImageExport, imageArchiveName } from './image-export.js';
 
 const $ = id => document.getElementById(id);
 const state = { view: 'home', store: null, questions: [], admin: false, ready: false, category: '전체', page: 1, deck: [], index: 0, answer: false, hint: false, running: false, seconds: 0, deadline: 0, duration: 0, busy: false, edit: null, render: 0 };
@@ -9,6 +10,7 @@ const PAGE_SIZE = 24;
 const siteScope = new URL('.', window.location.href).href;
 const modeKey = `show-storage-mode:${siteScope}`;
 let toastTimer, clockInterval, confirmResolve;
+let imageExportController = null, failedImageExports = [];
 const el = (tag, className = '', text = '') => { const node = document.createElement(tag); node.className = className; node.textContent = text; return node; };
 const stageMasks = createImageMasks($('stage-image'));
 const cardMasks = new WeakMap();
@@ -79,6 +81,7 @@ function renderAll() {
   $('sample-notice').hidden = !state.questions.some(q => q.demo);
   $('admin-toolbar').hidden = !state.admin;
   $('manage-button').hidden = state.admin;
+  updateImageExportControls();
   $('admin-badge').textContent = state.store?.mode === 'shared' ? '공동 관리 모드' : '이 기기 체험 모드';
   updateAvailable();
   if (state.view === 'library') renderLibrary();
@@ -281,10 +284,55 @@ async function deleteQuestion(q) {
 function setBusy(busy) {
   state.busy = busy;
   for (const id of ['import-button', 'export-button', 'add-button', 'logout-button', 'refresh-button']) $(id).disabled = busy;
+  updateImageExportControls();
+}
+function updateImageExportControls() {
+  $('export-images-button').disabled = state.busy || !state.ready || !state.questions.length;
+  $('retry-image-export').hidden = !failedImageExports.length;
+  $('retry-image-export').disabled = state.busy;
+}
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob), a = document.createElement('a');
+  a.href = url; a.download = filename; a.hidden = true; document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 function downloadJson(value) {
   const blob = new Blob([JSON.stringify({ schemaVersion: 1, exportedAt: new Date().toISOString(), questions: value }, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob), a = document.createElement('a'); a.href = url; a.download = `scene-and-say-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 60000);
+  downloadBlob(blob, `scene-and-say-${new Date().toISOString().slice(0, 10)}.json`);
+}
+async function exportImages(jobs) {
+  if (state.busy || !state.ready || !jobs.length) return;
+  const store = state.store, controller = new AbortController();
+  imageExportController = controller; failedImageExports = []; setBusy(true);
+  $('image-export-status').hidden = false; $('image-export-status').classList.remove('is-error');
+  $('image-export-message').textContent = `이미지 준비 중… 0 / ${jobs.length}`;
+  $('image-export-progress').max = jobs.length; $('image-export-progress').value = 0; $('image-export-progress').hidden = false;
+  $('cancel-image-export').hidden = false;
+  try {
+    const result = await buildImageExport(jobs, image => store.imageUrl(image), {
+      signal: controller.signal,
+      onProgress: (count, total) => {
+        $('image-export-progress').value = count;
+        if (count === 1 || count % 5 === 0 || count === total) $('image-export-message').textContent = `이미지 준비 중… ${count} / ${total}`;
+      },
+    });
+    failedImageExports = result.failed.map(({ job }) => job);
+    if (result.blob) downloadBlob(result.blob, imageArchiveName());
+    const message = !result.failed.length ? `${result.count}개 이미지의 ZIP 다운로드를 시작했어요. 파일명: 작품명 - 대사`
+      : result.count ? `${result.total}개 중 ${result.count}개 이미지를 ZIP으로 받습니다. 실패한 ${result.failed.length}개는 다시 받을 수 있어요. ZIP의 다운로드 실패 목록도 확인해 주세요.`
+        : `${result.total}개 이미지를 가져오지 못했어요. 인터넷 연결을 확인한 뒤 다시 받아 주세요.`;
+    $('image-export-message').textContent = message;
+    $('image-export-status').classList.toggle('is-error', Boolean(result.failed.length));
+    toast(message, Boolean(result.failed.length), 6500);
+  } catch (error) {
+    const cancelled = error.name === 'AbortError';
+    $('image-export-message').textContent = cancelled ? '이미지 내보내기를 취소했어요.' : error.message;
+    $('image-export-status').classList.toggle('is-error', !cancelled);
+    if (!cancelled) { failedImageExports = jobs; toast(error.message, true, 6500); }
+  } finally {
+    imageExportController = null; $('cancel-image-export').hidden = true; $('image-export-progress').hidden = true;
+    setBusy(false);
+  }
 }
 
 // 출제·보관함·등록 화면이 같은 분류 목록을 사용합니다.
@@ -398,6 +446,9 @@ $('export-button').onclick = async () => {
   try { toast('문제 파일을 준비하고 있어요…', false, 60000); downloadJson(await state.store.export(state.questions)); toast(`${state.questions.length}개 문제를 JSON으로 내보냈어요.`); }
   catch (e) { toast(e.message, true); } finally { setBusy(false); }
 };
+$('export-images-button').onclick = () => exportImages(imageExportJobs(state.questions));
+$('cancel-image-export').onclick = () => imageExportController?.abort();
+$('retry-image-export').onclick = () => exportImages(failedImageExports);
 document.addEventListener('keydown', e => {
   if (state.view !== 'game' || document.querySelector('dialog[open]') || e.target.closest('input,textarea,select,[contenteditable=true]') || e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
   if (e.code === 'Space' && e.target.closest('button')) return;

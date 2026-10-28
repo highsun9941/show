@@ -4094,12 +4094,6 @@
     "answer": "토니에게 따뜻한 심장이 있다는 증거",
     "hint": "",
     "image": "./uploads/marvel-ol4-f3ed8fad-f799-4f06-89f8-8fe7b9a27717.jpeg",
-    "source": "https://machugi.io/quiz/oL4CFbxX5Xo6HvKiezns | 원문·원본 이미지·제목 검증: ./data/migrations/machugi-oL4CFbxX5Xo6HvKiezns.json#10",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-28T04:45:04.465Z",
-    "updatedAt": "2026-10-28T04:45:04.465Z",
     "imageMasks": [
       {
         "x": 0.39,
@@ -4125,7 +4119,13 @@
         "width": 0.26,
         "height": 0.14
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/oL4CFbxX5Xo6HvKiezns | 원문·원본 이미지·제목 검증: ./data/migrations/machugi-oL4CFbxX5Xo6HvKiezns.json#10",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-28T04:45:04.465Z",
+    "updatedAt": "2026-10-28T04:45:04.465Z"
   },
   {
     "id": "machugi-ol4-1ac357a7-57db-4a7d-acf9-f1ea6d8f8888",
@@ -5096,21 +5096,6 @@
     "hint": "",
     "image": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2718d3.jpg",
     "source": "https://www.jiraksil.com/playgo/965vtk/c34exam | 원본 정답·대사 복원·출처 검토: ./data/migrations/jiraksil-965vtk.json#10 | 작품명 미확인: 추측하지 않고 미상으로 표시",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-28T08:16:44.435Z",
-    "updatedAt": "2026-10-28T08:16:44.435Z"
-  },
-  {
-    "id": "jiraksil-965vtk-quiz_20240116_65a5571e29bfd",
-    "title": "섹스 드라이브",
-    "category": "해외 영화",
-    "year": "",
-    "answer": "다들 그렇게 게이가 되는 거야.",
-    "hint": "",
-    "image": "./uploads/jiraksil-965vtk-quiz_20240116_65a5571e29bfd.jpg",
-    "source": "https://www.jiraksil.com/playgo/965vtk/c34exam | 원본 정답·대사 복원·출처 검토: ./data/migrations/jiraksil-965vtk.json#11",
     "enabled": true,
     "demo": false,
     "version": 1,

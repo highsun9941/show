@@ -287,7 +287,7 @@ function downloadJson(value) {
   const url = URL.createObjectURL(blob), a = document.createElement('a'); a.href = url; a.download = `scene-and-say-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
-// 출제·보관함·등록 화면이 같은 여섯 분류를 사용합니다.
+// 출제·보관함·등록 화면이 같은 분류 목록을 사용합니다.
 for (const category of CATEGORIES) {
   const button = el('button', '', category); button.dataset.category = category; button.setAttribute('aria-pressed', 'false');
   $('category-picker').append(button);

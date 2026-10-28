@@ -1,6 +1,6 @@
 import { validateImageMasks } from './image-masks.js';
 
-export const CATEGORIES = ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션'];
+export const CATEGORIES = ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션', '국내 예능', '국내 교양'];
 const LEGACY_CATEGORIES = ['영화', '드라마', '애니메이션'];
 export const MAX_IMAGE_BYTES = 300 * 1024;
 export const MAX_QUESTIONS = 5000;

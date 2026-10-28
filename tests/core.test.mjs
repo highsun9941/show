@@ -14,8 +14,8 @@ test('randomUUID가 없는 브라우저도 중복 없는 ID로 문제를 등록�
   }
 });
 
-test('국내·해외 여섯 분류는 각각 검증되고 서로 섞이지 않게 출제된다', () => {
-  assert.deepEqual(CATEGORIES, ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션']);
+test('영화·드라마·애니메이션·예능·교양을 검증하고 선택한 분류만 출제한다', () => {
+  assert.deepEqual(CATEGORIES, ['국내 영화', '해외 영화', '국내 드라마', '해외 드라마', '국내 애니메이션', '해외 애니메이션', '국내 예능', '국내 교양']);
   const questions = CATEGORIES.map((category, i) => validateQuestion(fixture({ id: `type-${i}`, category })));
   for (const category of CATEGORIES) {
     assert.deepEqual(makeDeck(questions, { category, count: 'all' }).map(q => q.category), [category]);

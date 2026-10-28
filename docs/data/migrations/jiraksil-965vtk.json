@@ -1,0 +1,913 @@
+{
+  "source": "https://www.jiraksil.com/playgo/965vtk/c34exam",
+  "sourceOverview": "https://www.jiraksil.com/view/965vtk",
+  "sourceTitle": "인기 짤방 맞추기 퀴즈",
+  "importedAt": "2026-10-28T08:16:44.435Z",
+  "baseCommit": "d9b067af2d60f0dd2ab835c5d4bd5d56eb2cdc14",
+  "sourceCount": 34,
+  "sourceCountEvidence": "소개 페이지 34 문제·주관식 34개 표시. 전체 1~34번을 끝까지 열고 정답 보기로 확인. 완료 화면도 34문항이며 서로 다른 원본 이미지·SHA256 34개를 전수 확인.",
+  "collectedCount": 34,
+  "uniqueSourceImages": 34,
+  "added": 30,
+  "skippedDuplicates": 4,
+  "beforeCount": 323,
+  "afterCount": 353,
+  "existingQuestionsUnchanged": 323,
+  "storedNewOriginalImages": 30,
+  "unresolvedTitles": [
+    9,
+    10
+  ],
+  "sourceAnswerTypeNotes": "8번 불쾌지수녀·26번 페페는 원본이 대사 대신 밈 이름을 정답으로 사용. 원본 문제의 의도를 유지하여 추가.",
+  "deduplicationPolicy": "같은 작품·대사의 장면은 띄어쓰기·문장부호·부분 빈칸 차이와 관계없이 중복으로 제외. 같은 작품의 서로 다른 대사는 별도 문제. 기존 문제는 변경하지 않고 중복 이미지도 추가 저장하지 않음.",
+  "questions": [
+    {
+      "number": 1,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2617a6.jpg",
+      "sourceAnswer": "그랬구나",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2617a6.jpg",
+        "sha256": "ba9192b31efda76288310660d3955887efd501d9cebe991be2cff1bc050df329",
+        "bytes": 27083,
+        "width": 400,
+        "height": 360,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2617a6.jpg"
+      },
+      "reviewed": true,
+      "title": "무한도전",
+      "category": "국내 예능",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2617a6",
+      "displayAnswer": "그랬구나",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.fnnews.com/news/201110091440124783",
+        "basis": "무한상사 그랬구나 코너와 정형돈 원본 장면 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 2,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e294793.jpg",
+      "sourceAnswer": "비겁한변명입니다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e294793.jpg",
+        "sha256": "defa4328094ee0116538799156572b881d0713c17c72a984edb9127ddb4b626e",
+        "bytes": 17386,
+        "width": 360,
+        "height": 284
+      },
+      "reviewed": true,
+      "title": "실미도",
+      "category": "국내 영화",
+      "action": "skipped_duplicate",
+      "duplicateQuestionId": "machugi-a4d90aa8-18c0-4665-8764-bd1e4f32f0cb",
+      "duplicateAnswer": "비겁한 변명입니다!",
+      "duplicateImage": "./uploads/moviequotes-500226854a37ed670f0c8fa3.jpg",
+      "duplicateReason": "원본 장면과 같은 작품·대사임을 대조. 띄어쓰기·문장부호 차이도 중복으로 제외. 기존 문제는 변경하지 않음."
+    },
+    {
+      "number": 3,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e313745.jpg",
+      "sourceAnswer": "호박고구마",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e313745.jpg",
+        "sha256": "ff1d7c819260ce7033aa5e0dca2aa6e61f5d9a4a2bf660fc92df2accd59eb2c9",
+        "bytes": 19902,
+        "width": 400,
+        "height": 400
+      },
+      "reviewed": true,
+      "title": "거침없이 하이킥",
+      "category": "국내 드라마",
+      "action": "skipped_duplicate",
+      "duplicateQuestionId": "machugi-owd-5b6c6df4-af08-40fc-9614-b466c22e27f3",
+      "duplicateAnswer": "호박고구마!!!!",
+      "duplicateImage": "./uploads/drama-owd-5b6c6df4-af08-40fc-9614-b466c22e27f3.jpeg",
+      "duplicateReason": "원본 장면과 같은 작품·대사임을 대조. 띄어쓰기·문장부호 차이도 중복으로 제외. 기존 문제는 변경하지 않음."
+    },
+    {
+      "number": 4,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a51b5b60cdd.jpg",
+      "sourceAnswer": "바쁜벌꿀은슬퍼할시간도없다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a51b5b60cdd.jpg",
+        "sha256": "9da8e7f91d00e2627da5b28cf8850c3d644b994c67de19d2cf019d3e213d30c9",
+        "bytes": 18347,
+        "width": 360,
+        "height": 270,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a51b5b60cdd.jpg"
+      },
+      "reviewed": true,
+      "title": "힐링캠프, 기쁘지 아니한가",
+      "category": "국내 예능",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a51b5b60cdd",
+      "displayAnswer": "바쁜 벌꿀은 슬퍼할 시간도 없다",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://view.asiae.co.kr/article/2012081408364410620",
+        "basis": "힐링캠프 박근혜 출연 회차와 바쁜 벌꿀 대사 확인. 발언의 벌꿀을 꿀벌로 고치지 않음.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 5,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a5414811494.jpg",
+      "sourceAnswer": "선넘네",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a5414811494.jpg",
+        "sha256": "7d72d8525dbb8f7a44ab1ae3799bd29feb76320e1c853cdbb533232b1ed01d56",
+        "bytes": 26713,
+        "width": 400,
+        "height": 441,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a5414811494.jpg"
+      },
+      "reviewed": true,
+      "title": "애기공룡 둘리",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a5414811494",
+      "displayAnswer": "선 넘네",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://librewiki.net/wiki/애기공룡둘리",
+        "basis": "엉덩국의 패러디 만화 선 넘네 장면 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 6,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2598b2.jpg",
+      "sourceAnswer": "귀여워",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2598b2.jpg",
+        "sha256": "2a300f1ba686a3466d40a644845b2452614522915159fcb2d948badad093f326",
+        "bytes": 16883,
+        "width": 377,
+        "height": 218,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2598b2.jpg"
+      },
+      "reviewed": true,
+      "title": "인간흉기",
+      "category": "해외 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2598b2",
+      "displayAnswer": "귀여워",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.namu.moe/w/인간흉기(만화)",
+        "basis": "귀여워 세로 말풍선과 인물 원본 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 7,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2486e2.jpg",
+      "sourceAnswer": "개소린데설득력있다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2486e2.jpg",
+        "sha256": "9923e1fdfdba0a14cf0c626d382d8f341952f665214eacee30947fa0593305c1",
+        "bytes": 11893,
+        "width": 360,
+        "height": 271,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2486e2.jpg"
+      },
+      "reviewed": true,
+      "title": "이말년씨리즈",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2486e2",
+      "displayAnswer": "개소린데 설득력 있다",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://namu.moe/w/이말년씨리즈",
+        "basis": "개소린데 설득력 있다 명대사와 이말년의 원본 그림 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 8,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a534970e654.jpg",
+      "sourceAnswer": "불쾌지수녀",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a534970e654.jpg",
+        "sha256": "ea92b536158369e8bcd859c62a259fa0b329c35609075ac63c7e256513e61972",
+        "bytes": 30065,
+        "width": 465,
+        "height": 359,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a534970e654.jpg"
+      },
+      "reviewed": true,
+      "title": "MBC 뉴스데스크",
+      "category": "국내 뉴스",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a534970e654",
+      "displayAnswer": "불쾌지수녀",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.hankyung.com/article/2014041660477",
+        "basis": "이유경 시민 인터뷰 장면은 MBC 뉴스데스크. 출처 정답은 대사가 아닌 밈 이름이므로 불쾌지수녀 그대로 보존.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 9,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e302369.jpg",
+      "sourceAnswer": "치명상",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e302369.jpg",
+        "sha256": "9ca246abdafeababcdd8fab01c296b9989e4dfdaa4180e4d60cb312bd874c5ec",
+        "bytes": 37237,
+        "width": 300,
+        "height": 478,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e302369.jpg"
+      },
+      "reviewed": true,
+      "title": "인터넷 만화 (작품명 미상)",
+      "category": "기타 밈",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e302369",
+      "displayAnswer": "치명상",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "unresolved",
+        "verified": false,
+        "method": "대사·이미지 검색으로 원작을 확정할 근거를 찾지 못함. 작품명과 제작 국가를 추측하지 않고 인터넷 만화 (작품명 미상)·기타 밈으로 표시.",
+        "url": ""
+      }
+    },
+    {
+      "number": 10,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2718d3.jpg",
+      "sourceAnswer": "꺼내지않으려했는데",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2718d3.jpg",
+        "sha256": "ff2179a10cbd4646d603364bbbd8952fd75ccf85141a38fc0676fc2eddaacad3",
+        "bytes": 26999,
+        "width": 360,
+        "height": 347,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2718d3.jpg"
+      },
+      "reviewed": true,
+      "title": "인터넷 만화 (작품명 미상)",
+      "category": "기타 밈",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2718d3",
+      "displayAnswer": "안 되겠군. 꺼내지 않으려 했는데.",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "unresolved",
+        "verified": false,
+        "method": "대사·이미지 검색으로 원작을 확정할 근거를 찾지 못함. 작품명과 제작 국가를 추측하지 않고 인터넷 만화 (작품명 미상)·기타 밈으로 표시.",
+        "url": ""
+      }
+    },
+    {
+      "number": 11,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240116_65a5571e29bfd.jpg",
+      "sourceAnswer": "게이",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240116_65a5571e29bfd.jpg",
+        "sha256": "5f8d6cadf3d9baab33f2d313c278949e334aa029d8c1ef628eceaec6a4e60b2e",
+        "bytes": 15286,
+        "width": 400,
+        "height": 217,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240116_65a5571e29bfd.jpg"
+      },
+      "reviewed": true,
+      "title": "섹스 드라이브",
+      "category": "해외 영화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240116_65a5571e29bfd",
+      "displayAnswer": "다들 그렇게 게이가 되는 거야.",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.readonly.wiki/w/그렇게%20다들%20게이가%20되는거야",
+        "basis": "섹스 드라이브의 렉스(제임스 마스던)와 자동차 장면 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 12,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a51bd752b24.jpg",
+      "sourceAnswer": "그런짓좀하지마요",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a51bd752b24.jpg",
+        "sha256": "95be3fb0b65b25151c2bc32857bfd0dfb5c0273f98ff99df094e2bd35f713633",
+        "bytes": 24591,
+        "width": 450,
+        "height": 354,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a51bd752b24.jpg"
+      },
+      "reviewed": true,
+      "title": "백종원의 푸드트럭",
+      "category": "국내 예능",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a51bd752b24",
+      "displayAnswer": "제발 그런 짓 좀 하지 마요",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://ent.sbs.co.kr/amp/article.do?article_id=E10008720542",
+        "basis": "원본 좌상단 수원 장사 시뮬레이션·차오루 열차전병 문구와 백종원의 푸드트럭 수원편을 SBS 공식 기사와 대조. 차오루의 연예인 사인 홍보 계획을 만류한 장면.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 13,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2e545b.jpg",
+      "sourceAnswer": "진행시켜",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2e545b.jpg",
+        "sha256": "a1ee75039641ec1c17c61fc4c89c6bbaa5fe3cc4cee83117b6c15f1a3553be00",
+        "bytes": 13044,
+        "width": 295,
+        "height": 317
+      },
+      "reviewed": true,
+      "title": "어게인 마이 라이프",
+      "category": "국내 드라마",
+      "action": "skipped_duplicate",
+      "duplicateQuestionId": "machugi-d38b0965-06f5-430f-9473-d8d2caf3b947",
+      "duplicateAnswer": "진행시켜",
+      "duplicateImage": "./uploads/machugi-9b2e447d-9166-42aa-b353-55a26a77d947.png",
+      "duplicateReason": "원본 장면과 같은 작품·대사임을 대조. 띄어쓰기·문장부호 차이도 중복으로 제외. 기존 문제는 변경하지 않음."
+    },
+    {
+      "number": 14,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e28b73e.jpg",
+      "sourceAnswer": "말하기전에생각했나요",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e28b73e.jpg",
+        "sha256": "963e83f2d064e08cee648404a564e229d08494bc49ca114d7b9a5139baf8210a",
+        "bytes": 24167,
+        "width": 450,
+        "height": 270,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e28b73e.jpg"
+      },
+      "reviewed": true,
+      "title": "보조개 왕자 (패러디)",
+      "category": "해외 애니메이션",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e28b73e",
+      "displayAnswer": "말하기 전에 생각했나요?",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://namu.moe/w/보조개왕자",
+        "basis": "보조개 왕자의 자기 전에 쉬했나요 장면을 바꾼 인터넷 패러디. 패러디 대사를 방송 원대사로 오인하지 않도록 제목에 명시.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 15,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e27a945.jpg",
+      "sourceAnswer": "내이랄줄알았다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e27a945.jpg",
+        "sha256": "234c94c7a98093198a6a3580250711746fc96a7984e71d3a6bc8ff1f146605ac",
+        "bytes": 15869,
+        "width": 400,
+        "height": 317,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e27a945.jpg"
+      },
+      "reviewed": true,
+      "title": "범죄와의 전쟁",
+      "category": "국내 영화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e27a945",
+      "displayAnswer": "내 이랄 줄 알았다",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.jjalbang.today/jjalview/8483",
+        "basis": "출처가 범죄와의 전쟁으로 분류한 GIF를 브라우저에서 열어 동일 장면·대사를 직접 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 16,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e26b862.jpg",
+      "sourceAnswer": "그런건없다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e26b862.jpg",
+        "sha256": "181f3f07bcd9059f8f8ca0eafd04f5bb634d37f7b9fe696aa66d7685adcf1706",
+        "bytes": 10701,
+        "width": 221,
+        "height": 177,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e26b862.jpg"
+      },
+      "reviewed": true,
+      "title": "삼국지 (요코야마 미츠테루)",
+      "category": "해외 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e26b862",
+      "displayAnswer": "그런 건 없다",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://imgtag.co.kr/issue/1109326/",
+        "basis": "요코야마 미츠테루 삼국지의 관우 통행증 장면과 그림·대사 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 17,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2513da.jpg",
+      "sourceAnswer": "거기가어딥니까",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2513da.jpg",
+        "sha256": "f5272ece7b66b90a0424afd000a0dcb7c7681ddc3287a55d65eedd6cc03cec1f",
+        "bytes": 18464,
+        "width": 360,
+        "height": 242,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2513da.jpg"
+      },
+      "reviewed": true,
+      "title": "택시운전사",
+      "category": "국내 영화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2513da",
+      "displayAnswer": "거기가 어딥니까?",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10008630617",
+        "basis": "택시운전사 예고편의 거기가 어딥니까 대사와 송강호 원본 장면 확인.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 18,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a5185c32e6f.jpg",
+      "sourceAnswer": "필요한만큼은보여줬다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a5185c32e6f.jpg",
+        "sha256": "58f6f89a4f2d0c86d91a3b00209c8ffbfe624cdc35015f2c2f5f10dc85c04409",
+        "bytes": 36097,
+        "width": 400,
+        "height": 261,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a5185c32e6f.jpg"
+      },
+      "reviewed": true,
+      "title": "아랑전",
+      "category": "해외 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a5185c32e6f",
+      "displayAnswer": "필요한 만큼은 보여줬다. 이 이상은 보여주지 않는다.",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.webtoonguide.com/en/board/news-column/2800",
+        "basis": "아랑전 쿠가 쥬메이의 대사·원본 만화 컷 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 19,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2d506a.jpg",
+      "sourceAnswer": "제발하느님",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2d506a.jpg",
+        "sha256": "c886fab2320b72a7a511d37e20773070b9e6a2b9c1006097ec06f4758bda56ab",
+        "bytes": 25953,
+        "width": 288,
+        "height": 389,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2d506a.jpg"
+      },
+      "reviewed": true,
+      "title": "정열맨",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2d506a",
+      "displayAnswer": "안 돼!! 제발!! 제발 하느님!!",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.jjalbang.today/tag/정열맨",
+        "basis": "귀귀 정열맨의 제발 하느님 원본 만화 컷 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 20,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2ed36d.jpg",
+      "sourceAnswer": "청와대로간다",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2ed36d.jpg",
+        "sha256": "feb1df3b647ec2ff2f3c7fa81503a9462bd7023001a85f52d617ed19dc5f6e91",
+        "bytes": 32712,
+        "width": 473,
+        "height": 253,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2ed36d.jpg"
+      },
+      "reviewed": true,
+      "title": "이말년씨리즈",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2ed36d",
+      "displayAnswer": "이렇게 된 이상 청와대로 간다!",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://namu.moe/w/이렇게%20된%20이상%20청와대로%20간다",
+        "basis": "이말년씨리즈 야후 1화 불타는 버스의 대사. 동명 드라마로 분류하지 않음.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 21,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2de1bd.jpg",
+      "sourceAnswer": "죽겠어요",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2de1bd.jpg",
+        "sha256": "c630e9616f9b2299231ea753c82c0516d0f3b6c2047cbb487236b95b7e0dc186",
+        "bytes": 17509,
+        "width": 320,
+        "height": 261,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2de1bd.jpg"
+      },
+      "reviewed": true,
+      "title": "모던보이 (메이킹)",
+      "category": "국내 영화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2de1bd",
+      "displayAnswer": "죽겠어요",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.cineplay.co.kr/ko-kr/articles/10765",
+        "basis": "모던보이 캐릭터 영상의 댄스 연습 후 인터뷰. 본편 속 대사와 구분하여 메이킹으로 명시.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 22,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2a3705.jpg",
+      "sourceAnswer": "쓰레기같은고민했구나",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2a3705.jpg",
+        "sha256": "673a4498ee38dd24a489b088381d869c438b4b65b3e32ec776d8ba401c8d498d",
+        "bytes": 18211,
+        "width": 360,
+        "height": 275,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2a3705.jpg"
+      },
+      "reviewed": true,
+      "title": "무한도전",
+      "category": "국내 예능",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2a3705",
+      "displayAnswer": "쓰레기 같은 고민했구나",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://seore.org/w/김혜자",
+        "basis": "무한도전 459회 무한뉴스 김혜자 인터뷰. 타인에 대한 평가가 아닌 당시 본인의 고민에 대한 발언.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 23,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a51e2d03ae4.jpg",
+      "sourceAnswer": "안녕히계세요여러분",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a51e2d03ae4.jpg",
+        "sha256": "a2458dd3a7013b40b41a7fda1a6805cdd6fea3465c3d1d3c99967e9f8fed1f96",
+        "bytes": 30467,
+        "width": 500,
+        "height": 364,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a51e2d03ae4.jpg"
+      },
+      "reviewed": true,
+      "title": "이누야샤",
+      "category": "해외 애니메이션",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a51e2d03ae4",
+      "displayAnswer": "안녕히 계세요 여러분! 전 이 세상의 모든 굴레와 속박을 벗어던지고 제 행복을 찾아 떠납니다~",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "",
+        "basis": "이누야샤 가영의 졸업·작별 장면과 이미지 속 고정 자막을 대조해 전체 대사 복원.",
+        "independentSourceLocated": false
+      }
+    },
+    {
+      "number": 24,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e282dac.jpg",
+      "sourceAnswer": "다아는사람들이구먼",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e282dac.jpg",
+        "sha256": "50e92817a46231ad174a75b271cfb558e6d3cc7d20b805128111a346e901eac2",
+        "bytes": 17155,
+        "width": 360,
+        "height": 366,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e282dac.jpg"
+      },
+      "reviewed": true,
+      "title": "SBS 8뉴스",
+      "category": "국내 뉴스",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e282dac",
+      "displayAnswer": "다 아는 사람들이구먼",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004770582",
+        "basis": "2018-05-23 SBS 8뉴스의 이명박 첫 공판 보도. 원본의 파란 이름 자막과 대사 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 25,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2bd284.jpg",
+      "sourceAnswer": "어휴시발",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2bd284.jpg",
+        "sha256": "8327d97cecf7089b375c44f07ed7d8a1f3daa8fce66c4cefca93a8e130133456",
+        "bytes": 13016,
+        "width": 360,
+        "height": 249,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2bd284.jpg"
+      },
+      "reviewed": true,
+      "title": "이말년씨리즈",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2bd284",
+      "displayAnswer": "어휴 시발",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://namu.moe/w/이말년씨리즈",
+        "basis": "이말년씨리즈 그림체와 휴대전화를 보며 이마를 짚는 원본 밈 컷 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 26,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a51f00213bd.jpg",
+      "sourceAnswer": "페페",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a51f00213bd.jpg",
+        "sha256": "6be77b696ddc075535362f2aee5cdf1ecdcd40772fa95dff8318f2d6e941939c",
+        "bytes": 18952,
+        "width": 404,
+        "height": 365,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a51f00213bd.jpg"
+      },
+      "reviewed": true,
+      "title": "보이즈 클럽 (Boy’s Club)",
+      "category": "해외 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a51f00213bd",
+      "displayAnswer": "페페",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "",
+        "basis": "맷 퓨리의 Boy’s Club에서 유래한 페페 밈 캐릭터. 밈 이름 정답을 대사로 바꾸지 않고 보존.",
+        "independentSourceLocated": false
+      }
+    },
+    {
+      "number": 27,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240116_65a55cf55bc2c.jpg",
+      "sourceAnswer": "예쁘면다냐",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240116_65a55cf55bc2c.jpg",
+        "sha256": "f435b8e4d54c82614705a289b5f2318adc01f908c8bf50d53e3a0c705ced3302",
+        "bytes": 26938,
+        "width": 400,
+        "height": 305,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240116_65a55cf55bc2c.jpg"
+      },
+      "reviewed": true,
+      "title": "엄마 없이 살아보기",
+      "category": "국내 교양",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240116_65a55cf55bc2c",
+      "displayAnswer": "예쁘면 다냐?",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.insight.co.kr/news/111326",
+        "basis": "EBS 엄마 없이 살아보기 엄살쟁이들 조선에 가다 편. 원본 방송 로고·재신의 장면 확인.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 28,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2aae89.jpg",
+      "sourceAnswer": "아주개새끼구만",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2aae89.jpg",
+        "sha256": "72bbadea3ebff533fff8dbfe09496cd34c50cccd3f55bb6ac0ffe766fa489e30",
+        "bytes": 17986,
+        "width": 360,
+        "height": 267,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2aae89.jpg"
+      },
+      "reviewed": true,
+      "title": "거짓말의 발명",
+      "category": "해외 영화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2aae89",
+      "displayAnswer": "아주 개새끼구만",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://d.namu.moe/w/거짓말의%20발명",
+        "basis": "신에 관해 설명을 듣는 군중 장면의 아주 개새끼구만 밈 이미지 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 29,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e29c7bc.jpg",
+      "sourceAnswer": "생각보다훨씬미친놈이야",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e29c7bc.jpg",
+        "sha256": "8511c6b62cf7c196d9194095173dfda1c74e8e9f7516bb270ec5d25401608428",
+        "bytes": 14203,
+        "width": 400,
+        "height": 249,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e29c7bc.jpg"
+      },
+      "reviewed": true,
+      "title": "이말년씨리즈",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e29c7bc",
+      "displayAnswer": "큰일이다. 생각보다 훨씬 미친놈이야.",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.hankyung.com/article/2015110607217",
+        "basis": "이말년의 큰일이다 생각보다 훨씬 미친놈이야 원본 그림·대사 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 30,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2c4572.jpg",
+      "sourceAnswer": "역사적으로도",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2c4572.jpg",
+        "sha256": "871a3bd937874e13845b932c4929cd0519813140d96c39bcf70bf2047e22627b",
+        "bytes": 35972,
+        "width": 400,
+        "height": 278,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2c4572.jpg"
+      },
+      "reviewed": true,
+      "title": "대털 2.0",
+      "category": "국내 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2c4572",
+      "displayAnswer": "역사적으로도 이게 약이었다.",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://m.namu.moe/w/김성모/작품%20및%20유행어",
+        "basis": "대털 2.0 항목의 역사적으로도 이게 약이었다 대사 및 야구방망이 원본 컷 대조.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 31,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e30c3f3.jpg",
+      "sourceAnswer": "형이왜거기서나와",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e30c3f3.jpg",
+        "sha256": "790628a00eaf01a0c749ff7815cb6b04bd3d35244d4ba4c8fae21001a7957106",
+        "bytes": 10437,
+        "width": 360,
+        "height": 247
+      },
+      "reviewed": true,
+      "title": "무한도전",
+      "category": "국내 예능",
+      "action": "skipped_duplicate",
+      "duplicateQuestionId": "machugi-k0j-872bfcd1-8563-4113-8b24-fb683270b477",
+      "duplicateAnswer": "형이 왜 거기서 나와...?",
+      "duplicateImage": "./uploads/variety-k0j-872bfcd1-8563-4113-8b24-fb683270b477.jpeg",
+      "duplicateReason": "원본 장면과 같은 작품·대사임을 대조. 띄어쓰기·문장부호 차이도 중복으로 제외. 기존 문제는 변경하지 않음."
+    },
+    {
+      "number": 32,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a51d6e4d3b3.jpg",
+      "sourceAnswer": "내동료가되라",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a51d6e4d3b3.jpg",
+        "sha256": "e46479e579fa784354766eed0352bc7fa57c2aa1be5e54953d8b2f2e574d28e2",
+        "bytes": 25058,
+        "width": 416,
+        "height": 309,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a51d6e4d3b3.jpg"
+      },
+      "reviewed": true,
+      "title": "원피스",
+      "category": "해외 애니메이션",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a51d6e4d3b3",
+      "displayAnswer": "너, 내 동료가 돼라!",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://m.namu.moe/w/너%20내%20동료가%20돼라",
+        "basis": "원피스 루피의 원본 애니메이션 장면. 이미지 속 너와 빈칸을 합쳐 복원하고 돼라 맞춤법 정리.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 33,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2b2fa0.jpg",
+      "sourceAnswer": "압도적감사",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2b2fa0.jpg",
+        "sha256": "8047dfc010b7f2ed9e98270ea5a838bdef3f96d9c12ffdd93b5ad19c8399fa02",
+        "bytes": 40138,
+        "width": 380,
+        "height": 331,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2b2fa0.jpg"
+      },
+      "reviewed": true,
+      "title": "도박파계록 카이지",
+      "category": "해외 만화",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2b2fa0",
+      "displayAnswer": "압도적 감사",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://namu.moe/w/미요시%20토모히로",
+        "basis": "지하 노역장에서 늪 공략을 시청하는 미요시 장면. 카이지 시리즈 2부 도박파계록으로 분류, 밈 번역 압도적 감사 보존.",
+        "independentSourceLocated": true
+      }
+    },
+    {
+      "number": 34,
+      "sourceQuestionKey": "/files/quiz/488/quiz_20240115_65a426e2ccd81.jpg",
+      "sourceAnswer": "일어나",
+      "questionImage": {
+        "url": "https://www.jiraksil.com/files/quiz/488/quiz_20240115_65a426e2ccd81.jpg",
+        "sha256": "22e01f2c4b1d05039f440c68b490e7d914924b455ef215948c933b0d938e3820",
+        "bytes": 19841,
+        "width": 360,
+        "height": 270,
+        "asset": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2ccd81.jpg"
+      },
+      "reviewed": true,
+      "title": "황금어장 무릎팍도사",
+      "category": "국내 예능",
+      "action": "added",
+      "questionId": "jiraksil-965vtk-quiz_20240115_65a426e2ccd81",
+      "displayAnswer": "안 죽는데! 일어나!",
+      "answerRestoration": "원본 정답의 공백을 정리하고, 이미지의 가려지지 않은 고정 문구를 직접 읽어 빈칸 정답과 결합. 8·26번은 대사가 아닌 밈 이름을 묻는 원본 문제 그대로 보존. 32번 되라 표기는 돼라로 정리.",
+      "titleVerification": {
+        "status": "identified",
+        "method": "원본 이미지의 문구·로고·인물·캐릭터와 관련 자료 대조",
+        "url": "https://www.youtube.com/watch?v=iK02neWpq7A",
+        "basis": "MBC 공식 무릎팍도사 김제동·윤도현 출연 클립과 원본 로고·안 죽는데 자막 대조.",
+        "independentSourceLocated": true
+      }
+    }
+  ]
+}

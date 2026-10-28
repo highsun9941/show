@@ -1,0 +1,683 @@
+{
+  "source": "https://machugi.io/quiz/Mi8y05gHSGWp2m7MiQHX",
+  "sourceTitle": "국내 고전 명작 영화 대사 맞추기",
+  "sourceQuestionIds": [
+    "4yjtBHQcGJPNNygWtAK3",
+    "7kRSmxGj9uZmOk8Y3Nye",
+    "CwmGA5qvG4qFSfSHZnzH",
+    "EhKWNn3nutnFlV66sQve",
+    "EwcFV8BUYLuGYhUeHYvu",
+    "FPMDwXMEn0QkXuykoUlP",
+    "FnzZZqMSKO00W2Z5uXo9",
+    "HpSCbVgMTNIlDrKbGMo2",
+    "LGFy4Rg9JSIVvbWkqCmn",
+    "LgswHkBnG5VQaZuWfhLQ",
+    "NUnxYisE8DxgaMA7PzEK",
+    "PSLtg7b2KAFwDOXxzv2z",
+    "RlIDRiX0v7yCDD3sVOqU",
+    "TwTdgHWP6lAFfkHlhZ1v",
+    "hAWVRyuhuKLmrYrYLPDo",
+    "j3MMdyK4KLTGTZ8tUUAE",
+    "wLzfow3MsRiP3qHjpgC3",
+    "xVwvOl0vG9i5l2dWmIUO"
+  ],
+  "importedAt": "2026-10-28T03:00:22.655Z",
+  "baseCommit": "353977a6c54f4f43b5da8af2b50ae9c0ee0c8d56",
+  "sourceCount": 18,
+  "added": 8,
+  "merged": 10,
+  "originalImageReferences": 36,
+  "uniqueOriginalImages": 18,
+  "titleVerifiedCount": 18,
+  "method": "기본 10문항씩 두 회차에서 전체 18개를 전수 수집. 작품명 없는 원본의 대사 검색과 장면 대조로 제목을 확인. 문제·정답 공개 이미지는 문항별 동일 바이트이므로 원본 PNG 하나씩 저장. 중복 10개는 기존 ID와 정답을 유지하며 새 이미지·출처를 연결. 신규 8개 추가.",
+  "questions": [
+    {
+      "number": 1,
+      "questionImage": {
+        "url": "https://images.machugi.io/db6e16c6-e777-41a0-bfce-d70a58c2c7b1.png",
+        "asset": "./uploads/classics-mi8-db6e16c6-e777-41a0-bfce-d70a58c2c7b1.png",
+        "sha256": "a7efd00996b9dfd92b85c9983dd4dd13c9a6dfb0e2167e1c936b6bcba163ed46"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/48a26144-4292-4ba2-811d-f26faf84ff00.png",
+        "asset": "./uploads/classics-mi8-db6e16c6-e777-41a0-bfce-d70a58c2c7b1.png",
+        "sha256": "a7efd00996b9dfd92b85c9983dd4dd13c9a6dfb0e2167e1c936b6bcba163ed46"
+      },
+      "sourceAnswer": "보지 말라고 이 새끼야",
+      "title": "반창꼬",
+      "category": "국내 영화",
+      "answer": "보지 말라고 이 새끼야",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01098806599757864",
+        "basis": "한효주 인터뷰에 같은 대사와 영화명이 명시됨. 원본의 한강 다리 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-db6e16c6-e777-41a0-bfce-d70a58c2c7b1",
+      "displayAnswer": "보지 말라고 이 새끼야"
+    },
+    {
+      "number": 2,
+      "questionImage": {
+        "url": "https://images.machugi.io/e0351ee6-571a-429a-b453-957cc79ea284.png",
+        "asset": "./uploads/classics-mi8-e0351ee6-571a-429a-b453-957cc79ea284.png",
+        "sha256": "41f356b50b18b60747efa311d3f3820a05311b9aa54a62126b5a5f95e302603e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ca1c119a-4b84-4f08-9877-7a7064977b02.png",
+        "asset": "./uploads/classics-mi8-e0351ee6-571a-429a-b453-957cc79ea284.png",
+        "sha256": "41f356b50b18b60747efa311d3f3820a05311b9aa54a62126b5a5f95e302603e"
+      },
+      "sourceAnswer": "누구냐 넌",
+      "title": "올드보이",
+      "category": "국내 영화",
+      "answer": "누구냐 넌",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.newsway.co.kr/news/view?ud=2016010310130577631",
+        "basis": "최민식의 영화별 명대사 기사와 원본의 선글라스·통화 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-b96a66fe-7ca9-41cb-b72c-a80306c1712d",
+        "title": "올드보이",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "누구냐, 넌",
+        "hint": "",
+        "image": "./uploads/moviequotes-77f7675330dc7d4f0bd95c20.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/7cc1c9cd-0585-4f78-b7b7-9926aafa2c31 | 정답 공개 이미지: https://images.machugi.io/b96a66fe-7ca9-41cb-b72c-a80306c1712d | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/6e67011b-114e-4ef7-8d8c-45941ba6d2b9.jpeg | 정답 공개 이미지: https://images.machugi.io/6aa81e3a-f761-4b7d-9fd4-5fdbbc356e2e.jpeg | 추가 출처 원문: 누구냐 너? (올드보이)",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-b96a66fe-7ca9-41cb-b72c-a80306c1712d",
+      "displayAnswer": "누구냐, 넌"
+    },
+    {
+      "number": 3,
+      "questionImage": {
+        "url": "https://images.machugi.io/7c4d5908-7040-4791-b248-fb4f723f9bad.png",
+        "asset": "./uploads/classics-mi8-7c4d5908-7040-4791-b248-fb4f723f9bad.png",
+        "sha256": "c93d9f77c3d35a37d913a8158d69bbe535be5d7bb84911e21ac4b14fb1c80a25"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c1a895bf-21be-4128-8bbe-7f1be59df9c1.png",
+        "asset": "./uploads/classics-mi8-7c4d5908-7040-4791-b248-fb4f723f9bad.png",
+        "sha256": "c93d9f77c3d35a37d913a8158d69bbe535be5d7bb84911e21ac4b14fb1c80a25"
+      },
+      "sourceAnswer": "도사는 무엇이냐",
+      "title": "전우치",
+      "category": "국내 영화",
+      "answer": "도사는 무엇이냐",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://namu.moe/w/%EC%A0%84%EC%9A%B0%EC%B9%98%28%EC%98%81%ED%99%94%29",
+        "basis": "작품의 도술 설명에 같은 대사가 수록됨. 원본 궁궐 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-7c4d5908-7040-4791-b248-fb4f723f9bad",
+      "displayAnswer": "도사는 무엇이냐"
+    },
+    {
+      "number": 4,
+      "questionImage": {
+        "url": "https://images.machugi.io/aa66cc53-bf73-46ba-abbd-b61dc9e8a43e.png",
+        "asset": "./uploads/classics-mi8-aa66cc53-bf73-46ba-abbd-b61dc9e8a43e.png",
+        "sha256": "72b1daa6b481616b6ddf1a27e0604841f9edae7358e28d1ba82f156baf7b4991"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d0c28fdb-be39-4525-a992-26b6093da203.png",
+        "asset": "./uploads/classics-mi8-aa66cc53-bf73-46ba-abbd-b61dc9e8a43e.png",
+        "sha256": "72b1daa6b481616b6ddf1a27e0604841f9edae7358e28d1ba82f156baf7b4991"
+      },
+      "sourceAnswer": "너나 잘하세요",
+      "title": "친절한 금자씨",
+      "category": "국내 영화",
+      "answer": "너나 잘하세요",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.fnnews.com/news/202509172201032394",
+        "basis": "이영애 인터뷰 기사에서 작품명과 같은 대사를 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-12590bfd-1a10-4c56-9367-c649ab5aca0d",
+        "title": "친절한 금자씨",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "너나 잘하세요.",
+        "hint": "",
+        "image": "./uploads/moviequotes-b6a088e3d08b080b6d16e19e.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ab6adc21-a599-4baa-bf28-942b7565121f | 정답 공개 이미지: https://images.machugi.io/12590bfd-1a10-4c56-9367-c649ab5aca0d | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/cf6f65db-ba08-42e3-b6d8-abacc05366cc.jpeg | 정답 공개 이미지: https://images.machugi.io/4b1420a3-86dd-417a-9fea-1e08690450b7.jpeg | 추가 출처 원문: 너나 잘하세요. (친절한 금자씨) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#37",
+        "enabled": true,
+        "demo": false,
+        "version": 3,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-12590bfd-1a10-4c56-9367-c649ab5aca0d",
+      "displayAnswer": "너나 잘하세요."
+    },
+    {
+      "number": 5,
+      "questionImage": {
+        "url": "https://images.machugi.io/634d01cd-5e8a-4aee-83a5-495481a068d0.png",
+        "asset": "./uploads/classics-mi8-634d01cd-5e8a-4aee-83a5-495481a068d0.png",
+        "sha256": "1b26a94a0a383b61d3f2c3f6145291e3143e02cce86ccc267490743c7ecbfae8"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/cddbcc1c-b75b-44c6-8f0b-b949f92234ad.png",
+        "asset": "./uploads/classics-mi8-634d01cd-5e8a-4aee-83a5-495481a068d0.png",
+        "sha256": "1b26a94a0a383b61d3f2c3f6145291e3143e02cce86ccc267490743c7ecbfae8"
+      },
+      "sourceAnswer": "나는요 완전히 붕괴됐어요",
+      "title": "헤어질 결심",
+      "category": "국내 영화",
+      "answer": "나는요 완전히 붕괴됐어요",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.khan.co.kr/article/202212150700001",
+        "basis": "해준의 대사로 작품명과 문구가 함께 설명됨. 원본 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-634d01cd-5e8a-4aee-83a5-495481a068d0",
+      "displayAnswer": "나는요 완전히 붕괴됐어요"
+    },
+    {
+      "number": 6,
+      "questionImage": {
+        "url": "https://images.machugi.io/bd2a4724-1b7e-4769-a60b-d5516e605ef1.png",
+        "asset": "./uploads/classics-mi8-bd2a4724-1b7e-4769-a60b-d5516e605ef1.png",
+        "sha256": "b7c1f4cacec956198552452db804c94ae019187d47cf15291931df93fbaba037"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/0286a018-686c-4b0b-af7d-f7fe340d7e91.png",
+        "asset": "./uploads/classics-mi8-bd2a4724-1b7e-4769-a60b-d5516e605ef1.png",
+        "sha256": "b7c1f4cacec956198552452db804c94ae019187d47cf15291931df93fbaba037"
+      },
+      "sourceAnswer": "너 납치된 거야",
+      "title": "범죄도시2",
+      "category": "국내 영화",
+      "answer": "너 납치된 거야",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.inews24.com/view/1472445",
+        "basis": "티저 예고편 기사에서 강해상의 같은 대사를 확인. 1편과 구분.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-bd2a4724-1b7e-4769-a60b-d5516e605ef1",
+      "displayAnswer": "너 납치된 거야"
+    },
+    {
+      "number": 7,
+      "questionImage": {
+        "url": "https://images.machugi.io/161fcb4b-6770-4dd7-b0b2-d98416a86eb9.png",
+        "asset": "./uploads/classics-mi8-161fcb4b-6770-4dd7-b0b2-d98416a86eb9.png",
+        "sha256": "12c762505563da535fdf85bb13266fec4ea02d754215d246c671ae22bf42c250"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d578889a-b3f3-435d-ac13-8b682e30d927.png",
+        "asset": "./uploads/classics-mi8-161fcb4b-6770-4dd7-b0b2-d98416a86eb9.png",
+        "sha256": "12c762505563da535fdf85bb13266fec4ea02d754215d246c671ae22bf42c250"
+      },
+      "sourceAnswer": "나 다시 돌아갈래",
+      "title": "박하사탕",
+      "category": "국내 영화",
+      "answer": "나 다시 돌아갈래",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj13&boardSeq=1990&menuSeq=5935&pageIndex=1",
+        "basis": "작품명·대사·기차 앞 장면 설명을 원본과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-ab6806f3-d7be-4540-aa17-645c7907b21e",
+        "title": "박하사탕",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "나 다시 돌아갈래.",
+        "hint": "",
+        "image": "./uploads/moviequotes-e82802b4b3aeef779bc996ad.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ad638e08-24a2-4a1a-9958-9d42c5ae5f44 | 정답 공개 이미지: https://images.machugi.io/ab6806f3-d7be-4540-aa17-645c7907b21e | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/807e6000-0f34-4e62-940d-8e89724ae198.jpeg | 정답 공개 이미지: https://images.machugi.io/b29ba56a-8958-4bb9-b7eb-f0bb187ad4bb.jpeg | 추가 출처 원문: 나 다시 돌아갈래!! (박하사탕) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#40",
+        "enabled": true,
+        "demo": false,
+        "version": 3,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-ab6806f3-d7be-4540-aa17-645c7907b21e",
+      "displayAnswer": "나 다시 돌아갈래."
+    },
+    {
+      "number": 8,
+      "questionImage": {
+        "url": "https://images.machugi.io/5915380f-85c1-483e-8973-0c31d3146616.png",
+        "asset": "./uploads/classics-mi8-5915380f-85c1-483e-8973-0c31d3146616.png",
+        "sha256": "0f76e8ec286b1469e9c64a4d039f9f2ae513aaa86eec8944816b80f00af3b1a0"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3f6b1ddb-ba2f-4cca-a87b-402c8efb418b.png",
+        "asset": "./uploads/classics-mi8-5915380f-85c1-483e-8973-0c31d3146616.png",
+        "sha256": "0f76e8ec286b1469e9c64a4d039f9f2ae513aaa86eec8944816b80f00af3b1a0"
+      },
+      "sourceAnswer": "돌아온다고 약속했잖아요",
+      "title": "태극기 휘날리며",
+      "category": "국내 영화",
+      "answer": "돌아온다고 약속했잖아요",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.donga.com/news/article/all/20040607/8069765/1",
+        "basis": "노년 진석이 형의 유해 앞에서 하는 같은 대사와 장면이 기사에 명시됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "distinctLineNote": "같은 영화의 기존 구두 완성 대사와 문구가 달라 별도 문제로 추가.",
+      "questionId": "machugi-mi8-5915380f-85c1-483e-8973-0c31d3146616",
+      "displayAnswer": "돌아온다고 약속했잖아요"
+    },
+    {
+      "number": 9,
+      "questionImage": {
+        "url": "https://images.machugi.io/4f48fd28-35b2-4dc8-b604-bc8023a186ce.png",
+        "asset": "./uploads/classics-mi8-4f48fd28-35b2-4dc8-b604-bc8023a186ce.png",
+        "sha256": "d57f28c41b7e2a15690c52dd63db6b961c2339577761ff6785de056ee3bba76a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b7053541-c222-4081-a1ad-30e644987b85.png",
+        "asset": "./uploads/classics-mi8-4f48fd28-35b2-4dc8-b604-bc8023a186ce.png",
+        "sha256": "d57f28c41b7e2a15690c52dd63db6b961c2339577761ff6785de056ee3bba76a"
+      },
+      "sourceAnswer": "얌마 도완득",
+      "title": "완득이",
+      "category": "국내 영화",
+      "answer": "얌마 도완득",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.netflix.com/kr/title/70232196?source=35",
+        "basis": "공식 상영 페이지의 작품명과 소개 첫 대사를 원본 교실 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-4f48fd28-35b2-4dc8-b604-bc8023a186ce",
+      "displayAnswer": "얌마 도완득"
+    },
+    {
+      "number": 10,
+      "questionImage": {
+        "url": "https://images.machugi.io/1fe2a24c-fd46-4bf0-9e42-c576e63755dd.png",
+        "asset": "./uploads/classics-mi8-1fe2a24c-fd46-4bf0-9e42-c576e63755dd.png",
+        "sha256": "9730494c7e8f8b226a20a202e732df9e06e09954986bbe582bb2b25c887587a1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d00298c2-15d4-4652-a6f0-e1a636e0622f.png",
+        "asset": "./uploads/classics-mi8-1fe2a24c-fd46-4bf0-9e42-c576e63755dd.png",
+        "sha256": "9730494c7e8f8b226a20a202e732df9e06e09954986bbe582bb2b25c887587a1"
+      },
+      "sourceAnswer": "이거 방탄유리야",
+      "title": "아저씨",
+      "category": "국내 영화",
+      "answer": "이거 방탄유리야",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.segye.com/newsView/20191103503149",
+        "basis": "김희원의 촬영 비화 인터뷰에 작품명과 같은 대사가 명시됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-a72ac46c-dd79-417e-89df-0d930263aaa9",
+        "title": "아저씨",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "이거 방탄유리야, 이 ㄱㅅㄲ야!",
+        "hint": "",
+        "image": "./uploads/moviequotes-5722366cf8f935815c4b9441.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/0c973d7f-01bf-4c2d-8424-306580d20dee | 정답 공개 이미지: https://images.machugi.io/a72ac46c-dd79-417e-89df-0d930263aaa9 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f277d41b-c5f6-4e20-ba80-8a4d1234858e.jpeg | 정답 공개 이미지: https://images.machugi.io/6e6d95ef-0cac-4652-bca5-933d10942f86.jpeg | 추가 출처 원문: 이거 방탄유리야. (아저씨) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#9",
+        "enabled": true,
+        "demo": false,
+        "version": 3,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-a72ac46c-dd79-417e-89df-0d930263aaa9",
+      "displayAnswer": "이거 방탄유리야, 이 ㄱㅅㄲ야!"
+    },
+    {
+      "number": 11,
+      "questionImage": {
+        "url": "https://images.machugi.io/7d70e216-09b2-45d2-baaa-20580a5bf7c9.png",
+        "asset": "./uploads/classics-mi8-7d70e216-09b2-45d2-baaa-20580a5bf7c9.png",
+        "sha256": "1b38ec516764735f1f5ca9a1362b4927709b9b0e7d318c7084ee8b4df4c5c9f7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2692cb3a-6250-4dcc-9f98-4402643661ff.png",
+        "asset": "./uploads/classics-mi8-7d70e216-09b2-45d2-baaa-20580a5bf7c9.png",
+        "sha256": "1b38ec516764735f1f5ca9a1362b4927709b9b0e7d318c7084ee8b4df4c5c9f7"
+      },
+      "sourceAnswer": "보내줘",
+      "title": "택시운전사",
+      "category": "국내 영화",
+      "answer": "보내줘",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.starnewskorea.com/movie/2017/12/20/2017121616494106022",
+        "basis": "엄태구의 검문소 중사 장면과 같은 대사가 명시됨. 원본의 검문 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-o43-1c92697818f80e9763b3c2e9",
+        "title": "택시운전사",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "보내줘.",
+        "hint": "",
+        "image": "./uploads/moviequotes-1c92697818f80e9763b3c2e9.jpg",
+        "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/d8f591f5-531b-47a2-b8a1-940d5df18d59.jpeg | 정답 공개 이미지: https://images.machugi.io/de486d49-2f38-4cec-a964-9db4d54ee4c1.jpeg",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T15:38:05.819Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-o43-1c92697818f80e9763b3c2e9",
+      "displayAnswer": "보내줘."
+    },
+    {
+      "number": 12,
+      "questionImage": {
+        "url": "https://images.machugi.io/10b5b68d-0aa1-4396-b621-65ee0aa608cf.png",
+        "asset": "./uploads/classics-mi8-10b5b68d-0aa1-4396-b621-65ee0aa608cf.png",
+        "sha256": "3e9c082af6d19281f5aba89363e69e3ff3d16e63af7bad3c3e29258865a66a9e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/42082603-e02d-4a27-821d-5c871597c3ae.png",
+        "asset": "./uploads/classics-mi8-10b5b68d-0aa1-4396-b621-65ee0aa608cf.png",
+        "sha256": "3e9c082af6d19281f5aba89363e69e3ff3d16e63af7bad3c3e29258865a66a9e"
+      },
+      "sourceAnswer": "초원이 다리는 백만불짜리 다리",
+      "title": "말아톤",
+      "category": "국내 영화",
+      "answer": "초원이 다리는 백만불짜리 다리",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.starnewskorea.com/movie/2005/03/20/2005032015232552936",
+        "basis": "작품의 유행어 기사에서 같은 대사와 모자 관계를 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-2cbe27c6-6c8e-4df3-aa3e-37c8795f2720",
+        "title": "말아톤",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "초원이 다리는 백만 불 짜리 다리",
+        "hint": "",
+        "image": "./uploads/moviequotes-5dbd3fff720f8ebd6c270dd5.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/14cabdc3-0fd1-43c9-a062-841d23029a11 | 정답 공개 이미지: https://images.machugi.io/2cbe27c6-6c8e-4df3-aa3e-37c8795f2720 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/d174533a-278f-40d8-92d4-b840de435919.jpeg | 정답 공개 이미지: https://images.machugi.io/a3e083a4-22bd-4555-a400-03043f9eae21.jpeg | 추가 출처 원문: 초원이 다리는 백만불짜리 다리 (말아톤)",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-2cbe27c6-6c8e-4df3-aa3e-37c8795f2720",
+      "displayAnswer": "초원이 다리는 백만 불 짜리 다리"
+    },
+    {
+      "number": 13,
+      "questionImage": {
+        "url": "https://images.machugi.io/86bf5307-61e1-4430-9381-8fc98dd662a4.png",
+        "asset": "./uploads/classics-mi8-86bf5307-61e1-4430-9381-8fc98dd662a4.png",
+        "sha256": "68686f9389083965a94d64d053698d1fd02b3a3e37c751588cc444cb7b2ab14c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c6d86361-76cf-440d-a900-7dc653ae6c38.png",
+        "asset": "./uploads/classics-mi8-86bf5307-61e1-4430-9381-8fc98dd662a4.png",
+        "sha256": "68686f9389083965a94d64d053698d1fd02b3a3e37c751588cc444cb7b2ab14c"
+      },
+      "sourceAnswer": "비벼",
+      "title": "건축학개론",
+      "category": "국내 영화",
+      "answer": "비벼",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://tv.jtbc.co.kr/clip/pr10010392/pm10032711/vo10311170/view",
+        "basis": "조정석이 납뜩이의 키스 설명 장면을 재연하는 공식 방송 클립 설명과 원본 손동작 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-86bf5307-61e1-4430-9381-8fc98dd662a4",
+      "displayAnswer": "비벼"
+    },
+    {
+      "number": 14,
+      "questionImage": {
+        "url": "https://images.machugi.io/6aa29f25-739f-45d9-9bd8-6030e45b041a.png",
+        "asset": "./uploads/classics-mi8-6aa29f25-739f-45d9-9bd8-6030e45b041a.png",
+        "sha256": "b2928f0d635d35986b674726218f48d42b311a8e925c38500c224b87ce01be5e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d5b4ff11-606d-4268-8639-ce40e6f71451.png",
+        "asset": "./uploads/classics-mi8-6aa29f25-739f-45d9-9bd8-6030e45b041a.png",
+        "sha256": "b2928f0d635d35986b674726218f48d42b311a8e925c38500c224b87ce01be5e"
+      },
+      "sourceAnswer": "많이 묵었다 아이가 고마해라",
+      "title": "친구",
+      "category": "국내 영화",
+      "answer": "많이 묵었다 아이가 고마해라",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://cine21.com/news/view/?mag_id=1463",
+        "basis": "장동건의 피살 장면 대사 설명과 원본을 대조. 기존 방언 표기는 유지.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-cbeff218-536e-4fe8-adae-ca6d2193d51f",
+        "title": "친구",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "마이 무따 아이가, 고마 해라",
+        "hint": "",
+        "image": "./uploads/moviequotes-063e34f8f9a7f0b2ff7857f0.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/b0ba669f-4c8a-4799-bb65-409f46e253da | 정답 공개 이미지: https://images.machugi.io/cbeff218-536e-4fe8-adae-ca6d2193d51f | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/70ce5c12-21d7-4ce3-9cdb-e068236f6c49.jpeg | 정답 공개 이미지: https://images.machugi.io/eae67630-3f3c-42b4-999f-96a6141da2bc.jpeg | 추가 출처 원문: 마이 묵었다 아이가.... 고마해라.... (친구)",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-cbeff218-536e-4fe8-adae-ca6d2193d51f",
+      "displayAnswer": "마이 무따 아이가, 고마 해라"
+    },
+    {
+      "number": 15,
+      "questionImage": {
+        "url": "https://images.machugi.io/7eb030e3-4fd1-474c-8405-36392993e60f.png",
+        "asset": "./uploads/classics-mi8-7eb030e3-4fd1-474c-8405-36392993e60f.png",
+        "sha256": "adba6382dc2f01b51401b4ff6382559baa581f0565e508fe6d2dc8d3f6221878"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4709d5de-2820-4361-82fc-f10af576dd8f.png",
+        "asset": "./uploads/classics-mi8-7eb030e3-4fd1-474c-8405-36392993e60f.png",
+        "sha256": "adba6382dc2f01b51401b4ff6382559baa581f0565e508fe6d2dc8d3f6221878"
+      },
+      "sourceAnswer": "꼭 그렇게 다 가져가야만 속이 후련했냐",
+      "title": "해바라기",
+      "category": "국내 영화",
+      "answer": "꼭 그렇게 다 가져가야만 속이 후련했냐",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01220166622363296",
+        "basis": "원 대사와 영화명이 함께 명시됨. 원본 김래원 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-975a48ea-673f-49d4-803e-09070d73a74b",
+        "title": "해바라기",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "꼭 그렇게.. 다 가져가야만.. 속이 후련했냐!",
+        "hint": "",
+        "image": "./uploads/moviequotes-9a8c4fcaea0be82544928e1d.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/93973352-1a96-4149-85e0-2896b1bca3ea | 정답 공개 이미지: https://images.machugi.io/975a48ea-673f-49d4-803e-09070d73a74b | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7dc05bb2-c6e7-4e31-9092-4fb7fa649c77.jpeg | 정답 공개 이미지: https://images.machugi.io/ec3a0809-72a3-4f3a-8570-7c8fdfd95a46.jpeg | 추가 출처 원문: 꼭 그렇게 다 가져가야만 속이 후련했냐!!! (해바라기) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#44",
+        "enabled": true,
+        "demo": false,
+        "version": 3,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-975a48ea-673f-49d4-803e-09070d73a74b",
+      "displayAnswer": "꼭 그렇게.. 다 가져가야만.. 속이 후련했냐!"
+    },
+    {
+      "number": 16,
+      "questionImage": {
+        "url": "https://images.machugi.io/5b2ccbe7-5ab6-40e0-8ce2-b919b4904b7a.png",
+        "asset": "./uploads/classics-mi8-5b2ccbe7-5ab6-40e0-8ce2-b919b4904b7a.png",
+        "sha256": "41d6881a845515d3b1feaba6640b464c908366b7e341a81d289d2c1aa7858047"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b22de841-ff72-4ba5-8897-b1980c0dff10.png",
+        "asset": "./uploads/classics-mi8-5b2ccbe7-5ab6-40e0-8ce2-b919b4904b7a.png",
+        "sha256": "41d6881a845515d3b1feaba6640b464c908366b7e341a81d289d2c1aa7858047"
+      },
+      "sourceAnswer": "야 4885 너지",
+      "title": "추격자",
+      "category": "국내 영화",
+      "answer": "야 4885 너지",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.donga.com/news/amp/all/20240809/126438317/2",
+        "basis": "작품명과 같은 대사가 명시됨. 원본 통화 장면과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-c13cc535-b4be-43f7-83c5-770c22ab9624",
+        "title": "추격자",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "야 4885, 너지?",
+        "hint": "",
+        "image": "./uploads/moviequotes-e6db33181a99d03eb2e3944f.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/644c34a8-583e-4464-b644-5ce975f68bef | 정답 공개 이미지: https://images.machugi.io/c13cc535-b4be-43f7-83c5-770c22ab9624 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/14d6eae4-f998-4aa8-b610-59026b016acd.jpeg | 정답 공개 이미지: https://images.machugi.io/2d447c88-3c24-470e-83fc-25f17ec9e70e.jpeg | 추가 출처 원문: 야 4885, 너지? (추격자)",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-c13cc535-b4be-43f7-83c5-770c22ab9624",
+      "displayAnswer": "야 4885, 너지?"
+    },
+    {
+      "number": 17,
+      "questionImage": {
+        "url": "https://images.machugi.io/e6707046-59be-440c-94ac-949742d8ddc0.png",
+        "asset": "./uploads/classics-mi8-e6707046-59be-440c-94ac-949742d8ddc0.png",
+        "sha256": "214e4248cafaaceaa88f01bc5dc3da199cd668f5ba5f56cdc75503d8f90cb96b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ef83d0a9-7102-48dd-90f3-b31190afd301.png",
+        "asset": "./uploads/classics-mi8-e6707046-59be-440c-94ac-949742d8ddc0.png",
+        "sha256": "214e4248cafaaceaa88f01bc5dc3da199cd668f5ba5f56cdc75503d8f90cb96b"
+      },
+      "sourceAnswer": "야이 씨발아",
+      "title": "악마를 보았다",
+      "category": "국내 영화",
+      "answer": "야이 씨발아",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://slownews.kr/16664",
+        "basis": "병원에서 의사에게 말하는 장경철의 대사가 수록됨. 기사 사진의 노란 47 티셔츠·목 보호대·이마 반창고·배경이 원본과 일치함.",
+        "verified": true,
+        "comparisonImageUrl": "https://slownews.kr/wp-content/uploads/2013/12/choiminsik1.jpg"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-mi8-e6707046-59be-440c-94ac-949742d8ddc0",
+      "displayAnswer": "야이 씨발아"
+    },
+    {
+      "number": 18,
+      "questionImage": {
+        "url": "https://images.machugi.io/1284017e-ce58-49c2-b8f2-0ba442591fe6.png",
+        "asset": "./uploads/classics-mi8-1284017e-ce58-49c2-b8f2-0ba442591fe6.png",
+        "sha256": "b1b6a6006ed3ea1910926136bef411c14b2cb02007fec38e1c1c0a3d04afdfff"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/846f0652-7b52-4e85-9847-29ba9e913151.png",
+        "asset": "./uploads/classics-mi8-1284017e-ce58-49c2-b8f2-0ba442591fe6.png",
+        "sha256": "b1b6a6006ed3ea1910926136bef411c14b2cb02007fec38e1c1c0a3d04afdfff"
+      },
+      "sourceAnswer": "드루와",
+      "title": "신세계",
+      "category": "국내 영화",
+      "answer": "드루와",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.news1.kr/amp/entertain/broadcast-tv/4388156",
+        "basis": "황정민의 명대사 인터뷰와 원본 엘리베이터 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-2381b9b7-cb29-498f-816f-b1146ba96109",
+        "title": "신세계",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "드루와, 드루와!",
+        "hint": "",
+        "image": "./uploads/moviequotes-53b207728a52fd039f39c83a.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/1079afe3-5eca-4ba4-a68e-acd7b3852e29 | 정답 공개 이미지: https://images.machugi.io/2381b9b7-cb29-498f-816f-b1146ba96109 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7ab69c58-5551-4b50-b6ed-6ad986be09f0.jpeg | 정답 공개 이미지: https://images.machugi.io/b34be2a1-7e2c-4b04-bb69-fdcfad21be9a.jpeg | 추가 출처 원문: 드루와 드루와.. (신세계)",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 원본 무자막 장면으로 이미지 갱신 및 추가 출처 연결.",
+      "questionId": "machugi-2381b9b7-cb29-498f-816f-b1146ba96109",
+      "displayAnswer": "드루와, 드루와!"
+    }
+  ]
+}

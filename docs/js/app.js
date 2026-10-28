@@ -2,7 +2,7 @@ import { CATEGORIES, filterQuestions, makeDeck, validateQuestion, parseImport, M
 import { LocalStore, GitHubStore } from './storage.js';
 import { loadConfig, repositoryLinks } from './config.js';
 import { createImageMasks } from './image-masks.js';
-import { imageExportJobs, buildImageExport, imageArchiveName } from './image-export.js';
+import { imageExportJobs, buildImageExport, imageArchiveName, roundImageExport } from './image-export.js';
 import { PlaySession, PlayHistoryStore, HISTORY_LIMIT } from './play-history.js';
 
 const $ = id => document.getElementById(id);
@@ -13,9 +13,14 @@ const modeKey = `show-storage-mode:${siteScope}`;
 const historyStore = new PlayHistoryStore(siteScope);
 const historyImages = new LocalStore(siteScope);
 let playSession = null, lastRound = null, savedRound = null, endingGame = false;
-let selectedHistoryId = null, historyRequest = 0;
+let selectedHistoryId = null, selectedHistoryRound = null, historyRequest = 0;
 let toastTimer, clockInterval, confirmResolve;
-let imageExportController = null, failedImageExports = [];
+let imageExportController = null;
+const failedImageExports = { library: null, history: null };
+const imageExportViews = {
+  library: { status: $('image-export-status'), message: $('image-export-message'), progress: $('image-export-progress'), cancel: $('cancel-image-export'), retry: $('retry-image-export') },
+  history: { status: $('history-image-export-status'), message: $('history-image-export-message'), progress: $('history-image-export-progress'), cancel: $('cancel-history-image-export'), retry: $('retry-history-image-export') },
+};
 const el = (tag, className = '', text = '') => { const node = document.createElement(tag); node.className = className; node.textContent = text; return node; };
 const stageMasks = createImageMasks($('stage-image'));
 const cardMasks = new WeakMap();
@@ -237,9 +242,13 @@ async function endGame(status) {
 }
 
 const historyDate = value => new Intl.DateTimeFormat('ko-KR', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(value));
+const historyImageUrl = image => image.startsWith('local:') ? historyImages.imageUrl(image) : Promise.resolve(image);
 function renderHistoryDetail(round) {
+  selectedHistoryRound = round;
   $('history-detail').hidden = !round;
   $('history-scenes').replaceChildren();
+  $('export-history-images').textContent = round ? `${round.number}회차 이미지 내보내기 ↓` : '회차 이미지 내보내기 ↓';
+  updateImageExportControls();
   if (!round) return;
   $('history-detail-title').textContent = `${round.number}회차에 나온 문제`;
   $('history-detail-meta').textContent = `${historyDate(round.startedAt)} · ${round.status === 'completed' ? '완주' : '중도 종료'} · ${round.scenes.length} / ${round.settings.total}문제`;
@@ -250,7 +259,7 @@ function renderHistoryDetail(round) {
     const media = el('div', 'history-scene-image');
     const missing = el('span', 'history-image-missing', '이미지를 불러올 수 없어요'); missing.hidden = true;
     image.addEventListener('error', () => { image.hidden = true; missing.hidden = false; });
-    const imageUrl = scene.image.startsWith('local:') ? historyImages.imageUrl(scene.image) : Promise.resolve(scene.image);
+    const imageUrl = historyImageUrl(scene.image);
     imageUrl.then(url => { if (url) image.src = url; else { image.hidden = true; missing.hidden = false; } }).catch(() => { image.hidden = true; missing.hidden = false; });
     media.append(image, missing);
     const text = el('div', 'history-scene-copy'), meta = el('p', 'history-scene-meta', `${scene.position}번 문제 · ${scene.category}${scene.year ? ` · ${scene.year}` : ''}`);
@@ -289,6 +298,7 @@ async function renderHistory() {
     if (request !== historyRequest || state.view !== 'history') return;
     $('history-status').textContent = error.message;
     $('history-layout').hidden = true; $('history-empty').hidden = true;
+    selectedHistoryRound = null; updateImageExportControls();
   } finally { if (request === historyRequest) $('history-refresh').disabled = false; }
 }
 function updateTimer() {
@@ -389,8 +399,11 @@ function setBusy(busy) {
 }
 function updateImageExportControls() {
   $('export-images-button').disabled = state.busy || !state.ready || !state.questions.length;
-  $('retry-image-export').hidden = !failedImageExports.length;
-  $('retry-image-export').disabled = state.busy;
+  $('export-history-images').disabled = state.busy || !selectedHistoryRound?.scenes.length;
+  for (const [target, ui] of Object.entries(imageExportViews)) {
+    ui.retry.hidden = !failedImageExports[target]?.jobs.length;
+    ui.retry.disabled = state.busy;
+  }
 }
 function downloadBlob(blob, filename) {
   const url = URL.createObjectURL(blob), a = document.createElement('a');
@@ -401,37 +414,40 @@ function downloadJson(value) {
   const blob = new Blob([JSON.stringify({ schemaVersion: 1, exportedAt: new Date().toISOString(), questions: value }, null, 2)], { type: 'application/json' });
   downloadBlob(blob, `scene-and-say-${new Date().toISOString().slice(0, 10)}.json`);
 }
-async function exportImages(jobs) {
-  if (state.busy || !state.ready || !jobs.length) return;
-  const store = state.store, controller = new AbortController();
-  imageExportController = controller; failedImageExports = []; setBusy(true);
-  $('image-export-status').hidden = false; $('image-export-status').classList.remove('is-error');
-  $('image-export-message').textContent = `이미지 준비 중… 0 / ${jobs.length}`;
-  $('image-export-progress').max = jobs.length; $('image-export-progress').value = 0; $('image-export-progress').hidden = false;
-  $('cancel-image-export').hidden = false;
+async function exportImages(jobs, { target = 'library', filename = imageArchiveName(), resolveImageUrl, label = '' } = {}) {
+  if (state.busy || (target === 'library' && !state.ready) || !jobs.length) return;
+  const store = state.store, controller = new AbortController(), ui = imageExportViews[target];
+  const resolveImage = resolveImageUrl || (image => store.imageUrl(image));
+  const prefix = label ? `${label} · ` : '';
+  const retry = failed => { failedImageExports[target] = failed.length ? { jobs: failed, target, filename, resolveImageUrl: resolveImage, label } : null; };
+  imageExportController = controller; retry([]); setBusy(true);
+  ui.status.hidden = false; ui.status.classList.remove('is-error');
+  ui.message.textContent = `${prefix}이미지 준비 중… 0 / ${jobs.length}`;
+  ui.progress.max = jobs.length; ui.progress.value = 0; ui.progress.hidden = false;
+  ui.cancel.hidden = false;
   try {
-    const result = await buildImageExport(jobs, image => store.imageUrl(image), {
+    const result = await buildImageExport(jobs, resolveImage, {
       signal: controller.signal,
       onProgress: (count, total) => {
-        $('image-export-progress').value = count;
-        if (count === 1 || count % 5 === 0 || count === total) $('image-export-message').textContent = `이미지 준비 중… ${count} / ${total}`;
+        ui.progress.value = count;
+        if (count === 1 || count % 5 === 0 || count === total) ui.message.textContent = `${prefix}이미지 준비 중… ${count} / ${total}`;
       },
     });
-    failedImageExports = result.failed.map(({ job }) => job);
-    if (result.blob) downloadBlob(result.blob, imageArchiveName());
+    retry(result.failed.map(({ job }) => job));
+    if (result.blob) downloadBlob(result.blob, filename);
     const message = !result.failed.length ? `${result.count}개 이미지의 ZIP 다운로드를 시작했어요. 파일명: 작품명 - 대사`
       : result.count ? `${result.total}개 중 ${result.count}개 이미지를 ZIP으로 받습니다. 실패한 ${result.failed.length}개는 다시 받을 수 있어요. ZIP의 다운로드 실패 목록도 확인해 주세요.`
         : `${result.total}개 이미지를 가져오지 못했어요. 인터넷 연결을 확인한 뒤 다시 받아 주세요.`;
-    $('image-export-message').textContent = message;
-    $('image-export-status').classList.toggle('is-error', Boolean(result.failed.length));
-    toast(message, Boolean(result.failed.length), 6500);
+    ui.message.textContent = prefix + message;
+    ui.status.classList.toggle('is-error', Boolean(result.failed.length));
+    toast(prefix + message, Boolean(result.failed.length), 6500);
   } catch (error) {
     const cancelled = error.name === 'AbortError';
-    $('image-export-message').textContent = cancelled ? '이미지 내보내기를 취소했어요.' : error.message;
-    $('image-export-status').classList.toggle('is-error', !cancelled);
-    if (!cancelled) { failedImageExports = jobs; toast(error.message, true, 6500); }
+    ui.message.textContent = prefix + (cancelled ? '이미지 내보내기를 취소했어요.' : error.message);
+    ui.status.classList.toggle('is-error', !cancelled);
+    if (!cancelled) { retry(jobs); toast(prefix + error.message, true, 6500); }
   } finally {
-    imageExportController = null; $('cancel-image-export').hidden = true; $('image-export-progress').hidden = true;
+    imageExportController = null; ui.cancel.hidden = true; ui.progress.hidden = true;
     setBusy(false);
   }
 }
@@ -557,8 +573,16 @@ $('export-button').onclick = async () => {
   catch (e) { toast(e.message, true); } finally { setBusy(false); }
 };
 $('export-images-button').onclick = () => exportImages(imageExportJobs(state.questions));
-$('cancel-image-export').onclick = () => imageExportController?.abort();
-$('retry-image-export').onclick = () => exportImages(failedImageExports);
+$('export-history-images').onclick = () => {
+  try {
+    const request = roundImageExport(selectedHistoryRound);
+    exportImages(request.jobs, { ...request, target: 'history', resolveImageUrl: historyImageUrl });
+  } catch (error) { toast(error.message, true); }
+};
+for (const [target, ui] of Object.entries(imageExportViews)) {
+  ui.cancel.onclick = () => imageExportController?.abort();
+  ui.retry.onclick = () => { const request = failedImageExports[target]; if (request) exportImages(request.jobs, request); };
+}
 document.addEventListener('keydown', e => {
   if (state.view !== 'game' || document.querySelector('dialog[open]') || e.target.closest('input,textarea,select,[contenteditable=true]') || e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
   if (e.code === 'Space' && e.target.closest('button')) return;

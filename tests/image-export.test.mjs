@@ -1,11 +1,46 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { imageExportJobs, buildImageExport, imageArchiveName } from '../docs/js/image-export.js';
+import { imageExportJobs, buildImageExport, imageArchiveName, roundImageExport } from '../docs/js/image-export.js';
 import { createZip } from '../docs/js/zip.js';
 
 const encoder = new TextEncoder();
 const png = new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10, 0, 1, 2, 3]);
 const question = (title, answer, image = 'https://example.test/scene') => ({ title, answer, image });
+
+test('기존 회차의 장면 스냅샷만 내보내고 이후 수정·회차 선택 변경과 관계없이 파일명과 원본을 유지한다', async () => {
+  // Same schema as history saved before the export feature existed.
+  const saved = { id: 'old-round', number: 1, startedAt: new Date(2026, 9, 28, 12).toISOString(), scenes: [
+    { position: 1, ...question('타짜', '묻고 더블로 가!', 'https://original.test/first.jpg') },
+    { position: 2, ...question('친구', '니가 가라 하와이', 'local:second') },
+  ] };
+  const before = structuredClone(saved);
+  const request = roundImageExport(saved);
+  assert.deepEqual(saved, before, 'Export does not rewrite stored history');
+  assert.equal(request.filename, '한컷한마디-1회차-이미지-2026-10-28.zip');
+  assert.equal(request.label, '1회차');
+  const another = roundImageExport({ ...saved, number: 2, scenes: [question('다른 회차', '다른 대사', 'unseen')] });
+  saved.scenes[0].title = '수정된 보관함 제목'; saved.scenes[0].answer = '수정된 대사'; saved.scenes.push(question('보지 않은 문제', '미출제', 'unseen'));
+  const fetched = [], jpeg = new Uint8Array([255, 216, 255, 224, 1, 2, 3]);
+  const result = await buildImageExport(request.jobs, async image => image.startsWith('local:') ? `blob:${image}` : image, {
+    fetcher: async url => { fetched.push(url); return new Response(url.startsWith('blob:') ? png : jpeg); },
+  });
+  assert.deepEqual(fetched, ['https://original.test/first.jpg', 'blob:local:second']);
+  assert.equal(result.count, 2);
+  const files = await entries(result.blob);
+  assert.deepEqual(files.map(f => f.name), ['타짜 - 묻고 더블로 가!.jpg', '친구 - 니가 가라 하와이.png']);
+  assert.deepEqual(files[0].data, jpeg); assert.deepEqual(files[1].data, png);
+  assert.equal(another.filename, '한컷한마디-2회차-이미지-2026-10-28.zip');
+  assert.equal(request.label, '1회차');
+});
+
+test('회차 이미지 실패 재시도는 최초 회차의 파일명 중복 번호와 이미지 범위를 유지한다', async () => {
+  const request = roundImageExport({ number: 7, startedAt: new Date(2026, 9, 28, 12).toISOString(), scenes: [question('같은 작품', '같은 대사', 'ok'), question('같은 작품', '같은 대사', 'missing')] });
+  const first = await buildImageExport(request.jobs, async image => image, { fetcher: async url => url === 'ok' ? new Response(png) : new Response('', { status: 404 }) });
+  const retried = await buildImageExport(first.failed.map(({ job }) => job), async image => image, { fetcher: async url => { assert.equal(url, 'missing'); return new Response(png); } });
+  assert.equal((await entries(retried.blob))[0].name, '같은 작품 - 같은 대사 (2).png');
+  assert.equal(request.filename, '한컷한마디-7회차-이미지-2026-10-28.zip');
+  for (const value of [null, { number: 1, scenes: [] }, { number: 1, startedAt: 'invalid', scenes: [question('작품', '대사')] }]) assert.throws(() => roundImageExport(value), /회차/);
+});
 async function entries(blob) {
   const bytes = new Uint8Array(await blob.arrayBuffer()), view = new DataView(bytes.buffer), result = [];
   let offset = 0;

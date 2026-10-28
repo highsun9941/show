@@ -105,3 +105,16 @@ export function imageArchiveName(date = new Date()) {
   const stamp = [date.getFullYear(), String(date.getMonth() + 1).padStart(2, '0'), String(date.getDate()).padStart(2, '0')].join('-');
   return `한컷한마디-이미지-${stamp}.zip`;
 }
+
+// Existing saved rounds already contain everything needed for an export.
+// Use their scene snapshots directly, without looking up today's question bank.
+export function roundImageExport(round) {
+  if (!Number.isSafeInteger(round?.number) || round.number < 1 || !Array.isArray(round.scenes) || !round.scenes.length) throw new Error('이미지를 내보낼 회차를 선택해 주세요.');
+  const date = new Date(round.startedAt);
+  if (Number.isNaN(date.getTime())) throw new Error('회차의 시작 날짜를 확인해 주세요.');
+  return {
+    jobs: imageExportJobs(round.scenes),
+    filename: imageArchiveName(date).replace('-이미지-', `-${round.number}회차-이미지-`),
+    label: `${round.number}회차`,
+  };
+}

@@ -2339,21 +2339,6 @@
     "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
-    "id": "machugi-83kb-1c0debf0-bc22-47ed-885a-0c03d6987e46",
-    "title": "택시운전사",
-    "category": "국내 영화",
-    "year": "",
-    "answer": "광주? 돈 워리, 돈 워리! 아이 베스트 드라이버",
-    "hint": "",
-    "image": "./uploads/ocr-83kb-e50f115b-0d08-486a-b53f-5f47129a7079.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#46",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z"
-  },
-  {
     "id": "machugi-83kb-b70c3619-e421-43d8-aefc-d0e403521057",
     "title": "8 마일",
     "category": "해외 영화",

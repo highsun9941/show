@@ -1,0 +1,857 @@
+{
+  "source": "https://machugi.io/quiz/vxHV69u8mulaG0P1GpZD",
+  "sourceTitle": "무도 무한도전 짤 보고 대사 맞추기 (상급)",
+  "sourceQuestionIds": [
+    "0Ei0c2bAfPtThgRbdg7T",
+    "2bxVbxU2aNWg8tx1Pha8",
+    "3MKhWtzjI8uDHmEpvZeg",
+    "4eJDUcsbjgbWwQGC5Awo",
+    "ANO34JihWcwVf2Drw7Lx",
+    "AoDfY3BkW8YGw9YCRUeo",
+    "DZhaqOTSnexPN2xVyPK1",
+    "FfDLiMzGZYOLyRySWCJG",
+    "Frb6q9Z6AdITZtlE3eJx",
+    "GJ6acXkUhQyDzGlKhcrB",
+    "K0pWtD0T5qeiaCTxUaH3",
+    "LpO4B1OFkneVaHLbuAwT",
+    "NEbl3gvjUbvsrB8ksAHX",
+    "NmXO2Q1nofUJVRleM9lq",
+    "OrzRNuRt47zxjw4CeZ3r",
+    "QvqTynBRrtdQTKwB7ijZ",
+    "RPWS4JWLYcrcGY7GgSRl",
+    "VTolYY7ATt0UoJboLTjy",
+    "aB1fpYCjxD3CRBaQFXN2",
+    "ajxIVWH1Emr9Q1zJA3P0",
+    "cMBOQXnddx6Mcd3eeUsD",
+    "hd1wYZU3FmZepEhy8aQ1",
+    "idYDyuvzulEvgm6WJ9nt",
+    "lHxO676E51BhgK2gFK33",
+    "mZDfxy2P5taegrWACTOi",
+    "sC8DheW50Tp75IgX75tC",
+    "t0iSaTHrNcLLKmPfk83n",
+    "vMZ9tBmhAxouY35qkboM",
+    "vNlStfwunJZSXMHFL4WM",
+    "yZo6GccM685YXZkrmHnC"
+  ],
+  "importedAt": "2026-10-28T04:45:04.465Z",
+  "baseCommit": "a2be185f5b10dfd78b6da03bbbb631cc9913b1c6",
+  "sourceCount": 30,
+  "added": 30,
+  "merged": 0,
+  "originalImageReferences": 60,
+  "uniqueOriginalImages": 60,
+  "titleVerifiedCount": 30,
+  "method": "출처의 전체 문항을 전수 수집하고 문제·정답 공개 이미지를 검토. 원본 이미지 바이트와 정답 원문을 보존. 같은 작품·대사의 중복 문제는 기존 ID·생성일·대사를 유지하며 이미지와 출처를 연결.",
+  "questions": [
+    {
+      "number": 1,
+      "questionImage": {
+        "url": "https://images.machugi.io/a16c9664-0c9c-468a-af30-0b8d7577594d.png",
+        "asset": "./uploads/variety-vxh-a16c9664-0c9c-468a-af30-0b8d7577594d.png",
+        "sha256": "7dd512d41a5d161c8ffc64a854827f69a8879448492cfcda5a28b678c6a047db"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6597133a-9262-4b04-a696-2b7c40ad434e.png",
+        "asset": "./uploads/variety-vxh-6597133a-9262-4b04-a696-2b7c40ad434e.png",
+        "sha256": "381a0bf7e35cb1e53ac42714d3f13c86cea1261ee9c976aaaa7977ea0af8b437"
+      },
+      "sourceAnswer": "그래도 하시겠습니까?",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "그래도 하시겠습니까?",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-a16c9664-0c9c-468a-af30-0b8d7577594d",
+      "displayAnswer": "그래도 하시겠습니까?"
+    },
+    {
+      "number": 2,
+      "questionImage": {
+        "url": "https://images.machugi.io/2b3fc7c6-7b85-4f70-994f-61faa337f27d.png",
+        "asset": "./uploads/variety-vxh-2b3fc7c6-7b85-4f70-994f-61faa337f27d.png",
+        "sha256": "cd4b2dbb2417c2698d2c64d34fdf2ea4e4ad1c6b125957a2470c788db90fb2bc"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1eb29d51-3627-4a1a-9475-52ae57edb81c.png",
+        "asset": "./uploads/variety-vxh-1eb29d51-3627-4a1a-9475-52ae57edb81c.png",
+        "sha256": "148b969ae7bb468348e57b7170287dd30cae0d5862ca7eec850761df6de5bcb4"
+      },
+      "sourceAnswer": "진짜 혼난다...!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "진짜 혼난다...!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-2b3fc7c6-7b85-4f70-994f-61faa337f27d",
+      "displayAnswer": "진짜 혼난다...!"
+    },
+    {
+      "number": 3,
+      "questionImage": {
+        "url": "https://images.machugi.io/f3390c1a-da62-48ef-8458-4aa36f65b65f.png",
+        "asset": "./uploads/variety-vxh-f3390c1a-da62-48ef-8458-4aa36f65b65f.png",
+        "sha256": "00235c15d06660f97d5858b22603128082e17b14a938d4d5e11fc09ff39641a2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/31b862e4-3ec0-493b-9d35-70a6cac36d3f.png",
+        "asset": "./uploads/variety-vxh-31b862e4-3ec0-493b-9d35-70a6cac36d3f.png",
+        "sha256": "2004febc112aa51811aed77e3be5e441c9191a8976d07fedb2d209e886f4b200"
+      },
+      "sourceAnswer": "형이 스트레스예요",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "형이 스트레스예요",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-f3390c1a-da62-48ef-8458-4aa36f65b65f",
+      "displayAnswer": "형이 스트레스예요"
+    },
+    {
+      "number": 4,
+      "questionImage": {
+        "url": "https://images.machugi.io/a7ff7817-3446-460c-9218-c92d88758901.png",
+        "asset": "./uploads/variety-vxh-a7ff7817-3446-460c-9218-c92d88758901.png",
+        "sha256": "21dceb68c90a3f6fff730d0c7075eb825513d5176c39ff728206e5e0d2b1178a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/cd20b947-4ec0-45d7-b102-cb0562d3cebb.png",
+        "asset": "./uploads/variety-vxh-cd20b947-4ec0-45d7-b102-cb0562d3cebb.png",
+        "sha256": "8b20712d506e5b4658d1375621f53bc9e7f049cd2f5df4159258793b289d0cd1"
+      },
+      "sourceAnswer": "위인이군요!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "위인이군요!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-a7ff7817-3446-460c-9218-c92d88758901",
+      "displayAnswer": "위인이군요!"
+    },
+    {
+      "number": 5,
+      "questionImage": {
+        "url": "https://images.machugi.io/69e8eb6d-3b26-4beb-891f-e7c1a5465362.png",
+        "asset": "./uploads/variety-vxh-69e8eb6d-3b26-4beb-891f-e7c1a5465362.png",
+        "sha256": "100e63eb6b4d4650999c6716e15127aaf14fb1761b722d5b0f222ffe59a78bad"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b87d065f-9fbe-4048-82c2-7861697565e7.png",
+        "asset": "./uploads/variety-vxh-b87d065f-9fbe-4048-82c2-7861697565e7.png",
+        "sha256": "89bd2981030584bc0183d13aed8a2b0edb991575b4f19f09cbf504d4cd382db1"
+      },
+      "sourceAnswer": "오늘 괜찮네요!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "오늘 괜찮네요!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-69e8eb6d-3b26-4beb-891f-e7c1a5465362",
+      "displayAnswer": "오늘 괜찮네요!"
+    },
+    {
+      "number": 6,
+      "questionImage": {
+        "url": "https://images.machugi.io/541706d7-a37b-456b-85df-548bfc9f9bc8.png",
+        "asset": "./uploads/variety-vxh-541706d7-a37b-456b-85df-548bfc9f9bc8.png",
+        "sha256": "d3a7ac09aae6722a1089b8207ea13b71e18c31214392054457556e8ba71d9504"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/595bcc82-10b2-4019-9fe6-5de413cbe6fe.png",
+        "asset": "./uploads/variety-vxh-595bcc82-10b2-4019-9fe6-5de413cbe6fe.png",
+        "sha256": "a5eaab1ace866589a57c1b2b3261b74cebe9be4dbf1bb47cc4788ce134556c57"
+      },
+      "sourceAnswer": "나 좀 밀어~줘!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "나 좀 밀어~줘!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-541706d7-a37b-456b-85df-548bfc9f9bc8",
+      "displayAnswer": "나 좀 밀어~줘!"
+    },
+    {
+      "number": 7,
+      "questionImage": {
+        "url": "https://images.machugi.io/21a2e938-d6c4-4d79-b378-5b6a8ab6e0b7.png",
+        "asset": "./uploads/variety-vxh-21a2e938-d6c4-4d79-b378-5b6a8ab6e0b7.png",
+        "sha256": "d4857c7602b026900f94fa285f36f09566b732003139df0d31118a37d1f12d12"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a96bc3a2-f6a2-4925-b434-34726f4baa56.png",
+        "asset": "./uploads/variety-vxh-a96bc3a2-f6a2-4925-b434-34726f4baa56.png",
+        "sha256": "d5c29bc96c3925498beedce3545f1905eb75ff37b1ab874313fc5d92a541fb78"
+      },
+      "sourceAnswer": "정자룡이 간다 간다 뿅 간다(?)",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "정자룡이 간다 간다 뿅 간다(?)",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-21a2e938-d6c4-4d79-b378-5b6a8ab6e0b7",
+      "displayAnswer": "정자룡이 간다 간다 뿅 간다(?)"
+    },
+    {
+      "number": 8,
+      "questionImage": {
+        "url": "https://images.machugi.io/88a0f849-8c6b-44e3-8685-a72f3b65e23d.png",
+        "asset": "./uploads/variety-vxh-88a0f849-8c6b-44e3-8685-a72f3b65e23d.png",
+        "sha256": "23f6b16d489df64eab79ad2141747cae69ac2b934615e5232d3858f36092c819"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/e1d1f4ed-2f9b-4700-8424-1186ac41c4d8.png",
+        "asset": "./uploads/variety-vxh-e1d1f4ed-2f9b-4700-8424-1186ac41c4d8.png",
+        "sha256": "50a1edfb2bc93a18d564f3e2442b8be449f4abfb2e79587ef1d66dd5e21bdfc0"
+      },
+      "sourceAnswer": "김경식 씨...",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "김경식 씨...",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-88a0f849-8c6b-44e3-8685-a72f3b65e23d",
+      "displayAnswer": "김경식 씨..."
+    },
+    {
+      "number": 9,
+      "questionImage": {
+        "url": "https://images.machugi.io/5d8a4bb3-063b-4c91-8292-b85674d62851.png",
+        "asset": "./uploads/variety-vxh-5d8a4bb3-063b-4c91-8292-b85674d62851.png",
+        "sha256": "a51c2df1ac7710b9b5af2cb2ea2b5c586f3babdc607e39eba0be77efc88c9c31"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a4a51369-17dd-4536-943d-e6bc9475e6e4.png",
+        "asset": "./uploads/variety-vxh-a4a51369-17dd-4536-943d-e6bc9475e6e4.png",
+        "sha256": "8a215cd00825a156ef1cfe2ba7b28b4cd606f8f6d3a04ab9dba5a7d6b81e7f10"
+      },
+      "sourceAnswer": "누구 하나 날 무시할 수 없어",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "누구 하나 날 무시할 수 없어",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-5d8a4bb3-063b-4c91-8292-b85674d62851",
+      "displayAnswer": "누구 하나 날 무시할 수 없어"
+    },
+    {
+      "number": 10,
+      "questionImage": {
+        "url": "https://images.machugi.io/465d947c-fe22-43e7-8158-50fd34a24886.png",
+        "asset": "./uploads/variety-vxh-465d947c-fe22-43e7-8158-50fd34a24886.png",
+        "sha256": "b850a58975bd7c0daf2f5765001fc76fd1a3a72b7bf84a53eba7c057e24ddce9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/9bf1e603-e04a-4c14-9c8c-afe6218cc9bd.png",
+        "asset": "./uploads/variety-vxh-9bf1e603-e04a-4c14-9c8c-afe6218cc9bd.png",
+        "sha256": "d9141b857fa595d934f6a277f89c9493a3b47d5ca0e4e2906560f32a2bc06883"
+      },
+      "sourceAnswer": "그럴 순 없어",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "그럴 순 없어",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-465d947c-fe22-43e7-8158-50fd34a24886",
+      "displayAnswer": "그럴 순 없어"
+    },
+    {
+      "number": 11,
+      "questionImage": {
+        "url": "https://images.machugi.io/2d7a675a-ad65-4052-8174-5910d7a9da04.png",
+        "asset": "./uploads/variety-vxh-2d7a675a-ad65-4052-8174-5910d7a9da04.png",
+        "sha256": "0e15001ec24d5f5749954f9a41ed416df7ecc810755cc41642c53e1ebc99d044"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6e6240fc-1b57-4ba9-b521-eba2a86e3623.png",
+        "asset": "./uploads/variety-vxh-6e6240fc-1b57-4ba9-b521-eba2a86e3623.png",
+        "sha256": "d63ee7dadddd7963e33ad1096019a8a0691759ec757fb87b25aa2afdc123c66f"
+      },
+      "sourceAnswer": "아이... 쟤 땜에...",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "아이... 쟤 땜에...",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-2d7a675a-ad65-4052-8174-5910d7a9da04",
+      "displayAnswer": "아이... 쟤 땜에..."
+    },
+    {
+      "number": 12,
+      "questionImage": {
+        "url": "https://images.machugi.io/68c1de90-62a2-4326-96f8-4f1c855867a1.png",
+        "asset": "./uploads/variety-vxh-68c1de90-62a2-4326-96f8-4f1c855867a1.png",
+        "sha256": "93c0c9d6275b58c9ad1008a4f8336a8d5fdce3d18762eae227996402e4c968f2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c8ac8080-02a8-4a54-8817-60188309fbb8.png",
+        "asset": "./uploads/variety-vxh-c8ac8080-02a8-4a54-8817-60188309fbb8.png",
+        "sha256": "b14ff5e5470346de55d0f86aeecb51324ead9417cb6bd35bfaa1dba27a0ea32a"
+      },
+      "sourceAnswer": "이런 불효막심한!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "이런 불효막심한!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-68c1de90-62a2-4326-96f8-4f1c855867a1",
+      "displayAnswer": "이런 불효막심한!"
+    },
+    {
+      "number": 13,
+      "questionImage": {
+        "url": "https://images.machugi.io/ee5150d7-a9d9-4142-bec4-e30a9717fd0d.png",
+        "asset": "./uploads/variety-vxh-ee5150d7-a9d9-4142-bec4-e30a9717fd0d.png",
+        "sha256": "25c0153ea2a6a1212bf418d9698a66259db9f27bb2d2d1e9ed49e68eddd16c80"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/967b20a6-31d8-419f-a450-917e3966fb8e.png",
+        "asset": "./uploads/variety-vxh-967b20a6-31d8-419f-a450-917e3966fb8e.png",
+        "sha256": "4932be588e6381e633c643a43a97edd00f8b9761ae80ffc64537141e2c17b045"
+      },
+      "sourceAnswer": "군산의 몽키스패너",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "군산의 몽키스패너",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-ee5150d7-a9d9-4142-bec4-e30a9717fd0d",
+      "displayAnswer": "군산의 몽키스패너"
+    },
+    {
+      "number": 14,
+      "questionImage": {
+        "url": "https://images.machugi.io/5d45cbea-78b7-41b9-b250-6a7d7ad56090.png",
+        "asset": "./uploads/variety-vxh-5d45cbea-78b7-41b9-b250-6a7d7ad56090.png",
+        "sha256": "c2214819f9d359f2245cfa2de5b4ad8d1d0fb4a22d57d4828e7f889a1c82e3e0"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1dac64b6-801f-445c-8377-0510d5a176f2.png",
+        "asset": "./uploads/variety-vxh-1dac64b6-801f-445c-8377-0510d5a176f2.png",
+        "sha256": "21b00468104106105b3b587d242319d808e90d89869e99d78b46416d4b3cc619"
+      },
+      "sourceAnswer": "빈수야 팥빈수(?)야",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "빈수야 팥빈수(?)야",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-5d45cbea-78b7-41b9-b250-6a7d7ad56090",
+      "displayAnswer": "빈수야 팥빈수(?)야"
+    },
+    {
+      "number": 15,
+      "questionImage": {
+        "url": "https://images.machugi.io/8ec30b76-b5cd-4409-9d34-77131889ca5d.png",
+        "asset": "./uploads/variety-vxh-8ec30b76-b5cd-4409-9d34-77131889ca5d.png",
+        "sha256": "05593360a3dd3806e901d67cb74d7ac73fed6b60749f4ffa40ef6c1f3f426b44"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f9fed33e-5f0d-4645-9b49-a792a2f07098.png",
+        "asset": "./uploads/variety-vxh-f9fed33e-5f0d-4645-9b49-a792a2f07098.png",
+        "sha256": "462550944ec7496d7ba97f0e111fac8da5b237400072ea3d551057f9083a5244"
+      },
+      "sourceAnswer": "양서류는 흔들어야 먹어요",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "양서류는 흔들어야 먹어요",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-8ec30b76-b5cd-4409-9d34-77131889ca5d",
+      "displayAnswer": "양서류는 흔들어야 먹어요"
+    },
+    {
+      "number": 16,
+      "questionImage": {
+        "url": "https://images.machugi.io/75479896-5e86-4e76-b14f-cd3fc66141ab.png",
+        "asset": "./uploads/variety-vxh-75479896-5e86-4e76-b14f-cd3fc66141ab.png",
+        "sha256": "901a754d04b0a83a409c8fa13ddbf9bca9f3f6d74eb4f932d21dcd61fcc0d7b1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/52717232-4973-445f-b52a-1b4e769136b9.png",
+        "asset": "./uploads/variety-vxh-52717232-4973-445f-b52a-1b4e769136b9.png",
+        "sha256": "2bb15628094048a8231e68805b42ec5d3eda53113be2a7965b0126e9fe16a3f6"
+      },
+      "sourceAnswer": "그거랑 다르지 인마!!!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "그거랑 다르지 인마!!!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-75479896-5e86-4e76-b14f-cd3fc66141ab",
+      "displayAnswer": "그거랑 다르지 인마!!!"
+    },
+    {
+      "number": 17,
+      "questionImage": {
+        "url": "https://images.machugi.io/dac29e32-e61c-4b83-a295-ccf903ce9a60.png",
+        "asset": "./uploads/variety-vxh-dac29e32-e61c-4b83-a295-ccf903ce9a60.png",
+        "sha256": "5f1986c338abee1331ff11bb8b50faee74d2e9eabea611c57f2600455b6fce66"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8cfac467-cf66-4a56-a602-da6cad7a8d39.png",
+        "asset": "./uploads/variety-vxh-8cfac467-cf66-4a56-a602-da6cad7a8d39.png",
+        "sha256": "9a41f2bc3d85a4e987380027cdc5589121d9adfeedf4fa9968e1d9eb9fa9dedc"
+      },
+      "sourceAnswer": "쭈르륵 빵빵 뽕뽕뽕",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "쭈르륵 빵빵 뽕뽕뽕",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-dac29e32-e61c-4b83-a295-ccf903ce9a60",
+      "displayAnswer": "쭈르륵 빵빵 뽕뽕뽕"
+    },
+    {
+      "number": 18,
+      "questionImage": {
+        "url": "https://images.machugi.io/ec1a57b5-849b-4398-b87f-2029f402665c.png",
+        "asset": "./uploads/variety-vxh-ec1a57b5-849b-4398-b87f-2029f402665c.png",
+        "sha256": "a1334a51df86e158062977fc0045b441973372802a789cdc9d9e5139eee313d8"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b97b172b-93b4-4b26-9436-884dc74e0680.png",
+        "asset": "./uploads/variety-vxh-b97b172b-93b4-4b26-9436-884dc74e0680.png",
+        "sha256": "328ed532f23ba2764a227a794bedd03e271ddcb8c9b1bc31319893245ccd3b70"
+      },
+      "sourceAnswer": "쓰면 삼키고 달면 뱉는",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "쓰면 삼키고 달면 뱉는",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-ec1a57b5-849b-4398-b87f-2029f402665c",
+      "displayAnswer": "쓰면 삼키고 달면 뱉는"
+    },
+    {
+      "number": 19,
+      "questionImage": {
+        "url": "https://images.machugi.io/5fa83c62-bc56-4bb3-8232-c669b2d88d9e.png",
+        "asset": "./uploads/variety-vxh-5fa83c62-bc56-4bb3-8232-c669b2d88d9e.png",
+        "sha256": "7b179d1e6430c42db6aaefade638a890b52b66566c9284f84d99cc2137f829e9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a5f88ba6-4ed7-4ac5-a60c-920eabcc32d5.png",
+        "asset": "./uploads/variety-vxh-a5f88ba6-4ed7-4ac5-a60c-920eabcc32d5.png",
+        "sha256": "7e13a0f19bfa4b04d076351ceeef4e9b79a059c89bd8a0b0e31922da3a9b4a06"
+      },
+      "sourceAnswer": "정발산기슭곰발냄새타령부인",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "정발산기슭곰발냄새타령부인",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-5fa83c62-bc56-4bb3-8232-c669b2d88d9e",
+      "displayAnswer": "정발산기슭곰발냄새타령부인"
+    },
+    {
+      "number": 20,
+      "questionImage": {
+        "url": "https://images.machugi.io/c18912af-a94c-4119-9761-ce462e4a1855.png",
+        "asset": "./uploads/variety-vxh-c18912af-a94c-4119-9761-ce462e4a1855.png",
+        "sha256": "ad8734534722170f653977480016f14a571364b60de1631364dcdb9b6a5b2cfe"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/0e3f4bd4-226d-49cb-b1eb-daa9623bf280.png",
+        "asset": "./uploads/variety-vxh-0e3f4bd4-226d-49cb-b1eb-daa9623bf280.png",
+        "sha256": "72f37c6b1a150b7e9830d225f0ddf6dfc815907a531a58aaeba5a47e071888a1"
+      },
+      "sourceAnswer": "너 마늘 사랑한다 했잖아",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "너 마늘 사랑한다 했잖아",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-c18912af-a94c-4119-9761-ce462e4a1855",
+      "displayAnswer": "너 마늘 사랑한다 했잖아"
+    },
+    {
+      "number": 21,
+      "questionImage": {
+        "url": "https://images.machugi.io/5a099d7e-a639-459b-bc75-9bad17a30c00.png",
+        "asset": "./uploads/variety-vxh-5a099d7e-a639-459b-bc75-9bad17a30c00.png",
+        "sha256": "ea416af9febddf87d571a5613ec9b4dfbdb07822df6d8dfc1f88a6049b9e5ee3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/badf4ede-41dc-46fa-8b65-7ca8f6475787.png",
+        "asset": "./uploads/variety-vxh-badf4ede-41dc-46fa-8b65-7ca8f6475787.png",
+        "sha256": "817eb65f48d21700c57fc6459ca1adacbb294f4e1b901f4b81c8fb25ea6307fa"
+      },
+      "sourceAnswer": "냉면~냉면~냉면♪",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "냉면~냉면~냉면♪",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-5a099d7e-a639-459b-bc75-9bad17a30c00",
+      "displayAnswer": "냉면~냉면~냉면♪"
+    },
+    {
+      "number": 22,
+      "questionImage": {
+        "url": "https://images.machugi.io/f8e17980-1f16-44d6-ac71-6842a024c77b.png",
+        "asset": "./uploads/variety-vxh-f8e17980-1f16-44d6-ac71-6842a024c77b.png",
+        "sha256": "6da72097cc4bd3e2a88692bbe3b0ae6b858d870f1a4091419971448653ba8f55"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/4c6261b9-14d4-49a6-82bf-fa3ec285c5a1.png",
+        "asset": "./uploads/variety-vxh-4c6261b9-14d4-49a6-82bf-fa3ec285c5a1.png",
+        "sha256": "446d3968aea02f7d8fd3b6df4f86c1eb5dc59efc7d72df103a4e03e8ffbd18a3"
+      },
+      "sourceAnswer": "혼자다!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "혼자다!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-f8e17980-1f16-44d6-ac71-6842a024c77b",
+      "displayAnswer": "혼자다!"
+    },
+    {
+      "number": 23,
+      "questionImage": {
+        "url": "https://images.machugi.io/0dfdb188-0c73-4dc2-b5b2-a40da847ee0f.png",
+        "asset": "./uploads/variety-vxh-0dfdb188-0c73-4dc2-b5b2-a40da847ee0f.png",
+        "sha256": "c22436fa611487ceb6b8f23aefc791e19f65a80f2f613f826bc470b416dfdbe3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/cfe74239-1800-4448-8a8e-c7f14bec1024.png",
+        "asset": "./uploads/variety-vxh-cfe74239-1800-4448-8a8e-c7f14bec1024.png",
+        "sha256": "5c9e4c7d37239ccd783cdfe451a60b85c44bcc4285e66143c1ad22c8ff594e82"
+      },
+      "sourceAnswer": "멋 부린 것 같잖아요",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "멋 부린 것 같잖아요",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-0dfdb188-0c73-4dc2-b5b2-a40da847ee0f",
+      "displayAnswer": "멋 부린 것 같잖아요"
+    },
+    {
+      "number": 24,
+      "questionImage": {
+        "url": "https://images.machugi.io/7dc87197-5f37-4e77-9104-f0eb6cb6e6be.png",
+        "asset": "./uploads/variety-vxh-7dc87197-5f37-4e77-9104-f0eb6cb6e6be.png",
+        "sha256": "553c9ea4156f0507643b7ec9f4c0749ec180adbf45b4ceef864a0574549b9749"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/58d6f5c7-1aed-4e99-9ed3-681cbdfb4b8d.png",
+        "asset": "./uploads/variety-vxh-58d6f5c7-1aed-4e99-9ed3-681cbdfb4b8d.png",
+        "sha256": "741135e4c6fc502756d1b4efa89278d90935ac78991886ba33c51c0e1de3f148"
+      },
+      "sourceAnswer": "부가세가 뭔데요!?",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "부가세가 뭔데요!?",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-7dc87197-5f37-4e77-9104-f0eb6cb6e6be",
+      "displayAnswer": "부가세가 뭔데요!?"
+    },
+    {
+      "number": 25,
+      "questionImage": {
+        "url": "https://images.machugi.io/e5653910-959c-4647-a2c3-ff5a0d5b93c3.png",
+        "asset": "./uploads/variety-vxh-e5653910-959c-4647-a2c3-ff5a0d5b93c3.png",
+        "sha256": "2c37934506d212ff69c839a48bfd239ede50a8ffb9f1176cfb0682534233ec7e"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8b5df4b0-6e45-46fc-9fb4-2c809f808f40.png",
+        "asset": "./uploads/variety-vxh-8b5df4b0-6e45-46fc-9fb4-2c809f808f40.png",
+        "sha256": "01a7a6e85ae4e347b1913ee3a95341defb1a5f85d2060a65717afec8803be006"
+      },
+      "sourceAnswer": "형님 별명이 정준하입니다!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "형님 별명이 정준하입니다!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-e5653910-959c-4647-a2c3-ff5a0d5b93c3",
+      "displayAnswer": "형님 별명이 정준하입니다!"
+    },
+    {
+      "number": 26,
+      "questionImage": {
+        "url": "https://images.machugi.io/0cc4895e-5840-4d42-a86f-9fb2e791ad35.png",
+        "asset": "./uploads/variety-vxh-0cc4895e-5840-4d42-a86f-9fb2e791ad35.png",
+        "sha256": "7314919fca810528baf65bd3563c653c2ca53d0d6582b00449f3624d40b6edac"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/99473080-e570-43ea-a7af-1ad68dc35993.png",
+        "asset": "./uploads/variety-vxh-99473080-e570-43ea-a7af-1ad68dc35993.png",
+        "sha256": "5abffb119f13d0c6102c84afb78a46e4f29869b78edcd1494a8d79f2e57c071a"
+      },
+      "sourceAnswer": "후론트라라",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "후론트라라",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-0cc4895e-5840-4d42-a86f-9fb2e791ad35",
+      "displayAnswer": "후론트라라"
+    },
+    {
+      "number": 27,
+      "questionImage": {
+        "url": "https://images.machugi.io/00c722c9-e74a-4c66-8b86-5e654061a104.png",
+        "asset": "./uploads/variety-vxh-00c722c9-e74a-4c66-8b86-5e654061a104.png",
+        "sha256": "955bc552f52a074afbb70ac969c369d7e5847cfb6fdd79b2ab57c077d06e74f5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/a6cc6aa0-acf8-4a0d-9336-20c1bc114861.png",
+        "asset": "./uploads/variety-vxh-a6cc6aa0-acf8-4a0d-9336-20c1bc114861.png",
+        "sha256": "f103e35fcd29090374cfe56b1a3ce52f3fe7905f320976fd75c5ae6db1200c9f"
+      },
+      "sourceAnswer": "사람 아니라니까...",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "사람 아니라니까...",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-00c722c9-e74a-4c66-8b86-5e654061a104",
+      "displayAnswer": "사람 아니라니까..."
+    },
+    {
+      "number": 28,
+      "questionImage": {
+        "url": "https://images.machugi.io/adc05c2f-93c3-48b8-bdc1-c5dfeab0a82e.png",
+        "asset": "./uploads/variety-vxh-adc05c2f-93c3-48b8-bdc1-c5dfeab0a82e.png",
+        "sha256": "475652060d9548ef93ceb5e33e44718352af236f6d7191b5429938e9b2078ae8"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/65aff128-41c5-434f-9738-2851b6d9b53b.png",
+        "asset": "./uploads/variety-vxh-65aff128-41c5-434f-9738-2851b6d9b53b.png",
+        "sha256": "e9f34b10efce8adb26f0ee5a72bc24be1f634a49c76e2ee76bee1cb0922a3347"
+      },
+      "sourceAnswer": "품격있는 여↘자",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "품격있는 여↘자",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-adc05c2f-93c3-48b8-bdc1-c5dfeab0a82e",
+      "displayAnswer": "품격있는 여↘자"
+    },
+    {
+      "number": 29,
+      "questionImage": {
+        "url": "https://images.machugi.io/63f497a7-8890-4fe3-915e-8ae0ef475003.png",
+        "asset": "./uploads/variety-vxh-63f497a7-8890-4fe3-915e-8ae0ef475003.png",
+        "sha256": "46a1f635d16722b8834c57e91827a06477a7f88cc80c82b8969f2034fa981ddf"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5a45dfb2-440d-4b57-90b5-f9b7ad011497.png",
+        "asset": "./uploads/variety-vxh-5a45dfb2-440d-4b57-90b5-f9b7ad011497.png",
+        "sha256": "45286fe0c39b4d72a0440fa322de2759f5902a30951da3b082c900d0799db576"
+      },
+      "sourceAnswer": "발루아블레!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "발루아블레!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-63f497a7-8890-4fe3-915e-8ae0ef475003",
+      "displayAnswer": "발루아블레!"
+    },
+    {
+      "number": 30,
+      "questionImage": {
+        "url": "https://images.machugi.io/5457a772-5b09-41a1-979b-13c1fe732631.png",
+        "asset": "./uploads/variety-vxh-5457a772-5b09-41a1-979b-13c1fe732631.png",
+        "sha256": "c46bab48e8489ad2b8395dfd853afce3cb39995953ef8a4dd9eaf3b6ea498fef"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/79bcaa8f-a933-431f-94d3-8213ab2a210c.png",
+        "asset": "./uploads/variety-vxh-79bcaa8f-a933-431f-94d3-8213ab2a210c.png",
+        "sha256": "eb7374dfeedc3164bf8fa475f4de35a3dca794cb8716364642b18bc7736f8211"
+      },
+      "sourceAnswer": "안경점!",
+      "title": "무한도전",
+      "category": "국내 예능",
+      "answer": "안경점!",
+      "titleVerification": {
+        "method": "출처 제목 및 원본 방송 장면 대조",
+        "basis": "출처가 무한도전 대사 퀴즈로 명시하며 문제·정답 공개 방송 장면을 모두 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "출처의 빈칸·글자 수 가림이 있는 문제 이미지를 플레이에 사용. 자막 정답 공개 이미지는 별도 원본으로 보관.",
+      "questionId": "machugi-vxh-5457a772-5b09-41a1-979b-13c1fe732631",
+      "displayAnswer": "안경점!"
+    }
+  ]
+}

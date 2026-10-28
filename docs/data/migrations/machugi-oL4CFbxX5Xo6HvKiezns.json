@@ -1,0 +1,915 @@
+{
+  "source": "https://machugi.io/quiz/oL4CFbxX5Xo6HvKiezns",
+  "sourceTitle": "마블 유명한 대사 맞추기",
+  "sourceQuestionIds": [
+    "0ADK8K9Gvic8Nu7rrTkP",
+    "4yudt7s8XQsEPIVMLxaU",
+    "5dOysddmJQFw3LIwwodM",
+    "5q60nk7ELZnyuK4bwq64",
+    "5qNKUDiVCB23WmZHYbWF",
+    "7gwVW1yI6UohSeZuok5p",
+    "8hZXbG2Qb8vMt2hxphed",
+    "9imK20M2WEfZyM4hOB0z",
+    "AX5WTeRxNlcE2QSg7jLB",
+    "H02Y1bf0hMPiPXGyylPx",
+    "HataIYMnBE5bcffSJJiF",
+    "JMsfQE5RsJg2cZPeW6k4",
+    "K7LCO6UOuMMO0dO8NWeC",
+    "Kd1ATp4Qy5vCxZmXb4LI",
+    "UF7Fh3QDs9ED9mhAZ6bP",
+    "em45YVOvNNTQgSH6CMuO",
+    "emfLela2DZt7UOWwat1F",
+    "fKTNzko7jFmLP6Ioh3al",
+    "jq3MZtKKZTl0vcP7b5Fz",
+    "kMH9nQIClvQ9uOKod2of",
+    "l7D2uDWfZTRcDJXdQTkW",
+    "ls2aVRs1wGJqkvWzledc",
+    "nPa54iRfiWEnl7crhyj6",
+    "nSbP1bG1HgNCFIF2NKH5",
+    "nU6zR2CHk3eoXhabqdEp",
+    "oTLi09BY4uFBkekkZu4w",
+    "pu384YYZFkHQLvPG8HsG",
+    "wj7Jh291oHKuR1Gajvdp",
+    "xGkxa8lRygKRuFgJmD3Y",
+    "yZR7JqhIs0yhpbOwAUj1"
+  ],
+  "importedAt": "2026-10-28T04:45:04.465Z",
+  "baseCommit": "a2be185f5b10dfd78b6da03bbbb631cc9913b1c6",
+  "sourceCount": 30,
+  "added": 27,
+  "merged": 3,
+  "originalImageReferences": 60,
+  "uniqueOriginalImages": 41,
+  "titleVerifiedCount": 30,
+  "method": "출처의 전체 문항을 전수 수집하고 문제·정답 공개 이미지를 검토. 원본 이미지 바이트와 정답 원문을 보존. 같은 작품·대사의 중복 문제는 기존 ID·생성일·대사를 유지하며 이미지와 출처를 연결.",
+  "questions": [
+    {
+      "number": 1,
+      "questionImage": {
+        "url": "https://images.machugi.io/fac23dcd-16c2-45a0-a5ab-31cbfc2d28c0.png",
+        "asset": "./uploads/marvel-ol4-fac23dcd-16c2-45a0-a5ab-31cbfc2d28c0.png",
+        "sha256": "0d6084cf7b6fe15ce65b2b6e96f5413f0ded85eb4f284b417b80bb861d010dbd"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/3c46a7e6-686a-48e8-abe1-d1a435a48d5f.png",
+        "asset": "./uploads/marvel-ol4-fac23dcd-16c2-45a0-a5ab-31cbfc2d28c0.png",
+        "sha256": "0d6084cf7b6fe15ce65b2b6e96f5413f0ded85eb4f284b417b80bb861d010dbd"
+      },
+      "sourceAnswer": "쫄쫄이!",
+      "title": "캡틴 아메리카: 시빌 워",
+      "category": "해외 영화",
+      "answer": "쫄쫄이!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "공항 전투에서 토니가 스파이더맨을 쫄쫄이로 부르는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-fac23dcd-16c2-45a0-a5ab-31cbfc2d28c0",
+      "displayAnswer": "쫄쫄이!"
+    },
+    {
+      "number": 2,
+      "questionImage": {
+        "url": "https://images.machugi.io/e406c75b-cf7d-4362-b014-6d3cd3a62e8f.jpeg",
+        "asset": "./uploads/marvel-ol4-e406c75b-cf7d-4362-b014-6d3cd3a62e8f.jpeg",
+        "sha256": "d460d4aba6d57bf4990dbecf32ec37f5afb7ee69311619a00f3a6efbcb0da653"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2ba4db89-ef2c-4d39-807e-978b1ece290f.jpeg",
+        "asset": "./uploads/marvel-ol4-2ba4db89-ef2c-4d39-807e-978b1ece290f.jpeg",
+        "sha256": "f8b0fa7a1f946b9aeb2cc7d2f2ddca6d1927df17df4702bc178fb0d90dbef3f7"
+      },
+      "sourceAnswer": "왼쪽",
+      "title": "캡틴 아메리카: 윈터 솔져",
+      "category": "해외 영화",
+      "answer": "왼쪽",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "스티브와 샘의 워싱턴 달리기 장면. 엔드게임의 포털 장면과 구분.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-e406c75b-cf7d-4362-b014-6d3cd3a62e8f",
+      "displayAnswer": "왼쪽"
+    },
+    {
+      "number": 3,
+      "questionImage": {
+        "url": "https://images.machugi.io/52e33bf4-5b86-438c-9954-b3ced9120d53.jpeg",
+        "asset": "./uploads/marvel-ol4-52e33bf4-5b86-438c-9954-b3ced9120d53.jpeg",
+        "sha256": "af11f6035307da21c17e94df671950869451fdcd04e7116a90c19e311c27b7d6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b58110a4-e695-4fd2-a4a2-9077e9e9d648.jpeg",
+        "asset": "./uploads/marvel-ol4-52e33bf4-5b86-438c-9954-b3ced9120d53.jpeg",
+        "sha256": "af11f6035307da21c17e94df671950869451fdcd04e7116a90c19e311c27b7d6"
+      },
+      "sourceAnswer": "We are groot",
+      "title": "가디언즈 오브 갤럭시",
+      "category": "해외 영화",
+      "answer": "We are groot",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "그루트가 동료들을 감싸는 희생 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-52e33bf4-5b86-438c-9954-b3ced9120d53",
+      "displayAnswer": "We are groot"
+    },
+    {
+      "number": 4,
+      "questionImage": {
+        "url": "https://images.machugi.io/d03d34aa-c8f3-4264-af57-9b63ad2597f5.jpeg",
+        "asset": "./uploads/marvel-ol4-d03d34aa-c8f3-4264-af57-9b63ad2597f5.jpeg",
+        "sha256": "2ec2368de0562bd16b23daa26e5c08424edce0ea5d415ac4fb4851a51b587441"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/abf7eeec-b749-4bf2-9652-d48b7ee60763.jpeg",
+        "asset": "./uploads/marvel-ol4-d03d34aa-c8f3-4264-af57-9b63ad2597f5.jpeg",
+        "sha256": "2ec2368de0562bd16b23daa26e5c08424edce0ea5d415ac4fb4851a51b587441"
+      },
+      "sourceAnswer": "사고치기 좋아하는 애들이라고? 너같이?",
+      "title": "샹치와 텐 링즈의 전설",
+      "category": "해외 영화",
+      "answer": "사고치기 좋아하는 애들이라고? 너같이?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "케이티의 할머니가 집에서 말하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-d03d34aa-c8f3-4264-af57-9b63ad2597f5",
+      "displayAnswer": "사고치기 좋아하는 애들이라고? 너같이?"
+    },
+    {
+      "number": 5,
+      "questionImage": {
+        "url": "https://images.machugi.io/4b5d561e-fe61-4929-b350-a7d2678ca604.jpeg",
+        "asset": "./uploads/marvel-ol4-4b5d561e-fe61-4929-b350-a7d2678ca604.jpeg",
+        "sha256": "d9304384a19d6e0ad407793621d81b5ede09ddb53f54a8fb5b383a4f5e800883"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c09fae2a-a343-4ef8-a201-0e57359b97f3.jpeg",
+        "asset": "./uploads/marvel-ol4-4b5d561e-fe61-4929-b350-a7d2678ca604.jpeg",
+        "sha256": "d9304384a19d6e0ad407793621d81b5ede09ddb53f54a8fb5b383a4f5e800883"
+      },
+      "sourceAnswer": "나는 필연적인 존재다",
+      "title": "어벤져스: 엔드게임",
+      "category": "해외 영화",
+      "answer": "나는 필연적인 존재다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "타노스의 필연적인 존재 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-4b5d561e-fe61-4929-b350-a7d2678ca604",
+      "displayAnswer": "나는 필연적인 존재다"
+    },
+    {
+      "number": 6,
+      "questionImage": {
+        "url": "https://images.machugi.io/6088192f-477d-42c8-bb60-ce875c008ec0.png",
+        "asset": "./uploads/marvel-ol4-6088192f-477d-42c8-bb60-ce875c008ec0.png",
+        "sha256": "90183e14d30b55bc44b80caaef247cf4dce9808def24bb0277bb33cc9a05b91f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/48c32f0c-f640-43f8-a98b-7fc347f29187.png",
+        "asset": "./uploads/marvel-ol4-48c32f0c-f640-43f8-a98b-7fc347f29187.png",
+        "sha256": "b8b0c756187e38e1bfc262b806fd13f08660520026077550b05d55bcc70f98cc"
+      },
+      "sourceAnswer": "We have a Hulk",
+      "title": "어벤져스",
+      "category": "해외 영화",
+      "answer": "We have a Hulk",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "토니와 로키의 헐크 대화 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-6088192f-477d-42c8-bb60-ce875c008ec0",
+      "displayAnswer": "We have a Hulk"
+    },
+    {
+      "number": 7,
+      "questionImage": {
+        "url": "https://images.machugi.io/909bdd1d-8b33-4251-b49c-7412d3710a62.jpeg",
+        "asset": "./uploads/marvel-ol4-909bdd1d-8b33-4251-b49c-7412d3710a62.jpeg",
+        "sha256": "747efacbd53533687b6351b410a474e8c16ba5ab3e3e3a19dbea869cdc64c490"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/1cecf85f-7167-4618-8e60-27cdd0f5011f.jpeg",
+        "asset": "./uploads/marvel-ol4-1cecf85f-7167-4618-8e60-27cdd0f5011f.jpeg",
+        "sha256": "67b8884c383cfa09ae44217976f394b4c000d17893f11fe074ae221f429d1da2"
+      },
+      "sourceAnswer": "내 목을 쳤어야지",
+      "title": "어벤져스: 인피니티 워",
+      "category": "해외 영화",
+      "answer": "내 목을 쳤어야지",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "타노스가 가슴을 맞은 뒤 토르에게 하는 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-909bdd1d-8b33-4251-b49c-7412d3710a62",
+      "displayAnswer": "내 목을 쳤어야지"
+    },
+    {
+      "number": 8,
+      "questionImage": {
+        "url": "https://images.machugi.io/7556ec5e-256f-477e-b45c-ba1a42ef2b52.jpeg",
+        "asset": "./uploads/marvel-ol4-7556ec5e-256f-477e-b45c-ba1a42ef2b52.jpeg",
+        "sha256": "45affd62270b79478d18c25cd8196a4c7aa6375cc5c70984977ae4dba7694193"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b0e34b64-5f68-4295-ad23-3976e0459803.jpeg",
+        "asset": "./uploads/marvel-ol4-7556ec5e-256f-477e-b45c-ba1a42ef2b52.jpeg",
+        "sha256": "45affd62270b79478d18c25cd8196a4c7aa6375cc5c70984977ae4dba7694193"
+      },
+      "sourceAnswer": "즉살모드 가동!",
+      "title": "어벤져스: 엔드게임",
+      "category": "해외 영화",
+      "answer": "즉살모드 가동!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "최종 전투에서 피터가 즉살모드를 켜는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-7556ec5e-256f-477e-b45c-ba1a42ef2b52",
+      "displayAnswer": "즉살모드 가동!"
+    },
+    {
+      "number": 9,
+      "questionImage": {
+        "url": "https://images.machugi.io/ac6068cd-2e50-4f27-b7cf-ff25e61eca1f.png",
+        "asset": "./uploads/marvel-ol4-ac6068cd-2e50-4f27-b7cf-ff25e61eca1f.png",
+        "sha256": "61f8b629917dbc2032c31b50d6223db2f70396b6935d74e5193d9317b8f69179"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/fe7c7e82-40de-4488-bca0-ee8dcdeb9ce3.png",
+        "asset": "./uploads/marvel-ol4-ac6068cd-2e50-4f27-b7cf-ff25e61eca1f.png",
+        "sha256": "61f8b629917dbc2032c31b50d6223db2f70396b6935d74e5193d9317b8f69179"
+      },
+      "sourceAnswer": "전 죽기 싫어요",
+      "title": "어벤져스: 인피니티 워",
+      "category": "해외 영화",
+      "answer": "전 죽기 싫어요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "타이탄에서 피터가 사라지기 전 토니와 대화하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-ac6068cd-2e50-4f27-b7cf-ff25e61eca1f",
+      "displayAnswer": "전 죽기 싫어요"
+    },
+    {
+      "number": 10,
+      "questionImage": {
+        "url": "https://images.machugi.io/f3ed8fad-f799-4f06-89f8-8fe7b9a27717.jpeg",
+        "asset": "./uploads/marvel-ol4-f3ed8fad-f799-4f06-89f8-8fe7b9a27717.jpeg",
+        "sha256": "44fbdc8eadfbc327d25aee91684e4989797fa2772d7d1d374ee35f4647562bd6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/f255f25a-6992-499b-8528-8b1c4e919d7d.jpeg",
+        "asset": "./uploads/marvel-ol4-f255f25a-6992-499b-8528-8b1c4e919d7d.jpeg",
+        "sha256": "690baab25bf0818d0f9a2c5ef3b059dc6e581c9f5194d159b4a09735a86b6a24"
+      },
+      "sourceAnswer": "토니에게 따뜻한 심장이 있다는 증거",
+      "title": "아이언맨",
+      "category": "해외 영화",
+      "answer": "토니에게 따뜻한 심장이 있다는 증거",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "페퍼가 액자에 보관한 첫 아크 리액터의 증명 문구 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "answerLeakPrevention": "원본 픽셀은 보존하고 플레이 화면에서 아크 리액터 테두리의 정답 영문 각인만 imageMasks로 가림.",
+      "questionId": "machugi-ol4-f3ed8fad-f799-4f06-89f8-8fe7b9a27717",
+      "displayAnswer": "토니에게 따뜻한 심장이 있다는 증거",
+      "displayImageMasks": [
+        {
+          "x": 0.33,
+          "y": 0.2,
+          "width": 0.42,
+          "height": 0.25
+        },
+        {
+          "x": 0.32,
+          "y": 0.39,
+          "width": 0.15,
+          "height": 0.26
+        },
+        {
+          "x": 0.63,
+          "y": 0.36,
+          "width": 0.11,
+          "height": 0.29
+        },
+        {
+          "x": 0.34,
+          "y": 0.59,
+          "width": 0.4,
+          "height": 0.18
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "questionImage": {
+        "url": "https://images.machugi.io/620181c4-9c79-429d-b02e-e4da45fb0921.jpeg",
+        "asset": "./uploads/marvel-ol4-620181c4-9c79-429d-b02e-e4da45fb0921.jpeg",
+        "sha256": "c9c6f534512feaa38b231e899980607859ec0a494a17d56cb17869146865537b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/d57a6990-87c3-4029-ad54-f8797ed445a6.jpeg",
+        "asset": "./uploads/marvel-ol4-620181c4-9c79-429d-b02e-e4da45fb0921.jpeg",
+        "sha256": "c9c6f534512feaa38b231e899980607859ec0a494a17d56cb17869146865537b"
+      },
+      "sourceAnswer": "와칸다여 영원하라!",
+      "title": "어벤져스: 인피니티 워",
+      "category": "해외 영화",
+      "answer": "와칸다여 영원하라!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "와칸다 전투의 티찰라 뒤에 캡틴 아메리카·워머신이 있는 장면. 단독 블랙 팬서 영화와 구분.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-o43-6405fab1780949bdee5aea25",
+        "title": "블랙 팬서",
+        "category": "해외 영화",
+        "year": "",
+        "answer": "와칸다 포에버!",
+        "hint": "",
+        "image": "./uploads/moviequotes-6405fab1780949bdee5aea25.jpg",
+        "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/82fd200b-1888-4f3a-9c66-dfd3fddc3538.jpeg | 정답 공개 이미지: https://images.machugi.io/4a501397-0ca4-462b-8eb8-925bd27a1ef0.jpeg",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T15:38:05.819Z",
+        "updatedAt": "2026-10-27T15:38:05.819Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "titleCorrection": "기존 제목 블랙 팬서를 실제 장면의 작품인 어벤져스: 인피니티 워로 정정. 기존 이미지도 와칸다 전투의 같은 장면임.",
+      "questionId": "machugi-o43-6405fab1780949bdee5aea25",
+      "displayAnswer": "와칸다 포에버!"
+    },
+    {
+      "number": 12,
+      "questionImage": {
+        "url": "https://images.machugi.io/1ac357a7-57db-4a7d-acf9-f1ea6d8f8888.png",
+        "asset": "./uploads/marvel-ol4-1ac357a7-57db-4a7d-acf9-f1ea6d8f8888.png",
+        "sha256": "5b660b93ddea1e356e3397bd3e88e5532fb39c2e67ee041821e1b0915d5a6e4b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8aa42136-921a-45f9-aab8-7d3e60528cca.jpeg",
+        "asset": "./uploads/marvel-ol4-8aa42136-921a-45f9-aab8-7d3e60528cca.jpeg",
+        "sha256": "f1f042bf8697c86ee6fc05b51a3d8c12b18854749ee48237bcc2146597cb08f0"
+      },
+      "sourceAnswer": "하루종일도 할 수 있어",
+      "title": "퍼스트 어벤져",
+      "category": "해외 영화",
+      "answer": "하루종일도 할 수 있어",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "혈청 주입 전 마른 스티브의 골목 싸움 장면. 시빌 워에서 같은 대사를 하는 기존 문제와 구분.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "distinctSceneNote": "기존 machugi-83kb-9bbba43a-6966-411a-a156-d2e2b647a849는 시빌 워의 시베리아 장면. 이번 이미지는 퍼스트 어벤져의 혈청 주입 전 골목 장면이므로 별도 편명·문제로 추가.",
+      "questionId": "machugi-ol4-1ac357a7-57db-4a7d-acf9-f1ea6d8f8888",
+      "displayAnswer": "하루종일도 할 수 있어"
+    },
+    {
+      "number": 13,
+      "questionImage": {
+        "url": "https://images.machugi.io/101244c9-7768-4f05-85db-fdfe7aa22c6b.jpeg",
+        "asset": "./uploads/marvel-ol4-101244c9-7768-4f05-85db-fdfe7aa22c6b.jpeg",
+        "sha256": "404933f474c263fcaf720e6abc99469a5e8fc35640666ab315e2fa7fea7bb7df"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/bb3bf27e-9d94-4700-b556-be7b9cb97b65.jpeg",
+        "asset": "./uploads/marvel-ol4-bb3bf27e-9d94-4700-b556-be7b9cb97b65.jpeg",
+        "sha256": "d2960d2edf89741178b3e7831ebe207517813b4631fe84542e387e56bc55eb08"
+      },
+      "sourceAnswer": "신이 약골이군",
+      "title": "어벤져스",
+      "category": "해외 영화",
+      "answer": "신이 약골이군",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "헐크가 로키를 내리친 뒤 하는 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-101244c9-7768-4f05-85db-fdfe7aa22c6b",
+      "displayAnswer": "신이 약골이군"
+    },
+    {
+      "number": 14,
+      "questionImage": {
+        "url": "https://images.machugi.io/dc0d4308-bb28-4253-aa6b-b1154634611b.jpeg",
+        "asset": "./uploads/marvel-ol4-dc0d4308-bb28-4253-aa6b-b1154634611b.jpeg",
+        "sha256": "9fd426ec36f2a315a0b744c398fca95496c99f2acd764e9fd0274b1ef65bd10f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/2b1b39d0-fa8d-45e2-bab8-cd814bf02748.jpeg",
+        "asset": "./uploads/marvel-ol4-dc0d4308-bb28-4253-aa6b-b1154634611b.jpeg",
+        "sha256": "9fd426ec36f2a315a0b744c398fca95496c99f2acd764e9fd0274b1ef65bd10f"
+      },
+      "sourceAnswer": "We are venom",
+      "title": "베놈",
+      "category": "해외 영화",
+      "answer": "We are venom",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "에디·베놈의 We are Venom 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-dc0d4308-bb28-4253-aa6b-b1154634611b",
+      "displayAnswer": "We are venom"
+    },
+    {
+      "number": 15,
+      "questionImage": {
+        "url": "https://images.machugi.io/345fcb89-a460-466b-80c8-5a440c7b8cdc.jpeg",
+        "asset": "./uploads/marvel-ol4-345fcb89-a460-466b-80c8-5a440c7b8cdc.jpeg",
+        "sha256": "ba2921f748e81de81de9f6a78ecbce87e648b984a2d4b17175cc9bbdbd8205c2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/b0efaed8-fe84-49af-9674-05644ad8a188.jpeg",
+        "asset": "./uploads/marvel-ol4-345fcb89-a460-466b-80c8-5a440c7b8cdc.jpeg",
+        "sha256": "ba2921f748e81de81de9f6a78ecbce87e648b984a2d4b17175cc9bbdbd8205c2"
+      },
+      "sourceAnswer": "하일 하이드라",
+      "title": "어벤져스: 엔드게임",
+      "category": "해외 영화",
+      "answer": "하일 하이드라",
+      "titleVerification": {
+        "method": "대사 검색 및 원본 장면 대조",
+        "basis": "시간 여행 중 엘리베이터에서 시트웰에게 하일 하이드라를 말하는 장면.",
+        "verified": true,
+        "url": "https://www.motionpictures.org/2019/05/how-avengers-endgames-editor-handled-time-traveling-twists-turns/"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-345fcb89-a460-466b-80c8-5a440c7b8cdc",
+      "displayAnswer": "하일 하이드라"
+    },
+    {
+      "number": 16,
+      "questionImage": {
+        "url": "https://images.machugi.io/90f15631-ebd4-479f-a93e-ef306e16aff0.png",
+        "asset": "./uploads/marvel-ol4-90f15631-ebd4-479f-a93e-ef306e16aff0.png",
+        "sha256": "ef2d0b1f7586ee3652e1c46892f374798c2110bf34012f46b18d62d7e1d296ac"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/df1050f0-e0ef-4b09-b428-50ed60016180.png",
+        "asset": "./uploads/marvel-ol4-df1050f0-e0ef-4b09-b428-50ed60016180.png",
+        "sha256": "5e69e30015f4e51cb724288688936056fae58e8da5f36a4a95fd17e1b44b6f1a"
+      },
+      "sourceAnswer": "부다페스트때 생각나네",
+      "title": "어벤져스",
+      "category": "해외 영화",
+      "answer": "부다페스트때 생각나네",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "뉴욕 전투 중 나타샤·클린트의 부다페스트 대화 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-90f15631-ebd4-479f-a93e-ef306e16aff0",
+      "displayAnswer": "부다페스트때 생각나네"
+    },
+    {
+      "number": 17,
+      "questionImage": {
+        "url": "https://images.machugi.io/714cb22b-f623-4267-8b8f-a19481f1eafe.jpeg",
+        "asset": "./uploads/marvel-ol4-714cb22b-f623-4267-8b8f-a19481f1eafe.jpeg",
+        "sha256": "7f8a90491d829ee9e2d84b6aff9024dc7397fc401f5443743af74eb996722db6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/59cb4ba0-a938-429a-818d-b885e23604c7.jpeg",
+        "asset": "./uploads/marvel-ol4-714cb22b-f623-4267-8b8f-a19481f1eafe.jpeg",
+        "sha256": "7f8a90491d829ee9e2d84b6aff9024dc7397fc401f5443743af74eb996722db6"
+      },
+      "sourceAnswer": "3000만큼 사랑해",
+      "title": "어벤져스: 엔드게임",
+      "category": "해외 영화",
+      "answer": "3000만큼 사랑해",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "토니와 모건의 3000만큼 사랑해 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-714cb22b-f623-4267-8b8f-a19481f1eafe",
+      "displayAnswer": "3000만큼 사랑해"
+    },
+    {
+      "number": 18,
+      "questionImage": {
+        "url": "https://images.machugi.io/d2ef801a-02e6-41a5-b970-961ec6b7cff2.jpeg",
+        "asset": "./uploads/marvel-ol4-d2ef801a-02e6-41a5-b970-961ec6b7cff2.jpeg",
+        "sha256": "374d6f5cff2e363743a1afa75788a8c54b2dd8644dcef4a6e4df78745391f8e1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/76cef54a-8a43-4e83-81a1-1d02fcb3caa0.jpeg",
+        "asset": "./uploads/marvel-ol4-d2ef801a-02e6-41a5-b970-961ec6b7cff2.jpeg",
+        "sha256": "374d6f5cff2e363743a1afa75788a8c54b2dd8644dcef4a6e4df78745391f8e1"
+      },
+      "sourceAnswer": "저는 언제나 화나 있어요",
+      "title": "어벤져스",
+      "category": "해외 영화",
+      "answer": "저는 언제나 화나 있어요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "뉴욕 전투에서 배너가 헐크로 변하기 직전 말하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-d2ef801a-02e6-41a5-b970-961ec6b7cff2",
+      "displayAnswer": "저는 언제나 화나 있어요"
+    },
+    {
+      "number": 19,
+      "questionImage": {
+        "url": "https://images.machugi.io/d9b1064f-0684-4bc5-a65f-a3567f44dfe0.png",
+        "asset": "./uploads/marvel-ol4-d9b1064f-0684-4bc5-a65f-a3567f44dfe0.png",
+        "sha256": "bf4a6b6613a19f7ff761279b9406f244d4d70bbff059d29569f9e5d2fa4cd834"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c3c33934-b7d8-49ac-b33b-161cb1e2d344.png",
+        "asset": "./uploads/marvel-ol4-c3c33934-b7d8-49ac-b33b-161cb1e2d344.png",
+        "sha256": "5392ff9e61fed9c831795dea588ceeb9a984ee3092217b33ad1a8afde876c560"
+      },
+      "sourceAnswer": "왜, 예상 못했어?",
+      "title": "어벤져스: 에이지 오브 울트론",
+      "category": "해외 영화",
+      "answer": "왜, 예상 못했어?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "피에트로의 예상 못했어 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-d9b1064f-0684-4bc5-a65f-a3567f44dfe0",
+      "displayAnswer": "왜, 예상 못했어?"
+    },
+    {
+      "number": 20,
+      "questionImage": {
+        "url": "https://images.machugi.io/a7499ee2-53d4-4c52-9a7f-7148b0ab21f7.jpeg",
+        "asset": "./uploads/marvel-ol4-a7499ee2-53d4-4c52-9a7f-7148b0ab21f7.jpeg",
+        "sha256": "f2c1ed09909d3b6399fac4dc24e9309505b88d761f163dcadd7839500388f98a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6f1e2c19-ff14-4011-a2d2-c1003bbc786c.jpeg",
+        "asset": "./uploads/marvel-ol4-a7499ee2-53d4-4c52-9a7f-7148b0ab21f7.jpeg",
+        "sha256": "f2c1ed09909d3b6399fac4dc24e9309505b88d761f163dcadd7839500388f98a"
+      },
+      "sourceAnswer": "댄스 배틀!",
+      "title": "가디언즈 오브 갤럭시",
+      "category": "해외 영화",
+      "answer": "댄스 배틀!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "로난에게 스타로드가 춤 대결을 제안하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-a7499ee2-53d4-4c52-9a7f-7148b0ab21f7",
+      "displayAnswer": "댄스 배틀!"
+    },
+    {
+      "number": 21,
+      "questionImage": {
+        "url": "https://images.machugi.io/251d43fe-723c-4069-86b6-6079ae68c549.png",
+        "asset": "./uploads/marvel-ol4-251d43fe-723c-4069-86b6-6079ae68c549.png",
+        "sha256": "125ab0b447cf7f50283efcc40bfdb57bb9a8e2b5863e5b736d1662c92e423574"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/0ab15b66-098e-4e08-8aeb-7abc9ec5d9c4.png",
+        "asset": "./uploads/marvel-ol4-251d43fe-723c-4069-86b6-6079ae68c549.png",
+        "sha256": "125ab0b447cf7f50283efcc40bfdb57bb9a8e2b5863e5b736d1662c92e423574"
+      },
+      "sourceAnswer": "당신의 삶을 낭비하지 말아요",
+      "title": "아이언맨",
+      "category": "해외 영화",
+      "answer": "당신의 삶을 낭비하지 말아요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "동굴에서 인센이 토니에게 남기는 마지막 말 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-251d43fe-723c-4069-86b6-6079ae68c549",
+      "displayAnswer": "당신의 삶을 낭비하지 말아요"
+    },
+    {
+      "number": 22,
+      "questionImage": {
+        "url": "https://images.machugi.io/cc800908-f264-45b1-8cb6-a321292d044d.jpeg",
+        "asset": "./uploads/marvel-ol4-cc800908-f264-45b1-8cb6-a321292d044d.jpeg",
+        "sha256": "78ff777903deced82b09d153c5ba5726ff1b492b76a05d0fdfd5595f9fdb6bf3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/8ef53f81-78bc-4dbf-b524-34bdc22f2d24.jpeg",
+        "asset": "./uploads/marvel-ol4-cc800908-f264-45b1-8cb6-a321292d044d.jpeg",
+        "sha256": "78ff777903deced82b09d153c5ba5726ff1b492b76a05d0fdfd5595f9fdb6bf3"
+      },
+      "sourceAnswer": "도르마무, 거래를 하러 왔다",
+      "title": "닥터 스트레인지",
+      "category": "해외 영화",
+      "answer": "도르마무, 거래를 하러 왔다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "다크 디멘션에서 도르마무에게 거래를 제안하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-cc800908-f264-45b1-8cb6-a321292d044d",
+      "displayAnswer": "도르마무, 거래를 하러 왔다"
+    },
+    {
+      "number": 23,
+      "questionImage": {
+        "url": "https://images.machugi.io/fd15e0ef-2ad1-4d7d-878f-e165bb92809e.png",
+        "asset": "./uploads/marvel-ol4-fd15e0ef-2ad1-4d7d-878f-e165bb92809e.png",
+        "sha256": "945dcd1f0116c50fabd6b2d743680f808427afc96060cd4a0451a03b4b20bd53"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/ff783194-d018-46fe-8c32-5447b6a13d48.png",
+        "asset": "./uploads/marvel-ol4-fd15e0ef-2ad1-4d7d-878f-e165bb92809e.png",
+        "sha256": "945dcd1f0116c50fabd6b2d743680f808427afc96060cd4a0451a03b4b20bd53"
+      },
+      "sourceAnswer": "가슴으로 해야지",
+      "title": "가디언즈 오브 갤럭시 VOL. 2",
+      "category": "해외 영화",
+      "answer": "가슴으로 해야지",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "욘두가 피터에게 가슴으로 화살을 조종한다고 말하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-fd15e0ef-2ad1-4d7d-878f-e165bb92809e",
+      "displayAnswer": "가슴으로 해야지"
+    },
+    {
+      "number": 24,
+      "questionImage": {
+        "url": "https://images.machugi.io/1f263f49-6031-4e13-9c5a-3d30924ebf77.png",
+        "asset": "./uploads/marvel-ol4-1f263f49-6031-4e13-9c5a-3d30924ebf77.png",
+        "sha256": "4df0a3644c65ac924cb3bc76fe2be8bdb25ad7ea710521f07e30e09d0eb022b1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/6d1590a1-fd09-46f9-ab47-b47714d78fdd.png",
+        "asset": "./uploads/marvel-ol4-6d1590a1-fd09-46f9-ab47-b47714d78fdd.png",
+        "sha256": "189b53e49aadb06751f9bf681505d1509e8185dcca15ef98a99cc287797e7c4d"
+      },
+      "sourceAnswer": "피터 찌리릿",
+      "title": "스파이더맨: 파 프롬 홈",
+      "category": "해외 영화",
+      "answer": "피터 찌리릿",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "메이가 피터의 스파이더 센스를 피터 찌리릿으로 부르는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-1f263f49-6031-4e13-9c5a-3d30924ebf77",
+      "displayAnswer": "피터 찌리릿"
+    },
+    {
+      "number": 25,
+      "questionImage": {
+        "url": "https://images.machugi.io/c29ea474-6af5-46e2-ad51-f039dd97b598.png",
+        "asset": "./uploads/marvel-ol4-c29ea474-6af5-46e2-ad51-f039dd97b598.png",
+        "sha256": "07c47084a483ea84c75e88e151e26daf9194a2c60188d80a130fb19f6bce4d83"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/70824c5e-881e-4c07-8e73-49c505bf25d6.png",
+        "asset": "./uploads/marvel-ol4-c29ea474-6af5-46e2-ad51-f039dd97b598.png",
+        "sha256": "07c47084a483ea84c75e88e151e26daf9194a2c60188d80a130fb19f6bce4d83"
+      },
+      "sourceAnswer": "I'm the boss, I'm the boss, i'm the boss",
+      "title": "캡틴 아메리카: 시빌 워",
+      "category": "해외 영화",
+      "answer": "I'm the boss, I'm the boss, i'm the boss",
+      "titleVerification": {
+        "method": "대사 검색 및 원본 장면 대조",
+        "basis": "공항 전투에서 스콧이 거대화 직전 되뇌는 대사 장면.",
+        "verified": true,
+        "url": "https://www.imdb.com/title/tt3498820/quotes?item=qt2904978"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-c29ea474-6af5-46e2-ad51-f039dd97b598",
+      "displayAnswer": "I'm the boss, I'm the boss, i'm the boss"
+    },
+    {
+      "number": 26,
+      "questionImage": {
+        "url": "https://images.machugi.io/9d89c710-26f3-4a06-a752-aabb79198c04.jpeg",
+        "asset": "./uploads/marvel-ol4-9d89c710-26f3-4a06-a752-aabb79198c04.jpeg",
+        "sha256": "738d164777777c6a11fd633f28822d501783d733f10c315fb82b5ec0ccc3ff4d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/5627a37c-88b2-4948-baea-3eb6a6217e11.jpeg",
+        "asset": "./uploads/marvel-ol4-5627a37c-88b2-4948-baea-3eb6a6217e11.jpeg",
+        "sha256": "2510ba194c8005ed7b2d0ee710ca970256af1247a94fb770bd3d74567faa172b"
+      },
+      "sourceAnswer": "큰 힘에는 큰 책임이 따른다",
+      "title": "스파이더맨",
+      "category": "해외 영화",
+      "answer": "큰 힘에는 큰 책임이 따른다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "벤 삼촌이 피터에게 차 안에서 조언하는 샘 레이미 1편 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-83kb-f05fccce-9aa4-450d-ac20-a667dd8a8168",
+        "title": "스파이더맨",
+        "category": "해외 영화",
+        "year": "",
+        "answer": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility.",
+        "hint": "",
+        "image": "./uploads/ocr-83kb-95c200ac-188f-4c2f-8ce4-e1eb37428c05.webp",
+        "imageMasks": [
+          {
+            "x": 0.22,
+            "y": 0.81,
+            "width": 0.58,
+            "height": 0.14
+          }
+        ],
+        "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#1",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T23:09:09.056Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-83kb-f05fccce-9aa4-450d-ac20-a667dd8a8168",
+      "displayAnswer": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility."
+    },
+    {
+      "number": 27,
+      "questionImage": {
+        "url": "https://images.machugi.io/59f07301-2553-46af-8008-66ab4f15a1a0.jpeg",
+        "asset": "./uploads/marvel-ol4-59f07301-2553-46af-8008-66ab4f15a1a0.jpeg",
+        "sha256": "1e423d056ca23b9980b260a13eaff888aa42c48777909342e2713393e528dbd5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/c73d613b-e19b-40e3-a286-6134ff478c47.jpeg",
+        "asset": "./uploads/marvel-ol4-c73d613b-e19b-40e3-a286-6134ff478c47.jpeg",
+        "sha256": "32a350cb2b96fcf33839c7198f3d9c7a75d245e4ed22502c7ec2f2b245eae490"
+      },
+      "sourceAnswer": "I am Iron Man",
+      "title": "아이언맨",
+      "category": "해외 영화",
+      "answer": "I am Iron Man",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "토니가 기자회견에서 자신의 정체를 밝히는 1편 마지막 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-o43-906e89b70e3819b96ddc3be5",
+        "title": "아이언맨",
+        "category": "해외 영화",
+        "year": "",
+        "answer": "나는 아이언맨이다.\nI am Iron Man.",
+        "hint": "",
+        "image": "./uploads/moviequotes-906e89b70e3819b96ddc3be5.jpg",
+        "source": "https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/f7b0dbd9-8330-44d5-9779-236b2db81df6.jpeg | 정답 공개 이미지: https://images.machugi.io/d318a86c-29a0-4a24-8ea2-cad8a3186765.jpeg | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#31",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T15:38:05.819Z",
+        "updatedAt": "2026-10-27T23:09:09.056Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-o43-906e89b70e3819b96ddc3be5",
+      "displayAnswer": "나는 아이언맨이다.\nI am Iron Man."
+    },
+    {
+      "number": 28,
+      "questionImage": {
+        "url": "https://images.machugi.io/79e6e85c-b90d-4c7b-adc2-66e73e1ce8a9.jpeg",
+        "asset": "./uploads/marvel-ol4-79e6e85c-b90d-4c7b-adc2-66e73e1ce8a9.jpeg",
+        "sha256": "50233e8c94666c6391d36cf19c647808f7b6fda5b4be5e47700f064834655704"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/799aec5b-350f-4045-9822-84029a0b977b.jpeg",
+        "asset": "./uploads/marvel-ol4-79e6e85c-b90d-4c7b-adc2-66e73e1ce8a9.jpeg",
+        "sha256": "50233e8c94666c6391d36cf19c647808f7b6fda5b4be5e47700f064834655704"
+      },
+      "sourceAnswer": "Assemble.",
+      "title": "어벤져스: 엔드게임",
+      "category": "해외 영화",
+      "answer": "Assemble.",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "최종 전투에서 스티브가 어벤져스 집결을 외치는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-79e6e85c-b90d-4c7b-adc2-66e73e1ce8a9",
+      "displayAnswer": "Assemble."
+    },
+    {
+      "number": 29,
+      "questionImage": {
+        "url": "https://images.machugi.io/5361beb5-0272-42de-a756-89ec74c45d4d.jpeg",
+        "asset": "./uploads/marvel-ol4-5361beb5-0272-42de-a756-89ec74c45d4d.jpeg",
+        "sha256": "069b8658242f9c2f46e532ebf381076d6a8306d16b20beaa74fb92992c1375e2"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/397d6d43-b91b-47ae-8764-35635ac18f77.jpeg",
+        "asset": "./uploads/marvel-ol4-5361beb5-0272-42de-a756-89ec74c45d4d.jpeg",
+        "sha256": "069b8658242f9c2f46e532ebf381076d6a8306d16b20beaa74fb92992c1375e2"
+      },
+      "sourceAnswer": "네가 망치의 신 토르냐?",
+      "title": "토르: 라그나로크",
+      "category": "해외 영화",
+      "answer": "네가 망치의 신 토르냐?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 편명 식별",
+        "basis": "토르가 오딘에게 망치의 신이냐는 말을 듣는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-5361beb5-0272-42de-a756-89ec74c45d4d",
+      "displayAnswer": "네가 망치의 신 토르냐?"
+    },
+    {
+      "number": 30,
+      "questionImage": {
+        "url": "https://images.machugi.io/5aaa77c7-cf5f-49c9-ab7a-22862a6febf1.png",
+        "asset": "./uploads/marvel-ol4-5aaa77c7-cf5f-49c9-ab7a-22862a6febf1.png",
+        "sha256": "4d1e8cb2c76a059d9bc2542cdaa68b96bad423ecd6d5c7e60d6dde18dc5c3e33"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/18890bcc-48b2-4e60-a2a4-5a3d735d0379.png",
+        "asset": "./uploads/marvel-ol4-5aaa77c7-cf5f-49c9-ab7a-22862a6febf1.png",
+        "sha256": "4d1e8cb2c76a059d9bc2542cdaa68b96bad423ecd6d5c7e60d6dde18dc5c3e33"
+      },
+      "sourceAnswer": "우린 하나잖아",
+      "title": "아이언맨 3",
+      "category": "해외 영화",
+      "answer": "우린 하나잖아",
+      "titleVerification": {
+        "method": "대사 검색 및 원본 장면 대조",
+        "basis": "토니가 파란 체크 셔츠를 입고 차에서 할리와 작별하며 하는 대사 장면.",
+        "verified": true,
+        "url": "https://www.imdb.com/title/tt1300854/quotes/"
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ol4-5aaa77c7-cf5f-49c9-ab7a-22862a6febf1",
+      "displayAnswer": "우린 하나잖아"
+    }
+  ]
+}

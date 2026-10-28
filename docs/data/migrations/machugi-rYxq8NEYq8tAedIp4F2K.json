@@ -1,0 +1,1686 @@
+{
+  "source": "https://machugi.io/quiz/rYxq8NEYq8tAedIp4F2K",
+  "sourceTitle": "드라마 대사 맞추기!",
+  "sourceQuestionIds": [
+    "1l6CpXCsiCeW6DsKLPnw",
+    "32W6uXnNKDbt0i71RY64",
+    "3HecBfHCaDlFURKxT5Us",
+    "3e9a92IkHzJ9uk28cK4m",
+    "3zu7PrBSW9wz3DjeLlrc",
+    "5N5ryW5yh9fmOaSrekVM",
+    "7ZeEjV5XRcp9GGcq6iD7",
+    "848AJx9Y0DB3Jg8HcSSm",
+    "87OjlGWNuJKHWski6WRF",
+    "8REGReW42sXGg6ptHMIw",
+    "AHGVdbytmlqthE0F6GhD",
+    "AZlQ6Vwh6W16NgS2wmWd",
+    "F3Q4lfRMfRZtq8CiUWY4",
+    "FMxSkrRmIkPTZIlWOkSz",
+    "Fk1B961gOfl5OtfrR87r",
+    "FkXr7CSwvI0L4TO5fzah",
+    "H8mutcIwpymMKjaSAsau",
+    "HquNvGeZB4x9qPr2ltE0",
+    "IDeL1ICUoDKsH0GPwgyl",
+    "JZTrjBOmbmphHf4tRIeF",
+    "K6wwfrGeGLHi366M6bU7",
+    "KIwnlMwsAYvGiIcgvzXa",
+    "L5UmbxpHbBrzm7tXPHyq",
+    "MbZOPnqVPKPEosf1qBa0",
+    "QrRzYg7KQy1HSqs3EOdI",
+    "RJLAj6bJSZkn9AyxrTrs",
+    "RJdJIPHAJQ5NhCz89oBd",
+    "RM4bUafueHNi3nmlLCz1",
+    "TK9Q3x2uCKkuXkrcQ9oO",
+    "TMLL2BxJSpgvJpMVXFRz",
+    "UrVhe4WRoIz09srMTXiD",
+    "VStVN8wEihzA6tAgY6eJ",
+    "W4oq5Td55R5IRCeGNNmw",
+    "WLrqs3zQFMUSURoEMjOF",
+    "YCVp3ITu4umftSTgH7p1",
+    "ZNzjuiS9doTMOotiftkH",
+    "agX0J2rv2LM9WXZHmnRJ",
+    "bz5LYTdi1GH5D0TEqGno",
+    "ejjxXutpEHyOUzZ2x7fC",
+    "fx4Snxxscrkxy5hN3qu6",
+    "hoQQ1UlhteobhBmPeJXk",
+    "iGdhjykataDDfzzG9D9n",
+    "iZzjVQjTzpKwdUbdvzfT",
+    "jZcePD2E6fNdviXYDQxV",
+    "jyfDxVprjrHNjhxOIJI5",
+    "ludV2PbnBSNXWD2uYmY3",
+    "na4bYoIiAbKDV0UsJUCB",
+    "pGnDEds5kN3RF41Caqke",
+    "q35UY3jGyHsOztoJBD3k",
+    "rDFJC7Y9Tc0FobmLOw54",
+    "svxxTBYQ3FdiBo6VQrCD",
+    "tYpDDdTHvOyj5Ii4kpRl",
+    "w7bLOstaBRZICNfqJWBh",
+    "wd8SRdW7fqxrSWhb6cCH",
+    "zMfECkFqbOBv0L7M2SSV"
+  ],
+  "importedAt": "2026-10-28T04:45:04.465Z",
+  "baseCommit": "a2be185f5b10dfd78b6da03bbbb631cc9913b1c6",
+  "sourceCount": 55,
+  "added": 45,
+  "merged": 10,
+  "originalImageReferences": 110,
+  "uniqueOriginalImages": 55,
+  "titleVerifiedCount": 55,
+  "method": "출처의 전체 문항을 전수 수집하고 문제·정답 공개 이미지를 검토. 원본 이미지 바이트와 정답 원문을 보존. 같은 작품·대사의 중복 문제는 기존 ID·생성일·대사를 유지하며 이미지와 출처를 연결.",
+  "questions": [
+    {
+      "number": 1,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/d36bc988-8635-4d57-9fd3-e075b37dbeb6.jpg",
+        "asset": "./uploads/drama-ryx-d36bc988-8635-4d57-9fd3-e075b37dbeb6.jpg",
+        "sha256": "02f9afd1d8492dbb21b9c9b741b1863cd312c017b1fca5bbf14069f8960b6b64"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5fe7f864-8236-4113-9d74-04ad6e2e4c45.jpg",
+        "asset": "./uploads/drama-ryx-d36bc988-8635-4d57-9fd3-e075b37dbeb6.jpg",
+        "sha256": "02f9afd1d8492dbb21b9c9b741b1863cd312c017b1fca5bbf14069f8960b6b64"
+      },
+      "sourceAnswer": "의사면 남친 없겠네요 바빠서",
+      "title": "태양의 후예",
+      "category": "국내 드라마",
+      "answer": "의사면 남친 없겠네요 바빠서",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10007381344",
+        "basis": "유시진·강모연의 첫 만남 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-d36bc988-8635-4d57-9fd3-e075b37dbeb6",
+      "displayAnswer": "의사면 남친 없겠네요 바빠서"
+    },
+    {
+      "number": 2,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/71423cc8-9d3d-4398-ad4f-929bc099532a.jpg",
+        "asset": "./uploads/drama-ryx-71423cc8-9d3d-4398-ad4f-929bc099532a.jpg",
+        "sha256": "fc3bf556a858c52a32cd771e83927e34f5c9b99c43844214e97d62f2a7e1ba64"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/60821a5b-5250-4417-9103-e801cd7f511e.jpg",
+        "asset": "./uploads/drama-ryx-71423cc8-9d3d-4398-ad4f-929bc099532a.jpg",
+        "sha256": "fc3bf556a858c52a32cd771e83927e34f5c9b99c43844214e97d62f2a7e1ba64"
+      },
+      "sourceAnswer": "얼음",
+      "title": "오징어 게임",
+      "category": "국내 드라마",
+      "answer": "얼음",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.fnnews.com/news/202504272054558136",
+        "basis": "성기훈의 얼음 대사와 녹색 운동복 장면 대조. 작품명은 기존 항목과 동일하게 시즌을 제외.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-71423cc8-9d3d-4398-ad4f-929bc099532a",
+      "displayAnswer": "얼음"
+    },
+    {
+      "number": 3,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e15a832d-652e-45ec-81e3-55a48f3c24df.jpg",
+        "asset": "./uploads/drama-ryx-e15a832d-652e-45ec-81e3-55a48f3c24df.jpg",
+        "sha256": "c19675f6d86a1b7f637ed4572bbe30dc9bbf81b9bedba30c716898bdbe14a090"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/42486e7e-8008-4231-b3e4-814b4d80d296.jpg",
+        "asset": "./uploads/drama-ryx-e15a832d-652e-45ec-81e3-55a48f3c24df.jpg",
+        "sha256": "c19675f6d86a1b7f637ed4572bbe30dc9bbf81b9bedba30c716898bdbe14a090"
+      },
+      "sourceAnswer": "여기 네 앞에 나",
+      "title": "도깨비",
+      "category": "국내 드라마",
+      "answer": "여기 네 앞에 나",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "김신·지은탁의 여기 네 앞에 나 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-e15a832d-652e-45ec-81e3-55a48f3c24df",
+      "displayAnswer": "여기 네 앞에 나"
+    },
+    {
+      "number": 4,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/36c7ed0c-d43a-4c64-9a88-71b7828d66c8.jpg",
+        "asset": "./uploads/drama-ryx-36c7ed0c-d43a-4c64-9a88-71b7828d66c8.jpg",
+        "sha256": "91a3a65e404635d9ba72112390bf208b30a915958b9ca2c8dbef2198fe921c12"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e886f12e-431f-4449-ab31-5a41fc76ebcd.jpg",
+        "asset": "./uploads/drama-ryx-36c7ed0c-d43a-4c64-9a88-71b7828d66c8.jpg",
+        "sha256": "91a3a65e404635d9ba72112390bf208b30a915958b9ca2c8dbef2198fe921c12"
+      },
+      "sourceAnswer": "너나 잘하세요",
+      "title": "친절한 금자씨",
+      "category": "국내 영화",
+      "answer": "너나 잘하세요",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-12590bfd-1a10-4c56-9367-c649ab5aca0d",
+        "title": "친절한 금자씨",
+        "category": "국내 영화",
+        "year": "",
+        "answer": "너나 잘하세요.",
+        "hint": "",
+        "image": "./uploads/classics-mi8-aa66cc53-bf73-46ba-abbd-b61dc9e8a43e.png",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ab6adc21-a599-4baa-bf28-942b7565121f | 정답 공개 이미지: https://images.machugi.io/12590bfd-1a10-4c56-9367-c649ab5aca0d | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/cf6f65db-ba08-42e3-b6d8-abacc05366cc.jpeg | 정답 공개 이미지: https://images.machugi.io/4b1420a3-86dd-417a-9fea-1e08690450b7.jpeg | 추가 출처 원문: 너나 잘하세요. (친절한 금자씨) | 추가 출처: https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#37 | 추가 출처: https://machugi.io/quiz/Mi8y05gHSGWp2m7MiQHX | 원문·원본 이미지·제목 검증: ./data/migrations/machugi-Mi8y05gHSGWp2m7MiQHX.json#4",
+        "enabled": true,
+        "demo": false,
+        "version": 4,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-28T03:00:22.655Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-12590bfd-1a10-4c56-9367-c649ab5aca0d",
+      "displayAnswer": "너나 잘하세요."
+    },
+    {
+      "number": 5,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/d4bde024-4ffd-4967-af7f-949026e6f0cb.jpg",
+        "asset": "./uploads/drama-ryx-d4bde024-4ffd-4967-af7f-949026e6f0cb.jpg",
+        "sha256": "b529f54d0636fde319c26b2ad606385ec032a2ed2c39a9ef49f4557c90ea89c1"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/35a58743-8394-4472-b274-ecc26464beb9.jpg",
+        "asset": "./uploads/drama-ryx-d4bde024-4ffd-4967-af7f-949026e6f0cb.jpg",
+        "sha256": "b529f54d0636fde319c26b2ad606385ec032a2ed2c39a9ef49f4557c90ea89c1"
+      },
+      "sourceAnswer": "핥아",
+      "title": "꽃보다 남자",
+      "category": "국내 드라마",
+      "answer": "핥아",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "구준표의 핥아 장면과 꽃보다 남자 대사 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-d4bde024-4ffd-4967-af7f-949026e6f0cb",
+      "displayAnswer": "핥아"
+    },
+    {
+      "number": 6,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b0c88bcb-5326-41a1-b043-fcd136871d3a.jpg",
+        "asset": "./uploads/drama-ryx-b0c88bcb-5326-41a1-b043-fcd136871d3a.jpg",
+        "sha256": "6d6ed33bd458f6344c6d8a6bdba7d7bd6e5c247cb922ae1f3c7540ce11d7b24a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5c722ee9-3b9a-4c3b-85aa-8a1f277159cf.jpg",
+        "asset": "./uploads/drama-ryx-b0c88bcb-5326-41a1-b043-fcd136871d3a.jpg",
+        "sha256": "6d6ed33bd458f6344c6d8a6bdba7d7bd6e5c247cb922ae1f3c7540ce11d7b24a"
+      },
+      "sourceAnswer": "너 좋아해, 네가 남자건 외계인이건 이제 상관안해",
+      "title": "커피프린스 1호점",
+      "category": "국내 드라마",
+      "answer": "너 좋아해, 네가 남자건 외계인이건 이제 상관안해",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/112895",
+        "basis": "최한결의 남자·외계인 고백 대사가 작품명과 함께 수록됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-b0c88bcb-5326-41a1-b043-fcd136871d3a",
+      "displayAnswer": "너 좋아해, 네가 남자건 외계인이건 이제 상관안해"
+    },
+    {
+      "number": 7,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b4baf016-6b37-4456-9db3-a7e661634376.jpg",
+        "asset": "./uploads/drama-ryx-b4baf016-6b37-4456-9db3-a7e661634376.jpg",
+        "sha256": "817dc7e3fdbfb29ade8e8660e2ab804dd4f0450c8a8b9c1201461a8b4e7ce211"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ee380d7d-0766-42bf-8ff8-06c25cd9a765.jpg",
+        "asset": "./uploads/drama-ryx-b4baf016-6b37-4456-9db3-a7e661634376.jpg",
+        "sha256": "817dc7e3fdbfb29ade8e8660e2ab804dd4f0450c8a8b9c1201461a8b4e7ce211"
+      },
+      "sourceAnswer": "사랑은 돌아오는거야",
+      "title": "천국의 계단",
+      "category": "국내 드라마",
+      "answer": "사랑은 돌아오는거야",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-f3895aae-95fe-4f64-ad16-3d2555c6395d",
+        "title": "천국의 계단",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "사랑은 돌아오는 거야!",
+        "hint": "",
+        "image": "./uploads/drama-owd-5f02de04-3516-4e19-8382-47ee7ddd2c3a.jpeg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/d01be31e-b244-44d4-a1c6-a93b896116f6 | 정답 공개 이미지: https://images.machugi.io/f3895aae-95fe-4f64-ad16-3d2555c6395d | 추가 출처: https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#12",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-f3895aae-95fe-4f64-ad16-3d2555c6395d",
+      "displayAnswer": "사랑은 돌아오는 거야!"
+    },
+    {
+      "number": 8,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/fed60470-6146-4645-9e71-9f12532cab75.jpg",
+        "asset": "./uploads/drama-ryx-fed60470-6146-4645-9e71-9f12532cab75.jpg",
+        "sha256": "2386d06fb863a19e9804852b8267d7cc88c52fcb5d19d125f4d320aa1655c6be"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5f75fb30-72ee-4b6c-ba8b-b73025f17a62.jpg",
+        "asset": "./uploads/drama-ryx-fed60470-6146-4645-9e71-9f12532cab75.jpg",
+        "sha256": "2386d06fb863a19e9804852b8267d7cc88c52fcb5d19d125f4d320aa1655c6be"
+      },
+      "sourceAnswer": "사랑에 빠진게 죄는 아니잖아",
+      "title": "부부의 세계",
+      "category": "국내 드라마",
+      "answer": "사랑에 빠진게 죄는 아니잖아",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-84f282f7-6d86-4810-ad79-c83ff7f134fe",
+        "title": "부부의 세계",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "사랑에 빠진 게 죄는 아니잖아!!!!",
+        "hint": "",
+        "image": "./uploads/drama-owd-67bb0ebe-0a47-41bf-b585-7e7dfda25a06.jpeg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/6e1bd261-0463-4a60-9562-06a864f89823 | 정답 공개 이미지: https://images.machugi.io/84f282f7-6d86-4810-ad79-c83ff7f134fe | 추가 출처: https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#8",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-84f282f7-6d86-4810-ad79-c83ff7f134fe",
+      "displayAnswer": "사랑에 빠진 게 죄는 아니잖아!!!!"
+    },
+    {
+      "number": 9,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/c51c1d00-9914-48e4-aaba-0a76ad53c2c3.jpg",
+        "asset": "./uploads/drama-ryx-c51c1d00-9914-48e4-aaba-0a76ad53c2c3.jpg",
+        "sha256": "611e34d7654d3fe2266e1566f00989aa9249d75ba2260d3054c4db24d1dacf71"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5169aab8-8631-4d47-9a12-663ccbc56579.jpg",
+        "asset": "./uploads/drama-ryx-c51c1d00-9914-48e4-aaba-0a76ad53c2c3.jpg",
+        "sha256": "611e34d7654d3fe2266e1566f00989aa9249d75ba2260d3054c4db24d1dacf71"
+      },
+      "sourceAnswer": "만나지 말라고 해라",
+      "title": "응답하라 1997",
+      "category": "국내 드라마",
+      "answer": "만나지 말라고 해라",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10001106757",
+        "basis": "윤윤제의 같은 대사 및 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-c51c1d00-9914-48e4-aaba-0a76ad53c2c3",
+      "displayAnswer": "만나지 말라고 해라"
+    },
+    {
+      "number": 10,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/d40e9ae8-2861-4f3e-b716-0e4f2ffc0446.jpg",
+        "asset": "./uploads/drama-ryx-d40e9ae8-2861-4f3e-b716-0e4f2ffc0446.jpg",
+        "sha256": "52e20ab8d9cce377b4b4fb642e57438f5bcb7386eea362e482313ab9a95f9692"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5739e894-b7f5-4f9c-9167-7bda117be464.jpg",
+        "asset": "./uploads/drama-ryx-d40e9ae8-2861-4f3e-b716-0e4f2ffc0446.jpg",
+        "sha256": "52e20ab8d9cce377b4b4fb642e57438f5bcb7386eea362e482313ab9a95f9692"
+      },
+      "sourceAnswer": "푼돈으로 방금 내가 쟤 하늘이 됐어",
+      "title": "더 글로리",
+      "category": "국내 드라마",
+      "answer": "푼돈으로 방금 내가 쟤 하늘이 됐어",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.sportsseoul.com/news/read/1189631",
+        "basis": "박연진의 하늘 대사와 빨간 옷 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-d40e9ae8-2861-4f3e-b716-0e4f2ffc0446",
+      "displayAnswer": "푼돈으로 방금 내가 쟤 하늘이 됐어"
+    },
+    {
+      "number": 11,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/a42ac195-54e1-480a-8d01-374c85642367.jpg",
+        "asset": "./uploads/drama-ryx-a42ac195-54e1-480a-8d01-374c85642367.jpg",
+        "sha256": "8c43b9498ebb1a93cdf9a0d318d49290088f4bf8bb5cc0f2453d799a35eb90c0"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/7fe3b69d-be3b-4fca-8b24-2303e559574c.jpg",
+        "asset": "./uploads/drama-ryx-a42ac195-54e1-480a-8d01-374c85642367.jpg",
+        "sha256": "8c43b9498ebb1a93cdf9a0d318d49290088f4bf8bb5cc0f2453d799a35eb90c0"
+      },
+      "sourceAnswer": "빵꾸똥꾸야!",
+      "title": "지붕뚫고 하이킥",
+      "category": "국내 드라마",
+      "answer": "빵꾸똥꾸야!",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-bc5f3cdb-125c-4e18-ae3a-b9ceb0d6517b",
+        "title": "지붕뚫고 하이킥",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "이 빵꾸똥꾸야!",
+        "hint": "",
+        "image": "./uploads/machugi-6fcfe7b7-c16d-4cf1-b5a7-a2ef0c755cb7.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/6fcfe7b7-c16d-4cf1-b5a7-a2ef0c755cb7 | 정답 공개 이미지: https://images.machugi.io/bc5f3cdb-125c-4e18-ae3a-b9ceb0d6517b",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T14:38:39.990Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-bc5f3cdb-125c-4e18-ae3a-b9ceb0d6517b",
+      "displayAnswer": "이 빵꾸똥꾸야!"
+    },
+    {
+      "number": 12,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/67ff18ba-856f-41cf-a7eb-917916a42b5e.jpg",
+        "asset": "./uploads/drama-ryx-67ff18ba-856f-41cf-a7eb-917916a42b5e.jpg",
+        "sha256": "a80e9ef9fa9cd6f51e457e4d6af696cdd47d9da74f390f7dc6eec8872e95e7b9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/486633db-2ec6-4775-b420-904c8660328c.jpg",
+        "asset": "./uploads/drama-ryx-67ff18ba-856f-41cf-a7eb-917916a42b5e.jpg",
+        "sha256": "a80e9ef9fa9cd6f51e457e4d6af696cdd47d9da74f390f7dc6eec8872e95e7b9"
+      },
+      "sourceAnswer": "사랑해 해인아",
+      "title": "눈물의 여왕",
+      "category": "국내 드라마",
+      "answer": "사랑해 해인아",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://ent.sbs.co.kr/popup/articlePrint.do?article_id=E10010286238",
+        "basis": "백현우·홍해인 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-67ff18ba-856f-41cf-a7eb-917916a42b5e",
+      "displayAnswer": "사랑해 해인아"
+    },
+    {
+      "number": 13,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/304bed7b-65f7-41f9-8970-1ad6eb12210e.jpg",
+        "asset": "./uploads/drama-ryx-304bed7b-65f7-41f9-8970-1ad6eb12210e.jpg",
+        "sha256": "2e11ba01f05716d2bebe2e48da76815b98eea2ec85ef8fdad489bdd1ed646fd4"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/3f5a5865-05dd-4a97-9cf4-a513588a18e8.jpg",
+        "asset": "./uploads/drama-ryx-304bed7b-65f7-41f9-8970-1ad6eb12210e.jpg",
+        "sha256": "2e11ba01f05716d2bebe2e48da76815b98eea2ec85ef8fdad489bdd1ed646fd4"
+      },
+      "sourceAnswer": "천송이가 랩을 한다 송송송~",
+      "title": "별에서 온 그대",
+      "category": "국내 드라마",
+      "answer": "천송이가 랩을 한다 송송송~",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "천송이의 송송송 랩 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-304bed7b-65f7-41f9-8970-1ad6eb12210e",
+      "displayAnswer": "천송이가 랩을 한다 송송송~"
+    },
+    {
+      "number": 14,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/3fccda0e-53fd-4a60-aad0-976aa2749697.jpg",
+        "asset": "./uploads/drama-ryx-3fccda0e-53fd-4a60-aad0-976aa2749697.jpg",
+        "sha256": "8f9aec89cc18d5250607601a04a522ee88bad474dcbcf30c02ebc3a4924d6b9b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e1149903-6ecb-4419-bca4-fd8682f63319.jpg",
+        "asset": "./uploads/drama-ryx-3fccda0e-53fd-4a60-aad0-976aa2749697.jpg",
+        "sha256": "8f9aec89cc18d5250607601a04a522ee88bad474dcbcf30c02ebc3a4924d6b9b"
+      },
+      "sourceAnswer": "당신은, 당신의 조선을 구하시오. 난 당신을 구할거니까.",
+      "title": "미스터 션샤인",
+      "category": "국내 드라마",
+      "answer": "당신은, 당신의 조선을 구하시오. 난 당신을 구할거니까.",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "유진 초이·고애신의 조선과 구원 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-3fccda0e-53fd-4a60-aad0-976aa2749697",
+      "displayAnswer": "당신은, 당신의 조선을 구하시오. 난 당신을 구할거니까."
+    },
+    {
+      "number": 15,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/385ba877-f7e4-4a1c-b9a2-64e804ebeae6.jpg",
+        "asset": "./uploads/drama-ryx-385ba877-f7e4-4a1c-b9a2-64e804ebeae6.jpg",
+        "sha256": "0c7e83fd43791ee3fe580c63b58baeffe96a4edffc1134508909ed6d2d97dc10"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/410e1b4b-5a28-419e-9bd4-cdf62c2baf06.jpg",
+        "asset": "./uploads/drama-ryx-385ba877-f7e4-4a1c-b9a2-64e804ebeae6.jpg",
+        "sha256": "0c7e83fd43791ee3fe580c63b58baeffe96a4edffc1134508909ed6d2d97dc10"
+      },
+      "sourceAnswer": "그러면 헤어져줄 거야?",
+      "title": "마이 데몬",
+      "category": "국내 드라마",
+      "answer": "그러면 헤어져줄 거야?",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://enews.imbc.com/News/RetrieveNewsInfo/406875",
+        "basis": "기사의 작품·등장인물 정보와 정구원·도도희 장면을 대조해 식별. 기사에 원문 대사가 직접 수록된 것은 아님.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-385ba877-f7e4-4a1c-b9a2-64e804ebeae6",
+      "displayAnswer": "그러면 헤어져줄 거야?"
+    },
+    {
+      "number": 16,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/8d251bd9-9c52-47ba-8cbd-599b8323a2c4.jpg",
+        "asset": "./uploads/drama-ryx-8d251bd9-9c52-47ba-8cbd-599b8323a2c4.jpg",
+        "sha256": "0c4ec18008244fe8bf0e065924421a267f2a0e0382357ee02d4485463a36e29a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/2641e99b-a38e-465c-abea-86efc8a91a01.jpg",
+        "asset": "./uploads/drama-ryx-8d251bd9-9c52-47ba-8cbd-599b8323a2c4.jpg",
+        "sha256": "0c4ec18008244fe8bf0e065924421a267f2a0e0382357ee02d4485463a36e29a"
+      },
+      "sourceAnswer": "도망쳐! 지금이야",
+      "title": "피라미드 게임",
+      "category": "국내 드라마",
+      "answer": "도망쳐! 지금이야",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.ajunews.com/view/20240408170807357",
+        "basis": "장다아 인터뷰에서 백하린의 같은 대사를 직접 언급.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-8d251bd9-9c52-47ba-8cbd-599b8323a2c4",
+      "displayAnswer": "도망쳐! 지금이야"
+    },
+    {
+      "number": 17,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/c11f322b-4c7c-43eb-b778-a6d8f0eea3e6.jpg",
+        "asset": "./uploads/drama-ryx-c11f322b-4c7c-43eb-b778-a6d8f0eea3e6.jpg",
+        "sha256": "5bde9ed91de215e11a10c69370c6ee07a87128623defa50ba89a79f6713b15ea"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/fe5b6352-cf02-4cc6-8d06-ed6275388de7.jpg",
+        "asset": "./uploads/drama-ryx-c11f322b-4c7c-43eb-b778-a6d8f0eea3e6.jpg",
+        "sha256": "5bde9ed91de215e11a10c69370c6ee07a87128623defa50ba89a79f6713b15ea"
+      },
+      "sourceAnswer": "미안해, 너무 늦었지?",
+      "title": "별에서 온 그대",
+      "category": "국내 드라마",
+      "answer": "미안해, 너무 늦었지?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "도민준·천송이의 재회 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-c11f322b-4c7c-43eb-b778-a6d8f0eea3e6",
+      "displayAnswer": "미안해, 너무 늦었지?"
+    },
+    {
+      "number": 18,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/1f7156eb-5d24-4384-ace4-fc4171596937.jpg",
+        "asset": "./uploads/drama-ryx-1f7156eb-5d24-4384-ace4-fc4171596937.jpg",
+        "sha256": "3998cd088b78704244bb9a7e30e000865381a0d74c1c5083e46a76d297ff4480"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/1f975051-bb71-437c-8ccc-1fd37cd18742.jpg",
+        "asset": "./uploads/drama-ryx-1f7156eb-5d24-4384-ace4-fc4171596937.jpg",
+        "sha256": "3998cd088b78704244bb9a7e30e000865381a0d74c1c5083e46a76d297ff4480"
+      },
+      "sourceAnswer": "여신 강림?!",
+      "title": "여신강림",
+      "category": "국내 드라마",
+      "answer": "여신 강림?!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "새봄고 교복과 등장인물 장면 및 작품명을 말하는 원문 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-1f7156eb-5d24-4384-ace4-fc4171596937",
+      "displayAnswer": "여신 강림?!"
+    },
+    {
+      "number": 19,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/da2bc478-c2b8-46bc-b510-517d8349a6f4.jpg",
+        "asset": "./uploads/drama-ryx-da2bc478-c2b8-46bc-b510-517d8349a6f4.jpg",
+        "sha256": "b565fa7bf9e75e84795d7375148cd75fdf936cc2a406c7eb51be233c0b28b9eb"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/1c5d7c7e-1c9f-484d-8e9a-d45931f0d1c2.jpg",
+        "asset": "./uploads/drama-ryx-da2bc478-c2b8-46bc-b510-517d8349a6f4.jpg",
+        "sha256": "b565fa7bf9e75e84795d7375148cd75fdf936cc2a406c7eb51be233c0b28b9eb"
+      },
+      "sourceAnswer": "솔아, 나 다 기억났어",
+      "title": "선재 업고 튀어",
+      "category": "국내 드라마",
+      "answer": "솔아, 나 다 기억났어",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "류선재·임솔의 기억 회복 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-da2bc478-c2b8-46bc-b510-517d8349a6f4",
+      "displayAnswer": "솔아, 나 다 기억났어"
+    },
+    {
+      "number": 20,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/2550568f-e0ca-431a-bcfe-916a92c5a21d.jpg",
+        "asset": "./uploads/drama-ryx-2550568f-e0ca-431a-bcfe-916a92c5a21d.jpg",
+        "sha256": "1d7969d085e996dddf740462cc1be9397b8edb31897e56727280f5103618fa02"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/156e78b0-53fb-4d0e-9b34-838e09acf8de.jpg",
+        "asset": "./uploads/drama-ryx-2550568f-e0ca-431a-bcfe-916a92c5a21d.jpg",
+        "sha256": "1d7969d085e996dddf740462cc1be9397b8edb31897e56727280f5103618fa02"
+      },
+      "sourceAnswer": "살린다, 무슨 일이 있어도 살린다",
+      "title": "낭만닥터 김사부",
+      "category": "국내 드라마",
+      "answer": "살린다, 무슨 일이 있어도 살린다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "김사부의 수술과 생명 구원 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-2550568f-e0ca-431a-bcfe-916a92c5a21d",
+      "displayAnswer": "살린다, 무슨 일이 있어도 살린다"
+    },
+    {
+      "number": 21,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/068ac747-e7c4-40b0-baf5-10fc00a6f2a2.jpg",
+        "asset": "./uploads/drama-ryx-068ac747-e7c4-40b0-baf5-10fc00a6f2a2.jpg",
+        "sha256": "558ab72dd6c0a122623b914ae01a53f5426c703be4a402c496782123539ddad7"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/149a99d0-1162-4231-8b2b-5fdf95df2a77.jpg",
+        "asset": "./uploads/drama-ryx-068ac747-e7c4-40b0-baf5-10fc00a6f2a2.jpg",
+        "sha256": "558ab72dd6c0a122623b914ae01a53f5426c703be4a402c496782123539ddad7"
+      },
+      "sourceAnswer": "못 매 치워. 안 치워 매.",
+      "title": "킬미, 힐미",
+      "category": "국내 드라마",
+      "answer": "못 매 치워. 안 치워 매.",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://imnews.imbc.com/replay/2015/nwtoday/article/3645735_30285.html",
+        "basis": "MBC가 소개한 신세기·오리진의 넥타이 랩 장면과 원문 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-068ac747-e7c4-40b0-baf5-10fc00a6f2a2",
+      "displayAnswer": "못 매 치워. 안 치워 매."
+    },
+    {
+      "number": 22,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/416efef0-7739-4c50-a0ec-4da923c484d1.jpg",
+        "asset": "./uploads/drama-ryx-416efef0-7739-4c50-a0ec-4da923c484d1.jpg",
+        "sha256": "52c45870e17e4d96c78b2cb79b743e3f032784a1156ac012c38846174b8d7f94"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/d6c713f5-67ce-473d-b7a4-c906aaae785f.jpg",
+        "asset": "./uploads/drama-ryx-416efef0-7739-4c50-a0ec-4da923c484d1.jpg",
+        "sha256": "52c45870e17e4d96c78b2cb79b743e3f032784a1156ac012c38846174b8d7f94"
+      },
+      "sourceAnswer": "이곳의 주인공은 한 명이거든",
+      "title": "유미의 세포들",
+      "category": "국내 드라마",
+      "answer": "이곳의 주인공은 한 명이거든",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.mk.co.kr/news/broadcasting-service/12035613",
+        "basis": "시즌1의 주인공 대사를 회고하는 기사와 세포 애니메이션 장면 대조. 실사 드라마로 분류.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-416efef0-7739-4c50-a0ec-4da923c484d1",
+      "displayAnswer": "이곳의 주인공은 한 명이거든"
+    },
+    {
+      "number": 23,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/bc698f57-beed-4ca1-8bcc-e36adcad691c.jpg",
+        "asset": "./uploads/drama-ryx-bc698f57-beed-4ca1-8bcc-e36adcad691c.jpg",
+        "sha256": "01bd9219ff27309ae3d80a226bedcf849b4f7854d000b7d5f7ca2c8f99d18637"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/dd8f33a4-6dac-45a1-8365-06bc27750408.jpg",
+        "asset": "./uploads/drama-ryx-bc698f57-beed-4ca1-8bcc-e36adcad691c.jpg",
+        "sha256": "01bd9219ff27309ae3d80a226bedcf849b4f7854d000b7d5f7ca2c8f99d18637"
+      },
+      "sourceAnswer": "당신이 내 누이였고, 딸이었고, 손녀였습니다.",
+      "title": "호텔 델루나",
+      "category": "국내 드라마",
+      "answer": "당신이 내 누이였고, 딸이었고, 손녀였습니다.",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.dispatch.co.kr/2031787",
+        "basis": "기사의 같은 대사와 장만월·고청명 장면을 원본과 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-bc698f57-beed-4ca1-8bcc-e36adcad691c",
+      "displayAnswer": "당신이 내 누이였고, 딸이었고, 손녀였습니다."
+    },
+    {
+      "number": 24,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e9166b7f-b8df-41da-84b8-8f0a8f521ae4.jpg",
+        "asset": "./uploads/drama-ryx-e9166b7f-b8df-41da-84b8-8f0a8f521ae4.jpg",
+        "sha256": "fb6ec51d3ecfc42f867a5e90b2244b67e188522394df085510beeeb50946077f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/99cb8448-527c-466d-a210-009738ec684e.jpg",
+        "asset": "./uploads/drama-ryx-e9166b7f-b8df-41da-84b8-8f0a8f521ae4.jpg",
+        "sha256": "fb6ec51d3ecfc42f867a5e90b2244b67e188522394df085510beeeb50946077f"
+      },
+      "sourceAnswer": "엄마, 나는요 예쁜 마녀가 될래요",
+      "title": "사이코지만 괜찮아",
+      "category": "국내 드라마",
+      "answer": "엄마, 나는요 예쁜 마녀가 될래요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "고문영의 예쁜 마녀 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-e9166b7f-b8df-41da-84b8-8f0a8f521ae4",
+      "displayAnswer": "엄마, 나는요 예쁜 마녀가 될래요"
+    },
+    {
+      "number": 25,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/19728f1f-d04e-4858-af6c-5a24d15d1080.jpg",
+        "asset": "./uploads/drama-ryx-19728f1f-d04e-4858-af6c-5a24d15d1080.jpg",
+        "sha256": "29e8f1d3041f6b3696978d00eeb238b2bd19f9eebc53273db27c791daefd109d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/4553fe2b-67c7-4f44-b2a5-1c2f6061f1da.jpg",
+        "asset": "./uploads/drama-ryx-19728f1f-d04e-4858-af6c-5a24d15d1080.jpg",
+        "sha256": "29e8f1d3041f6b3696978d00eeb238b2bd19f9eebc53273db27c791daefd109d"
+      },
+      "sourceAnswer": "나랑 바나나우유 먹으러 갈래?",
+      "title": "엄마친구아들",
+      "category": "국내 드라마",
+      "answer": "나랑 바나나우유 먹으러 갈래?",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.cosmopolitan.co.kr/article/1871529",
+        "basis": "배석류의 바나나우유 대사가 작품명과 함께 수록됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-19728f1f-d04e-4858-af6c-5a24d15d1080",
+      "displayAnswer": "나랑 바나나우유 먹으러 갈래?"
+    },
+    {
+      "number": 26,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/86b0a183-d78e-4c00-a363-d50afbf8b499.jpg",
+        "asset": "./uploads/drama-ryx-86b0a183-d78e-4c00-a363-d50afbf8b499.jpg",
+        "sha256": "5f6509c690b242f08932cebacb13a4509439aadc0bc9e75b05c51c066eb5fc66"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/98fad20e-4351-451d-a205-71d9e12abe9c.jpg",
+        "asset": "./uploads/drama-ryx-86b0a183-d78e-4c00-a363-d50afbf8b499.jpg",
+        "sha256": "5f6509c690b242f08932cebacb13a4509439aadc0bc9e75b05c51c066eb5fc66"
+      },
+      "sourceAnswer": "사랑하다의 반대는 미워하다가 아니었어요. 버리다 였습니다.",
+      "title": "달의 연인 - 보보경심 려",
+      "category": "국내 드라마",
+      "answer": "사랑하다의 반대는 미워하다가 아니었어요. 버리다 였습니다.",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://v.daum.net/v/20161102102504046?s=print_news",
+        "basis": "해수의 사랑·버림 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-86b0a183-d78e-4c00-a363-d50afbf8b499",
+      "displayAnswer": "사랑하다의 반대는 미워하다가 아니었어요. 버리다 였습니다."
+    },
+    {
+      "number": 27,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/cc71ec21-e302-4eef-af83-6b86dd927eff.jpg",
+        "asset": "./uploads/drama-ryx-cc71ec21-e302-4eef-af83-6b86dd927eff.jpg",
+        "sha256": "d9af6fc7563df93f2c9d48171690c1464a2f46463cd69360ad82377e2b46be1c"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/834c15b2-9f51-46a0-989d-34e16a9c0b0c.jpg",
+        "asset": "./uploads/drama-ryx-cc71ec21-e302-4eef-af83-6b86dd927eff.jpg",
+        "sha256": "d9af6fc7563df93f2c9d48171690c1464a2f46463cd69360ad82377e2b46be1c"
+      },
+      "sourceAnswer": "사랑해요",
+      "title": "도깨비",
+      "category": "국내 드라마",
+      "answer": "사랑해요",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-owd-8aa56480-3a87-4454-8def-aa9a1a073d41",
+        "title": "도깨비",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "저 시집갈께요. 아저씨한테. 사랑해요.",
+        "hint": "",
+        "image": "./uploads/drama-owd-8aa56480-3a87-4454-8def-aa9a1a073d41.jpeg",
+        "source": "https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#29",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-28T00:02:02.493Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-owd-8aa56480-3a87-4454-8def-aa9a1a073d41",
+      "displayAnswer": "저 시집갈께요. 아저씨한테. 사랑해요."
+    },
+    {
+      "number": 28,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/70aa15ef-fbba-4eea-a05a-2212bd0a5d30.jpg",
+        "asset": "./uploads/drama-ryx-70aa15ef-fbba-4eea-a05a-2212bd0a5d30.jpg",
+        "sha256": "a86804d09d52b7c4f2a19e4a63d9739ced5396992f8fdd9322b8fa2dbf2d7a80"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/38728edb-06cd-41fd-9a51-787ee7d33711.jpg",
+        "asset": "./uploads/drama-ryx-70aa15ef-fbba-4eea-a05a-2212bd0a5d30.jpg",
+        "sha256": "a86804d09d52b7c4f2a19e4a63d9739ced5396992f8fdd9322b8fa2dbf2d7a80"
+      },
+      "sourceAnswer": "멋지다 연진아",
+      "title": "더 글로리",
+      "category": "국내 드라마",
+      "answer": "멋지다 연진아",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-852357b4-224c-4af4-9545-951592addbcc",
+        "title": "더 글로리",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "화이팅 박연진! 브라보! 멋지다 연진아~",
+        "hint": "",
+        "image": "./uploads/drama-owd-4543fb9d-f7dc-4876-8b38-267501d14dcd.jpeg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/2b81ccdb-4a5f-40ae-8e21-ad88d0358637 | 정답 공개 이미지: https://images.machugi.io/852357b4-224c-4af4-9545-951592addbcc | 추가 출처: https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#7",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-852357b4-224c-4af4-9545-951592addbcc",
+      "displayAnswer": "화이팅 박연진! 브라보! 멋지다 연진아~"
+    },
+    {
+      "number": 29,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b4956bbb-c0c7-4a99-bfff-915249303dc0.jpg",
+        "asset": "./uploads/drama-ryx-b4956bbb-c0c7-4a99-bfff-915249303dc0.jpg",
+        "sha256": "c830506371904d7142c349de86d91350f926f20345350a3854a1e5e1d7e27ca6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/2d4db54c-b57f-49c8-bc45-3977100934fd.jpg",
+        "asset": "./uploads/drama-ryx-b4956bbb-c0c7-4a99-bfff-915249303dc0.jpg",
+        "sha256": "c830506371904d7142c349de86d91350f926f20345350a3854a1e5e1d7e27ca6"
+      },
+      "sourceAnswer": "공평 좋아해서 사랑도 두 여자한테 나눠줬니?",
+      "title": "기상청 사람들: 사내연애 잔혹사 편",
+      "category": "국내 드라마",
+      "answer": "공평 좋아해서 사랑도 두 여자한테 나눠줬니?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "진하경·한기준의 두 여자 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-b4956bbb-c0c7-4a99-bfff-915249303dc0",
+      "displayAnswer": "공평 좋아해서 사랑도 두 여자한테 나눠줬니?"
+    },
+    {
+      "number": 30,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/f8669f88-e5ca-476b-bb33-458736b9bd73.jpg",
+        "asset": "./uploads/drama-ryx-f8669f88-e5ca-476b-bb33-458736b9bd73.jpg",
+        "sha256": "4da90c64ae18dfe8768e00da8c0fe0d86b9b8d41135c68e1913866f733ef1131"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/21be74e2-3806-4140-a5f8-69f357f10299.jpg",
+        "asset": "./uploads/drama-ryx-f8669f88-e5ca-476b-bb33-458736b9bd73.jpg",
+        "sha256": "4da90c64ae18dfe8768e00da8c0fe0d86b9b8d41135c68e1913866f733ef1131"
+      },
+      "sourceAnswer": "내가 그렇게 좋아?",
+      "title": "밥 잘 사주는 예쁜 누나",
+      "category": "국내 드라마",
+      "answer": "내가 그렇게 좋아?",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://vod.jtbc.co.kr/player/clip/vo10218518",
+        "basis": "JTBC 작품 클립의 윤진아·서준희 장면과 원본 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-f8669f88-e5ca-476b-bb33-458736b9bd73",
+      "displayAnswer": "내가 그렇게 좋아?"
+    },
+    {
+      "number": 31,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b83c3f83-32b0-4c3a-8e14-014da76e415d.jpg",
+        "asset": "./uploads/drama-ryx-b83c3f83-32b0-4c3a-8e14-014da76e415d.jpg",
+        "sha256": "44b592348bddccfa7ab2b7ef39a16f85714e73f5a301fa150066bdf22f09b81a"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/767526a2-3d36-4eb4-bcef-ef5af033ad87.jpg",
+        "asset": "./uploads/drama-ryx-b83c3f83-32b0-4c3a-8e14-014da76e415d.jpg",
+        "sha256": "44b592348bddccfa7ab2b7ef39a16f85714e73f5a301fa150066bdf22f09b81a"
+      },
+      "sourceAnswer": "사탄들의 학교의 루시퍼의 등장이라",
+      "title": "상속자들",
+      "category": "국내 드라마",
+      "answer": "사탄들의 학교의 루시퍼의 등장이라",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "최영도의 사탄·루시퍼 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-b83c3f83-32b0-4c3a-8e14-014da76e415d",
+      "displayAnswer": "사탄들의 학교의 루시퍼의 등장이라"
+    },
+    {
+      "number": 32,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b8422ad4-586b-434e-a6f9-2d89b8af196a.jpg",
+        "asset": "./uploads/drama-ryx-b8422ad4-586b-434e-a6f9-2d89b8af196a.jpg",
+        "sha256": "6445aa93ae1739f97be9fc4fbb6f3bffd5f036af17b9ee87a6ba46bcb24c08de"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ddb906ac-162b-437f-bd15-ea109cb86eb7.jpg",
+        "asset": "./uploads/drama-ryx-b8422ad4-586b-434e-a6f9-2d89b8af196a.jpg",
+        "sha256": "6445aa93ae1739f97be9fc4fbb6f3bffd5f036af17b9ee87a6ba46bcb24c08de"
+      },
+      "sourceAnswer": "나는 네가 아주아주 불행했으면 좋겠어",
+      "title": "또 오해영",
+      "category": "국내 드라마",
+      "answer": "나는 네가 아주아주 불행했으면 좋겠어",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.elle.co.kr/article/19800",
+        "basis": "오해영의 불행 대사와 통화 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-b8422ad4-586b-434e-a6f9-2d89b8af196a",
+      "displayAnswer": "나는 네가 아주아주 불행했으면 좋겠어"
+    },
+    {
+      "number": 33,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/c427d4be-346a-42d6-b8e4-3559cdf68502.jpg",
+        "asset": "./uploads/drama-ryx-c427d4be-346a-42d6-b8e4-3559cdf68502.jpg",
+        "sha256": "9b95b070b595fe379519db3ba227fb14d83f5c29043ba7509ea81869995ff57d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/48ae2445-c7b7-41f2-8749-dfb017a811aa.jpg",
+        "asset": "./uploads/drama-ryx-c427d4be-346a-42d6-b8e4-3559cdf68502.jpg",
+        "sha256": "9b95b070b595fe379519db3ba227fb14d83f5c29043ba7509ea81869995ff57d"
+      },
+      "sourceAnswer": "그러니까, 한 발자국도 멀어지지 말라고",
+      "title": "스물다섯 스물하나",
+      "category": "국내 드라마",
+      "answer": "그러니까, 한 발자국도 멀어지지 말라고",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://enews.imbc.com/M/Detail/342157",
+        "basis": "나희도의 한 발자국 대사가 작품명과 함께 수록됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-c427d4be-346a-42d6-b8e4-3559cdf68502",
+      "displayAnswer": "그러니까, 한 발자국도 멀어지지 말라고"
+    },
+    {
+      "number": 34,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/494785c4-4c50-4fc9-af45-32feb686d10b.jpg",
+        "asset": "./uploads/drama-ryx-494785c4-4c50-4fc9-af45-32feb686d10b.jpg",
+        "sha256": "bb52975f9aa7ddc309a0c9fb6b1be0602f4c1bf1b647005f82ddc19d163027c6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/0583fd60-e0f2-4cd1-9a2b-c849237813d3.jpg",
+        "asset": "./uploads/drama-ryx-494785c4-4c50-4fc9-af45-32feb686d10b.jpg",
+        "sha256": "bb52975f9aa7ddc309a0c9fb6b1be0602f4c1bf1b647005f82ddc19d163027c6"
+      },
+      "sourceAnswer": "밥 먹을래 나랑 같이.. 죽을래?",
+      "title": "미안하다, 사랑한다",
+      "category": "국내 드라마",
+      "answer": "밥 먹을래 나랑 같이.. 죽을래?",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "차무혁의 밥과 죽음 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-494785c4-4c50-4fc9-af45-32feb686d10b",
+      "displayAnswer": "밥 먹을래 나랑 같이.. 죽을래?"
+    },
+    {
+      "number": 35,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ac377ca4-f740-4039-a5ca-f9853bb23db4.jpg",
+        "asset": "./uploads/drama-ryx-ac377ca4-f740-4039-a5ca-f9853bb23db4.jpg",
+        "sha256": "0129f417db4bcb3ad52bd63a1c35107ca620eb13f1677bab5a7d5dbf308f3a51"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/41ba5d3c-e81a-4a94-9dff-ab2e7d01d0cd.jpg",
+        "asset": "./uploads/drama-ryx-ac377ca4-f740-4039-a5ca-f9853bb23db4.jpg",
+        "sha256": "0129f417db4bcb3ad52bd63a1c35107ca620eb13f1677bab5a7d5dbf308f3a51"
+      },
+      "sourceAnswer": "지랄하고 자빠졌네",
+      "title": "뿌리깊은 나무",
+      "category": "국내 드라마",
+      "answer": "지랄하고 자빠졌네",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.namu.moe/w/지랄하고%20자빠졌네",
+        "basis": "세종의 대사 설명과 원본의 세종 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-ac377ca4-f740-4039-a5ca-f9853bb23db4",
+      "displayAnswer": "지랄하고 자빠졌네"
+    },
+    {
+      "number": 36,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/79180475-73a7-43d0-9a69-f1f35f069c02.jpg",
+        "asset": "./uploads/drama-ryx-79180475-73a7-43d0-9a69-f1f35f069c02.jpg",
+        "sha256": "38c07cc92698b34b8a158fb9a473867c8a691518c3d9ef45055117c0abdc3ad9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/6d535dd8-c852-4748-9fad-85b38ee9baec.jpg",
+        "asset": "./uploads/drama-ryx-79180475-73a7-43d0-9a69-f1f35f069c02.jpg",
+        "sha256": "38c07cc92698b34b8a158fb9a473867c8a691518c3d9ef45055117c0abdc3ad9"
+      },
+      "sourceAnswer": "내 걱정이, 당신 일에 끼어들어 정말 미안하네요",
+      "title": "태양의 후예",
+      "category": "국내 드라마",
+      "answer": "내 걱정이, 당신 일에 끼어들어 정말 미안하네요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "강모연·유시진의 걱정과 임무 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-79180475-73a7-43d0-9a69-f1f35f069c02",
+      "displayAnswer": "내 걱정이, 당신 일에 끼어들어 정말 미안하네요"
+    },
+    {
+      "number": 37,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ee32fdd3-c2d5-466c-97f1-3cb5b9b92a75.jpg",
+        "asset": "./uploads/drama-ryx-ee32fdd3-c2d5-466c-97f1-3cb5b9b92a75.jpg",
+        "sha256": "a712eae1304251da957b7bd1ee851a0112311749891422078ef1a7e736255ea3"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/9f433f44-5fc9-4d40-bca5-457a04be854f.jpg",
+        "asset": "./uploads/drama-ryx-ee32fdd3-c2d5-466c-97f1-3cb5b9b92a75.jpg",
+        "sha256": "a712eae1304251da957b7bd1ee851a0112311749891422078ef1a7e736255ea3"
+      },
+      "sourceAnswer": "우 to the 영 to the 우",
+      "title": "이상한 변호사 우영우",
+      "category": "국내 드라마",
+      "answer": "우 to the 영 to the 우",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "우영우의 자기소개 장면. 기존 동그라미 대사와 화자·문구가 다름.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-ee32fdd3-c2d5-466c-97f1-3cb5b9b92a75",
+      "displayAnswer": "우 to the 영 to the 우"
+    },
+    {
+      "number": 38,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ddea3463-649c-4497-907c-c98ff155ca93.jpg",
+        "asset": "./uploads/drama-ryx-ddea3463-649c-4497-907c-c98ff155ca93.jpg",
+        "sha256": "e24a5cb9bdb060c886dc1ac6fd8837368102b2a0c857fb11b8a515a21520de6d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/1ea35739-b622-4953-ae13-e54afda81892.jpg",
+        "asset": "./uploads/drama-ryx-ddea3463-649c-4497-907c-c98ff155ca93.jpg",
+        "sha256": "e24a5cb9bdb060c886dc1ac6fd8837368102b2a0c857fb11b8a515a21520de6d"
+      },
+      "sourceAnswer": "나 두 사람 안 반가워",
+      "title": "조립식 가족",
+      "category": "국내 드라마",
+      "answer": "나 두 사람 안 반가워",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://news.nate.com/view/20241106n43365",
+        "basis": "윤주원의 같은 대사와 작품명이 함께 수록됨.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-ddea3463-649c-4497-907c-c98ff155ca93",
+      "displayAnswer": "나 두 사람 안 반가워"
+    },
+    {
+      "number": 39,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/19df8a49-21ae-4a6f-8b32-30166bbde571.jpg",
+        "asset": "./uploads/drama-ryx-19df8a49-21ae-4a6f-8b32-30166bbde571.jpg",
+        "sha256": "a4ed7f5f0e05a56094d90b195a77f0ef1b916e03da5629984d55fab64a792890"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ce7d13c3-afbc-46dc-bf22-4e990f8a23f3.jpg",
+        "asset": "./uploads/drama-ryx-19df8a49-21ae-4a6f-8b32-30166bbde571.jpg",
+        "sha256": "a4ed7f5f0e05a56094d90b195a77f0ef1b916e03da5629984d55fab64a792890"
+      },
+      "sourceAnswer": "내 가치를 네가 정하지 마",
+      "title": "이태원 클라쓰",
+      "category": "국내 드라마",
+      "answer": "내 가치를 네가 정하지 마",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "박새로이의 가치 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-19df8a49-21ae-4a6f-8b32-30166bbde571",
+      "displayAnswer": "내 가치를 네가 정하지 마"
+    },
+    {
+      "number": 40,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/d483e220-2b98-42c9-9377-d1b627d39f98.jpg",
+        "asset": "./uploads/drama-ryx-d483e220-2b98-42c9-9377-d1b627d39f98.jpg",
+        "sha256": "6e877556fa410bf8bd28de20ca57d000840b4fa834a3def5284629ff24a1b1a8"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e5adcb8b-7342-47fa-ab80-38890f27d25e.jpg",
+        "asset": "./uploads/drama-ryx-d483e220-2b98-42c9-9377-d1b627d39f98.jpg",
+        "sha256": "6e877556fa410bf8bd28de20ca57d000840b4fa834a3def5284629ff24a1b1a8"
+      },
+      "sourceAnswer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?",
+      "title": "시크릿 가든",
+      "category": "국내 드라마",
+      "answer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c",
+        "title": "시크릿 가든",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?",
+        "hint": "",
+        "image": "./uploads/drama-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c.jpeg",
+        "source": "https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#17",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-28T00:02:02.493Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-owd-5bd44ac9-3079-4bba-ba42-9273e7eae68c",
+      "displayAnswer": "길라임 씨는 몇 살 때부터 그렇게 예뻤나?"
+    },
+    {
+      "number": 41,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/7910073c-cfa2-4c43-8d75-8f504d1fb344.jpg",
+        "asset": "./uploads/drama-ryx-7910073c-cfa2-4c43-8d75-8f504d1fb344.jpg",
+        "sha256": "36c15fb59de64b7101b16b8d5755371303dc7835a5d7078a46d66fe651c0a263"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/9afa637c-94e9-426f-87b5-5a1f3947e169.jpg",
+        "asset": "./uploads/drama-ryx-7910073c-cfa2-4c43-8d75-8f504d1fb344.jpg",
+        "sha256": "36c15fb59de64b7101b16b8d5755371303dc7835a5d7078a46d66fe651c0a263"
+      },
+      "sourceAnswer": "애기야 가자",
+      "title": "파리의 연인",
+      "category": "국내 드라마",
+      "answer": "애기야 가자",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-b0d1d357-bb71-4074-8ad1-a8aecee1070a",
+        "title": "파리의 연인",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "애기야, 가자",
+        "hint": "",
+        "image": "./uploads/machugi-82c44005-fa8b-45b8-af35-16f027a1fdc0.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/82c44005-fa8b-45b8-af35-16f027a1fdc0 | 정답 공개 이미지: https://images.machugi.io/b0d1d357-bb71-4074-8ad1-a8aecee1070a",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T14:38:39.990Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-b0d1d357-bb71-4074-8ad1-a8aecee1070a",
+      "displayAnswer": "애기야, 가자"
+    },
+    {
+      "number": 42,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/fe73c467-16c9-41c0-9937-5c5636238c12.jpg",
+        "asset": "./uploads/drama-ryx-fe73c467-16c9-41c0-9937-5c5636238c12.jpg",
+        "sha256": "2ded37b5b6f81d92bb3f6fcf110abe6e2e83876e1443224f983d40d8595c3d62"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/a5e83317-d082-4faa-9922-203a36a8b99d.jpg",
+        "asset": "./uploads/drama-ryx-fe73c467-16c9-41c0-9937-5c5636238c12.jpg",
+        "sha256": "2ded37b5b6f81d92bb3f6fcf110abe6e2e83876e1443224f983d40d8595c3d62"
+      },
+      "sourceAnswer": "빅도스 송신, 이쁜이는 뒤를 돌아봅니다.",
+      "title": "태양의 후예",
+      "category": "국내 드라마",
+      "answer": "빅도스 송신, 이쁜이는 뒤를 돌아봅니다.",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.dispatch.co.kr/499954",
+        "basis": "유시진의 무전 재회 장면과 대사 대조. 원문의 빅도스는 콜사인 빅보스의 오타로 확인.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "transcriptionCorrection": "출처의 빅도스를 실제 콜사인 빅보스로 정정. sourceAnswer에는 출처 원문을 보존.",
+      "questionId": "machugi-ryx-fe73c467-16c9-41c0-9937-5c5636238c12",
+      "displayAnswer": "빅보스 송신, 이쁜이는 뒤를 돌아봅니다."
+    },
+    {
+      "number": 43,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/9141c1f7-6df2-47d2-af88-952177a3d752.jpg",
+        "asset": "./uploads/drama-ryx-9141c1f7-6df2-47d2-af88-952177a3d752.jpg",
+        "sha256": "7950afe7a718d4d37d5eb02eec023ae6b5bca061dc058c6945005087a0be724f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ef12e506-370b-4fb4-8801-51ef22a3b142.jpg",
+        "asset": "./uploads/drama-ryx-9141c1f7-6df2-47d2-af88-952177a3d752.jpg",
+        "sha256": "7950afe7a718d4d37d5eb02eec023ae6b5bca061dc058c6945005087a0be724f"
+      },
+      "sourceAnswer": "개새끼야!!",
+      "title": "게임의 여왕",
+      "category": "국내 드라마",
+      "answer": "개새끼야!!",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.namu.moe/w/게임의%20여왕(SBS)",
+        "basis": "이신전이 빗속에서 자책하며 하는 같은 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-9141c1f7-6df2-47d2-af88-952177a3d752",
+      "displayAnswer": "개새끼야!!"
+    },
+    {
+      "number": 44,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/8c381c49-ac9f-4144-a5ed-e3450f709336.jpg",
+        "asset": "./uploads/drama-ryx-8c381c49-ac9f-4144-a5ed-e3450f709336.jpg",
+        "sha256": "8c4d93a9a597af1705d027e50e30279ea37d5542f1738959dc584c1bca4b2037"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/0dc0c3f5-1bad-49bf-b464-478bad5416bf.jpg",
+        "asset": "./uploads/drama-ryx-8c381c49-ac9f-4144-a5ed-e3450f709336.jpg",
+        "sha256": "8c4d93a9a597af1705d027e50e30279ea37d5542f1738959dc584c1bca4b2037"
+      },
+      "sourceAnswer": "나를 추앙해요",
+      "title": "나의 해방일지",
+      "category": "국내 드라마",
+      "answer": "나를 추앙해요",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "염미정의 추앙 고백 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-8c381c49-ac9f-4144-a5ed-e3450f709336",
+      "displayAnswer": "나를 추앙해요"
+    },
+    {
+      "number": 45,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/b9f52260-62d7-4a31-962b-274725f10bb2.jpg",
+        "asset": "./uploads/drama-ryx-b9f52260-62d7-4a31-962b-274725f10bb2.jpg",
+        "sha256": "4f6ccad9986062f70935529a8aa0790f54d224a24c26c7a5dfbd1956335e7d4d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/68304178-91df-4566-aa7c-0e09174b68af.jpg",
+        "asset": "./uploads/drama-ryx-b9f52260-62d7-4a31-962b-274725f10bb2.jpg",
+        "sha256": "4f6ccad9986062f70935529a8aa0790f54d224a24c26c7a5dfbd1956335e7d4d"
+      },
+      "sourceAnswer": "이 안에 너 있다.",
+      "title": "파리의 연인",
+      "category": "국내 드라마",
+      "answer": "이 안에 너 있다.",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-196c70b3-9c81-4805-b3d3-73a0b4157b2b",
+        "title": "파리의 연인",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "이 안에 너 있다.",
+        "hint": "",
+        "image": "./uploads/drama-owd-fe94b90e-8eda-4d9c-9978-6f8e37ff7a03.jpeg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/2ebb6234-1751-41d9-917f-3d38afc73264 | 정답 공개 이미지: https://images.machugi.io/196c70b3-9c81-4805-b3d3-73a0b4157b2b | 추가 출처: https://machugi.io/quiz/owdQMPaszYLXWTCHkcf1 | 원문·이미지: ./data/migrations/machugi-owdQMPaszYLXWTCHkcf1.json#31",
+        "enabled": true,
+        "demo": false,
+        "version": 2,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-28T00:02:02.493Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-196c70b3-9c81-4805-b3d3-73a0b4157b2b",
+      "displayAnswer": "이 안에 너 있다."
+    },
+    {
+      "number": 46,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/e71e0b4e-ab18-4d0d-9784-fe85d15b582d.jpg",
+        "asset": "./uploads/drama-ryx-e71e0b4e-ab18-4d0d-9784-fe85d15b582d.jpg",
+        "sha256": "b2ae38b5b6fc59999398e5835413c558eef283726d6a6e8f1c83c04fbe3df6e6"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/1f08a0e6-41af-472e-885c-0d1c6f2394da.jpg",
+        "asset": "./uploads/drama-ryx-e71e0b4e-ab18-4d0d-9784-fe85d15b582d.jpg",
+        "sha256": "b2ae38b5b6fc59999398e5835413c558eef283726d6a6e8f1c83c04fbe3df6e6"
+      },
+      "sourceAnswer": "뛰지 마시오, 뛰지 말라고!",
+      "title": "사랑의 불시착",
+      "category": "국내 드라마",
+      "answer": "뛰지 마시오, 뛰지 말라고!",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "리정혁이 윤세리에게 뛰지 말라고 하는 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-e71e0b4e-ab18-4d0d-9784-fe85d15b582d",
+      "displayAnswer": "뛰지 마시오, 뛰지 말라고!"
+    },
+    {
+      "number": 47,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ffe5b6a5-7cd2-4e98-8bce-d06e9ebe7743.jpg",
+        "asset": "./uploads/drama-ryx-ffe5b6a5-7cd2-4e98-8bce-d06e9ebe7743.jpg",
+        "sha256": "6660c5a0dfef918efcf4be9619f1b097b9cfa76c4ff128c7b45355f1624c9d0f"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/fb35583b-2748-4e9d-ab2d-241b044ab0d5.jpg",
+        "asset": "./uploads/drama-ryx-ffe5b6a5-7cd2-4e98-8bce-d06e9ebe7743.jpg",
+        "sha256": "6660c5a0dfef918efcf4be9619f1b097b9cfa76c4ff128c7b45355f1624c9d0f"
+      },
+      "sourceAnswer": "도대체 얼마나 처먹는게야",
+      "title": "태조 왕건",
+      "category": "국내 드라마",
+      "answer": "도대체 얼마나 처먹는게야",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "궁예의 식사 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-ffe5b6a5-7cd2-4e98-8bce-d06e9ebe7743",
+      "displayAnswer": "도대체 얼마나 처먹는게야"
+    },
+    {
+      "number": 48,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/a9771a45-fd35-46dd-91b6-883a9a6d79c7.jpg",
+        "asset": "./uploads/drama-ryx-a9771a45-fd35-46dd-91b6-883a9a6d79c7.jpg",
+        "sha256": "75d8d6fb315edf8338b70c8f57ded50f527c9e98b08b2058f218d6dbf0d44cd5"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/3cbea115-2399-48ba-9628-64049f456035.jpg",
+        "asset": "./uploads/drama-ryx-a9771a45-fd35-46dd-91b6-883a9a6d79c7.jpg",
+        "sha256": "75d8d6fb315edf8338b70c8f57ded50f527c9e98b08b2058f218d6dbf0d44cd5"
+      },
+      "sourceAnswer": "혼자 두고 안 가, 같이 가",
+      "title": "힘쎈여자 도봉순",
+      "category": "국내 드라마",
+      "answer": "혼자 두고 안 가, 같이 가",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "안민혁·도봉순의 폭탄 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-a9771a45-fd35-46dd-91b6-883a9a6d79c7",
+      "displayAnswer": "혼자 두고 안 가, 같이 가"
+    },
+    {
+      "number": 49,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/8c0a6e07-27fe-49d0-b1e1-d04e5921ed8d.jpg",
+        "asset": "./uploads/drama-ryx-8c0a6e07-27fe-49d0-b1e1-d04e5921ed8d.jpg",
+        "sha256": "65ab26de9e8970767c2ce03aaa54b5136273d17d226c30668ee4f678bb97d942"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/7749a65e-b5f9-49f3-bc9d-0d8de951f9e3.jpg",
+        "asset": "./uploads/drama-ryx-8c0a6e07-27fe-49d0-b1e1-d04e5921ed8d.jpg",
+        "sha256": "65ab26de9e8970767c2ce03aaa54b5136273d17d226c30668ee4f678bb97d942"
+      },
+      "sourceAnswer": "조준사격",
+      "title": "태양의 후예",
+      "category": "국내 드라마",
+      "answer": "조준사격",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "유시진의 조준사격 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-8c0a6e07-27fe-49d0-b1e1-d04e5921ed8d",
+      "displayAnswer": "조준사격"
+    },
+    {
+      "number": 50,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5d647f34-071e-49ec-9f06-7eb15b078ef6.jpg",
+        "asset": "./uploads/drama-ryx-5d647f34-071e-49ec-9f06-7eb15b078ef6.jpg",
+        "sha256": "7b0a03ad23f1a72b90424836c21278a09bb5dcd14e777d15b31d4033e3bfe254"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/cded4b41-2598-4267-9e03-394f9ced6a65.jpg",
+        "asset": "./uploads/drama-ryx-5d647f34-071e-49ec-9f06-7eb15b078ef6.jpg",
+        "sha256": "7b0a03ad23f1a72b90424836c21278a09bb5dcd14e777d15b31d4033e3bfe254"
+      },
+      "sourceAnswer": "날이 좋아서, 날이 좋지 않아서, 날이 적당해서 모든 날이 좋았다.",
+      "title": "도깨비",
+      "category": "국내 드라마",
+      "answer": "날이 좋아서, 날이 좋지 않아서, 날이 적당해서 모든 날이 좋았다.",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "김신의 모든 날이 좋았다 대사 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-5d647f34-071e-49ec-9f06-7eb15b078ef6",
+      "displayAnswer": "날이 좋아서, 날이 좋지 않아서, 날이 적당해서 모든 날이 좋았다."
+    },
+    {
+      "number": 51,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/70be1190-3310-43d7-b7a6-e84ab589f1c0.jpg",
+        "asset": "./uploads/drama-ryx-70be1190-3310-43d7-b7a6-e84ab589f1c0.jpg",
+        "sha256": "64d8789428699a54926cb539b771e0cb9476fef0b2de15fb9209005268821d6b"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/8cf7c815-a19f-466b-b96f-0016337e7628.jpg",
+        "asset": "./uploads/drama-ryx-70be1190-3310-43d7-b7a6-e84ab589f1c0.jpg",
+        "sha256": "64d8789428699a54926cb539b771e0cb9476fef0b2de15fb9209005268821d6b"
+      },
+      "sourceAnswer": "어머니, 저를 믿으셔야 합니다",
+      "title": "SKY 캐슬",
+      "category": "국내 드라마",
+      "answer": "어머니, 저를 믿으셔야 합니다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "김주영의 입시 상담 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-70be1190-3310-43d7-b7a6-e84ab589f1c0",
+      "displayAnswer": "어머니, 저를 믿으셔야 합니다"
+    },
+    {
+      "number": 52,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/6b5dbbe0-680b-47fa-bdaa-7ab1877f8234.jpg",
+        "asset": "./uploads/drama-ryx-6b5dbbe0-680b-47fa-bdaa-7ab1877f8234.jpg",
+        "sha256": "38965a531c834d8fee275bedf26425cb4299443cb55b984979681bf40b122a1d"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/71374af4-00ff-4a45-9652-174346d6803d.jpg",
+        "asset": "./uploads/drama-ryx-6b5dbbe0-680b-47fa-bdaa-7ab1877f8234.jpg",
+        "sha256": "38965a531c834d8fee275bedf26425cb4299443cb55b984979681bf40b122a1d"
+      },
+      "sourceAnswer": "내가 고자라니!",
+      "title": "야인시대",
+      "category": "국내 드라마",
+      "answer": "내가 고자라니!",
+      "titleVerification": {
+        "method": "기존 문제 및 원본 장면 대조",
+        "basis": "기존의 동일 작품·대사 문제와 원본 장면을 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "previous": {
+        "id": "machugi-782871ac-53dc-4111-b91a-3839607bb154",
+        "title": "야인시대",
+        "category": "국내 드라마",
+        "year": "",
+        "answer": "내가, 내가 고자라니!",
+        "hint": "",
+        "image": "./uploads/machugi-ba9897be-2682-487a-b446-751df536618c.jpg",
+        "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/ba9897be-2682-487a-b446-751df536618c | 정답 공개 이미지: https://images.machugi.io/782871ac-53dc-4111-b91a-3839607bb154",
+        "enabled": true,
+        "demo": false,
+        "version": 1,
+        "createdAt": "2026-10-27T14:38:39.990Z",
+        "updatedAt": "2026-10-27T14:38:39.990Z"
+      },
+      "action": "merged",
+      "mergePolicy": "기존 ID·생성일·정답 대사 유지. 새 원본 문제 이미지로 갱신하고 추가 출처 연결.",
+      "questionId": "machugi-782871ac-53dc-4111-b91a-3839607bb154",
+      "displayAnswer": "내가, 내가 고자라니!"
+    },
+    {
+      "number": 53,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/8d0b0dd1-0852-485a-9053-406044bd96e2.jpg",
+        "asset": "./uploads/drama-ryx-8d0b0dd1-0852-485a-9053-406044bd96e2.jpg",
+        "sha256": "15453bc83362ffe441021a7a7802f52a9251fa26a9468eeef4af57dfc6e5ccaf"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/709c3b67-beef-4d53-8de6-d0fa2be6a8c6.jpg",
+        "asset": "./uploads/drama-ryx-8d0b0dd1-0852-485a-9053-406044bd96e2.jpg",
+        "sha256": "15453bc83362ffe441021a7a7802f52a9251fa26a9468eeef4af57dfc6e5ccaf"
+      },
+      "sourceAnswer": "마스께라를 울려서 소리를 앞으로 내보내라니까?",
+      "title": "펜트하우스",
+      "category": "국내 드라마",
+      "answer": "마스께라를 울려서 소리를 앞으로 내보내라니까?",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://seore.org/w/펜트하우스(드라마)/명대사",
+        "basis": "천서진의 마스께라 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-8d0b0dd1-0852-485a-9053-406044bd96e2",
+      "displayAnswer": "마스께라를 울려서 소리를 앞으로 내보내라니까?"
+    },
+    {
+      "number": 54,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/5863ee47-8653-4f5d-9c94-bdc9b00ec065.jpg",
+        "asset": "./uploads/drama-ryx-5863ee47-8653-4f5d-9c94-bdc9b00ec065.jpg",
+        "sha256": "030a7694fdec64a50fcd8d8c0ffa71f9618f244a3a87618d7deb7d61b8311310"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/aa2facb5-e154-488d-a2a1-b060ddfcfd25.jpg",
+        "asset": "./uploads/drama-ryx-5863ee47-8653-4f5d-9c94-bdc9b00ec065.jpg",
+        "sha256": "030a7694fdec64a50fcd8d8c0ffa71f9618f244a3a87618d7deb7d61b8311310"
+      },
+      "sourceAnswer": "나 좀 좋아해줘",
+      "title": "힘쎈여자 도봉순",
+      "category": "국내 드라마",
+      "answer": "나 좀 좋아해줘",
+      "titleVerification": {
+        "method": "대사 검색 및 장면 대조",
+        "url": "https://www.kmib.co.kr/article/view.asp?arcid=0011368989",
+        "basis": "안민혁의 같은 고백 대사와 원본 장면 대조.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-5863ee47-8653-4f5d-9c94-bdc9b00ec065",
+      "displayAnswer": "나 좀 좋아해줘"
+    },
+    {
+      "number": 55,
+      "questionImage": {
+        "url": "https://images.machugi.io/v2/5006613056/2b78306e-e4b9-445a-83ac-ff15b70acfa8.jpg",
+        "asset": "./uploads/drama-ryx-2b78306e-e4b9-445a-83ac-ff15b70acfa8.jpg",
+        "sha256": "a1083608186618c3176552ab079640f5d74ec541f2d6825d4d4b80eb21b59ad9"
+      },
+      "answerImage": {
+        "url": "https://images.machugi.io/v2/5006613056/ecf0b728-2c3f-4c36-956d-9305de3bfe31.jpg",
+        "asset": "./uploads/drama-ryx-2b78306e-e4b9-445a-83ac-ff15b70acfa8.jpg",
+        "sha256": "a1083608186618c3176552ab079640f5d74ec541f2d6825d4d4b80eb21b59ad9"
+      },
+      "sourceAnswer": "제가 안 가르쳤습니다",
+      "title": "더 글로리",
+      "category": "국내 드라마",
+      "answer": "제가 안 가르쳤습니다",
+      "titleVerification": {
+        "method": "원본 장면·대사 대조로 식별",
+        "basis": "문동은의 제가 안 가르쳤습니다 장면.",
+        "verified": true
+      },
+      "reviewed": true,
+      "action": "added",
+      "questionId": "machugi-ryx-2b78306e-e4b9-445a-83ac-ff15b70acfa8",
+      "displayAnswer": "제가 안 가르쳤습니다"
+    }
+  ],
+  "collectionNote": "총55개. 최대50문항 회차와 추가 회차에서 중복을 제거하여 서로 다른 전체55문항 수집."
+}

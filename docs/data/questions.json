@@ -225,21 +225,6 @@
     "updatedAt": "2026-10-27T15:38:05.819Z"
   },
   {
-    "id": "machugi-e0605af6-ef79-473e-a45b-b59ca49ae865",
-    "title": "범죄와의 전쟁",
-    "category": "국내 영화",
-    "year": "",
-    "answer": "살아있네~",
-    "hint": "",
-    "image": "./uploads/machugi-fe55b107-2484-4c11-8645-5d5f3017214d.jpg",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/fe55b107-2484-4c11-8645-5d5f3017214d | 정답 공개 이미지: https://images.machugi.io/e0605af6-ef79-473e-a45b-b59ca49ae865",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-27T14:38:39.990Z"
-  },
-  {
     "id": "machugi-f3895aae-95fe-4f64-ad16-3d2555c6395d",
     "title": "천국의 계단",
     "category": "국내 드라마",
@@ -1852,12 +1837,6 @@
     "answer": "큰 힘에는 큰 책임이 따른다.\nWith great power comes great responsibility.",
     "hint": "",
     "image": "./uploads/ocr-83kb-95c200ac-188f-4c2f-8ce4-e1eb37428c05.webp",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#1",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.22,
@@ -1865,7 +1844,13 @@
         "width": 0.58,
         "height": 0.14
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#1",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-33655dd4-86d5-4729-84dd-ac8c04ba8f0d",
@@ -1875,12 +1860,6 @@
     "answer": "자유를!!!\nFreeeeeedooooooom!!!",
     "hint": "",
     "image": "./uploads/ocr-83kb-6459761e-a763-4893-83d5-66e12fdc6ec8.png",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#2",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.42,
@@ -1888,7 +1867,13 @@
         "width": 0.17,
         "height": 0.12
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#2",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-7408303c-2a16-4e3f-80c0-edc71f52dd26",
@@ -1928,12 +1913,6 @@
     "answer": "게임을 시작하지.\nLet the game begin",
     "hint": "",
     "image": "./uploads/ocr-83kb-1d87fad3-94a1-44e1-b1e1-f603c0a17c57.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#6",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.18,
@@ -1941,7 +1920,13 @@
         "width": 0.68,
         "height": 0.16
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#6",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-cb256c1e-e7a2-4cf9-800d-2a4c26d78097",
@@ -1951,12 +1936,6 @@
     "answer": "꼭 찾아내서... 죽여버릴 것이다!\nI will find you... and I will kill you!",
     "hint": "",
     "image": "./uploads/ocr-83kb-bb47162d-3583-453c-bf99-c0a39a0e0e8c.png",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#7",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.3,
@@ -1964,7 +1943,13 @@
         "width": 0.41,
         "height": 0.12
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#7",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-98394acb-a5cd-406d-9328-5bc0512a5a23",
@@ -1989,12 +1974,6 @@
     "answer": "리스뻭!!!",
     "hint": "",
     "image": "./uploads/ocr-83kb-3e02d68d-ba53-4a47-8abf-f32e6a612eb6.png",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#10",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.37,
@@ -2002,7 +1981,13 @@
         "width": 0.25,
         "height": 0.15
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#10",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-b48c6880-bb34-40a3-8205-124158ed81c9",
@@ -2087,12 +2072,6 @@
     "answer": "나는 복수다.\nI'm the vengeance.",
     "hint": "",
     "image": "./uploads/ocr-83kb-48c94f4e-43d1-4c90-9a64-9e95da98c209.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#19",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.36,
@@ -2100,7 +2079,13 @@
         "width": 0.28,
         "height": 0.13
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#19",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-ced23c3c-ccce-488e-ba49-2a2020ec094b",
@@ -2155,12 +2140,6 @@
     "answer": "하루 종일 할 수도 있어.\nI Can Do This All Day.",
     "hint": "",
     "image": "./uploads/ocr-83kb-c0aece6d-5c35-46ef-9ae5-ae778d57441a.webp",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#24",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.2,
@@ -2174,7 +2153,13 @@
         "width": 0.36,
         "height": 0.21
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#24",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-0ad683d7-86eb-4ecf-8967-f9f50f0c4da3",
@@ -2184,12 +2169,6 @@
     "answer": "난 살아 있다구, 이 ㄴㄱㅁ ㅆㅂ랄것 들아!\nI'm alive! I'm alive!, Verona, you motherf*cker!",
     "hint": "",
     "image": "./uploads/ocr-83kb-a6c605bc-ca85-4067-bed9-2b6c969bc425.webp",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#28",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.24,
@@ -2203,7 +2182,13 @@
         "width": 0.84,
         "height": 0.065
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#28",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-61afffaf-fda3-4a86-b126-4f0327a4420b",
@@ -2213,12 +2198,6 @@
     "answer": "-부라더 다메요! 콰쾅ㅇ쾅콰오",
     "hint": "",
     "image": "./uploads/ocr-83kb-9015cc16-b4fa-450b-8b17-2b377739eab4.webp",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#30",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.12,
@@ -2238,7 +2217,13 @@
         "width": 0.75,
         "height": 0.105
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#30",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-ea304d06-67ed-461f-b0cf-448be652be2b",
@@ -2293,12 +2278,6 @@
     "answer": "아니다 이 악마야.\nNo evil...",
     "hint": "",
     "image": "./uploads/ocr-83kb-adfc367b-df85-401f-8c78-7834f972428e.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#39",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.3,
@@ -2306,7 +2285,13 @@
         "width": 0.41,
         "height": 0.16
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#39",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-449b8cef-6daf-4758-b77d-1e12d31b4401",
@@ -2331,12 +2316,6 @@
     "answer": "다 잊어.\nLet it Go.",
     "hint": "",
     "image": "./uploads/ocr-83kb-8fab9d81-b412-4b4c-935b-0bf5646bbb89.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#42",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.29,
@@ -2344,7 +2323,13 @@
         "width": 0.43,
         "height": 0.09
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#42",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-2ac33520-c7c0-4365-b1ca-0dbd1b0c01d0",
@@ -2384,12 +2369,6 @@
     "answer": "꿈은 높은데 현실은 시궁창이야.\nLike when you gotta stop living up here and start living down here?",
     "hint": "",
     "image": "./uploads/ocr-83kb-3cee8c19-92cd-4060-9651-7fb2038d085c.jpeg",
-    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#47",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-27T23:09:09.056Z",
-    "updatedAt": "2026-10-27T23:09:09.056Z",
     "imageMasks": [
       {
         "x": 0.32,
@@ -2397,7 +2376,13 @@
         "width": 0.37,
         "height": 0.19
       }
-    ]
+    ],
+    "source": "https://machugi.io/quiz/83kbXjnHWTsr07tnH8vr | OCR 원문·이미지: ./data/migrations/machugi-83kbXjnHWTsr07tnH8vr.json#47",
+    "enabled": true,
+    "demo": false,
+    "version": 1,
+    "createdAt": "2026-10-27T23:09:09.056Z",
+    "updatedAt": "2026-10-27T23:09:09.056Z"
   },
   {
     "id": "machugi-83kb-e5e6e412-378b-4972-9b2b-f09ae5f46f16",

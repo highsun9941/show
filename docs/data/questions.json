@@ -5392,14 +5392,14 @@
     "title": "황금어장 무릎팍도사",
     "category": "국내 예능",
     "year": "",
-    "answer": "안 죽는데! 일어나!",
+    "answer": "안 죽는다! 일어나!",
     "hint": "",
     "image": "./uploads/jiraksil-965vtk-quiz_20240115_65a426e2ccd81.jpg",
     "source": "https://www.jiraksil.com/playgo/965vtk/c34exam | 원본 정답·대사 복원·출처 검토: ./data/migrations/jiraksil-965vtk.json#34",
     "enabled": true,
     "demo": false,
-    "version": 1,
+    "version": 2,
     "createdAt": "2026-10-28T08:16:44.435Z",
-    "updatedAt": "2026-10-28T08:16:44.435Z"
+    "updatedAt": "2026-10-29T06:24:16.137Z"
   }
 ]

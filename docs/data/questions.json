@@ -855,21 +855,6 @@
     "updatedAt": "2026-10-27T15:38:05.819Z"
   },
   {
-    "id": "machugi-2381b9b7-cb29-498f-816f-b1146ba96109",
-    "title": "신세계",
-    "category": "국내 영화",
-    "year": "",
-    "answer": "드루와, 드루와!",
-    "hint": "",
-    "image": "./uploads/classics-mi8-1284017e-ce58-49c2-b8f2-0ba442591fe6.png",
-    "source": "https://machugi.io/quiz/GwtQ5G0pTez5pNb2dbA5 | 문제 이미지: https://images.machugi.io/1079afe3-5eca-4ba4-a68e-acd7b3852e29 | 정답 공개 이미지: https://images.machugi.io/2381b9b7-cb29-498f-816f-b1146ba96109 | 추가 출처: https://machugi.io/quiz/O43Vv0wFScmx1oc1sBcE | 문제 이미지: https://images.machugi.io/7ab69c58-5551-4b50-b6ed-6ad986be09f0.jpeg | 정답 공개 이미지: https://images.machugi.io/b34be2a1-7e2c-4b04-bb69-fdcfad21be9a.jpeg | 추가 출처 원문: 드루와 드루와.. (신세계) | 추가 출처: https://machugi.io/quiz/Mi8y05gHSGWp2m7MiQHX | 원문·원본 이미지·제목 검증: ./data/migrations/machugi-Mi8y05gHSGWp2m7MiQHX.json#18",
-    "enabled": true,
-    "demo": false,
-    "version": 3,
-    "createdAt": "2026-10-27T14:38:39.990Z",
-    "updatedAt": "2026-10-28T03:00:22.655Z"
-  },
-  {
     "id": "machugi-8234fb65-ec94-46cb-81d3-b01236ddf666",
     "title": "봄날은 간다",
     "category": "국내 영화",

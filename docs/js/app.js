@@ -13,6 +13,7 @@ const modeKey = `show-storage-mode:${siteScope}`;
 const historyStore = new PlayHistoryStore(siteScope);
 const historyImages = new LocalStore(siteScope);
 let playSession = null, lastRound = null, savedRound = null, endingGame = false;
+let previewOrigin = null;
 let selectedHistoryId = null, selectedHistoryRound = null, historyRequest = 0;
 let toastTimer, clockInterval, confirmResolve;
 let imageExportController = null;
@@ -29,7 +30,7 @@ function toast(message, error = false, duration = 4500) {
   toastTimer = setTimeout(() => { $('toast').hidden = true; }, duration);
 }
 function showDialog(id) { if (state.running) pauseTimer(); $(id).showModal(); }
-function view(name) {
+function view(name, { libraryOrigin = null } = {}) {
   state.view = name;
   for (const section of document.querySelectorAll('main > .view')) section.hidden = section.id !== `${name}-view`;
   document.body.classList.toggle('playing', name === 'game');
@@ -37,10 +38,13 @@ function view(name) {
     const active = button.dataset.view === name; button.classList.toggle('active', active);
     if (active) button.setAttribute('aria-current', 'page'); else button.removeAttribute('aria-current');
   });
-  if (name === 'library') renderLibrary();
+  if (name === 'library' && !libraryOrigin) renderLibrary();
   if (name === 'history') renderHistory();
   if (name !== 'game') { pauseTimer(); leaveFullscreen(); }
-  window.scrollTo({ top: 0, behavior: 'instant' });
+  if (name === 'library' && libraryOrigin) {
+    libraryOrigin.button.focus({ preventScroll: true });
+    window.scrollTo({ left: libraryOrigin.left, top: libraryOrigin.top, behavior: 'instant' });
+  } else window.scrollTo({ top: 0, behavior: 'instant' });
 }
 function getMode() {
   try { return localStorage.getItem(modeKey) === 'local' ? 'local' : 'shared'; } catch { return 'shared'; }
@@ -112,7 +116,10 @@ function renderCards(container, questions, admin) {
     const playIcon = el('span', 'card-play-icon'); playIcon.append(el('span', '', '▶'));
     button.append(img, el('span', 'card-tag', q.demo ? 'ILLUSTRATION · DEMO' : q.enabled ? 'SCENE' : '출제 제외'), playIcon);
     if (q.imageMasks?.length) { const masks = createImageMasks(img); masks.set(q.imageMasks); cardMasks.set(img, masks); }
-    button.addEventListener('click', () => openScenes([q]));
+    button.addEventListener('click', () => {
+      previewOrigin = { left: window.scrollX, top: window.scrollY, button };
+      openScenes([q]);
+    });
     const content = el('div', 'card-content'), meta = el('div', 'card-meta');
     meta.append(el('span', '', CATEGORIES.includes(q.category) ? q.category : `${q.category} · 국내/해외 미지정`), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
     content.append(meta, el('h3', '', q.title), el('p', q.enabled ? '' : 'disabled-tag', q.demo ? '게임 방식 체험용 창작 샘플' : q.enabled ? '장면을 누르고 기억을 재생해 보세요' : '랜덤 게임에서는 출제되지 않아요'));
@@ -151,6 +158,7 @@ function openScenes(deck, session = null) {
   if (!deck.length) { toast('출제할 문제가 없습니다.', true); return; }
   state.deck = deck; state.index = 0; state.duration = session?.settings.timer || 0;
   playSession = session;
+  if (session) previewOrigin = null;
   lastRound = null; savedRound = null;
   $('game-view').setAttribute('aria-label', session ? '대사 맞히기 게임' : '문제 미리보기');
   $('exit-game').textContent = session ? '← 게임 종료' : '← 문제 보관함으로';
@@ -236,7 +244,11 @@ async function saveLastRound() {
 }
 async function endGame(status) {
   if (endingGame || state.view !== 'game') return;
-  if (!playSession) { ++state.render; view('library'); return; }
+  if (!playSession) {
+    ++state.render;
+    const libraryOrigin = previewOrigin; previewOrigin = null;
+    view('library', { libraryOrigin }); return;
+  }
   endingGame = true; pauseTimer(); ++state.render;
   lastRound = playSession.finish(status);
   $('finished-count').textContent = lastRound?.scenes.length || 0;

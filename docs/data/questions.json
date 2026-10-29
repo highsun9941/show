@@ -5043,21 +5043,6 @@
     "updatedAt": "2026-10-28T08:16:44.435Z"
   },
   {
-    "id": "jiraksil-965vtk-quiz_20240115_65a534970e654",
-    "title": "MBC 뉴스데스크",
-    "category": "국내 뉴스",
-    "year": "",
-    "answer": "불쾌지수녀",
-    "hint": "",
-    "image": "./uploads/jiraksil-965vtk-quiz_20240115_65a534970e654.jpg",
-    "source": "https://www.jiraksil.com/playgo/965vtk/c34exam | 원본 정답·대사 복원·출처 검토: ./data/migrations/jiraksil-965vtk.json#8",
-    "enabled": true,
-    "demo": false,
-    "version": 1,
-    "createdAt": "2026-10-28T08:16:44.435Z",
-    "updatedAt": "2026-10-28T08:16:44.435Z"
-  },
-  {
     "id": "jiraksil-965vtk-quiz_20240115_65a426e302369",
     "title": "인터넷 만화 (작품명 미상)",
     "category": "기타 밈",

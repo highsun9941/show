@@ -105,14 +105,14 @@ function renderCards(container, questions, admin) {
   }
   for (const q of questions) {
     const card = el('article', 'question-card');
-    const button = el('button', 'card-play'); button.setAttribute('aria-label', `${q.title} 한 문제 플레이`);
+    const button = el('button', 'card-play'); button.setAttribute('aria-label', `${q.title} 문제 미리보기`);
     const img = el('img'); img.alt = `${q.title}의 등록된 장면`; img.loading = 'lazy'; img.decoding = 'async';
     state.store.imageUrl(q.image).then(url => { if (url) img.src = url; }).catch(() => {});
-    img.addEventListener('error', () => { img.hidden = true; button.setAttribute('aria-label', `${q.title} — 이미지 오류, 한 문제 플레이`); });
+    img.addEventListener('error', () => { img.hidden = true; button.setAttribute('aria-label', `${q.title} — 이미지 오류, 문제 미리보기`); });
     const playIcon = el('span', 'card-play-icon'); playIcon.append(el('span', '', '▶'));
     button.append(img, el('span', 'card-tag', q.demo ? 'ILLUSTRATION · DEMO' : q.enabled ? 'SCENE' : '출제 제외'), playIcon);
     if (q.imageMasks?.length) { const masks = createImageMasks(img); masks.set(q.imageMasks); cardMasks.set(img, masks); }
-    button.addEventListener('click', () => startGame([q]));
+    button.addEventListener('click', () => openScenes([q]));
     const content = el('div', 'card-content'), meta = el('div', 'card-meta');
     meta.append(el('span', '', CATEGORIES.includes(q.category) ? q.category : `${q.category} · 국내/해외 미지정`), el('span', '', '·'), el('span', '', q.year || '연도 미등록'));
     content.append(meta, el('h3', '', q.title), el('p', q.enabled ? '' : 'disabled-tag', q.demo ? '게임 방식 체험용 창작 샘플' : q.enabled ? '장면을 누르고 기억을 재생해 보세요' : '랜덤 게임에서는 출제되지 않아요'));
@@ -141,12 +141,19 @@ function renderLibrary() {
 }
 
 function startGame(deck = makeDeck(state.questions, roundOptions())) {
+  const session = new PlaySession({ category: deck.length === 1 ? deck[0].category : state.category,
+    total: deck.length, timer: Number($('round-timer').value), order: $('round-order').value });
+  openScenes(deck, session);
+}
+// Browsing a library card has no play session and never creates a history round.
+function openScenes(deck, session = null) {
   if (endingGame) return;
   if (!deck.length) { toast('출제할 문제가 없습니다.', true); return; }
-  state.deck = deck; state.index = 0; state.duration = Number($('round-timer').value);
-  playSession = new PlaySession({ category: deck.length === 1 ? deck[0].category : state.category,
-    total: deck.length, timer: state.duration, order: $('round-order').value });
+  state.deck = deck; state.index = 0; state.duration = session?.settings.timer || 0;
+  playSession = session;
   lastRound = null; savedRound = null;
+  $('game-view').setAttribute('aria-label', session ? '대사 맞히기 게임' : '문제 미리보기');
+  $('exit-game').textContent = session ? '← 게임 종료' : '← 문제 보관함으로';
   view('game'); renderScene();
 }
 async function renderScene() {
@@ -165,7 +172,7 @@ async function renderScene() {
   $('answer-button').firstChild.textContent = '정답 공개 '; $('hint-button').disabled = !q.title;
   $('hint-button').setAttribute('aria-expanded', 'false');
   $('prev-button').disabled = state.index === 0;
-  $('next-button').textContent = state.index === state.deck.length - 1 ? '게임 마치기 →' : '다음 문제 →';
+  $('next-button').textContent = !playSession ? '문제 보관함으로 →' : state.index === state.deck.length - 1 ? '게임 마치기 →' : '다음 문제 →';
   $('timer-button').disabled = true;
   const failed = () => {
     if (state.render !== render) return;
@@ -180,7 +187,7 @@ async function renderScene() {
       $('stage-image').hidden = false; stageMasks.set(q.imageMasks); $('stage-loading').hidden = true; $('timer-button').disabled = !state.duration;
       // Keep local image IDs durable; blob URLs only live until the page closes.
       const image = q.image.startsWith('local:') ? q.image : new URL(url, siteScope).href;
-      session.record(q, position, image);
+      session?.record(q, position, image);
     };
     $('stage-image').onerror = failed; $('stage-image').src = url;
     // 현재 장면 외에 다음 한 장만 미리 읽습니다.
@@ -229,6 +236,7 @@ async function saveLastRound() {
 }
 async function endGame(status) {
   if (endingGame || state.view !== 'game') return;
+  if (!playSession) { ++state.render; view('library'); return; }
   endingGame = true; pauseTimer(); ++state.render;
   lastRound = playSession.finish(status);
   $('finished-count').textContent = lastRound?.scenes.length || 0;
@@ -481,6 +489,7 @@ $('timer-button').onclick = toggleTimer;
 $('timer-reset').onclick = () => { pauseTimer(); state.seconds = state.duration; updateTimer(); $('timeout-overlay').hidden = true; };
 $('fullscreen-button').onclick = fullscreen;
 $('exit-game').onclick = async () => {
+  if (!playSession) { await endGame('stopped'); return; }
   if (await confirm('게임을 종료할까요?', '지금까지 화면에 나온 문제들을 이번 회차 기록으로 저장합니다.', '종료하고 기록 저장')) await endGame('stopped');
 };
 $('replay-button').onclick = () => startGame();
